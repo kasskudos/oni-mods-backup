@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. 生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.DESC
+msgctxt "生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.DESC"
+msgid "Power output configurable"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.EFFECT
+msgctxt "生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.EFFECT"
+msgid "Generates power by consuming food"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.NAME
+msgctxt "生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.NAME"
+msgid "Bio Fuel Generator"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.SWFY.D1
+msgctxt "生物燃料发电机.STRINGS.SWFY.D1"
+msgid "Sets the power generation rate of the Bio Fuel Generator"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.SWFY.D2
+msgctxt "生物燃料发电机.STRINGS.SWFY.D2"
+msgid "Sets the food consumption speed of the Bio Fuel Generator"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.SWFY.SE1
+msgctxt "生物燃料发电机.STRINGS.SWFY.SE1"
+msgid "Food Filter"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.SWFY.SE2
+msgctxt "生物燃料发电机.STRINGS.SWFY.SE2"
+msgid "Added a food filter menu that restricts to a single selection. Multiple selections will be ignored."
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.SWFY.T1
+msgctxt "生物燃料发电机.STRINGS.SWFY.T1"
+msgid "Power Generation Rate"
+msgstr ""
+
+#. 生物燃料发电机.STRINGS.SWFY.T2
+msgctxt "生物燃料发电机.STRINGS.SWFY.T2"
+msgid "Consumption Speed"
+msgstr ""
+

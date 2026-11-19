@@ -1,0 +1,5 @@
+{
+  "Instruction": "When StoreSettingsCopy = false, the backup feature will be ignored. When StoreSettingsCopy = true, the settings file will be copied and restored from BackupPath. Use it to preserve your config from being overwritten by Steam updates to the mod. BackupPath can be either absolute or relative.",
+  "StoreSettingsCopy": false,
+  "BackupPath": "../PreservedModsFiles/"
+}

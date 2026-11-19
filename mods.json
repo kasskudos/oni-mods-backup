@@ -1,0 +1,1282 @@
+{
+  "version": 1,
+  "mods": [
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2018291283",
+        "title": "Mod Updater",
+        "version": 1719616041
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.ModUpdateDate"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3229139332",
+        "title": "Português 2.0",
+        "version": 1782746356
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "oni-ptbr"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1720247784",
+        "title": "Bigger Capacity",
+        "version": 1721383004
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "BiggerCapacity"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1838445101",
+        "title": "DGSM  - Duplicants Generation Settings Manager // by @Ony ",
+        "version": 1781694656
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 3,
+      "reinstall_path": null,
+      "staticID": "DGSM2"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1893887916",
+        "title": "Research Queue",
+        "version": 1748746859
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.ResearchQueue"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1855163252",
+        "title": "Falling Sand",
+        "version": 1645431099
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.FallingSand"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2094698134",
+        "title": "Airlock Door",
+        "version": 1794777428
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.AirlockDoor"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1881925531",
+        "title": "Queue For Sinks",
+        "version": 1732304793
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.QueueForSink"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1718888149",
+        "title": "Better Air Filters",
+        "version": 1683575862
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "better_air_filters"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1874600082",
+        "title": "Efficient Supply",
+        "version": 1741675401
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.EfficientFetch"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1866754178",
+        "title": "Drains",
+        "version": 1628108648
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Drains"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2732419691",
+        "title": "Sealed Pitcher Pump",
+        "version": 1668879590
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "SolidWaterPump"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3557584850",
+        "title": "O Legado de Ronivan - Revolução Industrial",
+        "version": 1792079856
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "RonivansLegacy_ChemicalProcessing"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3542667178",
+        "title": "Better Repair",
+        "version": 1781881294
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "airenelias.BetterRepair"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3566906492",
+        "title": "Auto-Sweeper Harvest",
+        "version": 1757702567
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "AutoSweeperHarvest"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3520953238",
+        "title": "Water Sieve cleans germs",
+        "version": 1752060316
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "3520953238.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1960996649",
+        "title": "Show Building Ranges",
+        "version": 1791436920
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.ShowRange"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3033409170",
+        "title": "Piped Everything",
+        "version": 1792233848
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PipedEverything"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2527442674",
+        "title": "Full Miner Yield",
+        "version": 1624655063
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "BertO.FullMinerYield"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1868454866",
+        "title": "No Drop // by @Ony ",
+        "version": 1781712008
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "NoDrop"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1833427385",
+        "title": "WGSM - World Generation Settings Manager // by @Ony ",
+        "version": 1781710777
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "WGSM"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1882896929",
+        "title": "Giant Doors",
+        "version": 1626630208
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Zonkeeh.GiantDoors"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3491359580",
+        "title": "BiggerBottleEmptierConduitLiquid",
+        "version": 1748766787
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "n2pital.BiggerBottleEmptierConduitLiquid"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1732534140",
+        "title": "Double Sweeper Range",
+        "version": 1665439946
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Cairath.DoubleSweeperRange"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2820896505",
+        "title": "ExtendedBridges",
+        "version": 1655193858
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Fixed.ExtendedBridges"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2982311017",
+        "title": "Reverse Bridges",
+        "version": 1690891263
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "KnoestReverseBridges"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2891895988",
+        "title": "Closest Material",
+        "version": 1781197680
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "MauroJunior.MJCloserMaterial"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1831438994",
+        "title": "Critter Inventory",
+        "version": 1794730052
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.CritterInventory"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1822160024",
+        "title": "Wounded Go To Med Bed",
+        "version": 1665439215
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Cairath.WoundedGoToMedBed"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3096204182",
+        "title": "Gigawatt Wire",
+        "version": 1786625451
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "GigawattWire"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3114318122",
+        "title": "Travel Tube Crossing Ladder",
+        "version": 1702626266
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "3114318122.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3426316307",
+        "title": "Bionic_Overclock",
+        "version": 1751126802
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Bionic_Overclock"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2012810337",
+        "title": "Stairs",
+        "version": 1782139232
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Stairs"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2047308624",
+        "title": "No Manual Delivery",
+        "version": 1794640279
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Sanchozz.ONIMods.NoManualDelivery"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3010968005",
+        "title": "No Critter Overcrowding",
+        "version": 1764533398
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "noCritterCram"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3674780225",
+        "title": "Critter Dispatch",
+        "version": 1772227546
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "CritterDispatchMod"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1820831167",
+        "title": "Laser Turret (Vanilla/DLC)",
+        "version": 1786022132
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "1820831167.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2645785510",
+        "title": "Pipe Germ Info Fixed",
+        "version": 1636047986
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PipeGermInfo_Fixed"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3728428669",
+        "title": "Free Wheezewort - No Phosphorite",
+        "version": 1781518599
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "3728428669"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3716115973",
+        "title": "Compact Water Processors",
+        "version": 1788658821
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "CompactWaterSieve"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3738353497",
+        "title": "Bio Fuel Generator - 生物燃料发电机",
+        "version": 1781800172
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "shengwuranliaofadianji"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3671679281",
+        "title": "Wireless Power",
+        "version": 1785610200
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "WirelessPower.Dev"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1887986467",
+        "title": "Smart Pumps",
+        "version": 1794777487
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "PeterHan.SmartPumps"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3113986230",
+        "title": "Wall Pumps",
+        "version": 1787401699
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "WallPumps"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3734958591",
+        "title": "Remote Worker Farming",
+        "version": 1780137741
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "RemoteWorkerFarming"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2193798307",
+        "title": "AutoHarvest",
+        "version": 1597109193
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "2193798307.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2873348542",
+        "title": "喵喵ventilating fan喵喵排风扇",
+        "version": 1723989141
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "2873348542.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2854756453",
+        "title": "2x3 Shower 2x3淋浴间",
+        "version": 1661615336
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "2854756453.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2119786479",
+        "title": "Advanced Liquid Heater",
+        "version": 1670658237
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "2119786479.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2348079481",
+        "title": "[Vanilla + DLC] Rooms Expanded",
+        "version": 1781200829
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "pether-pg.RoomsExpanded"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3731631427",
+        "title": "Tradução e Adaptação para o idioma Português Brasileiro - PT-BR",
+        "version": 1785269186
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "traducao-portugues-brasileiro"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2982316671",
+        "title": "Planning Tool",
+        "version": 1775408202
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "artorp.planningtool"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3468585385",
+        "title": "Blueprints Expanded",
+        "version": 1792138374
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "BlueprintsV2"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1840755803",
+        "title": "Buildable Natural Tile",
+        "version": 1624838931
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "BuildableNaturalTile"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1921058858",
+        "title": "Duplicant Room Sensor",
+        "version": 1735067062
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "DuplicantRoomSensor"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3311098779",
+        "title": "Expanded Lights (All DLCs)",
+        "version": 1756001084
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "ExpandedLights"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3007505281",
+        "title": "Recursos Móveis",
+        "version": 1781278305
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "CalYu.MovableFeatures"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3637202410",
+        "title": "MAGNET!!!",
+        "version": 1791512581
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "44leafclover.Magnet"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2229356245",
+        "title": "Germicidal Lamps",
+        "version": 1783879437
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "GermicidalLamps"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1949320130",
+        "title": "Shiny Hats",
+        "version": 1687552891
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "shinyHats"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "1874426480",
+        "title": "Waterproof Transformer + Battery",
+        "version": 1622409272
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "1874426480.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2093302246",
+        "title": "Airtight Door",
+        "version": 1782652344
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "AirlockMeccanizedDoor"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3135906971",
+        "title": "Skill Queue",
+        "version": 1734034441
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "SkillingQueue"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2499782382",
+        "title": "HVAC Expansion",
+        "version": 1748192494
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "HVACExpansion"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "HVACExpansionPtBr",
+        "title": "HVAC Expansion PT-BR",
+        "version": -1577779943
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "HVACExpansionPtBr"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "RonivansEndothermicBalance",
+        "title": "Ronivan Endothermic Balance",
+        "version": -210807526
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "RonivansEndothermicBalance"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "WallLiquidVentPressureImmunity",
+        "title": "Ventilação de Líquido de Parede sem Dano de Pressão",
+        "version": 843107504
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "WallLiquidVentPressureImmunity"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3745293411",
+        "title": "MapOverlay",
+        "version": 1790606613
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "MapOverlay"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "NoCritterCramScaleGrowthFix",
+        "title": "No Critter Overcrowding, correção de escamas",
+        "version": -410231475
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "NoCritterCramScaleGrowthFix"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3757329324",
+        "title": "自然种植工具（Natural Plant Tool）",
+        "version": 1787301996
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "piapiNaturalPlantTool"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2856555858",
+        "title": "Duplicant Stat Selector [DSS]",
+        "version": 1791649928
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "SetStartDupes"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "AirlockDoorPressureImmunity",
+        "title": "Portas Airlock sem Dano de Pressão",
+        "version": 1498864608
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "AirlockDoorPressureImmunity"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "GasPressureEqualizer",
+        "title": "Gas Pressure Equalizer",
+        "version": -1591443408
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "GasPressureEqualizer"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3836529420",
+        "title": "MultiCore Optimizer",
+        "version": 1794195203
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "MultiCoreOptimizer"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3822615860",
+        "title": "双回路换热器 / Paired Heat Exchangers",
+        "version": 1793486926
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "Weils.PairedHeatExchangers"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3828419350",
+        "title": "Greenhouse",
+        "version": 1794991032
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "SaitoGreenhouse"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "StorageWithoutFloor",
+        "title": "Armários de Armazenamento sem Piso",
+        "version": 1382639629
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "StorageWithoutFloor"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "GreenhousePowerDisplayFix",
+        "title": "Estufa, Correção do Consumo Exibido",
+        "version": 477267229
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "GreenhousePowerDisplayFix"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "3732422991",
+        "title": "StorageNetwork",
+        "version": 1790769371
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "3732422991.Steam"
+    },
+    {
+      "label": {
+        "distribution_platform": 0,
+        "id": "StorageNetworkCapacityOverrides",
+        "title": "Rede de Armazenamento, Capacidades Personalizadas",
+        "version": -1094639008
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "StorageNetworkCapacityOverrides"
+    },
+    {
+      "label": {
+        "distribution_platform": 1,
+        "id": "2943021953",
+        "title": "Idle Notification Tweaks",
+        "version": 1775065333
+      },
+      "status": 1,
+      "enabled": false,
+      "enabledForDlc": [
+        "EXPANSION1_ID"
+      ],
+      "crash_count": 0,
+      "reinstall_path": null,
+      "staticID": "MikeB26.IdleNotificationTweaks"
+    }
+  ],
+  "mod_load_in_progress": false
+}

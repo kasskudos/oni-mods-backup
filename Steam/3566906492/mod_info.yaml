@@ -1,0 +1,15 @@
+title: Auto-Sweeper Harvest
+description: Permite que o Auto-Sweeper (Auto-Coletor) colha plantações automaticamente.
+staticID: AutoSweeperHarvest
+version: 1.0.0
+APIVersion: 2
+supportedContent: ALL
+minimumSupportedBuild: 526233
+lastWorkingBuild: 526233
+category: Automation
+tags:
+  - automation
+  - sweeper
+  - farming
+  - qol
+previewImage: preview.png

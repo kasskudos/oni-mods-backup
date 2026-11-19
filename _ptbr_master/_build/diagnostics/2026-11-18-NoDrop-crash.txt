@@ -1,0 +1,80 @@
+﻿[17:30:54.197] [1] [INFO] [GPE] cell=84056 myMass=3.35 â†’ cell=87872 (mass=3.06) transfer=0.072 peers=1
+[17:30:54.197] [1] [INFO] [GPE] cell=85340 myMass=3.58 â†’ cell=81525 (mass=2.48) transfer=0.275 peers=1
+[17:30:54.527] [1] [INFO] [GPE] cell=87872 myMass=3.28 â†’ cell=84056 (mass=2.91) transfer=0.091 peers=1
+[17:30:54.527] [1] [INFO] [GPE] cell=85340 myMass=2.88 â†’ cell=81525 (mass=2.78) transfer=0.026 peers=1
+[17:30:54.865] [1] [INFO] [GPE] cell=87872 myMass=3.13 â†’ cell=84056 (mass=2.19) transfer=0.236 peers=1
+[17:30:54.865] [1] [INFO] [GPE] cell=81525 myMass=2.89 â†’ cell=85340 (mass=2.37) transfer=0.129 peers=1
+[17:30:55.041] [1] [INFO] Efficient Supply's patched_method FetchChore.FindFetchTarget matched in the stack trace, adding to referenced mods list
+[17:30:55.043] [1] [INFO] No Drop // by @Ony 's patched_method FetchChore.FindFetchTarget matched in the stack trace, adding to referenced mods list
+NullReferenceException: Object reference not set to an instance of an object.
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <f54de29543b44ca89695b41bc5ecd6e0>:0 
+  at UnityEngine.GameObject.GetComponentFastPath (System.Type type, System.IntPtr oneFurtherThanResultValue) [0x00006] in <f54de29543b44ca89695b41bc5ecd6e0>:0 
+  at UnityEngine.GameObject.GetComponent[T] () [0x00021] in <f54de29543b44ca89695b41bc5ecd6e0>:0 
+  at Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget.Prefix (FetchChore __instance, Pickupable& __result, ChoreConsumerState consumer_state) [0x00058] in <f9da6effa02f43ff84082b175d317a19>:0 
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FetchChore.FindFetchTarget_Patch2(FetchChore,ChoreConsumerState)
+  at FetchChore+<>c.<.cctor>b__50_0 (Chore+Precondition+Context& context, System.Object data) [0x00023] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Chore+Precondition+Context.DoPreconditions (System.Boolean mainThreadOnly) [0x00043] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Chore+Precondition+Context.RunPreconditions () [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at StandardChoreBase.CollectChores (ChoreConsumerState consumer_state, System.Collections.Generic.List`1[T] succeeded_contexts, System.Collections.Generic.List`1[T] incomplete_contexts, System.Collections.Generic.List`1[T] failed_contexts, System.Boolean is_attempting_override) [0x0000c] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at FetchChore.CollectChoresFromGlobalChoreProvider (ChoreConsumerState consumer_state, System.Collections.Generic.List`1[T] succeeded_contexts, System.Collections.Generic.List`1[T] incomplete_contexts, System.Collections.Generic.List`1[T] failed_contexts, System.Boolean is_attempting_override) [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at GlobalChoreProvider+GlobalChoreProviderMultithreader.CollectChore (System.Int32 index, System.Collections.Generic.List`1[T] succeed, System.Collections.Generic.List`1[T] incomplete, System.Collections.Generic.List`1[T] failed) [0x00011] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at MultithreadedCollectChoreContext`1[ProviderType].DefaultCollectChore (System.Int32 index, System.Int32 threadIndex) [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at MultithreadedCollectChoreContext`1+WorkBlock`1[ProviderType,Parent].IWorkItem<Parent>.Run (Parent shared_data, System.Int32 threadIndex) [0x00009] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at WorkItemCollection`2[WorkItemType,SharedDataType].InternalDoWorkItem (System.Int32 work_item_idx, System.Int32 threadIndex) [0x0000d] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at JobManager.DoNextWorkItem (System.Int32 threadIndex) [0x0001a] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at JobManager.Run (IWorkItemCollection work_items) [0x0008e] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at GlobalJobManager.Run (IWorkItemCollection work_items) [0x00000] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at GlobalChoreProvider.CollectChores (ChoreConsumerState consumer_state, System.Collections.Generic.List`1[T] succeeded, System.Collections.Generic.List`1[T] failed_contexts) [0x00082] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at ChoreConsumer.FindNextChore (Chore+Precondition+Context& out_context) [0x0009a] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Brain.FindBetterChore (Chore+Precondition+Context& context) [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Brain.UpdateChores () [0x0001b] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Brain.UpdateBrain () [0x0002c] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at MinionBrain.UpdateBrain () [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at BrainScheduler+BrainGroup.RenderEveryTick (System.Single dt) [0x0008c] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at BrainScheduler.RenderEveryTick (System.Single dt) [0x00024] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at SimAndRenderScheduler+RenderEveryTickUpdater.Update (IRenderEveryTick updater, System.Single dt) [0x00000] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at UpdateBucketWithUpdater`1[DataType].Update (System.Single dt) [0x00090] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at StateMachineUpdater+BucketGroup.AdvanceOneSubTick (System.Single dt) [0x0002d] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at StateMachineUpdater.RenderEveryTick (System.Single dt) [0x00015] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at Game.LateUpdate () [0x00494] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+LogCatcher:UnityEngine.ILogHandler.LogException(Exception, Object)
+LogCatcher:UnityEngine.ILogHandler.LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[17:30:55.185] [1] [INFO] Checking which steam branch we're on. Got: []
+NullReferenceException: Object reference not set to an instance of an object.
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <f54de29543b44ca89695b41bc5ecd6e0>:0 
+  at UnityEngine.GameObject.GetComponentFastPath (System.Type type, System.IntPtr oneFurtherThanResultValue) [0x00006] in <f54de29543b44ca89695b41bc5ecd6e0>:0 
+  at UnityEngine.GameObject.GetComponent[T] () [0x00021] in <f54de29543b44ca89695b41bc5ecd6e0>:0 
+  at Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget.Prefix (FetchChore __instance, Pickupable& __result, ChoreConsumerState consumer_state) [0x00058] in <f9da6effa02f43ff84082b175d317a19>:0 
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FetchChore.FindFetchTarget_Patch2(FetchChore,ChoreConsumerState)
+  at FetchChore+<>c.<.cctor>b__50_0 (Chore+Precondition+Context& context, System.Object data) [0x00023] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Chore+Precondition+Context.DoPreconditions (System.Boolean mainThreadOnly) [0x00043] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Chore+Precondition+Context.FinishPreconditions () [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at MultithreadedCollectChoreContext`1[ProviderType].Finish (System.Collections.Generic.List`1[T] pass, System.Collections.Generic.List`1[T] fail) [0x0005b] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at GlobalChoreProvider.CollectChores (ChoreConsumerState consumer_state, System.Collections.Generic.List`1[T] succeeded, System.Collections.Generic.List`1[T] failed_contexts) [0x0008c] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at ChoreConsumer.FindNextChore (Chore+Precondition+Context& out_context) [0x0009a] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Brain.FindBetterChore (Chore+Precondition+Context& context) [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Brain.UpdateChores () [0x0001b] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at Brain.UpdateBrain () [0x0002c] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at MinionBrain.UpdateBrain () [0x00000] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at BrainScheduler+BrainGroup.RenderEveryTick (System.Single dt) [0x0008c] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at BrainScheduler.RenderEveryTick (System.Single dt) [0x00024] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+  at SimAndRenderScheduler+RenderEveryTickUpdater.Update (IRenderEveryTick updater, System.Single dt) [0x00000] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at UpdateBucketWithUpdater`1[DataType].Update (System.Single dt) [0x00090] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at StateMachineUpdater+BucketGroup.AdvanceOneSubTick (System.Single dt) [0x0002d] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at StateMachineUpdater.RenderEveryTick (System.Single dt) [0x00015] in <e3cb4b59e3684f8d85f76975781df80e>:0 
+  at Game.LateUpdate () [0x00494] in <6999ffe9e35544b6b5d9b5c530d5f1a8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+LogCatcher:UnityEngine.ILogHandler.LogException(Exception, Object)
+LogCatcher:UnityEngine.ILogHandler.LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+NullReferenceException: Object reference not set to an instance of an object.

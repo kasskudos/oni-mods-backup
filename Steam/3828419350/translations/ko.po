@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Language: ko\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_RADS"
+msgid "too little radiation ({0} of {1} rads)"
+msgstr "방사선 부족 ({0}/{1} rads)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_RADS"
+msgid "too much radiation ({0}, at most {1} rads)"
+msgstr "방사선 과다 ({0}, 최대 {1} rads)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_COLD"
+msgid "too cold ({0}, needs {1})"
+msgstr "너무 추움 ({0}, {1} 필요)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HOT"
+msgid "too hot ({0}, at most {1})"
+msgstr "너무 더움 ({0}, 최대 {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_ATMOSPHERE"
+msgid "wrong atmosphere (needs {0})"
+msgstr "맞지 않는 대기 ({0} 필요)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_PRESSURE"
+msgid "pressure too low ({0} of {1} per tile)"
+msgstr "압력 너무 낮음 (칸당 {0}/{1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_PRESSURE"
+msgid "pressure too high ({0}, at most {1} per tile)"
+msgstr "압력 너무 높음 (칸당 {0}, 최대 {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_BRIGHT"
+msgid "too bright ({0} lux, needs darkness)"
+msgstr "너무 밝음 ({0} 럭스, 어둠 필요)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DARK"
+msgid "too dark ({0} of {1} lux)"
+msgstr "너무 어두움 ({0}/{1} 럭스)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NEEDS"
+msgid "needs {0}"
+msgstr "{0} 필요"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NOT_POLLINATED"
+msgid "not pollinated"
+msgstr "수분되지 않음"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DRY"
+msgid "above the waterline (fill the tank higher)"
+msgstr "수면보다 높음 (수조를 더 채우세요)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK"
+msgid "{0} of {1} cells: {2}"
+msgstr "{0}/{1}칸: {2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK_EMPTY"
+msgid "empty (pipe liquid in)"
+msgstr "비어 있음 (액체를 파이프로 넣으세요)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ATMOSPHERE_SURROUNDINGS"
+msgid "the room's ({0}, {1} per tile)"
+msgstr "방의 대기 ({0}, 칸당 {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.PER_CELL"
+msgid "({0} per tile)"
+msgstr "(칸당 {0})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_SURROUNDINGS"
+msgid "{0} (the room's)"
+msgstr "{0} (방의 온도)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_INSULATED"
+msgid "{0} (insulated)"
+msgstr "{0} (단열)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_HEATING"
+msgid "{0} (heating to {1})"
+msgstr "{0} ({1}까지 가열 중)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_COOLING"
+msgid "{0} (cooling to {1})"
+msgstr "{0} ({1}까지 냉각 중)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_REGULATED"
+msgid "{0} (regulated to {1})"
+msgstr "{0} ({1}로 유지)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ALL_OK"
+msgid "all OK"
+msgstr "모두 정상"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ONE_PROBLEM"
+msgid "1 problem"
+msgstr "문제 1개"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.N_PROBLEMS"
+msgid "{0} problems"
+msgstr "문제 {0}개"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_POWER"
+msgid "Power"
+msgstr "전력"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_POWER"
+msgid "No power: the glow tubes and thermal regulation are off"
+msgstr "전력 없음: 형광등과 온도 조절이 꺼져 있습니다"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POWERED"
+msgid "Powered, drawing {0}"
+msgstr "전력 공급됨, {0} 사용 중"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.IDLE"
+msgid "Nothing needs power right now"
+msgstr "지금은 전력이 필요한 것이 없습니다"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_ENVIRONMENT"
+msgid "Environment"
+msgstr "환경"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_TEMPERATURE"
+msgid "Temperature {0}"
+msgstr "온도 {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_ATMOSPHERE"
+msgid "Atmosphere: {0}"
+msgstr "대기: {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_LIGHT"
+msgid "Light {0} lux (room {1}, glow tubes {2})"
+msgstr "빛 {0} 럭스 (방 {1}, 형광등 {2})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_RADIATION"
+msgid "Radiation {0} rads (room {1}, lamp {2})"
+msgstr "방사선 {0} rads (방 {1}, 램프 {2})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_ON"
+msgid "Radiation lamp burning {0} Phosphorite for the mutated crops"
+msgstr "방사선 램프가 변이 작물을 위해 인광석 {0} 사용 중"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_NO_PHOSPHORITE"
+msgid "Radiation lamp needs Phosphorite to add {0} rads for the mutated crops"
+msgstr "방사선 램프가 변이 작물에 {0} rads를 더하려면 인광석이 필요합니다"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_RESEARCH"
+msgid "Research"
+msgstr "연구"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCKED"
+msgid "{0}: needs {1}"
+msgstr "{0}: {1} 필요"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TUBES"
+msgid "Glow tubes"
+msgstr "형광등"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TOUCH"
+msgid "Farmer's Touch"
+msgstr "농부의 손길"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_INSULATION"
+msgid "Insulation"
+msgstr "단열"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_HEATER"
+msgid "Heating"
+msgstr "가열"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_COOLER"
+msgid "Cooling"
+msgstr "냉각"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_TENDED"
+msgid "Crops (tended)"
+msgstr "작물 (돌봄)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_WILD"
+msgid "Crops (wild)"
+msgstr "작물 (야생)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GROWING"
+msgid "{0} {1}: growing, {2}%"
+msgstr "{1} {0}개: 자라는 중, {2}%"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GAS"
+msgid "{0} {1}: grown, turning {2} into {3}"
+msgstr "{1} {0}개: 다 자람, {2}을(를) {3}(으)로 바꾸는 중"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_WILTING"
+msgid "{0} {1}: not growing, {2}"
+msgstr "{1} {0}개: 자라지 않음, {2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TREE_BRANCHES"
+msgid "{0}: {1} branches, {2} ripe (up to {3})"
+msgstr "{0}: 가지 {1}개, 다 자람 {2}개 (최대 {3}개)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NECTAR"
+msgid "Nectar: {0} of {1} in the trees, light gives {2}% of full production ({3} lux)"
+msgstr "넥타: 나무에 {0}/{1}, 빛이 최대 생산의 {2}%를 줍니다 ({3} 럭스)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.BRANCHES_DARK"
+msgid "Branches need light to grow: {0} of {1} lux"
+msgstr "가지가 자라려면 빛이 필요합니다: {0}/{1} 럭스"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.VINE"
+msgid "{0}: {1} of {2} vine sections grown, {3} figs ripe"
+msgstr "{0}: 덩굴 {2}마디 중 {1}마디 자람, 열매 {3}개 다 익음"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.MIMIKAS"
+msgid "Mimikas: {0} in the tank, {1} of {2} crops pollinated"
+msgstr "미미카: 온실에 {0}마리, 작물 {2}개 중 {1}개 수분됨"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NURSERY"
+msgid "Mimika nursery closed around the buds ({0}), {1}"
+msgstr "미미카 보육실이 봉오리를 감쌌습니다 ({0}), {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_OFF"
+msgid "Needs pollinating: turn on Mimika Pollination"
+msgstr "수분 필요: 미미카 수분을 켜세요"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_NONE"
+msgid "Needs pollinating, but Mimika Buds need two free slots (crops that take one slot only)"
+msgstr "수분이 필요하지만 미미카 봉오리에게는 빈 칸 두 개가 필요합니다 (한 칸짜리 작물만)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TOUCHED"
+msgid "Farmer's Touch: {0} of {1} crops tended"
+msgstr "농부의 손길: 작물 {1}개 중 {0}개 돌봄"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT"
+msgid "No {0} ({1})"
+msgstr "{0} 없음 ({1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_PIPE"
+msgid "pipe it in"
+msgstr "파이프로 넣으세요"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_TANK"
+msgid "No {0} in the tank (pipe it in)"
+msgstr "수조에 {0} 없음 (파이프로 넣으세요)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_DELIVERY"
+msgid "waiting for a delivery"
+msgstr "배달 기다리는 중"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_CROPS"
+msgid "No crops: pick one on the Config tab"
+msgstr "작물 없음: 구성 탭에서 하나 고르세요"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">온실</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "세 단 선반 위의 열여덟 개 농지, 모두 유리 뒤에."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "여섯 개씩 세 단 선반에서 작물 18개를 기릅니다(구성 탭에서 작물 선택). 선반은 작물에 맞춰 바뀝니다: 꼬집후추풀 같은 천장 작물은 매다는 판, 나무는 세 그루씩 두 단, 오바그로 마디는 덩굴 하나.\n\n복제인간이 씨앗, 비료, 물을 가져오고 받침대에서 다 자란 작물을 수확합니다. 모든 작물은 바닐라 농장의 규칙을 따릅니다: 온도, 대기와 압력, 빛 또는 어둠, 방사선과 식물 돌연변이.\n\n기체를 파이프로 넣어 작물만의 대기를 만들거나, 방에 열어 둘 수 있습니다. 액체 파이프와 컨베이어 레일이 복제인간 대신 물과 고체를 가져올 수 있습니다.\n\n내장 기능, 각각 해당 바닐라 건물의 연구 후 사용 가능: 빛이 필요한 작물을 비추는 형광등(더하는 빛만큼 전력 사용), 농부의 손길, 단열, 온도 조절. Spaced Out에서는 방사선 램프가 빛벌레처럼 인광석을 태워 변이 작물에 필요한 방사선을 줍니다."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.NAME"
+msgid "<link=\"SAITOAQUATICGREENHOUSE\">Aquatic Greenhouse</link>"
+msgstr "<link=\"SAITOAQUATICGREENHOUSE\">수중 온실</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.DESC"
+msgid "Eighteen underwater plots on three shelves, in a tank behind glass."
+msgstr "유리 뒤 수조 안, 세 단 선반 위의 열여덟 개 수중 농지."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.EFFECT"
+msgid "Grows 18 underwater crops such as Waterweed, Tublia and Starnacle on three shelves of six, with hanging trays for Seakomb (pick the crop on the Config tab).\n\nPipe liquid in to fill the tank up to its fill level: it is the crops' water and atmosphere, and a shelf above the waterline doesn't grow. Duplicants deliver the seeds and solid fertilizer and harvest at the base; a liquid output takes liquid harvests.\n\nBuilt in, each after its vanilla building's research: glow tubes for crops that need light, Farmer's Touch, and thermal regulation of the whole tank (a Liquid Tepidizer and Thermo Aquatuner)."
+msgstr "물이파리, 튜블리아, 스타나클 같은 수중 작물 18개를 여섯 개씩 세 단 선반에서 기르며, 씨콤은 매다는 판을 씁니다(구성 탭에서 작물 선택).\n\n액체를 파이프로 넣어 수조를 설정한 수위까지 채우세요: 작물의 물이자 대기이며, 수면보다 높은 선반은 자라지 않습니다. 복제인간이 씨앗과 고체 비료를 가져오고 받침대에서 수확합니다. 액체 출력구가 액체 수확물을 받습니다.\n\n내장 기능, 각각 해당 바닐라 건물의 연구 후 사용 가능: 빛이 필요한 작물을 비추는 형광등, 농부의 손길, 수조 전체의 온도 조절(액체 미온기와 열액체조화기)."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">온실</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "세 단 선반 위의 열여덟 개 농지, 모두 유리 뒤에."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "여섯 개씩 세 단 선반에서 작물 18개를 기릅니다(구성 탭에서 작물 선택). 선반은 작물에 맞춰 바뀝니다: 꼬집후추풀 같은 천장 작물은 매다는 판, 나무는 세 그루씩 두 단, 오바그로 마디는 덩굴 하나.\n\n복제인간이 씨앗, 비료, 물을 가져오고 받침대에서 다 자란 작물을 수확합니다. 모든 작물은 바닐라 농장의 규칙을 따릅니다: 온도, 대기와 압력, 빛 또는 어둠, 방사선과 식물 돌연변이.\n\n기체를 파이프로 넣어 작물만의 대기를 만들거나, 방에 열어 둘 수 있습니다. 액체 파이프와 컨베이어 레일이 복제인간 대신 물과 고체를 가져올 수 있습니다.\n\n내장 기능, 각각 해당 바닐라 건물의 연구 후 사용 가능: 빛이 필요한 작물을 비추는 형광등(더하는 빛만큼 전력 사용), 농부의 손길, 단열, 온도 조절. Spaced Out에서는 방사선 램프가 빛벌레처럼 인광석을 태워 변이 작물에 필요한 방사선을 줍니다."
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.NAME"
+msgid "Giving Farmer's Touch to {Target}"
+msgstr "{Target}에 농부의 손길 주는 중"
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.TOOLTIP"
+msgid "This Duplicant is tending the crops in {Target} so they grow faster"
+msgstr "이 복제인간은 {Target}의 작물을 돌봐 더 빨리 자라게 하고 있습니다"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.NAME"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "작물: 심음 {0}, 자라는 중 {1}, 다 자람 {2}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.TOOLTIP"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "작물: 심음 {0}, 자라는 중 {1}, 다 자람 {2}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.NAME"
+msgid "Atmosphere: {0}"
+msgstr "대기: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.TOOLTIP"
+msgid "Atmosphere: {0}"
+msgstr "대기: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.NAME"
+msgid "Temperature: {0}"
+msgstr "온도: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.TOOLTIP"
+msgid "Temperature: {0}"
+msgstr "온도: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.NAME"
+msgid "Crops not growing: {0}"
+msgstr "자라지 않는 작물: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.TOOLTIP"
+msgid "Crops not growing: {0}"
+msgstr "자라지 않는 작물: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.NAME"
+msgid "Diagnostics: {0}"
+msgstr "진단: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.TOOLTIP"
+msgid "Diagnostics: {0}"
+msgstr "진단: {0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSE.LOCKED"
+msgid "Needs research: {0}"
+msgstr "연구 필요: {0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.ON"
+msgid "Crops: Tended"
+msgstr "작물: 돌봄"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.OFF"
+msgid "Crops: Wild"
+msgstr "작물: 야생"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.TOOLTIP"
+msgid "Tended crops grow at full speed and need their fertilizer and water, like a farm tile. Wild crops grow at a quarter of the speed and need nothing, like plants growing in the wild."
+msgstr "돌보는 작물은 최고 속도로 자라며 재배 타일처럼 비료와 물이 필요합니다. 야생 작물은 4분의 1 속도로 자라며 야생 식물처럼 아무것도 필요 없습니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.ON"
+msgid "Auto-Harvest: On"
+msgstr "자동 수확: 켜짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.OFF"
+msgid "Auto-Harvest: Off"
+msgstr "자동 수확: 꺼짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.TOOLTIP"
+msgid "On: Duplicants harvest crops as soon as they're ripe. Off: ripe crops wait until you press Harvest, like a vanilla plant with auto-harvest off. As in vanilla, a crop left ripe drops its harvest by itself after a while (4 cycles for most crops)."
+msgstr "켜짐: 작물이 다 자라면 바로 복제인간이 수확합니다. 꺼짐: 다 자란 작물은 수확을 누를 때까지 기다립니다. 자동 수확을 끈 바닐라 식물과 같습니다. 바닐라와 마찬가지로, 다 자란 채 두면 시간이 지나 작물이 스스로 수확물을 떨어뜨립니다(대부분 4주기)."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.NAME"
+msgid "Harvest"
+msgstr "수확"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.TOOLTIP"
+msgid "Have a Duplicant harvest the ripe crops now."
+msgstr "복제인간이 지금 다 자란 작물을 수확하게 합니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.ON"
+msgid "Farmer's Touch: On"
+msgstr "농부의 손길: 켜짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.OFF"
+msgid "Farmer's Touch: Off"
+msgstr "농부의 손길: 꺼짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.TOOLTIP"
+msgid "A built-in Farm Station: a Duplicant with the Farmer's Touch skill tends each crop with 5 kg of Fertilizer, which makes it grow faster for a while, like a vanilla Farm Station."
+msgstr "내장 재배스테이션: 농부의 손길 기술을 가진 복제인간이 비료 5kg으로 각 작물을 돌봐 한동안 더 빨리 자라게 합니다. 바닐라 재배스테이션과 같습니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.ON"
+msgid "Mimika Pollination: On"
+msgstr "미미카 수분: 켜짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.OFF"
+msgid "Mimika Pollination: Off"
+msgstr "미미카 수분: 꺼짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.TOOLTIP"
+msgid "Two slots in the middle of the middle shelf grow Mimika Buds instead of the crop (with hanging crops, in a small nursery on that row's floor). Each bud releases a Mimika into the greenhouse about every 5 cycles; Mimikas live 5 cycles, pollinate one growing crop a minute (+25% growth for 600 s) and harden into Mimillet (a Mimika Bud seed) when they die. Sweatcorn Stalks wilt without pollination.\n\nWhen the greenhouse is too hot, too cold or the wrong air for the buds, a small nursery closes around them and keeps them comfortable for 20 W; its door opens to let each Mimika out."
+msgstr "가운데 선반 중앙의 두 칸에 작물 대신 미미카 봉오리를 키웁니다(매달린 작물이면 그 단 바닥의 작은 보육실에서). 봉오리는 약 5주기마다 온실 안에 미미카를 한 마리 내보냅니다. 미미카는 5주기 동안 살며 1분에 한 번 자라는 작물을 수분시키고(600초 동안 생장 +25%), 죽으면 미밀렛(미미카 봉오리 씨앗)으로 굳습니다. 땀옥수수 줄기는 수분되지 않으면 시듭니다.\n\n온실이 봉오리에게 너무 덥거나 춥거나 공기가 맞지 않으면 작은 보육실이 봉오리를 감싸 20W로 편하게 지켜 줍니다. 미미카가 나올 때마다 문이 열립니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.NOROOM"
+msgid "Only with crops that take one slot: trees, the Ovagro Node and wide plants leave no room for Mimika Buds."
+msgstr "한 칸을 차지하는 작물에서만 가능합니다. 나무, 오바그로 마디, 넓은 식물은 미미카 봉오리를 둘 자리가 없습니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.ON"
+msgid "Bonbon Branches: Harvest for Lumber"
+msgstr "봉봉나무 가지: 목재로 수확"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.OFF"
+msgid "Bonbon Branches: Keep for Nectar"
+msgstr "봉봉나무 가지: 넥타용으로 유지"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.TOOLTIP"
+msgid "Keep: Bonbon Tree branches stay on the tree and make Nectar. Harvest: Duplicants cut grown branches for 75 kg of Lumber each, like a vanilla branch harvest; a cut branch makes no Nectar until it has grown back."
+msgstr "유지: 봉봉나무 가지가 나무에 남아 넥타를 만듭니다. 수확: 복제인간이 다 자란 가지를 잘라 하나에 목재 75kg을 얻습니다. 바닐라 가지 수확과 같으며, 자른 가지는 다시 자랄 때까지 넥타를 만들지 않습니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.ON"
+msgid "Insulation: On"
+msgstr "단열: 켜짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.OFF"
+msgid "Insulation: Off"
+msgstr "단열: 꺼짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.TOOLTIP"
+msgid "Insulated: the inside takes the temperature of the gas piped in instead of the room's, and what the crops breathe out stays inside."
+msgstr "단열하면 내부는 방 대신 파이프로 넣은 기체의 온도를 따르고, 작물이 내쉬는 기체도 안에 남습니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.ON"
+msgid "Thermal Regulation: On"
+msgstr "온도 조절: 켜짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "온도 조절: 꺼짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.TOOLTIP"
+msgid "A built-in Space Heater and Thermo Regulator keep the insulated inside at the target temperature (set on the slider). Heating takes 120 W, cooling 240 W and pushes the heat into the room."
+msgstr "내장 공간 가열기와 온도 조절기가 단열된 내부를 목표 온도(슬라이더로 설정)로 유지합니다. 가열은 120 W, 냉각은 240 W를 쓰며 열을 방으로 내보냅니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.NAME"
+msgid "Empty Gases"
+msgstr "기체 비우기"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.TOOLTIP"
+msgid "Let every stored gas out into the room. The crops then grow in the room's atmosphere."
+msgstr "저장된 기체를 모두 방으로 내보냅니다. 그러면 작물은 방의 대기에서 자랍니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.ON"
+msgid "Thermal Regulation: On"
+msgstr "온도 조절: 켜짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "온도 조절: 꺼짐"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.TOOLTIP"
+msgid "A built-in Liquid Tepidizer and Thermo Aquatuner keep the tank's liquid at the target temperature (set on the slider). Heating takes 960 W, cooling 1,200 W and pushes the heat into the room."
+msgstr "내장 액체 미온기와 열액체조화기가 수조의 액체를 목표 온도(슬라이더로 설정)로 유지합니다. 가열은 960 W, 냉각은 1,200 W를 쓰며 열을 방으로 내보냅니다."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.NAME"
+msgid "Empty Tank"
+msgstr "수조 비우기"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.TOOLTIP"
+msgid "Bottle every liquid in the tank beside the building for Duplicants to carry away. Without liquid the crops dry out."
+msgstr "수조의 모든 액체를 병에 담아 건물 옆에 두어 복제인간이 옮기게 합니다. 액체가 없으면 작물이 말라 버립니다."
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TITLE"
+msgid "Fill Level"
+msgstr "수위"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CELLS"
+msgid "cells"
+msgstr "칸"
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TOOLTIP"
+msgid "The tank takes liquid up to {0} cells (1000 kg of water is one cell). Crops on a shelf above the waterline don't grow."
+msgstr "수조는 액체를 최대 {0}칸(물 1000kg이 한 칸)까지 받습니다. 수면보다 높은 선반의 작물은 자라지 않습니다."
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TITLE"
+msgid "Target Temperature"
+msgstr "목표 온도"
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TOOLTIP"
+msgid "Thermal regulation keeps the inside at {0}."
+msgstr "온도 조절이 내부를 {0}로 유지합니다."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.TITLE"
+msgid "Crops"
+msgstr "작물"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.CROP"
+msgid "Crop"
+msgstr "작물"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.SLOT_TOOLTIP"
+msgid "What grows in all 18 slots, like a farm tile. Duplicants deliver the seeds; changing it uproots what grows and drops the seeds at the building. A wide plant takes several slots."
+msgstr "재배 타일처럼 18칸 모두에서 자라는 작물입니다. 복제인간이 씨앗을 가져오며, 바꾸면 자라던 식물을 뽑고 씨앗을 건물에 떨어뜨립니다. 넓은 식물은 여러 칸을 차지합니다."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANT"
+msgid "Variant"
+msgstr "변종"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANTS_TOOLTIP"
+msgid "Which mutation to grow: the Original, any identified variant, or one in particular. A chosen variant fills up as its seeds arrive; Originals grow in the empty slots until then."
+msgstr "어떤 돌연변이를 기를지: 원종, 확인된 아무 변종, 또는 특정한 하나. 선택한 변종은 씨앗이 올 때마다 채워지며, 그때까지 빈 칸에는 원종이 자랍니다."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.EMPTY"
+msgid "None"
+msgstr "없음"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MIXED"
+msgid "Mixed"
+msgstr "혼합"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WIDE"
+msgid "{0} ({1} slots)"
+msgstr "{0} ({1}칸)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ORIGINAL"
+msgid "Original"
+msgstr "원종"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ANY"
+msgid "Any variant"
+msgstr "아무 변종"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.NONE"
+msgid "Nothing planted"
+msgstr "심은 것 없음"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.STATUS"
+msgid "{0} planted, {1} growing"
+msgstr "심음 {0}, 자라는 중 {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.FILLING"
+msgid "{0} mutated, {1} Original\nfor now (replaced as seeds arrive)"
+msgstr "변이 {0}, 원종 {1}\n(임시, 씨앗이 오면 교체)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WAITING"
+msgid "Waiting for seeds"
+msgstr "씨앗 기다리는 중"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.RADIATION"
+msgid "Radiation inside: {0} rads"
+msgstr "내부 방사선: {0} rads"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.LAMP"
+msgid "Radiation lamp adds {0} rads\n({1} Phosphorite)"
+msgstr "방사선 램프가 {0} rads 추가\n(인광석 {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MUTATION_CHANCE"
+msgid "Mutated seed per harvest: {0}\n(seed drop {1}, mutates {2};\nbest at {3} rads)"
+msgstr "수확당 변이 씨앗: {0}\n(씨앗 드롭 {1}, 변이 {2};\n{3} rads에서 최대)"

@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#. NoManualDelivery.STRINGS.AUTOMATABLE_TOOLTIP
+msgctxt "NoManualDelivery.STRINGS.AUTOMATABLE_TOOLTIP"
+msgid "Allow only if the {SOLIDTRANSFERARM} can't do it in a certain time"
+msgstr "Permitir apenas se o {SOLIDTRANSFERARM} não conseguir fazer isso em determinado tempo"
+
+#. NoManualDelivery.STRINGS.MOD_DESCRIPTION
+msgctxt "NoManualDelivery.STRINGS.MOD_DESCRIPTION"
+msgid "Adds a \"Allow Manual Use\" checkbox for very many buildings to efficiently use the conveyor system and prevent duplicantes from manually delivering resources to those buildings."
+msgstr "Adiciona uma caixa de seleção \"Permitir Uso Manual\" em muitas construções para usar o sistema de esteiras com eficiência e impedir que Duplicantes entreguem recursos manualmente a essas construções."
+
+#. NoManualDelivery.STRINGS.MOD_TITLE
+msgctxt "NoManualDelivery.STRINGS.MOD_TITLE"
+msgid "No Manual Delivery"
+msgstr "Sem Entrega Manual"
+
+#. NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPEDIBLE.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPEDIBLE.NAME"
+msgid "Duplicants can always pick up Food and Medicine"
+msgstr "Duplicantes sempre podem pegar Comida e Medicamento"
+
+#. NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPEDIBLE.TOOLTIP
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPEDIBLE.TOOLTIP"
+msgid "Duplicants will ignore the {ALLOWMANUALBUTTON} checkbox when picking up food and medicine to eat it."
+msgstr "Duplicantes ignorarão a caixa {ALLOWMANUALBUTTON} ao pegar comida e medicamento para comer."
+
+#. NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPKETTLE.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPKETTLE.NAME"
+msgid "Duplicants can always pick up Water from {ICEKETTLE}"
+msgstr "Duplicantes sempre podem pegar Água da {ICEKETTLE}"
+
+#. NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPKETTLE.TOOLTIP
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ALLOWALWAYSPICKUPKETTLE.TOOLTIP"
+msgid "Duplicants will ignore the {ALLOWMANUALBUTTON} checkbox when picking up Water from {ICEKETTLE}."
+msgstr "Duplicantes ignorarão a caixa {ALLOWMANUALBUTTON} ao pegar Água da {ICEKETTLE}."
+
+#. NoManualDelivery.STRINGS.OPTIONS.ALLOWTRANSFERARMPICKUPGASLIQUID.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ALLOWTRANSFERARMPICKUPGASLIQUID.NAME"
+msgid "{SOLIDTRANSFERARM} can pick up and deliver liquid/gas Bottles and Canisters"
+msgstr "O {SOLIDTRANSFERARM} pode pegar e entregar Garrafas e Cilindros de líquido/gás"
+
+#. NoManualDelivery.STRINGS.OPTIONS.ALLOWTRANSFERARMPICKUPGASLIQUID.TOOLTIP
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ALLOWTRANSFERARMPICKUPGASLIQUID.TOOLTIP"
+msgid "Also adds the {ALLOWMANUALBUTTON} checkbox to the Pitcher Pump, Canister Filler, Bottle Emptier and Canister Emptier."
+msgstr "Também adiciona a caixa {ALLOWMANUALBUTTON} à Bomba Manual, Enchimento de Cilindro, Esvaziador de Garrafa e Esvaziador de Cilindro."
+
+#. NoManualDelivery.STRINGS.OPTIONS.BYDEFAULT.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.BYDEFAULT.NAME"
+msgid "Turn it on for newly built Buildings"
+msgstr "Ativar por padrão em construções recém-construídas"
+
+#. NoManualDelivery.STRINGS.OPTIONS.CHORES.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.CHORES.NAME"
+msgid "Enable for Buildings"
+msgstr "Ativar para Construções"
+
+#. NoManualDelivery.STRINGS.OPTIONS.CHORES.TOOLTIP
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.CHORES.TOOLTIP"
+msgid "Additional the {ALLOWMANUALBUTTON} checkbox mode with ★.\nDuplicants will deliver items only if the {SOLIDTRANSFERARM} can't do it in a certain time."
+msgstr "Modo adicional da caixa {ALLOWMANUALBUTTON} com ★.\nDuplicantes entregarão itens apenas se o {SOLIDTRANSFERARM} não conseguir fazer isso em determinado tempo."
+
+#. NoManualDelivery.STRINGS.OPTIONS.HOLDMODE.CATEGORY
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.HOLDMODE.CATEGORY"
+msgid "★ Intellectual mode"
+msgstr "Modo intelectual ★"
+
+#. NoManualDelivery.STRINGS.OPTIONS.ITEMS.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ITEMS.NAME"
+msgid "Enable for Items on the floor"
+msgstr "Ativar para itens no chão"
+
+#. NoManualDelivery.STRINGS.OPTIONS.ITEMS.TOOLTIP
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.ITEMS.TOOLTIP"
+msgid "Duplicants will pick up Items on the floor only if the {SOLIDTRANSFERARM} can't do it in a certain time."
+msgstr "Duplicantes pegarão itens no chão apenas se o {SOLIDTRANSFERARM} não conseguir fazer isso em determinado tempo."
+
+#. NoManualDelivery.STRINGS.OPTIONS.TIMEOUT.NAME
+msgctxt "NoManualDelivery.STRINGS.OPTIONS.TIMEOUT.NAME"
+msgid "Timeout"
+msgstr "Tempo limite"

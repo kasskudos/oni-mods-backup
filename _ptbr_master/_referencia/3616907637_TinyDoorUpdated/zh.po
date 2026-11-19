@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"X-Generator: Poedit 3.8\n"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC"
+msgid "Door controls can be used to prevent Duplicants from entering restricted areas. Fits in a single tile space."
+msgstr "门控系统可以用于阻止复制人进入受限区域。只占一格空间。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT"
+msgid ""
+"Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"封闭区域，但不能阻挡<link=\"ELEMENTSLIQUID\">液体</link>或<link=\"ELEMENTSGAS\">气体</link>流动。\n"
+"\n"
+"野生<link=\"CRITTERS\">小动物</link>无法通过门。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME"
+msgid "<link=\"TINYDOOR\">Tiny Pneumatic Door</link>"
+msgstr "小气动门"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.DESC"
+msgid "A slow-moving door that works best when it's closed. Fits in a single tile space."
+msgstr "一扇缓慢移动的门，关闭时效果最佳。只占一格空间。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.EFFECT"
+msgid "Significantly reduces <link=\"HEAT\">Temperature</link> exchange between climate-controlled rooms. "
+msgstr "显著减少房间之间的<link=\"HEAT\">温度</link>变化。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.NAME"
+msgid "<link=\"TINYINSULATEDDOOR\">Tiny Insulated Door</link>"
+msgstr "小隔热门"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC"
+msgid "Airlocks can quarter off dangerous areas and prevent gases from seeping into the colony. Fits in a single tile space."
+msgstr "气闸可以隔绝危险区域并防止气体渗入殖民地。只占一格空间。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT"
+msgid ""
+"Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"阻挡<link=\"ELEMENTSLIQUID\">液体</link>和<link=\"ELEMENTSGAS\">气体</link>流动，维持各区域之间的压力。\n"
+"\n"
+"野生<link=\"CRITTERS\">小动物</link>无法通过门。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"TINYMANUALPRESSUREDOOR\">Tiny Manual Airlock</link>"
+msgstr "小手动气闸"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC"
+msgid "Mechanized airlocks open and close more quickly than other types of door. Fits in a single tile space."
+msgstr "机械气闸比其他种类的门开关更快。只占一格空间。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT"
+msgid ""
+"Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n"
+"\n"
+"Functions as a <link=\"TINYMANUALPRESSUREDOOR\">Manual Airlock</link> when no <link=\"POWER\">Power</link> is available.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"阻挡<link=\"ELEMENTSLIQUID\">液体</link>和<link=\"ELEMENTSGAS\">气体</link>流动，维持各区域之间的压力。\n"
+"\n"
+"没有<link=\"POWER\">电力</link>时作用与<link=\"TINYMANUALPRESSUREDOOR\">小手动气闸</link>一致。\n"
+"\n"
+"野生<link=\"CRITTERS\">小动物</link>无法通过门。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME"
+msgid "<link=\"TINYPRESSUREDOOR\">Tiny Mechanized Airlock</link>"
+msgstr "小机械气闸"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.DESC"
+msgid "A breezy wooden door combines style and function. Fits in a single tile space."
+msgstr "一扇通风木门，兼具时尚与实用。只占一格空间。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.EFFECT"
+msgid ""
+"Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n"
+"\n"
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr ""
+"封闭区域，但不能阻挡<link=\"ELEMENTSLIQUID\">液体</link>或<link=\"ELEMENTSGAS\">气体</link>流动。\n"
+"\n"
+"野生<link=\"CRITTERS\">小动物</link>无法通过门。"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.NAME"
+msgid "<link=\"TINYWOODENDOOR\">Tiny Wicker Door</link>"
+msgstr "小柳条门"

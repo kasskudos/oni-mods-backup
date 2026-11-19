@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HVAC Expansion 2.2.1\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Application: Oxygen Not Included POT Version: 2.0\n"
+
+#. STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.NAME"
+msgid "<link=\"AUTOCONDESNER\">Auto Condenser</link>"
+msgstr "<link=\"AUTOCONDESNER\">Condensador Automático</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.DESC"
+msgid "Cools and condenses gases."
+msgstr "Resfria e condensa gases."
+
+#. STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.EFFECT"
+msgid "Cools piped Gases and condenses them into their Liquid form.\n\nGases with transition byproducts damage the machine. Gases that are too hot will be dumped."
+msgstr "Resfria os Gases canalizados e os condensa em sua forma Líquida.\n\nGases que geram subprodutos durante a transição danificam a máquina. Gases quentes demais serão despejados."
+
+#. STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.NAME"
+msgid "<link=\"AUTOEVAPORTATOR\">Auto Evaporator</link>"
+msgstr "<link=\"AUTOEVAPORTATOR\">Evaporador Automático</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.DESC"
+msgid "Heats and evaporates liquids."
+msgstr "Aquece e evapora líquidos."
+
+#. STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.EFFECT"
+msgid "Heats piped Liquids and evaporates them into their Gaseous form.\n\nLiquids with transition byproducts damage the machine. Liquids that are too cold will be dumped."
+msgstr "Aquece os Líquidos canalizados e os evapora em sua forma Gasosa.\n\nLíquidos que geram subprodutos durante a transição danificam a máquina. Líquidos frios demais serão despejados."
+
+#. STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.NAME"
+msgid "<link=\"GASREFRIGERATIONUNIT\">Thermo Conditioner</link>"
+msgstr "<link=\"GASREFRIGERATIONUNIT\">Termo-Aquecedor de Gás</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.DESC"
+msgid "A thermo conditioner doesn't remove chill, but relocates it to a new area."
+msgstr "Um termo-aquecedor não elimina o frio, apenas o transfere para outra área."
+
+#. STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.EFFECT"
+msgid "Heats the Gas piped through it, cooling its immediate vicinity."
+msgstr "Aquece o Gás canalizado através dele, resfriando a área ao seu redor."
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.NAME"
+msgid "<link=\"LIQUIDREFRIGERATIONUNIT\">Thermo Aquacooler</link>"
+msgstr "<link=\"LIQUIDREFRIGERATIONUNIT\">Termo-Aquecedor de Líquido</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.DESC"
+msgid "A thermo aquacooler heats liquids and outputs the chill elsewhere."
+msgstr "Um termo-aquecedor aquece líquidos e libera o frio em outro lugar."
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.EFFECT"
+msgid "Heats the Liquid piped through it, cooling its immediate vicinity."
+msgstr "Aquece o Líquido canalizado através dele, resfriando a área ao seu redor."
+
+#. STRINGS.MISC.TAGS.FULLYCONDENSABLE
+msgctxt "STRINGS.MISC.TAGS.FULLYCONDENSABLE"
+msgid "Fully Condensable"
+msgstr "Totalmente Condensável"
+
+#. STRINGS.MISC.TAGS.FULLYEVAPORATABLE
+msgctxt "STRINGS.MISC.TAGS.FULLYEVAPORATABLE"
+msgid "Fully Evaporatable"
+msgstr "Totalmente Evaporável"
+
+#. STRINGS.RESEARCH.TECHS.REFRIGERATIONCYCLE.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.REFRIGERATIONCYCLE.NAME"
+msgid "<link=\"REFRIGERATIONCYCLE\">Refrigeration Cycle</link>"
+msgstr "<link=\"REFRIGERATIONCYCLE\">Ciclo de Refrigeração</link>"
+
+#. STRINGS.RESEARCH.TECHS.REFRIGERATIONCYCLE.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.REFRIGERATIONCYCLE.DESC"
+msgid "Evaporate and Condense Liquids and Gases"
+msgstr "Evapore e condense Líquidos e Gases"
+
+#. STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED_AIRREFRIGERATOR
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED_AIRREFRIGERATOR"
+msgid "Heat: -{0} (Approximate Value)"
+msgstr "Calor: -{0} (valor aproximado)"
+
+#. STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED_LIQUIDREFRIGERATOR
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED_LIQUIDREFRIGERATOR"
+msgid "Heat: -{0} (Approximate Value)"
+msgstr "Calor: -{0} (valor aproximado)"
+
+#. STRINGS.UI.BUILDINGEFFECTS.GASHEATING
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.GASHEATING"
+msgid "Heating factor: {0}"
+msgstr "Fator de aquecimento: {0}"
+
+#. STRINGS.UI.BUILDINGEFFECTS.LIQUIDHEATING
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.LIQUIDHEATING"
+msgid "Heating factor: {0}"
+msgstr "Fator de aquecimento: {0}"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GASHEATING
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GASHEATING"
+msgid "Increases the Temperature of piped Gases by <b>{0}</b>"
+msgstr "Aumenta em <b>{0}</b> a Temperatura dos Gases canalizados"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDHEATING
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDHEATING"
+msgid "Increases the Temperature of piped Liquid by <b>{0}</b>"
+msgstr "Aumenta em <b>{0}</b> a Temperatura do Líquido canalizado"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_GASREFRIGERATIONUNIT
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_GASREFRIGERATIONUNIT"
+msgid "Dissapates Heat based on the Volume and Specific Heat Capacity of the pumped Gas\n\nHeating 1 kg of Oxygen the entire <b>{1}</b> will consume <b>{0}</b>"
+msgstr "Dissipa Calor com base no Volume e na Capacidade Térmica Específica do Gás bombeado\n\nAquecer 1 kg de Oxigênio em <b>{1}</b> consumirá <b>{0}</b>"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDREFRIGERATIONUNIT
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDREFRIGERATIONUNIT"
+msgid "Dissapates Heat based on the Volume and Specific Heat Capacity of the pumped Liquid\n\nHeating 10 kg of Water the entire <b>{1}</b> will consume <b>{0}</b>"
+msgstr "Dissipa Calor com base no Volume e na Capacidade Térmica Específica do Líquido bombeado\n\nAquecer 10 kg de Água em <b>{1}</b> consumirá <b>{0}</b>"

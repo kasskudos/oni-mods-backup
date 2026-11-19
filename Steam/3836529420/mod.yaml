@@ -1,0 +1,3 @@
+title: "MultiCore Optimizer"
+description: "Smoother late game: removes garbage-collection freezes, spreads pathfinding over more CPU cores, makes overlays far cheaper and moves save compression off the main thread. Settings in config.json."
+staticID: MultiCoreOptimizer

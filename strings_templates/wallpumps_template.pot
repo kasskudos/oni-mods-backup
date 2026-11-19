@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLPUMP.DESC
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLPUMP.DESC"
+msgid "Uma bomba de gás que também é uma parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLPUMP.EFFECT
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLPUMP.EFFECT"
+msgid "Bombeia <link=\"ELEMENTSGAS\">Gás</link> para fora de uma sala"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLPUMP.NAME
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLPUMP.NAME"
+msgid "Bomba de gás de parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLVENT.DESC
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLVENT.DESC"
+msgid "Uma ventilação de gás que também é uma parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLVENT.EFFECT
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLVENT.EFFECT"
+msgid "Libera <link=\"ELEMENTSGAS\">Gás</link> dentro de uma sala"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLVENT.NAME
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRGASWALLVENT.NAME"
+msgid "Ventilação de gás de parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLPUMP.DESC
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLPUMP.DESC"
+msgid "Uma bomba de líquido que também é uma parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLPUMP.EFFECT
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLPUMP.EFFECT"
+msgid "Pumps out <link=\"ELEMENTSLIQUID\">Liquid</link> from a room"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLPUMP.NAME
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLPUMP.NAME"
+msgid "Bomba de líquido de parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLVENT.DESC
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLVENT.DESC"
+msgid "Uma ventilação de líquido que também é uma parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLVENT.EFFECT
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLVENT.EFFECT"
+msgid "Releases <link=\"ELEMENTSLIQUID\">Liquid</link> into a room"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLVENT.NAME
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.FAIRLIQUIDWALLVENT.NAME"
+msgid "Ventilação de líquido de parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.VENTHIGHPRESSURE.DESC
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.VENTHIGHPRESSURE.DESC"
+msgid "Uma ventilação de gás de alta pressão que também é uma parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.VENTHIGHPRESSURE.EFFECT
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.VENTHIGHPRESSURE.EFFECT"
+msgid "Libera <link=\"ELEMENTSGAS\">Gás</link> de alta pressão dentro de uma sala"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.VENTHIGHPRESSURE.NAME
+msgctxt "WallPumps.WALLPUMP_STRINGS.BUILDINGS.PREFABS.VENTHIGHPRESSURE.NAME"
+msgid "Ventilação de gás de alta pressão de parede"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.UI_ADD.ENABLED
+msgctxt "WallPumps.WALLPUMP_STRINGS.UI_ADD.ENABLED"
+msgid "Ativado"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.UI_ADD.ENERGY_CONSUMPTION
+msgctxt "WallPumps.WALLPUMP_STRINGS.UI_ADD.ENERGY_CONSUMPTION"
+msgid "Consumo de energia"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.UI_ADD.MAX_PRESSURE
+msgctxt "WallPumps.WALLPUMP_STRINGS.UI_ADD.MAX_PRESSURE"
+msgid "Pressão máxima"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.UI_ADD.PUMP_RATE
+msgctxt "WallPumps.WALLPUMP_STRINGS.UI_ADD.PUMP_RATE"
+msgid "Taxa de bombeamento"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.UI_ADD.THERMAL_CONDUCTIVITY
+msgctxt "WallPumps.WALLPUMP_STRINGS.UI_ADD.THERMAL_CONDUCTIVITY"
+msgid "Condutividade térmica"
+msgstr ""
+
+#. WallPumps.WALLPUMP_STRINGS.UI_ADD.TILES_INSULATED
+msgctxt "WallPumps.WALLPUMP_STRINGS.UI_ADD.TILES_INSULATED"
+msgid "Make pumps and evacuations insulated"
+msgstr ""
+

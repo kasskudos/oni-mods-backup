@@ -1,0 +1,11 @@
+{
+  "Key": "Q",
+  "Radius": 4,
+  "Speed": 6,
+  "Style": "Smooth",
+  "EnhancedPhysics": false,
+  "Chaos": false,
+  "FieldEffect": true,
+  "Highlight": true,
+  "HideHoverCard": true
+}

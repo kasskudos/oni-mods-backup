@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. CloserMaterial.STRINGS.INFODATASTRINGS.MJ_CLOSESTMATERIAL.PLAN_NAME
+msgctxt "CloserMaterial.STRINGS.INFODATASTRINGS.MJ_CLOSESTMATERIAL.PLAN_NAME"
+msgid "Closest Material"
+msgstr "Material mais Próximo"

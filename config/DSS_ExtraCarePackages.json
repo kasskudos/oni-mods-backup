@@ -1,0 +1,348 @@
+[
+  {
+    "ItemId": "EvilFlowerSeed",
+    "Name": "<link=\"EVILFLOWER\">Semente de Orquíesporo</link>",
+    "RequiredDlcs": null,
+    "Amount": 1.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 95
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "EvilFlowerSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "BulbPlantSeed",
+    "Name": "<link=\"BULBPLANT\">Semente de Broto Companheiro</link>",
+    "RequiredDlcs": null,
+    "Amount": 1.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 36
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "BulbPlantSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "BeanPlantSeed",
+    "Name": "<link=\"BEANPLANT\">Feijão Brocoso</link>",
+    "RequiredDlcs": null,
+    "Amount": 3.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "BeanPlantSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "ColdWheatSeed",
+    "Name": "<link=\"COLDWHEATSEED\">Grão de Trigo das Neves</link>",
+    "RequiredDlcs": null,
+    "Amount": 3.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "ColdWheatSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "SeaLettuceSeed",
+    "Name": "<link=\"SEALETTUCE\">Semente de Alface</link>",
+    "RequiredDlcs": null,
+    "Amount": 3.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "SeaLettuceSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "GasGrassSeed",
+    "Name": "<link=\"GASGRASS\">Semente de Grama Gasosa</link>",
+    "RequiredDlcs": null,
+    "Amount": 3.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 96
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "GasGrassSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "Granite",
+    "Name": "<link=\"GRANITE\">Granito</link>",
+    "RequiredDlcs": null,
+    "Amount": 1000.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 24
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "Granite"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "Obsidian",
+    "Name": "<link=\"OBSIDIAN\">Obsidiana</link>",
+    "RequiredDlcs": null,
+    "Amount": 1000.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 24
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "Obsidian"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "Katairite",
+    "Name": "<link=\"KATAIRITE\">Abissalito</link>",
+    "RequiredDlcs": null,
+    "Amount": 1000.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "Katairite"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "IronOre",
+    "Name": "<link=\"IRONORE\">Minério de Ferro</link>",
+    "RequiredDlcs": null,
+    "Amount": 2000.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 12
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "IronOre"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "Wolframite",
+    "Name": "<link=\"WOLFRAMITE\">Volframita</link>",
+    "RequiredDlcs": null,
+    "Amount": 1000.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "Wolframite"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "Tungsten",
+    "Name": "<link=\"TUNGSTEN\">Tungstênio</link>",
+    "RequiredDlcs": null,
+    "Amount": 200.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "Tungsten"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "UraniumOre",
+    "Name": "<link=\"URANIUMORE\">Minério de Urânio</link>",
+    "RequiredDlcs": [
+      "EXPANSION1_ID"
+    ],
+    "Amount": 100.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "UraniumOre"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "SwampHarvestPlantSeed",
+    "Name": "<link=\"SWAMPHARVESTPLANT\">Semente de Balde do Pântano</link>",
+    "RequiredDlcs": [
+      "EXPANSION1_ID"
+    ],
+    "Amount": 3.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 24
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "SwampHarvestPlantSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "ToePlantSeed",
+    "Name": "<link=\"TOEPLANT\">Semente de Dedinho-Tranquilo</link>",
+    "RequiredDlcs": [
+      "EXPANSION1_ID"
+    ],
+    "Amount": 3.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "ToePlantSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "CritterTrapPlantSeed",
+    "Name": "<link=\"CRITTERTRAPPLANT\">Semente de Carniplanta</link>",
+    "RequiredDlcs": [
+      "EXPANSION1_ID"
+    ],
+    "Amount": 1.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 96
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "CritterTrapPlantSeed"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "BeeBaby",
+    "Name": "<link=\"BEE\">Abetinha</link>",
+    "RequiredDlcs": [
+      "EXPANSION1_ID"
+    ],
+    "Amount": 1.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 24
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "BeeBaby"
+        }
+      ],
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 24
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "UraniumOre"
+        }
+      ]
+    ]
+  },
+  {
+    "ItemId": "PinkRockCarved",
+    "Name": "<link=\"PINKROCK\">Quartzo Luminoso Esculpido</link>",
+    "RequiredDlcs": [
+      "DLC2_ID"
+    ],
+    "Amount": 1.0,
+    "UnlockConditions": [
+      [
+        {
+          "$type": "UnlockConditions.CycleUnlockCondition, SetStartDupes",
+          "CycleUnlock": 48
+        },
+        {
+          "$type": "UnlockConditions.ItemDiscoveredCondition, SetStartDupes",
+          "PrefabId": "PinkRockCarved"
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Users\\Bernardo\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\nogermsieve\\src\\nogermsieve.csproj": {}
+  },
+  "projects": {
+    "F:\\Users\\Bernardo\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\nogermsieve\\src\\nogermsieve.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Users\\Bernardo\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\nogermsieve\\src\\nogermsieve.csproj",
+        "projectName": "nogermsieve",
+        "projectPath": "F:\\Users\\Bernardo\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\nogermsieve\\src\\nogermsieve.csproj",
+        "packagesPath": "F:\\Users\\Bernardo\\.nuget\\packages\\",
+        "outputPath": "F:\\Users\\Bernardo\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\nogermsieve\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "F:\\Users\\Bernardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "F:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.7.1"
+        ],
+        "sources": {
+          "F:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "targetAlias": "net4.7.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net471": {
+          "targetAlias": "net4.7.1",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "F:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

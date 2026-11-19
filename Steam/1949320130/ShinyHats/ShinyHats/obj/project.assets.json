@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      },
+      "PLib/4.12.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.InteropServices.RuntimeInformation"
+        ],
+        "compile": {
+          "lib/net471/PLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net471/PLib.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+      "sha512": "lreK19MMDA/ekeqjLY4w171cG7+pHwjeTMHMNq6tghuhTOIOfHT+b/LTMj5jpfbJoR7J6AMD3yOYZoyY/2wtJA==",
+      "type": "package",
+      "path": "ilrepack.lib.msbuild.task/2.0.18.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILRepack.Lib.MSBuild.Task.dll",
+        "build/ILRepack.Lib.MSBuild.Task.targets",
+        "ilrepack.lib.msbuild.task.2.0.18.2.nupkg.sha512",
+        "ilrepack.lib.msbuild.task.nuspec"
+      ]
+    },
+    "PLib/4.12.0": {
+      "sha512": "v8DEE0AB4703iBDH+5cIe7QoG/dYt0o8D5DT2KgfKxk6cUe0ZCiXWLi4GuWTQ1LEHkLgd3Xuf4FxAoo5g9ecSA==",
+      "type": "package",
+      "path": "plib/4.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net471/PLib.dll",
+        "lib/net471/PLib.xml",
+        "plib.4.12.0.nupkg.sha512",
+        "plib.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "ILRepack.Lib.MSBuild.Task >= 2.0.18.2",
+      "PLib >= 4.12.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Killface\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj",
+      "projectName": "ShinyHats",
+      "projectPath": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj",
+      "packagesPath": "C:\\Users\\Killface\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Killface\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "ILRepack.Lib.MSBuild.Task": {
+            "target": "Package",
+            "version": "[2.0.18.2, )"
+          },
+          "PLib": {
+            "target": "Package",
+            "version": "[4.12.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

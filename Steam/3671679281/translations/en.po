@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.TITLE"
+msgstr "Wireless Channel Configuration"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.CHANNELLABEL.NAME"
+msgstr "Channel:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.CHANNELLABEL.TOOLTIP"
+msgstr "Select a channel for this device to operate on the Wireless Power Grid."
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.TRANSFERLABEL.NAME"
+msgstr "Transfer Amount:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.TRANSFERLABEL.TOOLTIP"
+msgstr "Select how much Power is transfered to/from the Wireless Power Grid."
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.WIRELESSTHRESHOLDLABEL.NAME"
+msgstr "Grid Transfer Threshold:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.WIRELESSTHRESHOLDLABEL.TOOLTIP"
+msgstr "Select the percentage needed to refill/take from the Wireless Batteries on the connected Wireless Power Grid."
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.INTERNALTHRESHOLDLABEL.NAME"
+msgstr "Battery Refill Threshold:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.INTERNALTHRESHOLDLABEL.TOOLTIP"
+msgstr "Select the percentage to refill batteries to on this receiver's current power curcuit."
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.SENDER_TITLE"
+msgstr "Sender Configuration"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.RECEIVER_TITLE"
+msgstr "Receiver Configuration"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.BATTERYTHRESHOLDLABEL.NAME"
+msgstr "Battery Threshold:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.BATTERYTHRESHOLDLABEL.TOOLTIP"
+msgstr "Target battery refill threshold on the local power circuit."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERSENDER.NAME"
+msgstr "Wireless Sender"
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERSENDER.DESC"
+msgstr "Wireless Senders have many states of operation outlined below:\n\n<b>Online:</b> Denoted by green, this state indicates the building is connected and sending power.\n\n<b>Standby:</b> Denoted by yellow, this state indicates the building is connected and awaiting power transfer (all connected batteries are full).\n\n<b>Offline:</b> Denoted by red, this indicates the building is disconnected from the wirless grid (no wireless batteries exist on the specified channel)."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERSENDER.EFFECT"
+msgstr "Sends Power to wireless batteries on the same channel of the Wireless Power Grid.\n\nPower is sent from the current circuit in the amount specified."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERRECEIVER.NAME"
+msgstr "Wireless Receiver"
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERRECEIVER.DESC"
+msgstr "Wireless Receivers have many states of operation outlined below:\n\n<b>Online:</b> Denoted by green, this state indicates the building is connected and receiving power.\n\n<b>Standby:</b> Denoted by yellow, this state indicates the building is connected and awaiting power transfer. This occurs when either all wireless batteries on the specified channel are empty or all batteries on the connected circuit are at their capacity thresholds.\n\n<b>Offline:</b> Denoted by red, this indicates the building is disconnected from the wirless grid (no wireless batteries exist on the specified channel)."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERRECEIVER.EFFECT"
+msgstr "Fetches Power from wireless batteries on the Wireless Power Grid.\n\nInputs the specified amount of power into the connected circuit."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERBATTERY.NAME"
+msgstr "Wireless Battery"
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERBATTERY.DESC"
+msgstr "Wireless Batteries have many states of operation outlined below:\n\n<b>Online:</b> Denoted by green, this state indicates the building is connected and is actively sending or receiving power.\n\n<b>Standby:</b> Denoted by yellow, this state indicates the building is connected and awaiting power transfer.\n\n<b>Offline:</b> Denoted by red, this indicates the building is disconnected from the wirless grid (no wireless senders/receivers exist on the specified channel)."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERBATTERY.EFFECT"
+msgstr "Stores Power for later access on the Wireless Power Grid.\n\nLoses power over time."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.CONNECTION.NAME"
+msgstr "Connection Status: {Status}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.CONNECTION.TOOLTIP"
+msgstr "{Explanation}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.CHANNEL.NAME"
+msgstr "Connected Channel: {Channel}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.CHANNEL.TOOLTIP"
+msgstr "{Explanation}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.GRIDCAPACITY.NAME"
+msgstr "Grid Power Available: {Available} / {Capacity}  {Percentage}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.GRIDCAPACITY.TOOLTIP"
+msgstr "Grid Channel is currently storing <b>{Available}</b> of <b>{Capacity}</b> available power for use within the Wireless Power Grid."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.TRANSFER.NAME"
+msgstr "{Status}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.TRANSFER.TOOLTIP"
+msgstr "{Explanation}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.BATTERYCAPACITY.NAME"
+msgstr "Battery Power Available: {Available} / {Capacity}  {Percentage}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.BATTERYCAPACITY.TOOLTIP"
+msgstr "Stores <b>{Available}</b> of Power for use within the Wireless Power Grid."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.GRIDSTATUS.NAME"
+msgstr "Grid Status: {Status}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.GRIDSTATUS.TOOLTIP"
+msgstr "The Wireless Power Grid is currently {Explanation} {End}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.BATTERYNET.NAME"
+msgstr "Battery Net Gain: {Last}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.BATTERYNET.TOOLTIP"
+msgstr "Displays how much Power was net gained/lost by this battery in the last transfer cycle."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.ONLINE"
+msgstr "Online"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.OFFLINE"
+msgstr "Offline"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.STANDBY"
+msgstr "Standby"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.NA"
+msgstr "N/A"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.SENDING"
+msgstr "Sending"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.RECEIVING"
+msgstr "Receiving"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.SENDING_RECEIVING"
+msgstr "Sending & Receiving"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_SENDER_ONLINE"
+msgstr "Sender is connected to the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_SENDER_OFFLINE"
+msgstr "Sender is disconnected and non-operational.\n\nBuild a <b>{Battery}</b> to make this sender operational."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_RECEIVER_ONLINE"
+msgstr "Receiver is connected to the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_RECEIVER_OFFLINE"
+msgstr "Receiver is disconnected and non-operational.\n\nBuild a <b>{Battery}</b> to make this receiver operational."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_BATTERY_ONLINE"
+msgstr "Battery is connected to the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_BATTERY_OFFLINE"
+msgstr "Battery is disconnected and non-operational.\n\nBuild either a <b>{Receiver}</b> or <b>{Sender}</b> to make this battery operational."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CHANNEL_EXPLAIN"
+msgstr "This building is currently connected to channel {Channel} on the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.SENDING_POWER_LABEL"
+msgstr "Sending Power: {Amount}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.RECEIVING_POWER_LABEL"
+msgstr "Receiving Power: {Amount}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_SENDER_ONLINE"
+msgstr "Sender is beaming {Amount} of {Power}{FalloffPhrase} to the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_SENDER_OFFLINE"
+msgstr "Sender is non-operational.\n\nOnce operational: it will send {Amount} of {Power}{FalloffPhrase} from the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_RECEIVER_ONLINE"
+msgstr "Receiver is drawing {Amount} of {Power}{FalloffPhrase} from the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_RECEIVER_OFFLINE"
+msgstr "Receiver is non-operational.\n\nOnce operational: it will draw {Amount} of {Power}{FalloffPhrase} from the {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_FALLOFF_PHRASE"
+msgstr ", due to wireless energy falloff,"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_FOR_BATTERY"
+msgstr "for this battery"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_TO_FROM_BATTERY"
+msgstr "energy to/from this battery"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_TO_BATTERY"
+msgstr "energy to this battery"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_FROM_BATTERY"
+msgstr "energy from this battery"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_NEEDED_BATTERY"
+msgstr "for this battery to be needed"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_BOTH_PREFIX"
+msgstr "both {State}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.POWER_WORD"
+msgstr "Power"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_WORD"
+msgstr "Wireless Power Grid"

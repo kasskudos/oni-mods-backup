@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_RADS"
+msgid "too little radiation ({0} of {1} rads)"
+msgstr "мало радиации ({0} из {1} рад)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_RADS"
+msgid "too much radiation ({0}, at most {1} rads)"
+msgstr "слишком много радиации ({0}, не более {1} рад)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_COLD"
+msgid "too cold ({0}, needs {1})"
+msgstr "слишком холодно ({0}, нужно {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HOT"
+msgid "too hot ({0}, at most {1})"
+msgstr "слишком жарко ({0}, не более {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_ATMOSPHERE"
+msgid "wrong atmosphere (needs {0})"
+msgstr "неподходящая атмосфера (нужен {0})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_PRESSURE"
+msgid "pressure too low ({0} of {1} per tile)"
+msgstr "слишком низкое давление ({0} из {1} на клетку)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_PRESSURE"
+msgid "pressure too high ({0}, at most {1} per tile)"
+msgstr "слишком высокое давление ({0}, не более {1} на клетку)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_BRIGHT"
+msgid "too bright ({0} lux, needs darkness)"
+msgstr "слишком светло ({0} лк, нужна темнота)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DARK"
+msgid "too dark ({0} of {1} lux)"
+msgstr "слишком темно ({0} из {1} лк)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NEEDS"
+msgid "needs {0}"
+msgstr "нужен ресурс: {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NOT_POLLINATED"
+msgid "not pollinated"
+msgstr "не опылено"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DRY"
+msgid "above the waterline (fill the tank higher)"
+msgstr "выше уровня воды (наполните бак выше)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK"
+msgid "{0} of {1} cells: {2}"
+msgstr "{0} из {1} клеток: {2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK_EMPTY"
+msgid "empty (pipe liquid in)"
+msgstr "пусто (подайте жидкость по трубе)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ATMOSPHERE_SURROUNDINGS"
+msgid "the room's ({0}, {1} per tile)"
+msgstr "комнаты ({0}, {1} на клетку)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.PER_CELL"
+msgid "({0} per tile)"
+msgstr "({0} на клетку)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_SURROUNDINGS"
+msgid "{0} (the room's)"
+msgstr "{0} (комнаты)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_INSULATED"
+msgid "{0} (insulated)"
+msgstr "{0} (изоляция)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_HEATING"
+msgid "{0} (heating to {1})"
+msgstr "{0} (нагрев до {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_COOLING"
+msgid "{0} (cooling to {1})"
+msgstr "{0} (охлаждение до {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_REGULATED"
+msgid "{0} (regulated to {1})"
+msgstr "{0} (держится на {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ALL_OK"
+msgid "all OK"
+msgstr "всё в порядке"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ONE_PROBLEM"
+msgid "1 problem"
+msgstr "1 проблема"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.N_PROBLEMS"
+msgid "{0} problems"
+msgstr "проблем: {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_POWER"
+msgid "Power"
+msgstr "Энергия"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_POWER"
+msgid "No power: the glow tubes and thermal regulation are off"
+msgstr "Нет энергии: лампы и терморегуляция выключены"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POWERED"
+msgid "Powered, drawing {0}"
+msgstr "Есть энергия, потребление {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.IDLE"
+msgid "Nothing needs power right now"
+msgstr "Сейчас ничему не нужна энергия"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_ENVIRONMENT"
+msgid "Environment"
+msgstr "Среда"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_TEMPERATURE"
+msgid "Temperature {0}"
+msgstr "Температура {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_ATMOSPHERE"
+msgid "Atmosphere: {0}"
+msgstr "Атмосфера: {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_LIGHT"
+msgid "Light {0} lux (room {1}, glow tubes {2})"
+msgstr "Свет {0} лк (комната {1}, лампы {2})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_RADIATION"
+msgid "Radiation {0} rads (room {1}, lamp {2})"
+msgstr "Радиация {0} рад (комната {1}, лампа {2})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_ON"
+msgid "Radiation lamp burning {0} Phosphorite for the mutated crops"
+msgstr "Радиационная лампа сжигает {0} апатита для мутировавших растений"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_NO_PHOSPHORITE"
+msgid "Radiation lamp needs Phosphorite to add {0} rads for the mutated crops"
+msgstr "Радиационной лампе нужен апатит, чтобы добавить {0} рад мутировавшим растениям"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_RESEARCH"
+msgid "Research"
+msgstr "Исследования"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCKED"
+msgid "{0}: needs {1}"
+msgstr "{0}: нужно {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TUBES"
+msgid "Glow tubes"
+msgstr "Светящиеся лампы"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TOUCH"
+msgid "Farmer's Touch"
+msgstr "Подкормка фермера"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_INSULATION"
+msgid "Insulation"
+msgstr "Теплоизоляция"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_HEATER"
+msgid "Heating"
+msgstr "Нагрев"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_COOLER"
+msgid "Cooling"
+msgstr "Охлаждение"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_TENDED"
+msgid "Crops (tended)"
+msgstr "Растения (ухоженные)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_WILD"
+msgid "Crops (wild)"
+msgstr "Растения (дикие)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GROWING"
+msgid "{0} {1}: growing, {2}%"
+msgstr "{1} ×{0}: растут, {2}%"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GAS"
+msgid "{0} {1}: grown, turning {2} into {3}"
+msgstr "{1} ×{0}: выросли, превращают {2} в {3}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_WILTING"
+msgid "{0} {1}: not growing, {2}"
+msgstr "{1} ×{0}: не растут, {2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TREE_BRANCHES"
+msgid "{0}: {1} branches, {2} ripe (up to {3})"
+msgstr "{0}: веток {1}, созрели {2} (до {3})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NECTAR"
+msgid "Nectar: {0} of {1} in the trees, light gives {2}% of full production ({3} lux)"
+msgstr "Нектар: {0} из {1} в деревьях, свет даёт {2}% полной выработки ({3} лк)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.BRANCHES_DARK"
+msgid "Branches need light to grow: {0} of {1} lux"
+msgstr "Ветвям нужен свет для роста: {0} из {1} лк"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.VINE"
+msgid "{0}: {1} of {2} vine sections grown, {3} figs ripe"
+msgstr "{0}: выросло {1} из {2} частей лозы, созрело плодов: {3}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.MIMIKAS"
+msgid "Mimikas: {0} in the tank, {1} of {2} crops pollinated"
+msgstr "Мимики: {0} в теплице, опылено {1} из {2} растений"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NURSERY"
+msgid "Mimika nursery closed around the buds ({0}), {1}"
+msgstr "Питомник мимиков закрыт вокруг бутонов ({0}), {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_OFF"
+msgid "Needs pollinating: turn on Mimika Pollination"
+msgstr "Нужно опыление: включите опыление мимиками"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_NONE"
+msgid "Needs pollinating, but Mimika Buds need two free slots (crops that take one slot only)"
+msgstr "Нужно опыление, но бутонам-мимикам нужны два свободных места (только растения шириной в одну клетку)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TOUCHED"
+msgid "Farmer's Touch: {0} of {1} crops tended"
+msgstr "Подкормка фермера: {0} из {1} растений"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT"
+msgid "No {0} ({1})"
+msgstr "Нет ресурса: {0} ({1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_PIPE"
+msgid "pipe it in"
+msgstr "подайте по трубе"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_TANK"
+msgid "No {0} in the tank (pipe it in)"
+msgstr "В баке нет ресурса: {0} (подайте по трубе)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_DELIVERY"
+msgid "waiting for a delivery"
+msgstr "ждём доставку"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_CROPS"
+msgid "No crops: pick one on the Config tab"
+msgstr "Нет растений: выберите на вкладке «Конфигурация»"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">Теплица</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "Восемнадцать грядок на трёх полках за стеклом."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "Выращивает 18 растений на трёх полках по шесть (растение выбирается на вкладке «Конфигурация»). Полки подстраиваются под растение: подвесные лотки для потолочных растений вроде колючего перцового орешника, два яруса по три для деревьев, одна лоза для пучка зарсли.\n\nДупликанты приносят семена, удобрения и воду и собирают созревший урожай у основания. Каждое растение подчиняется правилам обычной фермы: температура, атмосфера и давление, свет или темнота, радиация и мутации растений.\n\nПодайте газ по трубе, чтобы у растений была своя атмосфера, или оставьте её открытой в комнату. Труба для жидкости и конвейерный рельс могут доставлять воду и твёрдые вещества вместо дупликантов.\n\nВстроено, каждое после исследования своего обычного здания: светящиеся лампы для растений, которым нужен свет (энергия по добавленному свету), подкормка фермера, теплоизоляция и терморегуляция. В Spaced Out радиационная лампа сжигает апатит, как блестячки, чтобы дать мутировавшим растениям нужную радиацию."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.NAME"
+msgid "<link=\"SAITOAQUATICGREENHOUSE\">Aquatic Greenhouse</link>"
+msgstr "<link=\"SAITOAQUATICGREENHOUSE\">Водная теплица</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.DESC"
+msgid "Eighteen underwater plots on three shelves, in a tank behind glass."
+msgstr "Восемнадцать подводных грядок на трёх полках, в баке за стеклом."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.EFFECT"
+msgid "Grows 18 underwater crops such as Waterweed, Tublia and Starnacle on three shelves of six, with hanging trays for Seakomb (pick the crop on the Config tab).\n\nPipe liquid in to fill the tank up to its fill level: it is the crops' water and atmosphere, and a shelf above the waterline doesn't grow. Duplicants deliver the seeds and solid fertilizer and harvest at the base; a liquid output takes liquid harvests.\n\nBuilt in, each after its vanilla building's research: glow tubes for crops that need light, Farmer's Touch, and thermal regulation of the whole tank (a Liquid Tepidizer and Thermo Aquatuner)."
+msgstr "Выращивает 18 подводных растений, например водяной сорняк, трубию и звездафнию, на трёх полках по шесть, с подвесными лотками для водоческы (растение выбирается на вкладке «Конфигурация»).\n\nПодайте жидкость по трубе, чтобы наполнить бак до заданного уровня: это вода и атмосфера растений, а полка выше уровня воды не растёт. Дупликанты приносят семена и твёрдые удобрения и собирают урожай у основания; выход для жидкости принимает жидкий урожай.\n\nВстроено, каждое после исследования своего обычного здания: светящиеся лампы для растений, которым нужен свет, подкормка фермера и терморегуляция всего бака (жидкостной нагреватель и термоводорегулятор)."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">Теплица</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "Восемнадцать грядок на трёх полках за стеклом."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "Выращивает 18 растений на трёх полках по шесть (растение выбирается на вкладке «Конфигурация»). Полки подстраиваются под растение: подвесные лотки для потолочных растений вроде колючего перцового орешника, два яруса по три для деревьев, одна лоза для пучка зарсли.\n\nДупликанты приносят семена, удобрения и воду и собирают созревший урожай у основания. Каждое растение подчиняется правилам обычной фермы: температура, атмосфера и давление, свет или темнота, радиация и мутации растений.\n\nПодайте газ по трубе, чтобы у растений была своя атмосфера, или оставьте её открытой в комнату. Труба для жидкости и конвейерный рельс могут доставлять воду и твёрдые вещества вместо дупликантов.\n\nВстроено, каждое после исследования своего обычного здания: светящиеся лампы для растений, которым нужен свет (энергия по добавленному свету), подкормка фермера, теплоизоляция и терморегуляция. В Spaced Out радиационная лампа сжигает апатит, как блестячки, чтобы дать мутировавшим растениям нужную радиацию."
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.NAME"
+msgid "Giving Farmer's Touch to {Target}"
+msgstr "Подкормка фермера: {Target}"
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.TOOLTIP"
+msgid "This Duplicant is tending the crops in {Target} so they grow faster"
+msgstr "Этот дупликант ухаживает за растениями в {Target}, чтобы они росли быстрее"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.NAME"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "Растения: посажено {0}, растут {1}, созрели {2}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.TOOLTIP"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "Растения: посажено {0}, растут {1}, созрели {2}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.NAME"
+msgid "Atmosphere: {0}"
+msgstr "Атмосфера: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.TOOLTIP"
+msgid "Atmosphere: {0}"
+msgstr "Атмосфера: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.NAME"
+msgid "Temperature: {0}"
+msgstr "Температура: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.TOOLTIP"
+msgid "Temperature: {0}"
+msgstr "Температура: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.NAME"
+msgid "Crops not growing: {0}"
+msgstr "Растения не растут: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.TOOLTIP"
+msgid "Crops not growing: {0}"
+msgstr "Растения не растут: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.NAME"
+msgid "Diagnostics: {0}"
+msgstr "Диагностика: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.TOOLTIP"
+msgid "Diagnostics: {0}"
+msgstr "Диагностика: {0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSE.LOCKED"
+msgid "Needs research: {0}"
+msgstr "Нужно исследование: {0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.ON"
+msgid "Crops: Tended"
+msgstr "Растения: ухоженные"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.OFF"
+msgid "Crops: Wild"
+msgstr "Растения: дикие"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.TOOLTIP"
+msgid "Tended crops grow at full speed and need their fertilizer and water, like a farm tile. Wild crops grow at a quarter of the speed and need nothing, like plants growing in the wild."
+msgstr "Ухоженные растения растут с полной скоростью и требуют удобрений и воды, как на агроклетке. Дикие растут в четыре раза медленнее и ничего не требуют, как растения в дикой природе."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.ON"
+msgid "Auto-Harvest: On"
+msgstr "Автосбор: вкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.OFF"
+msgid "Auto-Harvest: Off"
+msgstr "Автосбор: выкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.TOOLTIP"
+msgid "On: Duplicants harvest crops as soon as they're ripe. Off: ripe crops wait until you press Harvest, like a vanilla plant with auto-harvest off. As in vanilla, a crop left ripe drops its harvest by itself after a while (4 cycles for most crops)."
+msgstr "Вкл.: дупликанты собирают урожай, как только он созрел. Выкл.: созревшие растения ждут, пока вы не нажмёте «Сбор», как обычное растение с выключенным автосбором. Как и в обычной игре, несобранное созревшее растение через некоторое время само сбрасывает урожай (у большинства растений через 4 цикла)."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.NAME"
+msgid "Harvest"
+msgstr "Сбор"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.TOOLTIP"
+msgid "Have a Duplicant harvest the ripe crops now."
+msgstr "Поручить дупликанту собрать созревший урожай сейчас."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.ON"
+msgid "Farmer's Touch: On"
+msgstr "Подкормка фермера: вкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.OFF"
+msgid "Farmer's Touch: Off"
+msgstr "Подкормка фермера: выкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.TOOLTIP"
+msgid "A built-in Farm Station: a Duplicant with the Farmer's Touch skill tends each crop with 5 kg of Fertilizer, which makes it grow faster for a while, like a vanilla Farm Station."
+msgstr "Встроенная сельскохозяйственная станция: дупликант с навыком подкормки фермера ухаживает за каждым растением с 5 кг удобрения, и оно какое-то время растёт быстрее, как с обычной станцией."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.ON"
+msgid "Mimika Pollination: On"
+msgstr "Опыление мимиками: вкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.OFF"
+msgid "Mimika Pollination: Off"
+msgstr "Опыление мимиками: выкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.TOOLTIP"
+msgid "Two slots in the middle of the middle shelf grow Mimika Buds instead of the crop (with hanging crops, in a small nursery on that row's floor). Each bud releases a Mimika into the greenhouse about every 5 cycles; Mimikas live 5 cycles, pollinate one growing crop a minute (+25% growth for 600 s) and harden into Mimillet (a Mimika Bud seed) when they die. Sweatcorn Stalks wilt without pollination.\n\nWhen the greenhouse is too hot, too cold or the wrong air for the buds, a small nursery closes around them and keeps them comfortable for 20 W; its door opens to let each Mimika out."
+msgstr "Два места в середине средней полки занимают бутоны-мимики вместо урожая (при подвесных растениях — в маленьком питомнике на полу этого ряда). Каждый бутон примерно раз в 5 циклов выпускает в теплицу мимика; мимики живут 5 циклов, раз в минуту опыляют одно растущее растение (+25% к росту на 600 с) и после смерти превращаются в мимилет (семя бутона-мимика). Стебель соленой кукурузы без опыления вянет.\n\nЕсли в теплице слишком жарко, холодно или неподходящий воздух для бутонов, вокруг них закрывается маленький питомник и поддерживает для них условия за 20 Вт; его дверца открывается, чтобы выпустить каждого мимика."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.NOROOM"
+msgid "Only with crops that take one slot: trees, the Ovagro Node and wide plants leave no room for Mimika Buds."
+msgstr "Только с растениями шириной в одну клетку: деревьям, пучку зарсли и широким растениям некуда посадить бутоны-мимики."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.ON"
+msgid "Bonbon Branches: Harvest for Lumber"
+msgstr "Ветви конфетного дерева: на древесину"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.OFF"
+msgid "Bonbon Branches: Keep for Nectar"
+msgstr "Ветви конфетного дерева: оставить для нектара"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.TOOLTIP"
+msgid "Keep: Bonbon Tree branches stay on the tree and make Nectar. Harvest: Duplicants cut grown branches for 75 kg of Lumber each, like a vanilla branch harvest; a cut branch makes no Nectar until it has grown back."
+msgstr "Оставить: ветви конфетного дерева остаются на дереве и дают нектар. Срубать: дупликанты срезают выросшие ветви, по 75 кг древесины с каждой, как при обычном сборе ветвей; срезанная ветвь не даёт нектара, пока не отрастёт."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.ON"
+msgid "Insulation: On"
+msgstr "Теплоизоляция: вкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.OFF"
+msgid "Insulation: Off"
+msgstr "Теплоизоляция: выкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.TOOLTIP"
+msgid "Insulated: the inside takes the temperature of the gas piped in instead of the room's, and what the crops breathe out stays inside."
+msgstr "С теплоизоляцией внутри температура поданного по трубе газа, а не комнаты, и то, что выдыхают растения, остаётся внутри."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.ON"
+msgid "Thermal Regulation: On"
+msgstr "Терморегуляция: вкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "Терморегуляция: выкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.TOOLTIP"
+msgid "A built-in Space Heater and Thermo Regulator keep the insulated inside at the target temperature (set on the slider). Heating takes 120 W, cooling 240 W and pushes the heat into the room."
+msgstr "Встроенные обогреватель и терморегулятор держат изолированное пространство при заданной температуре (ползунок). Нагрев потребляет 120 Вт, охлаждение 240 Вт и отдаёт тепло в комнату."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.NAME"
+msgid "Empty Gases"
+msgstr "Выпустить газы"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.TOOLTIP"
+msgid "Let every stored gas out into the room. The crops then grow in the room's atmosphere."
+msgstr "Выпустить все хранимые газы в комнату. Тогда растения растут в атмосфере комнаты."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.ON"
+msgid "Thermal Regulation: On"
+msgstr "Терморегуляция: вкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "Терморегуляция: выкл."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.TOOLTIP"
+msgid "A built-in Liquid Tepidizer and Thermo Aquatuner keep the tank's liquid at the target temperature (set on the slider). Heating takes 960 W, cooling 1,200 W and pushes the heat into the room."
+msgstr "Встроенные жидкостной нагреватель и термоводорегулятор держат жидкость в баке при заданной температуре (ползунок). Нагрев потребляет 960 Вт, охлаждение 1 200 Вт и отдаёт тепло в комнату."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.NAME"
+msgid "Empty Tank"
+msgstr "Опустошить бак"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.TOOLTIP"
+msgid "Bottle every liquid in the tank beside the building for Duplicants to carry away. Without liquid the crops dry out."
+msgstr "Разлить всю жидкость из бака по бутылкам рядом со зданием, чтобы дупликанты её унесли. Без жидкости растения пересохнут."
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TITLE"
+msgid "Fill Level"
+msgstr "Уровень заполнения"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CELLS"
+msgid "cells"
+msgstr "клеток"
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TOOLTIP"
+msgid "The tank takes liquid up to {0} cells (1000 kg of water is one cell). Crops on a shelf above the waterline don't grow."
+msgstr "Бак принимает жидкость до {0} клеток (1000 кг воды — одна клетка). Растения на полке выше уровня воды не растут."
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TITLE"
+msgid "Target Temperature"
+msgstr "Целевая температура"
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TOOLTIP"
+msgid "Thermal regulation keeps the inside at {0}."
+msgstr "Терморегуляция держит внутри {0}."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.TITLE"
+msgid "Crops"
+msgstr "Растения"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.CROP"
+msgid "Crop"
+msgstr "Растение"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.SLOT_TOOLTIP"
+msgid "What grows in all 18 slots, like a farm tile. Duplicants deliver the seeds; changing it uproots what grows and drops the seeds at the building. A wide plant takes several slots."
+msgstr "Что растёт во всех 18 ячейках, как на агроклетке. Дупликанты приносят семена; смена растения выкапывает посаженное и роняет семена у здания. Широкое растение занимает несколько ячеек."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANT"
+msgid "Variant"
+msgstr "Вариант"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANTS_TOOLTIP"
+msgid "Which mutation to grow: the Original, any identified variant, or one in particular. A chosen variant fills up as its seeds arrive; Originals grow in the empty slots until then."
+msgstr "Какую мутацию выращивать: исходную, любой опознанный вариант или конкретный. Выбранный вариант заполняет ячейки по мере доставки семян; до тех пор в пустых растёт исходный."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.EMPTY"
+msgid "None"
+msgstr "Нет"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MIXED"
+msgid "Mixed"
+msgstr "Смешанное"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WIDE"
+msgid "{0} ({1} slots)"
+msgstr "{0} ({1} ячейки)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ORIGINAL"
+msgid "Original"
+msgstr "Исходный"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ANY"
+msgid "Any variant"
+msgstr "Любой вариант"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.NONE"
+msgid "Nothing planted"
+msgstr "Ничего не посажено"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.STATUS"
+msgid "{0} planted, {1} growing"
+msgstr "Посажено {0}, растут {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.FILLING"
+msgid "{0} mutated, {1} Original\nfor now (replaced as seeds arrive)"
+msgstr "Мутантов {0}, исходных {1}\nпока (заменятся по мере доставки семян)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WAITING"
+msgid "Waiting for seeds"
+msgstr "Ждём семена"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.RADIATION"
+msgid "Radiation inside: {0} rads"
+msgstr "Радиация внутри: {0} рад"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.LAMP"
+msgid "Radiation lamp adds {0} rads\n({1} Phosphorite)"
+msgstr "Радиационная лампа добавляет {0} рад\n({1} апатита)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MUTATION_CHANCE"
+msgid "Mutated seed per harvest: {0}\n(seed drop {1}, mutates {2};\nbest at {3} rads)"
+msgstr "Мутантное семя за сбор: {0}\n(семя выпадает {1}, мутирует {2};\nлучше всего при {3} рад)"

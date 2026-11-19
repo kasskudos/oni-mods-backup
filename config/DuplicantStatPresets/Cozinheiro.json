@@ -1,0 +1,98 @@
+{
+  "FileName": "Cozinheiro",
+  "ConfigName": "Cozinheiro",
+  "Traits": [
+    "MinionBaseTrait",
+    "FrostProof",
+    "FastLearner",
+    "Foodie",
+    "Minnow"
+  ],
+  "stressTrait": "Banshee",
+  "joyTrait": "SuperProductive",
+  "StartingLevels": [
+    {
+      "Key": "Strength",
+      "Value": 1
+    },
+    {
+      "Key": "Caring",
+      "Value": 0
+    },
+    {
+      "Key": "Construction",
+      "Value": 0
+    },
+    {
+      "Key": "Digging",
+      "Value": 0
+    },
+    {
+      "Key": "Machinery",
+      "Value": 0
+    },
+    {
+      "Key": "Learning",
+      "Value": 0
+    },
+    {
+      "Key": "Cooking",
+      "Value": 10
+    },
+    {
+      "Key": "Botanist",
+      "Value": 0
+    },
+    {
+      "Key": "Art",
+      "Value": 1
+    },
+    {
+      "Key": "Ranching",
+      "Value": 0
+    },
+    {
+      "Key": "Athletics",
+      "Value": 1
+    },
+    {
+      "Key": "SpaceNavigation",
+      "Value": 1
+    }
+  ],
+  "skillAptitudes": [
+    {
+      "Key": "Basekeeping",
+      "Value": 1.0
+    },
+    {
+      "Key": "Art",
+      "Value": 1.0
+    },
+    {
+      "Key": "Rocketry",
+      "Value": 1.0
+    },
+    {
+      "Key": "Hauling",
+      "Value": 1.0
+    },
+    {
+      "Key": "Suits",
+      "Value": 1.0
+    },
+    {
+      "Key": "Cooking",
+      "Value": 1.0
+    }
+  ],
+  "StarterXP": 0.0,
+  "ExtraLevels": 0,
+  "Age": 0.0,
+  "PersonalityID": null,
+  "DLCID": "EXPANSION1_ID",
+  "Model": {
+    "Name": "Minion",
+    "IsValid": true
+  }
+}

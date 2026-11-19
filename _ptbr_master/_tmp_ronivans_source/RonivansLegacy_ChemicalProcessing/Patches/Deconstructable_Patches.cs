@@ -1,0 +1,21 @@
+﻿using HarmonyLib;
+using RonivansLegacy_ChemicalProcessing.Content.Scripts.CustomComplexFabricators;
+using UnityEngine;
+
+namespace RonivansLegacy_ChemicalProcessing.Patches
+{
+	internal class Deconstructable_Patches
+	{
+
+		[HarmonyPatch(typeof(Deconstructable), nameof(Deconstructable.SpawnItemsFromConstruction), [typeof(float), typeof(byte), typeof(int), typeof(WorkerBase)])]
+		public class Deconstructable_SpawnItemsFromConstruction_Patch
+		{
+			public static void Prefix(Deconstructable __instance, ref float temperature)
+			{
+				if (!__instance.TryGetComponent<ContinuousLiquidCooledFabricatorAddon>(out var thermalBatteryComponent))
+					return;
+				temperature = Mathf.Clamp(temperature + thermalBatteryComponent.GetThermalBatteryHeatIncrease(), 0, 10000);
+			}
+		}
+	}
+}

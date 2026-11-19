@@ -1,0 +1,8 @@
+﻿{
+    "General": {
+        "InputAssemblies": [
+            "PLibCore.dll",
+            "PLibLighting.dll"
+        ]
+    }
+}

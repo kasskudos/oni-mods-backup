@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:\\\\Users\\\\PICHAU\\\\Documents\\\\Klei\\\\OxygenNotIncluded\\\\mods\")",
+      "Read(//c/Users/PICHAU/Documents/Klei/OxygenNotIncluded/mods/**)",
+      "PowerShell(Get-ChildItem -Recurse -Depth 3 -Directory | Where-Object { $_.Name -match 'translation|strings|po|lang|locale' } | Select-Object -ExpandProperty FullName)"
+    ]
+  }
+}

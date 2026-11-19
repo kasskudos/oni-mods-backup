@@ -1,0 +1,11 @@
+{
+  "AllowAlwaysPickupEdible": true,
+  "AllowAlwaysPickupKettle": true,
+  "AllowTransferArmPickupGasLiquid": true,
+  "HoldMode": {
+    "Chores": true,
+    "ByDefault": true,
+    "Items": true,
+    "Timeout": 8
+  }
+}

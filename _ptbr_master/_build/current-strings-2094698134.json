@@ -1,0 +1,1013 @@
+﻿[
+    {
+        "type":  "PeterHan.AirlockDoor.AirlockDoorStrings/BUILDING/STATUSITEMS/AIRLOCKSTOREDCHARGE",
+        "instructions":  [
+                             {
+                                 "operand":  "Charge Available: {0}/{1}",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDING.STATUSITEMS.AIRLOCKSTOREDCHARGE.NAME",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.7"
+                             },
+                             {
+                                 "operand":  "System.String",
+                                 "opcode":  "newarr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.0"
+                             },
+                             {
+                                 "operand":  "This Airlock has \u003cb\u003e{0}\u003c/b\u003e of stored ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.1"
+                             },
+                             {
+                                 "operand":  "STRINGS.UI.PRE_KEYWORD",
+                                 "opcode":  "ldsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.2"
+                             },
+                             {
+                                 "operand":  "Power",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.3"
+                             },
+                             {
+                                 "operand":  "STRINGS.UI.PST_KEYWORD",
+                                 "opcode":  "ldsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.4"
+                             },
+                             {
+                                 "operand":  "\n\nIt consumes up to ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.5"
+                             },
+                             {
+                                 "operand":  "{2}",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsNegativeRate(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.6"
+                             },
+                             {
+                                 "operand":  " per use",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String[])",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDING.STATUSITEMS.AIRLOCKSTOREDCHARGE.TOOLTIP",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ret"
+                             }
+                         ]
+    },
+    {
+        "type":  "PeterHan.AirlockDoor.AirlockDoorStrings/BUILDINGS/PREFABS/PAIRLOCKDOOR",
+        "instructions":  [
+                             {
+                                 "operand":  "Airlock Door",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "PAirlockDoor",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.NAME",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  "Sucking Duplicants that have nowhere to go into space through ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "Mechanized Airlocks",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "PressureDoor",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  " is poor taste. Airlock Doors now allow Duplicants safe passage without the loss of any of their mysterious fluids.",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String,System.String,System.String)",
+                                                 "parameters":  3
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.DESC",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  9,
+                                 "opcode":  "ldc.i4.s"
+                             },
+                             {
+                                 "operand":  "System.String",
+                                 "opcode":  "newarr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.0"
+                             },
+                             {
+                                 "operand":  "Blocks ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.1"
+                             },
+                             {
+                                 "operand":  "Liquid",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "ELEMENTS_LIQUID",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.2"
+                             },
+                             {
+                                 "operand":  " and ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.3"
+                             },
+                             {
+                                 "operand":  "Gas",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "ELEMENTS_GAS",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.4"
+                             },
+                             {
+                                 "operand":  " flow, even while Duplicants are passing.\n\nWill not allow passage when no ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.5"
+                             },
+                             {
+                                 "operand":  "Power",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "POWER",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.6"
+                             },
+                             {
+                                 "operand":  " is available.\n\n",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.7"
+                             },
+                             {
+                                 "operand":  "Critters",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "CRITTERS",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.8"
+                             },
+                             {
+                                 "operand":  " can never pass through this door.",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String[])",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.EFFECT",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  "Unlock/Lock",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.LOGIC_OPEN",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  "Green Signal",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.0"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsAutomationState(System.String,STRINGS.UI/AutomationState)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  ": Unlock door",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.LOGIC_OPEN_ACTIVE",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  "Red Signal",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.1"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsAutomationState(System.String,STRINGS.UI/AutomationState)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  ": Lock door",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.LOGIC_OPEN_INACTIVE",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ret"
+                             }
+                         ]
+    },
+    {
+        "type":  "PeterHan.AirlockDoor.AirlockDoorStrings/BUILDINGS/PREFABS/PAIRLOCKDOORINSULATED",
+        "instructions":  [
+                             {
+                                 "operand":  "Insulated Airlock Door",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "PAirlockDoorInsulated",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOORINSULATED.NAME",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  "Sucking Duplicants that have nowhere to go into space through ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "Insulated Doors",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "InsulatedDoor",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  " is poor taste. Insulated Airlock Doors now allow Duplicants safe passage without the loss of any of their mysterious fluids.",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String,System.String,System.String)",
+                                                 "parameters":  3
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOORINSULATED.DESC",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  11,
+                                 "opcode":  "ldc.i4.s"
+                             },
+                             {
+                                 "operand":  "System.String",
+                                 "opcode":  "newarr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.0"
+                             },
+                             {
+                                 "operand":  "Blocks ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.1"
+                             },
+                             {
+                                 "operand":  "Liquid",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "ELEMENTS_LIQUID",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.2"
+                             },
+                             {
+                                 "operand":  " and ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.3"
+                             },
+                             {
+                                 "operand":  "Gas",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "ELEMENTS_GAS",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.4"
+                             },
+                             {
+                                 "operand":  " flow, even while Duplicants are passing.\n\nWill not allow passage when no ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.5"
+                             },
+                             {
+                                 "operand":  "Power",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "POWER",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.6"
+                             },
+                             {
+                                 "operand":  " is available.\n\n",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.7"
+                             },
+                             {
+                                 "operand":  "Critters",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "CRITTERS",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.8"
+                             },
+                             {
+                                 "operand":  " can never pass through this door.\n\n",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  9,
+                                 "opcode":  "ldc.i4.s"
+                             },
+                             {
+                                 "operand":  "Heat",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  "HEAT",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String STRINGS.UI::FormatAsLink(System.String,System.String)",
+                                                 "parameters":  2
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  10,
+                                 "opcode":  "ldc.i4.s"
+                             },
+                             {
+                                 "operand":  " flow through this door is greatly reduced.",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String[])",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOORINSULATED.EFFECT",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ret"
+                             }
+                         ]
+    },
+    {
+        "type":  "PeterHan.AirlockDoor.AirlockDoorStrings/DUPLICANTS/MODIFIERS/PASSINGAIRLOCK",
+        "instructions":  [
+                             {
+                                 "operand":  "Passing through Airlock",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.DUPLICANTS.MODIFIERS.PASSINGAIRLOCK.NAME",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.5"
+                             },
+                             {
+                                 "operand":  "System.String",
+                                 "opcode":  "newarr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.0"
+                             },
+                             {
+                                 "operand":  "This Duplicant is passing through an ",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.1"
+                             },
+                             {
+                                 "operand":  "STRINGS.UI.PRE_KEYWORD",
+                                 "opcode":  "ldsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.2"
+                             },
+                             {
+                                 "operand":  "Airlock Door",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.3"
+                             },
+                             {
+                                 "operand":  "STRINGS.UI.PST_KEYWORD",
+                                 "opcode":  "ldsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "dup"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ldc.i4.4"
+                             },
+                             {
+                                 "operand":  " and is temporarily insulated from their surroundings",
+                                 "opcode":  "ldstr"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "stelem.ref"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "System.String System.String::Concat(System.String[])",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  {
+                                                 "name":  "LocString LocString::op_Implicit(System.String)",
+                                                 "parameters":  1
+                                             },
+                                 "opcode":  "call"
+                             },
+                             {
+                                 "operand":  "PeterHan.AirlockDoor.AirlockDoorStrings.DUPLICANTS.MODIFIERS.PASSINGAIRLOCK.TOOLTIP",
+                                 "opcode":  "stsfld"
+                             },
+                             {
+                                 "operand":  null,
+                                 "opcode":  "ret"
+                             }
+                         ]
+    }
+]

@@ -1,0 +1,95 @@
+{
+  "Info": [
+    {
+      "Personality": 504346868,
+      "JoyTrait": -1702181308,
+      "StressTrait": 478418728,
+      "Traits": [
+        -1953319993,
+        -1877077067,
+        -856289179,
+        -1966386459
+      ],
+      "Name": "Dante",
+      "StartingLevels": {
+        "Strength": 0,
+        "Caring": 0,
+        "Construction": 0,
+        "Digging": 0,
+        "Machinery": 0,
+        "Learning": 11,
+        "Cooking": 0,
+        "Botanist": 0,
+        "Art": 0,
+        "Ranching": 0,
+        "Athletics": 0,
+        "SpaceNavigation": 0
+      },
+      "SkillAptitudes": {
+        "-1197636805": 1.0
+      }
+    },
+    {
+      "Personality": -234347622,
+      "JoyTrait": -1702181308,
+      "StressTrait": 478418728,
+      "Traits": [
+        -1953319993,
+        535521225,
+        -1877077067,
+        1185128960
+      ],
+      "Name": "Rubi",
+      "StartingLevels": {
+        "Strength": 0,
+        "Caring": 0,
+        "Construction": 0,
+        "Digging": 12,
+        "Machinery": 0,
+        "Learning": 0,
+        "Cooking": 0,
+        "Botanist": 0,
+        "Art": 0,
+        "Ranching": 0,
+        "Athletics": 0,
+        "SpaceNavigation": 0
+      },
+      "SkillAptitudes": {
+        "2129168560": 1.0
+      }
+    },
+    {
+      "Personality": 97904418,
+      "JoyTrait": -1702181308,
+      "StressTrait": 478418728,
+      "Traits": [
+        -1953319993,
+        -1877077067,
+        -1331036564,
+        -1966386459
+      ],
+      "Name": "Artur",
+      "StartingLevels": {
+        "Strength": 0,
+        "Caring": 0,
+        "Construction": 11,
+        "Digging": 0,
+        "Machinery": 0,
+        "Learning": 0,
+        "Cooking": 0,
+        "Botanist": 0,
+        "Art": 0,
+        "Ranching": 0,
+        "Athletics": 0,
+        "SpaceNavigation": 0
+      },
+      "SkillAptitudes": {
+        "1864172884": 1.0
+      }
+    }
+  ],
+  "Name": "Best Start",
+  "Date": "21.12.2025",
+  "DLC1": true,
+  "Vanilla": false
+}

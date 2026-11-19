@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_RADS"
+msgid "too little radiation ({0} of {1} rads)"
+msgstr "radiação insuficiente ({0} de {1} rads)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_RADS"
+msgid "too much radiation ({0}, at most {1} rads)"
+msgstr "radiação excessiva ({0}, máximo de {1} rads)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_COLD"
+msgid "too cold ({0}, needs {1})"
+msgstr "frio demais ({0}, requer {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HOT"
+msgid "too hot ({0}, at most {1})"
+msgstr "quente demais ({0}, máximo de {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_ATMOSPHERE"
+msgid "wrong atmosphere (needs {0})"
+msgstr "atmosfera inadequada (requer {0})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_PRESSURE"
+msgid "pressure too low ({0} of {1} per tile)"
+msgstr "pressão muito baixa ({0} de {1} por ladrilho)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_PRESSURE"
+msgid "pressure too high ({0}, at most {1} per tile)"
+msgstr "pressão muito alta ({0}, máximo de {1} por ladrilho)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_BRIGHT"
+msgid "too bright ({0} lux, needs darkness)"
+msgstr "claridade excessiva ({0} lux, requer escuridão)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DARK"
+msgid "too dark ({0} of {1} lux)"
+msgstr "luz insuficiente ({0} de {1} lux)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NEEDS"
+msgid "needs {0}"
+msgstr "requer {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NOT_POLLINATED"
+msgid "not pollinated"
+msgstr "sem polinização"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DRY"
+msgid "above the waterline (fill the tank higher)"
+msgstr "acima da superfície da água (aumente o nível do tanque)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK"
+msgid "{0} of {1} cells: {2}"
+msgstr "{0} de {1} células: {2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK_EMPTY"
+msgid "empty (pipe liquid in)"
+msgstr "vazio (forneça líquido por tubulação)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ATMOSPHERE_SURROUNDINGS"
+msgid "the room's ({0}, {1} per tile)"
+msgstr "a da sala ({0}, {1} por ladrilho)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.PER_CELL"
+msgid "({0} per tile)"
+msgstr "({0} por ladrilho)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_SURROUNDINGS"
+msgid "{0} (the room's)"
+msgstr "{0} (temperatura da sala)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_INSULATED"
+msgid "{0} (insulated)"
+msgstr "{0} (isolado)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_HEATING"
+msgid "{0} (heating to {1})"
+msgstr "{0} (aquecendo até {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_COOLING"
+msgid "{0} (cooling to {1})"
+msgstr "{0} (resfriando até {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_REGULATED"
+msgid "{0} (regulated to {1})"
+msgstr "{0} (regulado para {1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ALL_OK"
+msgid "all OK"
+msgstr "tudo certo"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ONE_PROBLEM"
+msgid "1 problem"
+msgstr "1 problema"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.N_PROBLEMS"
+msgid "{0} problems"
+msgstr "{0} problemas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_POWER"
+msgid "Power"
+msgstr "Energia"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_POWER"
+msgid "No power: the glow tubes and thermal regulation are off"
+msgstr "Sem energia: a iluminação e a regulação térmica estão desligadas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POWERED"
+msgid "Powered, drawing {0}"
+msgstr "Com energia, consumindo {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.IDLE"
+msgid "Nothing needs power right now"
+msgstr "Nada precisa de energia no momento"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_ENVIRONMENT"
+msgid "Environment"
+msgstr "Ambiente"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_TEMPERATURE"
+msgid "Temperature {0}"
+msgstr "Temperatura {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_ATMOSPHERE"
+msgid "Atmosphere: {0}"
+msgstr "Atmosfera: {0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_LIGHT"
+msgid "Light {0} lux (room {1}, glow tubes {2})"
+msgstr "Luz: {0} lux (sala: {1}, iluminação interna: {2})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_RADIATION"
+msgid "Radiation {0} rads (room {1}, lamp {2})"
+msgstr "Radiação: {0} rads (sala: {1}, lâmpada: {2})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_ON"
+msgid "Radiation lamp burning {0} Phosphorite for the mutated crops"
+msgstr "Lâmpada de radiação consumindo {0} de Fosforita para as plantas mutantes"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_NO_PHOSPHORITE"
+msgid "Radiation lamp needs Phosphorite to add {0} rads for the mutated crops"
+msgstr "A lâmpada de radiação precisa de Fosforita para fornecer {0} rads às plantas mutantes"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_RESEARCH"
+msgid "Research"
+msgstr "Pesquisa"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCKED"
+msgid "{0}: needs {1}"
+msgstr "{0}: requer {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TUBES"
+msgid "Glow tubes"
+msgstr "Iluminação interna"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TOUCH"
+msgid "Farmer's Touch"
+msgstr "Toque do Fazendeiro"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_INSULATION"
+msgid "Insulation"
+msgstr "Isolamento"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_HEATER"
+msgid "Heating"
+msgstr "Aquecimento"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_COOLER"
+msgid "Cooling"
+msgstr "Resfriamento"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_TENDED"
+msgid "Crops (tended)"
+msgstr "Plantas (domesticadas)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_WILD"
+msgid "Crops (wild)"
+msgstr "Plantas (selvagens)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GROWING"
+msgid "{0} {1}: growing, {2}%"
+msgstr "{0} {1}: crescendo, {2}%"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GAS"
+msgid "{0} {1}: grown, turning {2} into {3}"
+msgstr "{0} {1}: crescida, convertendo {2} em {3}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_WILTING"
+msgid "{0} {1}: not growing, {2}"
+msgstr "{0} {1}: sem crescer, {2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TREE_BRANCHES"
+msgid "{0}: {1} branches, {2} ripe (up to {3})"
+msgstr "{0}: {1} galhos, {2} prontos para colher (até {3})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NECTAR"
+msgid "Nectar: {0} of {1} in the trees, light gives {2}% of full production ({3} lux)"
+msgstr "Néctar: {0} de {1} nas árvores; a luz permite {2}% da produção máxima ({3} lux)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.BRANCHES_DARK"
+msgid "Branches need light to grow: {0} of {1} lux"
+msgstr "Os galhos precisam de luz para crescer: {0} de {1} lux"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.VINE"
+msgid "{0}: {1} of {2} vine sections grown, {3} figs ripe"
+msgstr "{0}: {1} de {2} segmentos da trepadeira crescidos, {3} figos maduros"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.MIMIKAS"
+msgid "Mimikas: {0} in the tank, {1} of {2} crops pollinated"
+msgstr "Mimikas: {0} no tanque, {1} de {2} plantas polinizadas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NURSERY"
+msgid "Mimika nursery closed around the buds ({0}), {1}"
+msgstr "Viveiro de Mimikas fechado ao redor dos brotos ({0}), {1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_OFF"
+msgid "Needs pollinating: turn on Mimika Pollination"
+msgstr "Precisa de polinização: ative a Polinização por Mimikas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_NONE"
+msgid "Needs pollinating, but Mimika Buds need two free slots (crops that take one slot only)"
+msgstr "Precisa de polinização, mas os Brotos de Mimika precisam de dois espaços livres (somente plantas que ocupam um espaço)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TOUCHED"
+msgid "Farmer's Touch: {0} of {1} crops tended"
+msgstr "Toque do Fazendeiro: {0} de {1} plantas cuidadas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT"
+msgid "No {0} ({1})"
+msgstr "Sem {0} ({1})"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_PIPE"
+msgid "pipe it in"
+msgstr "forneça por tubulação"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_TANK"
+msgid "No {0} in the tank (pipe it in)"
+msgstr "Sem {0} no tanque (forneça por tubulação)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_DELIVERY"
+msgid "waiting for a delivery"
+msgstr "aguardando entrega"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_CROPS"
+msgid "No crops: pick one on the Config tab"
+msgstr "Sem plantas: escolha uma na aba de configuração"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">Estufa</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "Dezoito espaços de cultivo em três prateleiras, atrás do vidro."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "Cultiva 18 plantas em três prateleiras de seis (escolha a planta na aba de configuração). As prateleiras se adaptam à planta: bandejas suspensas para plantas de teto, como a Pimenta Pincha, dois níveis de três para árvores e uma trepadeira para o Nó de Ovagro.\n\nDuplicantes entregam as sementes, o fertilizante e a água, e colhem as plantas maduras na base. Cada planta segue as regras do cultivo original: temperatura, atmosfera e pressão, luz ou escuridão, radiação e mutações.\n\nForneça gás por tubulação para criar uma atmosfera própria ou utilize a atmosfera da sala. Uma tubulação de líquido e um trilho de transporte podem fornecer água e sólidos no lugar dos Duplicantes.\n\nRecursos integrados, liberados pela pesquisa da construção original correspondente: iluminação para plantas que precisam de luz (consumo proporcional à luz acrescentada), Toque do Fazendeiro, isolamento e regulação térmica. No Spaced Out, uma lâmpada de radiação consome Fosforita como os Insetos Brilhantes para fornecer a radiação necessária às plantas mutantes."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.NAME"
+msgid "<link=\"SAITOAQUATICGREENHOUSE\">Aquatic Greenhouse</link>"
+msgstr "<link=\"SAITOAQUATICGREENHOUSE\">Estufa Aquática</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.DESC"
+msgid "Eighteen underwater plots on three shelves, in a tank behind glass."
+msgstr "Dezoito espaços de cultivo subaquático em três prateleiras, dentro de um tanque de vidro."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.EFFECT"
+msgid "Grows 18 underwater crops such as Waterweed, Tublia and Starnacle on three shelves of six, with hanging trays for Seakomb (pick the crop on the Config tab).\n\nPipe liquid in to fill the tank up to its fill level: it is the crops' water and atmosphere, and a shelf above the waterline doesn't grow. Duplicants deliver the seeds and solid fertilizer and harvest at the base; a liquid output takes liquid harvests.\n\nBuilt in, each after its vanilla building's research: glow tubes for crops that need light, Farmer's Touch, and thermal regulation of the whole tank (a Liquid Tepidizer and Thermo Aquatuner)."
+msgstr "Cultiva 18 plantas subaquáticas, como Alface Aquática, Tublia e Starnacle, em três prateleiras de seis, com bandejas suspensas para Seakomb (escolha a planta na aba de configuração).\n\nForneça líquido por tubulação para encher o tanque até o nível definido: ele fornece a água e o ambiente das plantas; prateleiras acima da superfície não permitem o crescimento. Duplicantes entregam as sementes e o fertilizante sólido e fazem a colheita na base; uma saída de líquido escoa as colheitas líquidas.\n\nRecursos integrados, liberados pela pesquisa da construção original correspondente: iluminação para plantas que precisam de luz, Toque do Fazendeiro e regulação térmica de todo o tanque (um Aquecedor de Líquidos e um Aquarregulador)."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">Estufa</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "Dezoito espaços de cultivo em três prateleiras, atrás do vidro."
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "Cultiva 18 plantas em três prateleiras de seis (escolha a planta na aba de configuração). As prateleiras se adaptam à planta: bandejas suspensas para plantas de teto, como a Pimenta Pincha, dois níveis de três para árvores e uma trepadeira para o Nó de Ovagro.\n\nDuplicantes entregam as sementes, o fertilizante e a água, e colhem as plantas maduras na base. Cada planta segue as regras do cultivo original: temperatura, atmosfera e pressão, luz ou escuridão, radiação e mutações.\n\nForneça gás por tubulação para criar uma atmosfera própria ou utilize a atmosfera da sala. Uma tubulação de líquido e um trilho de transporte podem fornecer água e sólidos no lugar dos Duplicantes.\n\nRecursos integrados, liberados pela pesquisa da construção original correspondente: iluminação para plantas que precisam de luz (consumo proporcional à luz acrescentada), Toque do Fazendeiro, isolamento e regulação térmica. No Spaced Out, uma lâmpada de radiação consome Fosforita como os Insetos Brilhantes para fornecer a radiação necessária às plantas mutantes."
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.NAME"
+msgid "Giving Farmer's Touch to {Target}"
+msgstr "Aplicando Toque do Fazendeiro em {Target}"
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.TOOLTIP"
+msgid "This Duplicant is tending the crops in {Target} so they grow faster"
+msgstr "Este Duplicante está cuidando das plantas em {Target} para acelerar seu crescimento"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.NAME"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "Plantas: {0} plantadas, {1} crescendo, {2} maduras"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.TOOLTIP"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "Plantas: {0} plantadas, {1} crescendo, {2} maduras"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.NAME"
+msgid "Atmosphere: {0}"
+msgstr "Atmosfera: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.TOOLTIP"
+msgid "Atmosphere: {0}"
+msgstr "Atmosfera: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.NAME"
+msgid "Temperature: {0}"
+msgstr "Temperatura: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.TOOLTIP"
+msgid "Temperature: {0}"
+msgstr "Temperatura: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.NAME"
+msgid "Crops not growing: {0}"
+msgstr "Plantas sem crescer: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.TOOLTIP"
+msgid "Crops not growing: {0}"
+msgstr "Plantas sem crescer: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.NAME"
+msgid "Diagnostics: {0}"
+msgstr "Diagnóstico: {0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.TOOLTIP"
+msgid "Diagnostics: {0}"
+msgstr "Diagnóstico: {0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSE.LOCKED"
+msgid "Needs research: {0}"
+msgstr "Pesquisa necessária: {0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.ON"
+msgid "Crops: Tended"
+msgstr "Plantas: Domesticadas"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.OFF"
+msgid "Crops: Wild"
+msgstr "Plantas: Selvagens"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.TOOLTIP"
+msgid "Tended crops grow at full speed and need their fertilizer and water, like a farm tile. Wild crops grow at a quarter of the speed and need nothing, like plants growing in the wild."
+msgstr "Plantas domesticadas crescem na velocidade normal e precisam de fertilizante e água, como em um ladrilho de cultivo. Plantas selvagens crescem a um quarto da velocidade e não consomem recursos, como as plantas na natureza."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.ON"
+msgid "Auto-Harvest: On"
+msgstr "Colheita Automática: Ligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.OFF"
+msgid "Auto-Harvest: Off"
+msgstr "Colheita Automática: Desligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.TOOLTIP"
+msgid "On: Duplicants harvest crops as soon as they're ripe. Off: ripe crops wait until you press Harvest, like a vanilla plant with auto-harvest off. As in vanilla, a crop left ripe drops its harvest by itself after a while (4 cycles for most crops)."
+msgstr "Ligada: Duplicantes colhem assim que as plantas amadurecem. Desligada: as plantas maduras aguardam até você pressionar Colher, como uma planta original com a colheita automática desligada. Como no jogo original, uma planta deixada madura solta sua colheita sozinha após algum tempo (4 ciclos para a maioria das plantas)."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.NAME"
+msgid "Harvest"
+msgstr "Colher"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.TOOLTIP"
+msgid "Have a Duplicant harvest the ripe crops now."
+msgstr "Solicita que um Duplicante colha as plantas maduras agora."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.ON"
+msgid "Farmer's Touch: On"
+msgstr "Toque do Fazendeiro: Ligado"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.OFF"
+msgid "Farmer's Touch: Off"
+msgstr "Toque do Fazendeiro: Desligado"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.TOOLTIP"
+msgid "A built-in Farm Station: a Duplicant with the Farmer's Touch skill tends each crop with 5 kg of Fertilizer, which makes it grow faster for a while, like a vanilla Farm Station."
+msgstr "Uma Estação Agrícola integrada: um Duplicante com a habilidade Toque do Fazendeiro cuida de cada planta usando 5 kg de Fertilizante, acelerando seu crescimento por algum tempo, como uma Estação Agrícola original."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.ON"
+msgid "Mimika Pollination: On"
+msgstr "Polinização por Mimikas: Ligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.OFF"
+msgid "Mimika Pollination: Off"
+msgstr "Polinização por Mimikas: Desligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.TOOLTIP"
+msgid "Two slots in the middle of the middle shelf grow Mimika Buds instead of the crop (with hanging crops, in a small nursery on that row's floor). Each bud releases a Mimika into the greenhouse about every 5 cycles; Mimikas live 5 cycles, pollinate one growing crop a minute (+25% growth for 600 s) and harden into Mimillet (a Mimika Bud seed) when they die. Sweatcorn Stalks wilt without pollination.\n\nWhen the greenhouse is too hot, too cold or the wrong air for the buds, a small nursery closes around them and keeps them comfortable for 20 W; its door opens to let each Mimika out."
+msgstr "Dois espaços no centro da prateleira intermediária cultivam Brotos de Mimika no lugar da planta escolhida (com plantas suspensas, ficam em um pequeno viveiro no piso dessa fileira). Cada broto libera uma Mimika na estufa aproximadamente a cada 5 ciclos; Mimikas vivem 5 ciclos, polinizam uma planta em crescimento por minuto (+25% de crescimento por 600 s) e endurecem, virando Mimillet (uma semente de Broto de Mimika), ao morrer. Hastes de Sweatcorn murcham sem polinização.\n\nQuando a estufa está quente ou fria demais, ou com uma atmosfera inadequada para os brotos, um pequeno viveiro se fecha ao redor deles e mantém condições adequadas consumindo 20 W; sua porta abre para liberar cada Mimika."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.NOROOM"
+msgid "Only with crops that take one slot: trees, the Ovagro Node and wide plants leave no room for Mimika Buds."
+msgstr "Disponível apenas para plantas que ocupam um espaço: árvores, o Nó de Ovagro e plantas largas não deixam espaço para Brotos de Mimika."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.ON"
+msgid "Bonbon Branches: Harvest for Lumber"
+msgstr "Galhos de Bonbon: Colher Madeira"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.OFF"
+msgid "Bonbon Branches: Keep for Nectar"
+msgstr "Galhos de Bonbon: Manter para Néctar"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.TOOLTIP"
+msgid "Keep: Bonbon Tree branches stay on the tree and make Nectar. Harvest: Duplicants cut grown branches for 75 kg of Lumber each, like a vanilla branch harvest; a cut branch makes no Nectar until it has grown back."
+msgstr "Manter: os galhos da Árvore Bonbon permanecem na árvore e produzem Néctar. Colher: Duplicantes cortam galhos crescidos para obter 75 kg de Madeira por galho, como na colheita original; um galho cortado não produz Néctar até crescer novamente."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.ON"
+msgid "Insulation: On"
+msgstr "Isolamento: Ligado"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.OFF"
+msgid "Insulation: Off"
+msgstr "Isolamento: Desligado"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.TOOLTIP"
+msgid "Insulated: the inside takes the temperature of the gas piped in instead of the room's, and what the crops breathe out stays inside."
+msgstr "Isolado: o interior assume a temperatura do gás fornecido por tubulação em vez da temperatura da sala, e os gases liberados pelas plantas ficam dentro da estufa."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.ON"
+msgid "Thermal Regulation: On"
+msgstr "Regulação Térmica: Ligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "Regulação Térmica: Desligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.TOOLTIP"
+msgid "A built-in Space Heater and Thermo Regulator keep the insulated inside at the target temperature (set on the slider). Heating takes 120 W, cooling 240 W and pushes the heat into the room."
+msgstr "Um Aquecedor de Ambiente e um Termorregulador integrados mantêm o interior isolado na temperatura desejada (definida no controle deslizante). O aquecimento consome 120 W; o resfriamento consome 240 W e libera calor na sala."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.NAME"
+msgid "Empty Gases"
+msgstr "Esvaziar Gases"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.TOOLTIP"
+msgid "Let every stored gas out into the room. The crops then grow in the room's atmosphere."
+msgstr "Libera na sala todos os gases armazenados. As plantas passam a utilizar a atmosfera da sala."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.ON"
+msgid "Thermal Regulation: On"
+msgstr "Regulação Térmica: Ligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "Regulação Térmica: Desligada"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.TOOLTIP"
+msgid "A built-in Liquid Tepidizer and Thermo Aquatuner keep the tank's liquid at the target temperature (set on the slider). Heating takes 960 W, cooling 1,200 W and pushes the heat into the room."
+msgstr "Um Aquecedor de Líquidos e um Aquarregulador integrados mantêm o líquido do tanque na temperatura desejada (definida no controle deslizante). O aquecimento consome 960 W; o resfriamento consome 1.200 W e libera calor na sala."
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.NAME"
+msgid "Empty Tank"
+msgstr "Esvaziar Tanque"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.TOOLTIP"
+msgid "Bottle every liquid in the tank beside the building for Duplicants to carry away. Without liquid the crops dry out."
+msgstr "Engarrafa todo o líquido do tanque ao lado da construção para os Duplicantes transportarem. Sem líquido, as plantas ressecam."
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TITLE"
+msgid "Fill Level"
+msgstr "Nível de Enchimento"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CELLS"
+msgid "cells"
+msgstr "células"
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TOOLTIP"
+msgid "The tank takes liquid up to {0} cells (1000 kg of water is one cell). Crops on a shelf above the waterline don't grow."
+msgstr "O tanque recebe líquido até atingir {0} células (1.000 kg de água equivalem a uma célula). Plantas em prateleiras acima da superfície da água não crescem."
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TITLE"
+msgid "Target Temperature"
+msgstr "Temperatura Desejada"
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TOOLTIP"
+msgid "Thermal regulation keeps the inside at {0}."
+msgstr "A regulação térmica mantém o interior a {0}."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.TITLE"
+msgid "Crops"
+msgstr "Plantas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.CROP"
+msgid "Crop"
+msgstr "Planta"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.SLOT_TOOLTIP"
+msgid "What grows in all 18 slots, like a farm tile. Duplicants deliver the seeds; changing it uproots what grows and drops the seeds at the building. A wide plant takes several slots."
+msgstr "A planta cultivada nos 18 espaços, como em um ladrilho de cultivo. Duplicantes entregam as sementes; mudar a seleção arranca as plantas atuais e deixa suas sementes junto à construção. Plantas largas ocupam vários espaços."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANT"
+msgid "Variant"
+msgstr "Variante"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANTS_TOOLTIP"
+msgid "Which mutation to grow: the Original, any identified variant, or one in particular. A chosen variant fills up as its seeds arrive; Originals grow in the empty slots until then."
+msgstr "A mutação que será cultivada: a Original, qualquer variante identificada ou uma variante específica. A variante escolhida ocupa os espaços conforme suas sementes chegam; plantas Originais crescem nos espaços restantes até lá."
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.EMPTY"
+msgid "None"
+msgstr "Nenhuma"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MIXED"
+msgid "Mixed"
+msgstr "Mistas"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WIDE"
+msgid "{0} ({1} slots)"
+msgstr "{0} ({1} espaços)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ORIGINAL"
+msgid "Original"
+msgstr "Original"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ANY"
+msgid "Any variant"
+msgstr "Qualquer variante"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.NONE"
+msgid "Nothing planted"
+msgstr "Nada plantado"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.STATUS"
+msgid "{0} planted, {1} growing"
+msgstr "{0} plantadas, {1} crescendo"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.FILLING"
+msgid "{0} mutated, {1} Original\nfor now (replaced as seeds arrive)"
+msgstr "{0} mutantes, {1} Originais\npor enquanto (substituídas conforme as sementes chegam)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WAITING"
+msgid "Waiting for seeds"
+msgstr "Aguardando sementes"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.RADIATION"
+msgid "Radiation inside: {0} rads"
+msgstr "Radiação interna: {0} rads"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.LAMP"
+msgid "Radiation lamp adds {0} rads\n({1} Phosphorite)"
+msgstr "A lâmpada de radiação acrescenta {0} rads\n({1} de Fosforita)"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MUTATION_CHANCE"
+msgid "Mutated seed per harvest: {0}\n(seed drop {1}, mutates {2};\nbest at {3} rads)"
+msgstr "Semente mutante por colheita: {0}\n(chance de semente: {1}, mutação: {2};\nmelhor em {3} rads)"

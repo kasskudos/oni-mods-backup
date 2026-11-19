@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS.DESC"
+msgid "(After we made Space Rocket we even invented Stairs)"
+msgstr "(Depois de fazermos o Foguete Espacial, até inventamos a Escada)"
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS.EFFECT"
+msgid "Saving energy by step up and down.\n\nWalking down strairs will be easy and fast and tiny slower when walking up."
+msgstr "Economiza energia ao subir e descer.\n\nDescer as escadas é fácil e rápido, e subir é só um pouquinho mais lento."
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS.NAME"
+msgid "Stairs"
+msgstr "Escada"
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS_CLASSIC.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS_CLASSIC.DESC"
+msgid "(Deja Vu)"
+msgstr "(Déjà Vu)"
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS_CLASSIC.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS_CLASSIC.EFFECT"
+msgid "Saving energy by step up and down.\n\nWalking down strairs will be easy and fast and tiny slower when walking up."
+msgstr "Economiza energia ao subir e descer.\n\nDescer as escadas é fácil e rápido, e subir é só um pouquinho mais lento."
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS_CLASSIC.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS_CLASSIC.NAME"
+msgid "Classic Stairs"
+msgstr "Escada Clássica"
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS_ALT1.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS_ALT1.DESC"
+msgid "(All those materials in your storage won't get you any money)"
+msgstr "(Todos aqueles materiais no seu armazém não vão te render dinheiro nenhum)"
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS_ALT1.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS_ALT1.EFFECT"
+msgid "In addition to the better material, there is no different from normal stairs."
+msgstr "Além do material melhor, não há diferença das escadas normais."
+
+#. STRINGS.BUILDINGS.PREFABS.STAIRS_ALT1.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.STAIRS_ALT1.NAME"
+msgid "Deluxe Stairs"
+msgstr "Escada de Luxo"
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING.DESC"
+msgid "(It's a little unstable, any climbing is not recommended.)"
+msgstr "(É um pouco instável, não se recomenda escalar.)"
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING.EFFECT"
+msgid "Thin plate that fast to build and allow Duplicants walk on it.\n\nAble to overlay on other buildings."
+msgstr "Placa fina, rápida de construir, sobre a qual os Duplicantes podem andar.\n\nPode ser sobreposta a outras construções."
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING.NAME"
+msgid "Scaffolding"
+msgstr "Andaime"
+
+#. STRINGS.UI.USERMENUACTIONS.STAIRSBUTTON.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.STAIRSBUTTON.NAME"
+msgid "Change Direction"
+msgstr "Mudar Direção"
+
+#. STRINGS.UI.USERMENUACTIONS.STAIRSBUTTON.TOOLTIP
+msgctxt "STRINGS.UI.USERMENUACTIONS.STAIRSBUTTON.TOOLTIP"
+msgid "Make stairs towards another side."
+msgstr "Faz a escada apontar para o outro lado."
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT1.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT1.DESC"
+msgid "(It's a little unstable, any climbing is not recommended.)"
+msgstr "(É um pouco instável, não se recomenda escalar.)"
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT1.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT1.EFFECT"
+msgid "It just for walk.\n\nAble to overlay on other buildings."
+msgstr "Serve apenas para caminhar.\n\nPode ser sobreposta a outras construções."
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT1.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT1.NAME"
+msgid "Simple Footbridge"
+msgstr "Passarela Simples"
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT2.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT2.DESC"
+msgid "(Safty first)"
+msgstr "(Segurança em primeiro lugar)"
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT2.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT2.EFFECT"
+msgid "Usually used for maintainer to get to the place that normally hard to reach.\n\nRunspeed bonus."
+msgstr "Geralmente usada para o mantenedor alcançar lugares normalmente difíceis de acessar.\n\nBônus de velocidade de movimento."
+
+#. STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT2.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.URFSCAFFOLDING_ALT2.NAME"
+msgid "Industry Catwalk"
+msgstr "Passarela Industrial"

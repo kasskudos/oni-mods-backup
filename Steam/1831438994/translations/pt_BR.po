@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+
+msgctxt "PeterHan.CritterInventory.CritterInventoryStrings.CREATURES.MODIFIERS.ARTIFICIAL.NAME"
+msgid "Artificial"
+msgstr "Artificial"
+
+msgctxt "PeterHan.CritterInventory.CritterInventoryStrings.CREATURES.MODIFIERS.ARTIFICIAL.TOOLTIP"
+msgid "This critter was created by Duplicants. It may be considering a hostile takeover."
+msgstr "Esta criatura foi criada por Duplicantes. Talvez esteja planejando uma tomada hostil."

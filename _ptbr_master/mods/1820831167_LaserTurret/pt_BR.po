@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#. AsLimc.LaserTurret.LocStrings.LaserTurret.NAME
+msgctxt "AsLimc.LaserTurret.LocStrings.LaserTurret.NAME"
+msgid "<link=\"LASERTURRET\">Laser Turret</link>"
+msgstr "<link=\"LASERTURRET\">Torre de Laser</link>"
+
+#. AsLimc.LaserTurret.LocStrings.LaserTurret.DESC
+msgctxt "AsLimc.LaserTurret.LocStrings.LaserTurret.DESC"
+msgid "Hey, you! Freeze!"
+msgstr "Ei, você! Parado!"
+
+#. AsLimc.LaserTurret.LocStrings.LaserTurret.EFFECT
+msgctxt "AsLimc.LaserTurret.LocStrings.LaserTurret.EFFECT"
+msgid "Target and attack <link=\"CREATURES\">Critters</link> nearby. Needs <link=\"POWER\">Power</link> to work. Can be controlled by <link=\"LOGIC\">Automation</link>."
+msgstr "Mira e ataca <link=\"CREATURES\">Criaturas</link> próximas. Precisa de <link=\"POWER\">Energia</link> para funcionar. Pode ser controlada por <link=\"LOGIC\">Automação</link>."

@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Language: pt-BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.TITLE"
+msgstr "Configuracao de Canal Wireless"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.CHANNELLABEL.NAME"
+msgstr "Canal:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.CHANNELLABEL.TOOLTIP"
+msgstr "Selecione um canal para este dispositivo operar na Rede de Energia Wireless."
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.TRANSFERLABEL.NAME"
+msgstr "Quantidade de Transferencia:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.TRANSFERLABEL.TOOLTIP"
+msgstr "Selecione quanta Energia sera transferida para/de a Rede de Energia Wireless."
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.SENDER_TITLE"
+msgstr "Configuracao do Emissor"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.RECEIVER_TITLE"
+msgstr "Configuracao do Receptor"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.BATTERYTHRESHOLDLABEL.NAME"
+msgstr "Limite da Bateria:"
+
+msgid "STRINGS.UI.UISIDESCREENS.WIRELESSPOWER.BATTERYTHRESHOLDLABEL.TOOLTIP"
+msgstr "Percentual alvo de recarga das baterias no circuito local."
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERSENDER.NAME"
+msgstr "Emissor Wireless"
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERRECEIVER.NAME"
+msgstr "Receptor Wireless"
+
+msgid "STRINGS.BUILDINGS.PREFABS.WIRELESSPOWERBATTERY.NAME"
+msgstr "Bateria Wireless"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.ONLINE"
+msgstr "Online"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.OFFLINE"
+msgstr "Offline"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.STANDBY"
+msgstr "Em espera"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.NA"
+msgstr "N/D"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.SENDING"
+msgstr "Enviando"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.RECEIVING"
+msgstr "Recebendo"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.SENDING_RECEIVING"
+msgstr "Enviando e Recebendo"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_SENDER_ONLINE"
+msgstr "Emissor conectado a {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_SENDER_OFFLINE"
+msgstr "Emissor desconectado e nao operacional.\n\nConstrua uma <b>{Battery}</b> para torna-lo operacional."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_RECEIVER_ONLINE"
+msgstr "Receptor conectado a {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_RECEIVER_OFFLINE"
+msgstr "Receptor desconectado e nao operacional.\n\nConstrua uma <b>{Battery}</b> para torna-lo operacional."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_BATTERY_ONLINE"
+msgstr "Bateria conectada a {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CONNECTION_BATTERY_OFFLINE"
+msgstr "Bateria desconectada e nao operacional.\n\nConstrua um <b>{Receiver}</b> ou <b>{Sender}</b> para torna-la operacional."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.CHANNEL_EXPLAIN"
+msgstr "Este edificio esta conectado ao canal {Channel} da {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.SENDING_POWER_LABEL"
+msgstr "Enviando Energia: {Amount}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.RECEIVING_POWER_LABEL"
+msgstr "Recebendo Energia: {Amount}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_SENDER_ONLINE"
+msgstr "Emissor transmitindo {Amount} de {Power}{FalloffPhrase} para {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_SENDER_OFFLINE"
+msgstr "Emissor nao operacional.\n\nQuando operacional: enviara {Amount} de {Power}{FalloffPhrase} a partir de {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_RECEIVER_ONLINE"
+msgstr "Receptor puxando {Amount} de {Power}{FalloffPhrase} de {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_RECEIVER_OFFLINE"
+msgstr "Receptor nao operacional.\n\nQuando operacional: puxara {Amount} de {Power}{FalloffPhrase} de {Grid}."
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.TRANSFER_FALLOFF_PHRASE"
+msgstr ", devido a perda de energia sem fio,"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_FOR_BATTERY"
+msgstr "para esta bateria"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_TO_FROM_BATTERY"
+msgstr "energia para/de esta bateria"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_TO_BATTERY"
+msgstr "energia para esta bateria"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_FROM_BATTERY"
+msgstr "energia desta bateria"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_END_NEEDED_BATTERY"
+msgstr "para esta bateria ser necessaria"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_BOTH_PREFIX"
+msgstr "ambos {State}"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.POWER_WORD"
+msgstr "Energia"
+
+msgid "STRINGS.BUILDING.STATUSITEMS.WIRELESSPOWER.DYNAMIC.GRID_WORD"
+msgstr "Rede de Energia Wireless"

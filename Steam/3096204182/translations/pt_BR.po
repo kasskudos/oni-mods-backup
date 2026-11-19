@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#. GigaWattWire.WIRE_STRINGS.GIGAWATTWIRE.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.GIGAWATTWIRE.DESC"
+msgid ""
+"By using special superconductive materials and low temperatures this wire "
+"can carry up to 1000 MW."
+msgstr ""
+"Ao usar materiais supercondutores especiais e baixas temperaturas, este fio "
+"pode transportar até 1000 MW."
+
+#. GigaWattWire.WIRE_STRINGS.GIGAWATTWIRE.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.GIGAWATTWIRE.EFFECT"
+msgid ""
+"Carries even more <link=\"POWER\">Wattage</link> than a "
+"<link=\"MEGAWATTWIRE\">Mega - Watt Wire</link>.\n"
+"\n"
+"Cannot be run through wall and floor tile."
+msgstr ""
+"Transporta ainda mais <link=\"POWER\">Potência</link> do que um "
+"<link=\"MEGAWATTWIRE\">Fio Mega-Watt</link>.\n"
+"\n"
+"Não pode passar por ladrilhos de parede e piso."
+
+#. GigaWattWire.WIRE_STRINGS.GIGAWATTWIRE.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.GIGAWATTWIRE.NAME"
+msgid "<link=\"GIGAWATTWIRE\">Giga-Watt Wire</link>"
+msgstr "<link=\"GIGAWATTWIRE\">Fio Giga-Watt</link>"
+
+#. GigaWattWire.WIRE_STRINGS.GIGAWATTWIREBRIDGE.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.GIGAWATTWIREBRIDGE.DESC"
+msgid ""
+"Joint plates can run Giga-Watt wires through walls without leaking gas or "
+"liquid."
+msgstr ""
+"Placas de junção permitem passar fios Giga-Watt pelas paredes sem vazar gás "
+"ou líquido."
+
+#. GigaWattWire.WIRE_STRINGS.GIGAWATTWIREBRIDGE.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.GIGAWATTWIREBRIDGE.EFFECT"
+msgid ""
+"Carries even more <link=\"POWER\">Wattage</link> than a "
+"<link=\"MEGAWATTWIREBRIDGE\">Mega - Watt Conductive Joint Plate</link>.\n"
+"\n"
+"Allows <link=\"MEGAWATTWIRE\"> Mega-Watt Wire</link> to be run through wall "
+"and floor tile."
+msgstr ""
+"Transporta ainda mais <link=\"POWER\">Potência</link> do que uma "
+"<link=\"MEGAWATTWIREBRIDGE\">Placa de Junção Condutiva Mega-Watt</link>.\n"
+"\n"
+"Permite passar <link=\"MEGAWATTWIRE\">Fio Mega-Watt</link> por ladrilhos de "
+"parede e piso."
+
+#. GigaWattWire.WIRE_STRINGS.GIGAWATTWIREBRIDGE.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.GIGAWATTWIREBRIDGE.NAME"
+msgid "<link=\"GIGAWATTWIREBRIDGE\">Giga-Watt Joint Plate</link>"
+msgstr "<link=\"GIGAWATTWIREBRIDGE\">Placa de Junção Giga-Watt</link>"
+
+#. GigaWattWire.WIRE_STRINGS.JACKETED_WIRE.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.JACKETED_WIRE.DESC"
+msgid "By coating the wires in plastic they suddenly became much safer."
+msgstr "Ao revestir os fios com plástico, eles de repente ficaram muito mais seguros."
+
+#. GigaWattWire.WIRE_STRINGS.JACKETED_WIRE.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.JACKETED_WIRE.EFFECT"
+msgid ""
+"Connects buildings to <link=\"POWER\">Power</link> sources. \n"
+"\n"
+"Can be run through wall and floor tile."
+msgstr ""
+"Conecta construções a fontes de <link=\"POWER\">Energia</link>.\n"
+"\n"
+"Pode passar por ladrilhos de parede e piso."
+
+#. GigaWattWire.WIRE_STRINGS.JACKETED_WIRE.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.JACKETED_WIRE.NAME"
+msgid "<link=\"JACKETEDWIRE\">Insulated Wire</link>"
+msgstr "<link=\"JACKETEDWIRE\">Fio Isolado</link>"
+
+#. GigaWattWire.WIRE_STRINGS.JACKETEDWIREBRIDGE.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.JACKETEDWIREBRIDGE.DESC"
+msgid "By coating the wires in plastic they suddenly became much safer."
+msgstr "Ao revestir os fios com plástico, eles de repente ficaram muito mais seguros."
+
+#. GigaWattWire.WIRE_STRINGS.JACKETEDWIREBRIDGE.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.JACKETEDWIREBRIDGE.EFFECT"
+msgid ""
+"Carries even more <link=\"POWER\">Wattage</link> than a "
+"<link=\"WIREREFINEDBRIDGE\">Conductive Wire Bridge</link> without "
+"overloading."
+msgstr ""
+"Transporta ainda mais <link=\"POWER\">Potência</link> do que uma "
+"<link=\"WIREREFINEDBRIDGE\">Ponte de Fio Condutor</link> sem sobrecarga."
+
+#. GigaWattWire.WIRE_STRINGS.JACKETEDWIREBRIDGE.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.JACKETEDWIREBRIDGE.NAME"
+msgid "<link=\"JACKETEDWIREBRIDGE\">Insulated Wire Bridge</link>"
+msgstr "<link=\"JACKETEDWIREBRIDGE\">Ponte de Fio Isolado</link>"
+
+#. GigaWattWire.WIRE_STRINGS.MEGAWATTWIRE.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.MEGAWATTWIRE.DESC"
+msgid "This one goes up to 1000 kW."
+msgstr "Este aqui vai até 1000 kW."
+
+#. GigaWattWire.WIRE_STRINGS.MEGAWATTWIRE.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.MEGAWATTWIRE.EFFECT"
+msgid ""
+"Carries even more <link=\"POWER\">Wattage</link> than a "
+"<link=\"WIREREFINEDHIGHWATTAGE\">Jacked Wire</link> without overloading.\n"
+"\n"
+"Cannot be run through wall and floor tile."
+msgstr ""
+"Transporta ainda mais <link=\"POWER\">Potência</link> do que um "
+"<link=\"WIREREFINEDHIGHWATTAGE\">Fio Reforçado</link> sem sobrecarga.\n"
+"\n"
+"Não pode passar por ladrilhos de parede e piso."
+
+#. GigaWattWire.WIRE_STRINGS.MEGAWATTWIRE.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.MEGAWATTWIRE.NAME"
+msgid "<link=\"MEGAWATTWIRE\">Mega-Watt Wire</link>"
+msgstr "<link=\"MEGAWATTWIRE\">Fio Mega-Watt</link>"
+
+#. GigaWattWire.WIRE_STRINGS.MEGAWATTWIREBRIDGE.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.MEGAWATTWIREBRIDGE.DESC"
+msgid ""
+"Joint plates can run Mega-Watt wires through walls without leaking gas or "
+"liquid."
+msgstr ""
+"Placas de junção permitem passar fios Mega-Watt pelas paredes sem vazar gás "
+"ou líquido."
+
+#. GigaWattWire.WIRE_STRINGS.MEGAWATTWIREBRIDGE.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.MEGAWATTWIREBRIDGE.EFFECT"
+msgid ""
+"Carries even more <link=\"POWER\">Wattage</link> than a "
+"<link=\"WIREREFINEDBRIDGEHIGHWATTAGE\">Jacked Wire</link> without "
+"overloading.\n"
+"\n"
+"Allows <link=\"MEGAWATTWIRE\"> Mega-Watt Wire</link> to be run through wall "
+"and floor tile."
+msgstr ""
+"Transporta ainda mais <link=\"POWER\">Potência</link> do que um "
+"<link=\"WIREREFINEDBRIDGEHIGHWATTAGE\">Fio Reforçado</link> sem "
+"sobrecarga.\n"
+"\n"
+"Permite passar <link=\"MEGAWATTWIRE\">Fio Mega-Watt</link> por ladrilhos de "
+"parede e piso."
+
+#. GigaWattWire.WIRE_STRINGS.MEGAWATTWIREBRIDGE.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.MEGAWATTWIREBRIDGE.NAME"
+msgid "<link=\"MEGAWATTWIREBRIDGE\">Mega-Watt Joint Plate</link>"
+msgstr "<link=\"MEGAWATTWIREBRIDGE\">Placa de Junção Mega-Watt</link>"
+
+#. GigaWattWire.WIRE_STRINGS.MISC.CONDUCTOR
+msgctxt "GigaWattWire.WIRE_STRINGS.MISC.CONDUCTOR"
+msgid "Conductor"
+msgstr "Condutor"
+
+#. GigaWattWire.WIRE_STRINGS.MISC.TAGS.CONDUCTOR
+msgctxt "GigaWattWire.WIRE_STRINGS.MISC.TAGS.CONDUCTOR"
+msgid "Conductor"
+msgstr "Condutor"
+
+#. GigaWattWire.WIRE_STRINGS.MISC.TAGS.TEMPCONDUCTORSOLID
+msgctxt "GigaWattWire.WIRE_STRINGS.MISC.TAGS.TEMPCONDUCTORSOLID"
+msgid "Extreme Conductor"
+msgstr "Condutor Extremo"
+
+#. GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER100KW.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER100KW.DESC"
+msgid "For those times you need a really big transformer."
+msgstr "Para quando você precisa de um transformador bem grande."
+
+#. GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER100KW.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER100KW.EFFECT"
+msgid ""
+"Limits <link=\"POWER\">Power</link> flowing through the Transformer to 100 kW"
+msgstr ""
+"Limita a <link=\"POWER\">Energia</link> que passa pelo Transformador a 100 "
+"kW"
+
+#. GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER100KW.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER100KW.NAME"
+msgid "<link=\"POWERTRANSFORMER100KW\">100 kW Power Transformer</link>"
+msgstr "<link=\"POWERTRANSFORMER100KW\">Transformador de Energia 100 kW</link>"
+
+#. GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER2MW.DESC
+msgctxt "GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER2MW.DESC"
+msgid "For those times you need an even bigger transformer."
+msgstr "Para quando você precisa de um transformador ainda maior."
+
+#. GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER2MW.EFFECT
+msgctxt "GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER2MW.EFFECT"
+msgid ""
+"Limits <link=\"POWER\">Power</link> flowing through the Transformer to 2 MW"
+msgstr ""
+"Limita a <link=\"POWER\">Energia</link> que passa pelo Transformador a 2 MW"
+
+#. GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER2MW.NAME
+msgctxt "GigaWattWire.WIRE_STRINGS.POWERTRANSFORMER2MW.NAME"
+msgid "<link=\"POWERTRANSFORMER2MW\">2 MW Power Transformer</link>"
+msgstr "<link=\"POWERTRANSFORMER2MW\">Transformador de Energia 2 MW</link>"
+
+#. GigaWattWire.WIRE_STRINGS.UI.UNITSUFFIXES.ELECTRICAL.GIGAWATT
+msgctxt "GigaWattWire.WIRE_STRINGS.UI.UNITSUFFIXES.ELECTRICAL.GIGAWATT"
+msgid "GW"
+msgstr "GW"
+
+#. GigaWattWire.WIRE_STRINGS.UI.UNITSUFFIXES.ELECTRICAL.MEGAWATT
+msgctxt "GigaWattWire.WIRE_STRINGS.UI.UNITSUFFIXES.ELECTRICAL.MEGAWATT"
+msgid "MW"
+msgstr "MW"
+
+#. GigaWattWire.WIRE_STRINGS.UI.UNITSUFFIXES.ELECTRICAL.TERAWATT
+msgctxt "GigaWattWire.WIRE_STRINGS.UI.UNITSUFFIXES.ELECTRICAL.TERAWATT"
+msgid "TW"
+msgstr "TW"

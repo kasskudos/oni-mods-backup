@@ -1,0 +1,45 @@
+---8<--- INICIO DO PROMPT --->8---
+
+Preciso que voce atualize traducoes PT-BR de mods do Oxygen Not Included.
+O script aplicar-traducoes.ps1 detectou divergencias semanticas entre a
+fonte da verdade (em mods\_ptbr_master\mods\) e a versao que a Steam
+acabou de baixar apos atualizacao do mod. Esses arquivos NAO foram
+sobrescritos: o master continua intacto, e a versao da Steam tambem.
+
+Contexto do projeto: leia mods\_ptbr_master\README.md.
+Memoria do fluxo: ~\.claude\projects\<...>\memory\oni-traducao-ptbr-setup.md
+(se existir).
+
+Arquivos com pendencias:
+
+1. HVAC Expansion (ID 2499782382) - pt_BR.po
+   Master:      C:\Users\PICHAU\Documents\Klei\OxygenNotIncluded\mods\_ptbr_master\mods\2499782382_HVACExpansion\pt_BR.po
+   Steam atual: C:\Users\PICHAU\Documents\Klei\OxygenNotIncluded\mods\Steam\2499782382\translations\pt_BR.po
+   Strings novas no Steam (nao existem no nosso): 14
+      ex: STRINGS.BUILDINGS.PREFABS.AUTOEVAPORATOR.DESC, STRINGS.BUILDINGS.PREFABS.GASREFRIGERATOR.DESC, STRINGS.BUILDINGS.PREFABS.AUTOCONDENSER.DESC, STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATOR.NAME, STRINGS.BUILDINGS.PREFABS.AUTOCONDENSER.EFFECT (+9 mais)
+   Strings orfas no nosso (sumiram do Steam): 14
+      ex: STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDREFRIGERATIONUNIT, STRINGS.BUILDINGS.PREFABS.AUTOCONDESNER.NAME, STRINGS.BUILDINGS.PREFABS.LIQUIDREFRIGERATIONUNIT.NAME, STRINGS.BUILDINGS.PREFABS.GASREFRIGERATIONUNIT.DESC, STRINGS.BUILDINGS.PREFABS.AUTOEVAPORTATOR.NAME (+9 mais)
+   Texto ingles (msgid) mudou para mesmo msgctxt: 0
+
+Tarefa para cada arquivo acima:
+ 1. Leia o Master e a versao Steam.
+ 2. Decida o cenario:
+    (a) Refactor de namespace (orfas = novas, mesma quantidade, mesmo
+        texto ingles) -> mapeie nossas traducoes para as novas chaves.
+    (b) Strings novas que o autor adicionou -> mantenha o resto e gere
+        esqueleto (msgstr = msgid em ingles) para essas, listando
+        para tradutor humano/IA depois.
+    (c) msgid mudou -> reavalie a traducao existente.
+    (d) Misto -> aplique (a)+(b)+(c) conforme cada entrada.
+ 3. Atualize APENAS o arquivo Master. Nao toque no Steam.
+ 4. No final, rode novamente aplicar-traducoes.ps1 (pelo atalho ou
+    pwsh -File ...) para empurrar o Master atualizado pro Steam.
+ 5. Se gerou esqueletos novos, atualize a lista em
+    mods\_ptbr_master\PROMPT-PARA-IA-TRADUTORA.md com a contagem.
+
+Cuidado conhecido (caso Ronivans): NAO use .po de outro idioma como
+base para preencher msgstr; traduza sempre a partir do msgid em ingles.
+Em arquivos .po as aspas vem escapadas (\"); ao validar links/tags,
+desescape antes do regex.
+
+---8<--- FIM DO PROMPT --->8---

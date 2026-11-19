@@ -1,0 +1,77 @@
+IL_0000: ldarg.0
+IL_0001: stloc.0
+IL_0002: ldarg.2
+IL_0003: ldfld UnityEngine.GameObject ChoreConsumerState::gameObject
+IL_0008: callvirt !!0 UnityEngine.GameObject::GetComponent<Storage>()
+IL_000d: stloc.1
+IL_000e: ldloc.1
+IL_000f: ldnull
+IL_0010: call System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL_0015: brtrue.s IL_0024
+IL_0017: ldloc.1
+IL_0018: ldfld System.Collections.Generic.List`1<UnityEngine.GameObject> Storage::items
+IL_001d: callvirt System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count()
+IL_0022: brtrue.s IL_0026
+IL_0024: ldc.i4.1
+IL_0025: ret
+IL_0026: ldarg.2
+IL_0027: ldfld UnityEngine.GameObject ChoreConsumerState::gameObject
+IL_002c: callvirt !!0 UnityEngine.GameObject::GetComponent<MinionModifiers>()
+IL_0031: ldnull
+IL_0032: call System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL_0037: brfalse.s IL_003b
+IL_0039: ldc.i4.1
+IL_003a: ret
+IL_003b: ldloc.1
+IL_003c: ldfld System.Collections.Generic.List`1<UnityEngine.GameObject> Storage::items
+IL_0041: callvirt System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<UnityEngine.GameObject>::GetEnumerator()
+IL_0046: stloc.2
+IL_0047: br.s IL_00b8
+IL_0049: ldloca.s V_2
+IL_004b: call !0 System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::get_Current()
+IL_0050: stloc.3
+IL_0051: ldloc.3
+IL_0052: ldnull
+IL_0053: call System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL_0058: brtrue IL_00b8
+IL_005d: newobj System.Void Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget/<>c__DisplayClass0_0::.ctor()
+IL_0062: stloc.s V_4
+IL_0064: ldloc.s V_4
+IL_0066: ldloc.3
+IL_0067: callvirt !!0 UnityEngine.GameObject::GetComponent<Pickupable>()
+IL_006c: stfld Pickupable Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget/<>c__DisplayClass0_0::pickupable
+IL_0071: ldloc.s V_4
+IL_0073: ldfld Pickupable Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget/<>c__DisplayClass0_0::pickupable
+IL_0078: ldnull
+IL_0079: call System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL_007e: brtrue IL_00b8
+IL_0083: ldloc.0
+IL_0084: ldfld System.Collections.Generic.HashSet`1<Tag> FetchChore::tags
+IL_0089: ldloc.s V_4
+IL_008b: ldftn System.Boolean Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget/<>c__DisplayClass0_0::<Prefix>b__0(Tag)
+IL_0091: newobj System.Void System.Func`2<Tag,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL_0096: call System.Boolean System.Linq.Enumerable::All<Tag>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
+IL_009b: brtrue.s IL_00b8
+IL_009d: ldarg.1
+IL_009e: ldloc.s V_4
+IL_00a0: ldfld Pickupable Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget/<>c__DisplayClass0_0::pickupable
+IL_00a5: stind.ref
+IL_00a6: ldloc.s V_4
+IL_00a8: ldfld Pickupable Ony.OxygenNotIncluded.NoDrop.FetchChore_FindFetchTarget/<>c__DisplayClass0_0::pickupable
+IL_00ad: ldloc.0
+IL_00ae: ldloc.1
+IL_00af: call System.Boolean FetchManager::IsFetchablePickup(Pickupable,FetchChore,Storage)
+IL_00b4: stloc.s V_5
+IL_00b6: leave.s IL_00d3
+IL_00b8: ldloca.s V_2
+IL_00ba: call System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::MoveNext()
+IL_00bf: brtrue.s IL_0049
+IL_00c1: leave.s IL_00d1
+IL_00c3: ldloca.s V_2
+IL_00c5: constrained. System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
+IL_00cb: callvirt System.Void System.IDisposable::Dispose()
+IL_00d0: endfinally
+IL_00d1: ldc.i4.1
+IL_00d2: ret
+IL_00d3: ldloc.s V_5
+IL_00d5: ret

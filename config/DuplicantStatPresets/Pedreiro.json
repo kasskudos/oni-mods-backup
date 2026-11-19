@@ -1,0 +1,99 @@
+{
+  "FileName": "Pedreiro",
+  "ConfigName": "Pedreiro",
+  "Traits": [
+    "MinionBaseTrait",
+    "FrostProof",
+    "FastLearner",
+    "ConstructionUp",
+    "MoleHands",
+    "Minnow"
+  ],
+  "stressTrait": "Banshee",
+  "joyTrait": "HappySinger",
+  "StartingLevels": [
+    {
+      "Key": "Strength",
+      "Value": 1
+    },
+    {
+      "Key": "Caring",
+      "Value": 0
+    },
+    {
+      "Key": "Construction",
+      "Value": 7
+    },
+    {
+      "Key": "Digging",
+      "Value": 7
+    },
+    {
+      "Key": "Machinery",
+      "Value": 1
+    },
+    {
+      "Key": "Learning",
+      "Value": 0
+    },
+    {
+      "Key": "Cooking",
+      "Value": 0
+    },
+    {
+      "Key": "Botanist",
+      "Value": 0
+    },
+    {
+      "Key": "Art",
+      "Value": 0
+    },
+    {
+      "Key": "Ranching",
+      "Value": 0
+    },
+    {
+      "Key": "Athletics",
+      "Value": 1
+    },
+    {
+      "Key": "SpaceNavigation",
+      "Value": 1
+    }
+  ],
+  "skillAptitudes": [
+    {
+      "Key": "Technicals",
+      "Value": 1.0
+    },
+    {
+      "Key": "Mining",
+      "Value": 1.0
+    },
+    {
+      "Key": "Building",
+      "Value": 1.0
+    },
+    {
+      "Key": "Rocketry",
+      "Value": 1.0
+    },
+    {
+      "Key": "Hauling",
+      "Value": 1.0
+    },
+    {
+      "Key": "Suits",
+      "Value": 1.0
+    }
+  ],
+  "StarterXP": 0.0,
+  "ExtraLevels": 0,
+  "Age": 0.0,
+  "PersonalityID": null,
+  "DLCID": "EXPANSION1_ID",
+  "Model": {
+    "Name": "Minion",
+    "IsValid": true
+  }
+}

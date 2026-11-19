@@ -1,0 +1,191 @@
+{
+  "HideLegendEffect": true,
+  "EnforcedLanguage": "",
+  "Kitchenette": {
+    "IncludeRoom": true,
+    "MaxSize": 64,
+    "Bonus": 0.1,
+    "RoomColor": {
+      "r": 255,
+      "g": 226,
+      "b": 132,
+      "a": 255
+    }
+  },
+  "Bathroom": {
+    "IncludeRoom": true,
+    "MaxSize": 64,
+    "Bonus": 0.2,
+    "RoomColor": {
+      "r": 132,
+      "g": 255,
+      "b": 244,
+      "a": 255
+    }
+  },
+  "Industrial": {
+    "IncludeRoom": false,
+    "MaxSize": 96,
+    "RoomColor": {
+      "r": 244,
+      "g": 197,
+      "b": 66,
+      "a": 255
+    }
+  },
+  "Graveyard": {
+    "IncludeRoom": false,
+    "MaxSize": 96,
+    "Bonus": 0.2,
+    "RoomColor": {
+      "r": 172,
+      "g": 255,
+      "b": 189,
+      "a": 255
+    }
+  },
+  "Agricultural": {
+    "IncludeRoom": true,
+    "MaxSize": 96,
+    "RoomColor": {
+      "r": 205,
+      "g": 242,
+      "b": 72,
+      "a": 255
+    }
+  },
+  "Gym": {
+    "IncludeRoom": true,
+    "MaxSize": 64,
+    "Bonus": 0.1,
+    "RoomColor": {
+      "r": 66,
+      "g": 164,
+      "b": 244,
+      "a": 255
+    }
+  },
+  "Nursery": {
+    "IncludeRoom": false,
+    "MaxSize": 64,
+    "Bonus": 0.1,
+    "RoomColor": {
+      "r": 205,
+      "g": 242,
+      "b": 72,
+      "a": 255
+    }
+  },
+  "Aquarium": {
+    "IncludeRoom": false,
+    "MaxSize": 96,
+    "Bonus": 0.2,
+    "RoomColor": {
+      "r": 132,
+      "g": 255,
+      "b": 244,
+      "a": 255
+    }
+  },
+  "Botanical": {
+    "IncludeRoom": true,
+    "MaxSize": 96,
+    "RoomColor": {
+      "r": 172,
+      "g": 255,
+      "b": 189,
+      "a": 255
+    }
+  },
+  "Museum": {
+    "IncludeRoom": true,
+    "MaxSize": 120,
+    "Bonus": 0.3,
+    "RoomColor": {
+      "r": 255,
+      "g": 132,
+      "b": 142,
+      "a": 255
+    }
+  },
+  "HospitalUpdate": {
+    "IncludeRoom": true,
+    "MaxSize": 96,
+    "RoomColor": {
+      "r": 255,
+      "g": 132,
+      "b": 142,
+      "a": 255
+    }
+  },
+  "NurseryGenetic": {
+    "IncludeRoom": true,
+    "MaxSize": 96,
+    "Bonus": 0.2,
+    "RoomColor": {
+      "r": 205,
+      "g": 242,
+      "b": 72,
+      "a": 255
+    }
+  },
+  "MuseumSpace": {
+    "IncludeRoom": true,
+    "MaxSize": 120,
+    "Bonus": 0.3,
+    "RoomColor": {
+      "r": 66,
+      "g": 164,
+      "b": 244,
+      "a": 255
+    }
+  },
+  "MissionControl": {
+    "IncludeRoom": true,
+    "MaxSize": 96,
+    "RoomColor": {
+      "r": 189,
+      "g": 89,
+      "b": 202,
+      "a": 255
+    }
+  },
+  "BionicWorkshop": {
+    "IncludeRoom": true,
+    "MaxSize": 64,
+    "RoomColor": {
+      "r": 132,
+      "g": 255,
+      "b": 244,
+      "a": 255
+    }
+  },
+  "DataMiningCenter": {
+    "IncludeRoom": true,
+    "MaxSize": 96,
+    "Bonus": 0.2,
+    "RoomColor": {
+      "r": 189,
+      "g": 89,
+      "b": 202,
+      "a": 255
+    }
+  },
+  "MuseumHistory": {
+    "IncludeRoom": true,
+    "MaxSize": 120,
+    "Bonus": 0.3,
+    "RoomColor": {
+      "r": 66,
+      "g": 164,
+      "b": 244,
+      "a": 255
+    }
+  },
+  "ResizeMinRoomSize12": 12,
+  "ResizeMinRoomSize24": 24,
+  "ResizeMinRoomSize32": 32,
+  "ResizeMaxRoomSize64": 64,
+  "ResizeMaxRoomSize96": 96,
+  "ResizeMaxRoomSize120": 120
+}

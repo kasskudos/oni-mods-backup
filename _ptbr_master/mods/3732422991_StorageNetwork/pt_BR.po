@@ -1,0 +1,4061 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StorageNetwork\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Application: Oxygen Not Included\n"
+
+
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKCORE.NAME"
+msgid "储存网络核心"
+msgstr "Núcleo da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKCORE.DESC"
+msgid "维持储存网络运行的核心节点。"
+msgstr "O nó central que mantém a Rede de Armazenamento em funcionamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKCORE.EFFECT"
+msgid "提供大容量通用储存，并作为储存网络的主要基础设施。"
+msgstr "Oferece armazenamento geral de grande capacidade e atua como a principal infraestrutura da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKORDERPRODUCTIONCENTER.NAME"
+msgid "订单生产中心"
+msgstr "Central de Ordens de Produção"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKORDERPRODUCTIONCENTER.DESC"
+msgid "用于刻录制造台配方并承接订单生产的网络建筑。"
+msgstr "Uma construção da rede que grava receitas de construções de produção e gerencia ordens de produção."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKORDERPRODUCTIONCENTER.EFFECT"
+msgid "点击“刻录”后选择一个带配方的生产建筑，将它的配方刻录到订单生产中心；源建筑会被销毁，同一配方只能刻录一次。"
+msgstr "Clique em \"Gravar\" e selecione uma construção de produção com receitas para gravar suas receitas na Central de Ordens de Produção. A construção original será destruída, e cada receita só pode ser gravada uma vez."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLSOLIDSERVER.NAME"
+msgid "小型固体服务器"
+msgstr "Servidor de Sólidos Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLSOLIDSERVER.DESC"
+msgid "用于接入 <link=\"STORAGENETWORK\">储存网络</link> 的小型固体储存服务器。固体物品需要通过 <link=\"STORAGENETWORKSOLIDINPUTPORT\">材料入网端口</link> 存入网络。"
+msgstr "Um servidor pequeno de armazenamento de sólidos da <link=\"STORAGENETWORK\">Rede de Armazenamento</link>. Os itens sólidos devem entrar na rede por uma <link=\"STORAGENETWORKSOLIDINPUTPORT\">Porta de Entrada de Materiais da Rede</link>."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLSOLIDSERVER.EFFECT"
+msgid "储存固体物品，并显示在 <link=\"STORAGENETWORK\">储存网络</link> 窗口中。复制人可以像普通储物箱一样从这里取出物品；关闭“允许人力操作”后将禁止复制人手动取物。"
+msgstr "Armazena itens sólidos e aparece na janela da <link=\"STORAGENETWORK\">Rede de Armazenamento</link>. Duplicantes podem retirar itens daqui como de um armário comum; desativar \"Permitir Uso Manual\" impede a retirada manual de itens pelos Duplicantes."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSOLIDINPUTPORT.NAME"
+msgid "材料入网端口"
+msgstr "Porta de Entrada de Materiais da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSOLIDINPUTPORT.DESC"
+msgid "将固体运输轨道连接到储存网络的输入端口。"
+msgstr "Uma porta de entrada que conecta trilhos de transporte de sólidos à Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSOLIDINPUTPORT.EFFECT"
+msgid "用于接收运输轨道上的固体材料，并作为后续入网逻辑的连接建筑。"
+msgstr "Recebe materiais sólidos dos trilhos de transporte e serve de conexão para a lógica de entrada na rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSOLIDOUTPUTPORT.NAME"
+msgid "材料出网端口"
+msgstr "Porta de Saída de Materiais da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSOLIDOUTPUTPORT.DESC"
+msgid "将储存网络连接到固体运输轨道的输出端口。"
+msgstr "Uma porta de saída que conecta a Rede de Armazenamento aos trilhos de transporte de sólidos."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSOLIDOUTPUTPORT.EFFECT"
+msgid "用于向运输轨道输出固体材料，并作为后续出网逻辑的连接建筑。"
+msgstr "Envia materiais sólidos aos trilhos de transporte e serve de conexão para a lógica de saída da rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLIQUIDINPUTPORT.NAME"
+msgid "液体入网端口"
+msgstr "Porta de Entrada de Líquidos da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLIQUIDINPUTPORT.DESC"
+msgid "将液体管道连接到储存网络的输入端口。"
+msgstr "Uma porta de entrada que conecta tubulações de líquido à Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLIQUIDINPUTPORT.EFFECT"
+msgid "用于接收管道中的液体，并作为后续入网逻辑的连接建筑。"
+msgstr "Recebe líquidos das tubulações e serve de conexão para a lógica de entrada na rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLIQUIDOUTPUTPORT.NAME"
+msgid "液体出网端口"
+msgstr "Porta de Saída de Líquidos da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLIQUIDOUTPUTPORT.DESC"
+msgid "将储存网络连接到液体管道的输出端口。"
+msgstr "Uma porta de saída que conecta a Rede de Armazenamento às tubulações de líquido."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLIQUIDOUTPUTPORT.EFFECT"
+msgid "用于向管道输出液体，并作为后续出网逻辑的连接建筑。"
+msgstr "Envia líquidos às tubulações e serve de conexão para a lógica de saída da rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKGASINPUTPORT.NAME"
+msgid "气体入网端口"
+msgstr "Porta de Entrada de Gases da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKGASINPUTPORT.DESC"
+msgid "将气体管道连接到储存网络的输入端口。"
+msgstr "Uma porta de entrada que conecta tubulações de gás à Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKGASINPUTPORT.EFFECT"
+msgid "用于接收管道中的气体，并作为后续入网逻辑的连接建筑。"
+msgstr "Recebe gases das tubulações e serve de conexão para a lógica de entrada na rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKGASOUTPUTPORT.NAME"
+msgid "气体出网端口"
+msgstr "Porta de Saída de Gases da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKGASOUTPUTPORT.DESC"
+msgid "将储存网络连接到气体管道的输出端口。"
+msgstr "Uma porta de saída que conecta a Rede de Armazenamento às tubulações de gás."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKGASOUTPUTPORT.EFFECT"
+msgid "用于向管道输出气体，并作为后续出网逻辑的连接建筑。"
+msgstr "Envia gases às tubulações e serve de conexão para a lógica de saída da rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPOWERINPUTPORT.NAME"
+msgid "电力入网端口"
+msgstr "Porta de Entrada de Energia da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPOWERINPUTPORT.DESC"
+msgid "将电路连接到储存网络的电力输入端口。"
+msgstr "Uma porta de entrada de energia que conecta circuitos à Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPOWERINPUTPORT.EFFECT"
+msgid "用于接入电力网络，并作为后续电力入网逻辑的连接建筑。"
+msgstr "Conecta um circuito elétrico e serve de conexão para a lógica de entrada de energia na rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPOWEROUTPUTPORT.NAME"
+msgid "电力出网端口"
+msgstr "Porta de Saída de Energia da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPOWEROUTPUTPORT.DESC"
+msgid "将储存网络连接到电路的电力输出端口。"
+msgstr "Uma porta de saída de energia que conecta a Rede de Armazenamento aos circuitos."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPOWEROUTPUTPORT.EFFECT"
+msgid "用于向电路输出电力，并作为后续电力出网逻辑的连接建筑。"
+msgstr "Fornece energia a um circuito elétrico e serve de conexão para a lógica de saída de energia da rede."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLLIQUIDSERVER.NAME"
+msgid "小型液体服务器"
+msgstr "Servidor de Líquidos Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLLIQUIDSERVER.DESC"
+msgid "用于接入储存网络的小型液体储存服务器。"
+msgstr "Um servidor pequeno de armazenamento de líquidos da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLLIQUIDSERVER.EFFECT"
+msgid "储存液体物品，并显示在储存网络窗口中。"
+msgstr "Armazena líquidos e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLGASSERVER.NAME"
+msgid "小型气体服务器"
+msgstr "Servidor de Gases Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLGASSERVER.DESC"
+msgid "用于接入储存网络的小型气体储存服务器。"
+msgstr "Um servidor pequeno de armazenamento de gases da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLGASSERVER.EFFECT"
+msgid "储存气体物品，并显示在储存网络窗口中。"
+msgstr "Armazena gases e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLBATTERYSERVER.NAME"
+msgid "小型电池服务器"
+msgstr "Servidor de Baterias Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLBATTERYSERVER.DESC"
+msgid "用于接入储存网络的小型电力储存服务器。"
+msgstr "Um servidor pequeno de armazenamento de energia da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLBATTERYSERVER.EFFECT"
+msgid "储存电能，并显示在储存网络窗口中。"
+msgstr "Armazena energia elétrica e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLCOLDSTORAGESERVER.NAME"
+msgid "小型冷库服务器"
+msgstr "Servidor Refrigerado Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLCOLDSTORAGESERVER.DESC"
+msgid "用于接入储存网络的小型冷藏储存服务器。"
+msgstr "Um servidor pequeno de armazenamento refrigerado da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLCOLDSTORAGESERVER.EFFECT"
+msgid "储存食物和食材，并显示在储存网络窗口中。"
+msgstr "Armazena alimentos e ingredientes e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMSOLIDSERVER.NAME"
+msgid "中型固体服务器"
+msgstr "Servidor de Sólidos Médio"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMSOLIDSERVER.DESC"
+msgid "用于接入 <link=\"STORAGENETWORK\">储存网络</link> 的中型固体储存服务器。固体物品需要通过 <link=\"STORAGENETWORKSOLIDINPUTPORT\">材料入网端口</link> 存入网络。"
+msgstr "Um servidor médio de armazenamento de sólidos da <link=\"STORAGENETWORK\">Rede de Armazenamento</link>. Os itens sólidos devem entrar na rede por uma <link=\"STORAGENETWORKSOLIDINPUTPORT\">Porta de Entrada de Materiais da Rede</link>."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMSOLIDSERVER.EFFECT"
+msgid "储存更多固体物品，并显示在 <link=\"STORAGENETWORK\">储存网络</link> 窗口中。复制人可以像普通储物箱一样从这里取出物品；关闭“允许人力操作”后将禁止复制人手动取物。"
+msgstr "Armazena mais itens sólidos e aparece na janela da <link=\"STORAGENETWORK\">Rede de Armazenamento</link>. Duplicantes podem retirar itens daqui como de um armário comum; desativar \"Permitir Uso Manual\" impede a retirada manual de itens pelos Duplicantes."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMLIQUIDSERVER.NAME"
+msgid "中型液体服务器"
+msgstr "Servidor de Líquidos Médio"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMLIQUIDSERVER.DESC"
+msgid "用于接入储存网络的中型液体储存服务器。"
+msgstr "Um servidor médio de armazenamento de líquidos da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMLIQUIDSERVER.EFFECT"
+msgid "储存更多液体物品，并显示在储存网络窗口中。"
+msgstr "Armazena mais líquidos e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMGASSERVER.NAME"
+msgid "中型气体服务器"
+msgstr "Servidor de Gases Médio"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMGASSERVER.DESC"
+msgid "用于接入储存网络的中型气体储存服务器。"
+msgstr "Um servidor médio de armazenamento de gases da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMGASSERVER.EFFECT"
+msgid "储存更多气体物品，并显示在储存网络窗口中。"
+msgstr "Armazena mais gases e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMBATTERYSERVER.NAME"
+msgid "中型电池服务器"
+msgstr "Servidor de Baterias Médio"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMBATTERYSERVER.DESC"
+msgid "用于接入储存网络的中型电力储存服务器。"
+msgstr "Um servidor médio de armazenamento de energia da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMBATTERYSERVER.EFFECT"
+msgid "储存更多电能，并显示在储存网络窗口中。"
+msgstr "Armazena mais energia elétrica e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMCOLDSTORAGESERVER.NAME"
+msgid "中型冷库服务器"
+msgstr "Servidor Refrigerado Médio"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMCOLDSTORAGESERVER.DESC"
+msgid "用于接入储存网络的中型冷藏储存服务器。"
+msgstr "Um servidor médio de armazenamento refrigerado da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMCOLDSTORAGESERVER.EFFECT"
+msgid "储存更多食物和食材，并显示在储存网络窗口中。"
+msgstr "Armazena mais alimentos e ingredientes e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGESOLIDSERVER.NAME"
+msgid "大型固体服务器"
+msgstr "Servidor de Sólidos Grande"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGESOLIDSERVER.DESC"
+msgid "用于接入 <link=\"STORAGENETWORK\">储存网络</link> 的大型固体储存服务器。固体物品需要通过 <link=\"STORAGENETWORKSOLIDINPUTPORT\">材料入网端口</link> 存入网络。"
+msgstr "Um servidor grande de armazenamento de sólidos da <link=\"STORAGENETWORK\">Rede de Armazenamento</link>. Os itens sólidos devem entrar na rede por uma <link=\"STORAGENETWORKSOLIDINPUTPORT\">Porta de Entrada de Materiais da Rede</link>."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGESOLIDSERVER.EFFECT"
+msgid "储存大量固体物品，并显示在 <link=\"STORAGENETWORK\">储存网络</link> 窗口中。复制人可以像普通储物箱一样从这里取出物品；关闭“允许人力操作”后将禁止复制人手动取物。"
+msgstr "Armazena uma grande quantidade de itens sólidos e aparece na janela da <link=\"STORAGENETWORK\">Rede de Armazenamento</link>. Duplicantes podem retirar itens daqui como de um armário comum; desativar \"Permitir Uso Manual\" impede a retirada manual de itens pelos Duplicantes."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGELIQUIDSERVER.NAME"
+msgid "大型液体服务器"
+msgstr "Servidor de Líquidos Grande"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGELIQUIDSERVER.DESC"
+msgid "用于接入储存网络的大型液体储存服务器。"
+msgstr "Um servidor grande de armazenamento de líquidos da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGELIQUIDSERVER.EFFECT"
+msgid "储存大量液体物品，并显示在储存网络窗口中。"
+msgstr "Armazena uma grande quantidade de líquidos e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEGASSERVER.NAME"
+msgid "大型气体服务器"
+msgstr "Servidor de Gases Grande"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEGASSERVER.DESC"
+msgid "用于接入储存网络的大型气体储存服务器。"
+msgstr "Um servidor grande de armazenamento de gases da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEGASSERVER.EFFECT"
+msgid "储存大量气体物品，并显示在储存网络窗口中。"
+msgstr "Armazena uma grande quantidade de gases e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEBATTERYSERVER.NAME"
+msgid "大型电池服务器"
+msgstr "Servidor de Baterias Grande"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEBATTERYSERVER.DESC"
+msgid "用于接入储存网络的大型电力储存服务器。"
+msgstr "Um servidor grande de armazenamento de energia da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEBATTERYSERVER.EFFECT"
+msgid "储存大量电能，并显示在储存网络窗口中。"
+msgstr "Armazena uma grande quantidade de energia elétrica e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGECOLDSTORAGESERVER.NAME"
+msgid "大型冷库服务器"
+msgstr "Servidor Refrigerado Grande"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGECOLDSTORAGESERVER.DESC"
+msgid "用于接入储存网络的大型冷藏储存服务器。"
+msgstr "Um servidor grande de armazenamento refrigerado da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGECOLDSTORAGESERVER.EFFECT"
+msgid "储存大量食物和食材，并显示在储存网络窗口中。"
+msgstr "Armazena uma grande quantidade de alimentos e ingredientes e aparece na janela da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKRELAYMODULE.NAME"
+msgid "储存网络中继器"
+msgstr "Retransmissor da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKRELAYMODULE.DESC"
+msgid "安装在火箭上的储存网络中继舱。"
+msgstr "Um módulo retransmissor da Rede de Armazenamento instalado em foguetes."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKRELAYMODULE.EFFECT"
+msgid "火箭发射到太空后，允许储存网络跨星球传输物品。"
+msgstr "Quando o foguete está no espaço, permite que a Rede de Armazenamento transfira itens entre planetoides."
+
+msgctxt "StorageNetwork.STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.STORAGE_NETWORK_ENGRAVING_DISK.NAME"
+msgid "刻录盘"
+msgstr "Disco de Gravação"
+
+msgctxt "StorageNetwork.STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.STORAGE_NETWORK_ENGRAVING_DISK.DESC"
+msgid "用于保存 <link=\"STORAGENETWORKORDERPRODUCTIONCENTER\">订单生产中心</link> 刻录出的配方数据，并为订单生产中心提供 1 个生产核心。"
+msgstr "Armazena dados de receitas gravadas por uma <link=\"STORAGENETWORKORDERPRODUCTIONCENTER\">Central de Ordens de Produção</link> e fornece 1 núcleo de produção à central."
+
+msgctxt "StorageNetwork.STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.STORAGE_NETWORK_ENGRAVING_DISK.RECIPEDESC"
+msgid ""
+"制造一张空白刻录盘，可放入 <link=\"STORAGENETWORKORDERPRODUCTIONCENTER\">订单生产中心</link>，保存刻录出的生产配方，并提供 1 个生产核心。\n"
+"\n"
+"生产方：<link=\"CRAFTINGTABLE\">工作台</link>、<link=\"SUPERMATERIALREFINERY\">分子熔炉</link>。"
+msgstr "Produz um Disco de Gravação vazio. Insira-o em uma <link=\"STORAGENETWORKORDERPRODUCTIONCENTER\">Central de Ordens de Produção</link> para armazenar receitas gravadas e fornecer 1 núcleo de produção.\n\nProduzido em: <link=\"CRAFTINGTABLE\">Estação de Fabricação</link>, <link=\"SUPERMATERIALREFINERY\">Forja Molecular</link>."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORK.NAME"
+msgid "储存网络"
+msgstr "Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORK.DESC"
+msgid "解锁储存网络核心、服务器和跨星球中继设备。"
+msgstr "Desbloqueia o núcleo, os servidores e o equipamento de retransmissão interplanetária da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKCORE.NAME"
+msgid "储存核心"
+msgstr "Núcleo de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKCORE.DESC"
+msgid "解锁储存网络核心。"
+msgstr "Desbloqueia o Núcleo da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKPORTS.NAME"
+msgid "网络端口"
+msgstr "Portas da Rede"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKPORTS.DESC"
+msgid "解锁材料、液体、气体和电力的储存网络入网与出网端口。"
+msgstr "Desbloqueia as portas de entrada e saída de materiais, líquidos, gases e energia da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKSMALLSTORAGE.NAME"
+msgid "小型储存"
+msgstr "Armazenamento Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKSMALLSTORAGE.DESC"
+msgid "解锁小型固体、液体、气体、电池和冷库服务器。"
+msgstr "Desbloqueia servidores pequenos de sólidos, líquidos, gases, baterias e armazenamento refrigerado."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKMEDIUMSTORAGE.NAME"
+msgid "中级储存"
+msgstr "Armazenamento Médio"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKMEDIUMSTORAGE.DESC"
+msgid "解锁中型固体、液体、气体、电池和冷库服务器。"
+msgstr "Desbloqueia servidores médios de sólidos, líquidos, gases, baterias e armazenamento refrigerado."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKORDERPRODUCTION.NAME"
+msgid "订单生产中心"
+msgstr "Central de Ordens de Produção"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKORDERPRODUCTION.DESC"
+msgid "解锁可刻录制造台配方并承接订单生产的订单生产中心。"
+msgstr "Desbloqueia a Central de Ordens de Produção para gravar receitas de construções de produção e executar ordens de produção."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKLARGESTORAGE.NAME"
+msgid "高级储存"
+msgstr "Armazenamento Avançado"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKLARGESTORAGE.DESC"
+msgid "解锁大型固体、液体、气体、电池和冷库服务器。"
+msgstr "Desbloqueia servidores grandes de sólidos, líquidos, gases, baterias e armazenamento refrigerado."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKRELAY.NAME"
+msgid "储存网络中继器"
+msgstr "Retransmissor da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKRELAY.DESC"
+msgid "解锁可用于跨星球传输的储存网络中继舱。"
+msgstr "Desbloqueia o módulo retransmissor da Rede de Armazenamento para transferências interplanetárias."
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TREES.TITLE_STORAGENETWORK"
+msgid "储存网络"
+msgstr "Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OVERVIEW_TOOLTIP"
+msgid "显示当前场景中的储存箱总览。"
+msgstr "Mostra uma visão geral das construções de armazenamento no cenário atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TITLE"
+msgid "储存网络"
+msgstr "Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SUMMARY_TITLE"
+msgid "<b>场景储存总览</b>"
+msgstr "<b>Visão Geral do Armazenamento</b>"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SUMMARY_LINE"
+msgid "储存建筑：{0}    容量：{1} / {2}"
+msgstr "Construções de Armazenamento: {0}    Capacidade: {1} / {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.EMPTY_TITLE"
+msgid "当前场景没有可收集的储存建筑"
+msgstr "Nenhuma construção de armazenamento disponível no cenário atual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.EMPTY_DETAILS"
+msgid "会收集储存网络核心、服务器，以及手动加入的原版储物箱。"
+msgstr "Inclui núcleos, servidores e armários originais adicionados manualmente à Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_OFFLINE_TITLE"
+msgid "储存网络未启动"
+msgstr "Rede de Armazenamento inativa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_OFFLINE_DETAILS"
+msgid "当前场景需要建造并供电至少一个储存网络核心，网络面板和材料调度才会启用。"
+msgstr "Construa e forneça energia a pelo menos um Núcleo da Rede de Armazenamento no cenário atual para habilitar o painel e o gerenciamento de materiais."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CROSS_WORLD_RELAY_OFFLINE"
+msgid "未发射储存网络中继器，无法与其他星球进行网络互通"
+msgstr "Nenhum Retransmissor da Rede de Armazenamento foi lançado; a rede não pode se conectar a outros planetoides."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.NO_STORAGE_CONTENT"
+msgid "没有储存内容"
+msgstr "Nenhum conteúdo armazenado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STORAGE_SETTINGS"
+msgid "设置"
+msgstr "Configurações"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_COUNT"
+msgid "<b>{0}</b>\n<size=10>{1} 个</size>"
+msgstr "<b>{0}</b>\n<size=10>{1}</size>"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER"
+msgid "转移"
+msgstr "Transferir"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER_TOOLTIP"
+msgid "把这个物品转移到当前场景中的目标储存箱"
+msgstr "Transfere este item para uma construção de armazenamento no cenário atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.DROP"
+msgid "丢弃"
+msgstr "Descartar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.DROP_TOOLTIP"
+msgid "丢弃这个储存建筑中的目标物品"
+msgstr "Descarta o item selecionado desta construção de armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.REMAINING_CAPACITY"
+msgid "剩余 {0}"
+msgstr "Livre: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOURCE_FALLBACK"
+msgid "源"
+msgstr "O"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TARGET_FALLBACK"
+msgid "目"
+msgstr "D"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOCATE_SOURCE_TOOLTIP"
+msgid "定位当前箱子"
+msgstr "Localiza a construção de armazenamento de origem."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOCATE_TARGET_TOOLTIP"
+msgid "定位目标箱子"
+msgstr "Localiza a construção de armazenamento de destino."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_VANILLA_STORAGE"
+msgid "原版储存"
+msgstr "Armazenamento Original"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_RECIPE_BUILDING"
+msgid "生产建筑"
+msgstr "Construções de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_MOD_STORAGE"
+msgid "模组建筑"
+msgstr "Armazenamento de Mods"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_INPUT_PORT"
+msgid "输入端口"
+msgstr "Portas de Entrada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_OUTPUT_PORT"
+msgid "输出端口"
+msgstr "Portas de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_GEYSER"
+msgid "泉"
+msgstr "Gêiseres"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOURCE_MOD_NAME"
+msgid "来源：{0}"
+msgstr "Origem: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SERVER_OFFLINE"
+msgid "服务器已掉线"
+msgstr "Servidor inativo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SERVER_OFFLINE_COUNT"
+msgid "{0} 台服务器已掉线"
+msgstr "{0} servidores inativos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_CAPACITY"
+msgid "容量"
+msgstr "Capacidade"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_REMAINING"
+msgid "剩余"
+msgstr "Livre"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_ORDERS"
+msgid "订单"
+msgstr "Ordens"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_WAITING"
+msgid "待料"
+msgstr "Aguardando"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_ABNORMAL"
+msgid "异常"
+msgstr "Anormal"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_OFFLINE"
+msgid "掉线"
+msgstr "Inativo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SUMMARY_BUTTON"
+msgid "汇总"
+msgstr "Resumo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SUMMARY_TOOLTIP"
+msgid "汇总当前分类中所有箱子的物品"
+msgstr "Resume os itens de todas as construções de armazenamento da categoria atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEADER_WINDOW_BUTTON"
+msgid "窗"
+msgstr "W"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEADER_WINDOW_TOOLTIP"
+msgid "显示当前场景中生产建筑可制作的配方。"
+msgstr "Mostra as receitas que podem ser fabricadas pelas construções de produção no cenário atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEADER_WINDOW_TITLE"
+msgid "可制作配方"
+msgstr "Receitas Disponíveis"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_WINDOW_HEADER"
+msgid "当前可下单成品：{0}"
+msgstr "Produtos disponíveis para ordens: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_WINDOW_EMPTY"
+msgid "当前场景中没有可制作配方。\n建造或接入生产建筑后会显示在这里。"
+msgstr "Nenhuma receita disponível no cenário atual.\nConstrua ou conecte construções de produção para exibi-las aqui."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_WINDOW_DETAILS"
+msgid "<b>原料：</b>{0}\n<b>产物：</b>{1}"
+msgstr "<b>Entradas:</b>{0}\n<b>Saídas:</b>{1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_PRODUCT_ROUTES"
+msgid "{0} 条路线"
+msgstr "{0} rotas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_PRODUCT_STOCK"
+msgid "网络库存：{0}    单次产出：{1}"
+msgstr "Estoque da rede: {0}    Produção por fabricação: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_ORDER"
+msgid "下单"
+msgstr "Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_ORDER_TITLE"
+msgid "生产订单"
+msgstr "Ordem de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_ORDER_RESULT"
+msgid "单次产出：{0}"
+msgstr "Produção por fabricação: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_PREVIEW"
+msgid "预览"
+msgstr "Prévia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_PLAN_TITLE"
+msgid "执行方案"
+msgstr "Plano de Execução"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_PLAN_SUMMARY"
+msgid "订单总量：{0}    生产批次：{1}"
+msgstr "Total da ordem: {0}    Lotes de produção: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TIME_SUMMARY"
+msgid "当前周期：{0}    预计完成：{1}"
+msgstr "Ciclo atual: {0}    Conclusão estimada: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TIME_UNKNOWN"
+msgid "当前周期：{0}    预计完成：未知（队列无限）"
+msgstr "Ciclo atual: {0}    Conclusão estimada: desconhecida (fila infinita)"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MATERIAL_TITLE"
+msgid "资源校验"
+msgstr "Verificação de Recursos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MATERIAL_ROW"
+msgid "{0}    需要 {1}    库存 {2}    缺口 {3}"
+msgstr "{0}    Necessário: {1}    Estoque: {2}    Faltante: {3}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MATERIAL_PRODUCED"
+msgid "缺口将由产线补齐：{0}"
+msgstr "A quantidade faltante será produzida por: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PRODUCT_LIST_TITLE"
+msgid "成品目录"
+msgstr "Produtos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PRODUCT_META"
+msgid "库存 {0}    {1} 方案"
+msgstr "Estoque: {0}    {1} planos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_AMOUNT_LABEL"
+msgid "订单数量"
+msgstr "Quantidade da Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ROUTE_TITLE"
+msgid "生产设备"
+msgstr "Equipamento de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CONFIRM"
+msgid "提交订单"
+msgstr "Enviar Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RECIPE_TITLE"
+msgid "配方方案"
+msgstr "Plano de Receitas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ASSIGNMENT_TITLE"
+msgid "任务分配"
+msgstr "Distribuição de Tarefas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CHAIN_TITLE"
+msgid "产线链路"
+msgstr "Cadeia de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_STATUS_READY"
+msgid "库存充足"
+msgstr "Em Estoque"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_STATUS_PRODUCE"
+msgid "补产"
+msgstr "Produzir"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_STATUS_BLOCKED"
+msgid "缺料"
+msgstr "Bloqueado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ABNORMAL_NOTIFICATION"
+msgid "储存网络订单异常"
+msgstr "Problema em ordem da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ABNORMAL_NOTIFICATION_TOOLTIP"
+msgid "以下生产订单已被储存网络自动取消，请检查材料来源、生产建筑或队列状态。\n"
+msgstr "As seguintes ordens de produção foram canceladas automaticamente pela Rede de Armazenamento. Verifique as fontes de materiais, as construções de produção ou o estado da fila.\n"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ABNORMAL_NOTIFICATION_DETAIL"
+msgid "• #{0} {1}：目标 {2}，已完成 {3}\n  {4}"
+msgstr "• #{0} {1}: meta {2}, concluído {3}\n  {4}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ABNORMAL_DEFAULT_REASON"
+msgid "订单长时间没有进度变动。"
+msgstr "A ordem ficou sem progresso por tempo demais."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CANCEL_MISSING"
+msgid "订单取消失败：找不到目标订单。"
+msgstr "Falha ao cancelar a ordem: ordem de destino não encontrada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CANCEL_ALREADY_DONE"
+msgid "订单 #{0} 已经结束，无需取消。"
+msgstr "A ordem #{0} já terminou; não é necessário cancelá-la."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CANCEL_REASON_MANUAL"
+msgid "用户手动取消。"
+msgstr "Cancelada manualmente pelo usuário."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CANCEL_SUCCESS"
+msgid "订单追踪：已手动取消订单 #{0}，并释放剩余排队批次。"
+msgstr "Acompanhamento de ordens: a ordem #{0} foi cancelada manualmente e os lotes restantes na fila foram liberados."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ABNORMAL_TIMEOUT_REASON"
+msgid "{0:0.##} 周期内无进度变动，已自动取消建筑排产。最后变动周期 {1}"
+msgstr "Sem progresso há {0:0.##} ciclos; as filas das construções foram canceladas automaticamente. Última atividade no ciclo {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_TITLE"
+msgid "调度策略"
+msgstr "Política de Distribuição"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_SUMMARY"
+msgid "优先调拨网络库存；缺口由已接入生产建筑补产；提交后自动开启材料请求。"
+msgstr "Prioriza o estoque da rede; construções de produção conectadas suprem as faltas; solicitações de materiais são ativadas ao enviar a ordem."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_BUTTON_TOOLTIP"
+msgid "显示当前场景中所有可接入储存网络的建筑。"
+msgstr "Mostra todas as construções do cenário atual que podem entrar na Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_TITLE"
+msgid "可接入建筑"
+msgstr "Construções Compatíveis"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_HEADER"
+msgid "当前场景中可接入储存网络的建筑"
+msgstr "Construções do cenário atual que podem entrar na Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_EMPTY"
+msgid "当前场景中没有可接入的建筑。"
+msgstr "Nenhuma construção compatível no cenário atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_CONNECTED"
+msgid "已接入"
+msgstr "Conectada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_NOT_CONNECTED"
+msgid "未接入"
+msgstr "Não Conectada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_CATEGORY_COUNT"
+msgid "{0} 个"
+msgstr "{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_CATEGORY_OTHER"
+msgid "其他建筑"
+msgstr "Outras Construções"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_CATEGORY_GEYSER"
+msgid "泉"
+msgstr "Gêiseres"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_GEYSER_OUTPUT"
+msgid "{0}  {1}"
+msgstr "{0}  {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_WORLD_FILTER"
+msgid "星球"
+msgstr "Planeta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_WORLD_ALL"
+msgid "全部星球"
+msgstr "Todos os Planetas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SUMMARY_EMPTY"
+msgid "当前分类没有储存内容"
+msgstr "A categoria atual não tem conteúdo armazenado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SUMMARY_TITLE_LINE"
+msgid "<b>{0}</b>\n箱子：{1}    总量：{2}"
+msgstr "<b>{0}</b>\nCaixas: {1}    Total: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TREND_NO_DATA"
+msgid "--/周期"
+msgstr "N/D por ciclo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TREND_ZERO"
+msgid "0/周期"
+msgstr "0/ciclo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TREND_PER_CYCLE"
+msgid "{0}{1}/周期"
+msgstr "{0}{1}/ciclo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.DROP_AMOUNT_TITLE"
+msgid "丢弃数量"
+msgstr "Quantidade para Descartar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.DROP_AVAILABLE"
+msgid "当前箱子可丢弃：{0}"
+msgstr "Disponível para descartar do armazenamento atual: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER_ITEM_TITLE"
+msgid "转移物品"
+msgstr "Transferir Item"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.NO_TRANSFER_TARGET"
+msgid "当前场景中没有可接收物品的目标箱子。"
+msgstr "Nenhuma construção de armazenamento no cenário atual pode receber este item."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TARGET_NOT_ENOUGH_CAPACITY"
+msgid "目标箱子没有足够容量。"
+msgstr "A construção de armazenamento de destino não tem capacidade suficiente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TARGET_CAPACITY_DETAILS"
+msgid "目标容量：{0} / {1}\n最大可转移：{2}"
+msgstr "Capacidade do destino: {0} / {1}\nTransferência máxima: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER_AMOUNT_TITLE"
+msgid "转移数量"
+msgstr "Quantidade para Transferir"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TARGET_PREFIX"
+msgid "目标：{0}"
+msgstr "Destino: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TARGET_SELECTION_TITLE"
+msgid "选择目标箱子"
+msgstr "Selecionar Armazenamento de Destino"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TARGET_SELECTION_HEADER"
+msgid "当前场景中的可接收目标"
+msgstr "Destinos disponíveis no cenário atual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CANCEL"
+msgid "取消"
+msgstr "Cancelar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.BUILDING_SETTINGS_TITLE"
+msgid "建筑设置"
+msgstr "Configurações da Construção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STORAGE_DETAILS"
+msgid "储存：{0} / {1}\n剩余容量：{2}"
+msgstr "Armazenado: {0} / {1}\nCapacidade livre: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_STATUS_TITLE"
+msgid "运行状态"
+msgstr "Estado de Funcionamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_CONTENT_TITLE"
+msgid "内容物"
+msgstr "Conteúdo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_STATUS_IDLE"
+msgid "当前状态：待机"
+msgstr "Estado atual: Ocioso"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_STATUS_CRAFTING"
+msgid "当前状态：正在制作"
+msgstr "Estado atual: Fabricando"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_STATUS_WAITING_WORKER"
+msgid "当前状态：等待复制人"
+msgstr "Estado atual: Aguardando Duplicante"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_CURRENT_RECIPE"
+msgid "当前配方：{0}"
+msgstr "Receita atual: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_PROGRESS"
+msgid "制作进度：{0}%"
+msgstr "Progresso: {0}%"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_NO_RECIPE"
+msgid "当前没有正在制作的配方"
+msgstr "Nenhuma receita em fabricação no momento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_TITLE"
+msgid "材料请求"
+msgstr "Solicitações de Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_ENABLED"
+msgid "向网络请求材料"
+msgstr "Solicitar materiais à rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_OUTPUT_AMOUNT"
+msgid "输出量"
+msgstr "Quantidade de saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_OUTPUT_AMOUNT_VALUE"
+msgid "{0}/次"
+msgstr "{0}/lote"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_OUTPUT_AMOUNT_TOOLTIP"
+msgid "输出端口会尽量按 {0} 形成管道或轨道输出包。"
+msgstr "A porta de saída tenta formar pacotes de {0} na tubulação ou no trilho."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_MODE"
+msgid "请求方式：{0}"
+msgstr "Modo de solicitação: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_MODE_SEARCH"
+msgid "从网络箱子中寻找合适材料"
+msgstr "Buscar materiais adequados no armazenamento da rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_MODE_SPECIFIC"
+msgid "指定网络中某个服务器提供材料"
+msgstr "Usar uma construção específica de armazenamento da rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_SOURCE"
+msgid "指定服务器：{0}"
+msgstr "Armazenamento específico: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_SOURCE_NONE"
+msgid "未指定"
+msgstr "Nenhum"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_SELECT_SOURCE"
+msgid "选择服务器"
+msgstr "Selecionar Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_LIMIT_ENABLED"
+msgid "启用请求限额"
+msgstr "Ativar limite de solicitação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_LIMIT"
+msgid "限额：{0} / {1}"
+msgstr "Limite: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_SET_LIMIT"
+msgid "设置限额"
+msgstr "Definir Limite"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_STATUS"
+msgid "请求状态：{0}"
+msgstr "Estado da solicitação: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_RESET"
+msgid "重置已请求"
+msgstr "Zerar Quantidade Solicitada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_STATUS_ITEM"
+msgid "材料提供由储存网络供给"
+msgstr "Materiais fornecidos pela Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_STATUS_TOOLTIP"
+msgid "这个建筑会从储存网络中请求当前生产需要的材料。\n{0}"
+msgstr "Esta construção solicita à Rede de Armazenamento os materiais necessários à produção.\n{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_REQUEST_AUTO_DESC"
+msgid "自动从已接入网络的服务器中寻找材料，优先使用库存最多的来源。"
+msgstr "Busca automaticamente materiais nos armazenamentos conectados à rede, priorizando as fontes com maior estoque."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_TITLE"
+msgid "成品入网"
+msgstr "Produtos Acabados para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_ENABLED"
+msgid "加工完成后自动存入网络"
+msgstr "Armazenar produtos acabados automaticamente na rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STORAGE_OUTPUT_STORE_TITLE"
+msgid "内容物入网"
+msgstr "Conteúdo para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STORAGE_OUTPUT_STORE_ENABLED"
+msgid "允许把内容物输入网络"
+msgstr "Permitir entrada do conteúdo na rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STORAGE_OUTPUT_STORE_DESC"
+msgid "开启后，这个储存建筑会把当前内容物自动转移到储存网络中的匹配服务器。"
+msgstr "Quando ativado, este armazenamento transfere automaticamente seu conteúdo para armazenamentos compatíveis na rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_MODE"
+msgid "存放方式：{0}"
+msgstr "Modo de armazenamento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_MODE_AUTO"
+msgid "自动寻找匹配服务器"
+msgstr "Buscar armazenamento compatível automaticamente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_MODE_SPECIFIC"
+msgid "指定网络中某个服务器存放"
+msgstr "Armazenar em uma construção específica da rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_AUTO_DESC"
+msgid "自动寻找已接入网络的匹配服务器，优先堆到已有同类物品的服务器；容量不足时会按剩余空间分批存入。"
+msgstr "Busca automaticamente armazenamentos conectados compatíveis, priorizando os que já contêm o mesmo item; se a capacidade for limitada, os itens são transferidos em lotes."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_STATUS"
+msgid "入网状态：{0}"
+msgstr "Estado da rede: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_TARGET"
+msgid "目标服务器：{0}"
+msgstr "Armazenamento de destino: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_TARGET_DETAILS"
+msgid "当前 {0} / {1}    剩余 {2}"
+msgstr "Atual: {0} / {1}    Livre: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CLOSE"
+msgid "关闭"
+msgstr "Fechar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.AMOUNT_TITLE"
+msgid "数量"
+msgstr "Quantidade"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.AMOUNT_LABEL"
+msgid "数量：{0}"
+msgstr "Quantidade: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ALL"
+msgid "全部"
+msgstr "Todos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIRM"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ON"
+msgid "开"
+msgstr "Ligado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.AMOUNT_INPUT"
+msgid "输入数量"
+msgstr "Informar Quantidade"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLL_STATUS"
+msgid "已经接入储存网络"
+msgstr "Conectada à Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLL_STATUS_TOOLTIP"
+msgid "这个建筑已经接入储存网络，会显示在储存网络面板中。"
+msgstr "Esta construção está conectada à Rede de Armazenamento e aparecerá no painel da rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLL_ADD"
+msgid "加入网络"
+msgstr "Conectar à Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLL_REMOVE"
+msgid "移出网络"
+msgstr "Remover da Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLL_ADD_TOOLTIP"
+msgid "将这个建筑加入储存网络面板。"
+msgstr "Adiciona esta construção ao painel da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLL_REMOVE_TOOLTIP"
+msgid "将这个建筑从储存网络面板中移除。"
+msgstr "Remove esta construção do painel da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STARMAP_NAME_HINT"
+msgid "星图"
+msgstr "Mapa Estelar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_ANALYZED"
+msgid "已分析"
+msgstr "Analisado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_OUTPUT"
+msgid "{0}  平均 {1}"
+msgstr "{0}  Média: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_COUNT"
+msgid "{0} 个泉"
+msgstr "{0} gêiseres"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OFF"
+msgid "关"
+msgstr "Desligado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RESET_DEFAULTS"
+msgid "默认值"
+msgstr "Padrões"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INFO"
+msgid "信息"
+msgstr "Informações"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RESTART"
+msgid "重启"
+msgstr "Reiniciar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONTINUE"
+msgid "继续"
+msgstr "Continuar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OPTIONS_BUTTON"
+msgid "选项"
+msgstr "Opções"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_TITLE"
+msgid "生产订单中心"
+msgstr "Central de Ordens de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_SUBTITLE"
+msgid "库存承诺 / 补产链路 / 多设备调度 / 异常追踪"
+msgstr "Reserva de estoque / cadeias de suprimento / distribuição entre máquinas / acompanhamento de problemas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_WORKSPACE_TITLE"
+msgid "订单工作台"
+msgstr "Bancada de Ordens"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TRACKING_TITLE"
+msgid "订单追踪"
+msgstr "Acompanhamento de Ordens"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_EDITOR_TITLE"
+msgid "下单参数"
+msgstr "Parâmetros da Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PREVIEW_TITLE"
+msgid "执行预览"
+msgstr "Prévia de Execução"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_AMOUNT_KEEP_TITLE"
+msgid "数量 / 保持"
+msgstr "Quantidade / Manter Estoque"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ROUTE_RECIPE_TITLE"
+msgid "设备 / 配方"
+msgstr "Equipamento / Receita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_VALIDATION_TITLE"
+msgid "校验"
+msgstr "Validação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MATERIAL_SCHEDULE_TITLE"
+msgid "材料调度"
+msgstr "Distribuição de Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_EQUIPMENT_RECIPE_TITLE"
+msgid "设备 / 配方"
+msgstr "Equipamento / Receita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_EDITOR_TITLE"
+msgid "下单参数"
+msgstr "Parâmetros da Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PLAN_PANEL_TITLE"
+msgid "订单执行预览"
+msgstr "Prévia de Execução da Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PRODUCT_BRIEF"
+msgid "{0} x{1} | 耗时 {2}周期"
+msgstr "{0} x{1} | {2} ciclos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PRODUCT_BRIEF_UNKNOWN"
+msgid "{0} x{1} | 耗时 未知"
+msgstr "{0} x{1} | tempo desconhecido"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ROUTE_RECIPE_LINE"
+msgid "路线 {0}    配方 {1}"
+msgstr "Rota: {0}    Receita: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_TARGET"
+msgid "目标"
+msgstr "Destino"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_AVAILABLE"
+msgid "可用"
+msgstr "Disponível"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_BATCHES"
+msgid "批次"
+msgstr "Lotes"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_STATUS"
+msgid "状态"
+msgstr "Estado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_TITLE"
+msgid "货物保持"
+msgstr "Manter Estoque"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_STATUS"
+msgid "保持 {0}"
+msgstr "Manter {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_DISABLED"
+msgid "未开启"
+msgstr "Desativado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_BUTTON"
+msgid "保持"
+msgstr "Manter"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_ENABLED_STATUS"
+msgid "货物保持：{0} 低于 {1} 时自动下单。"
+msgstr "Manter Estoque: solicita automaticamente {0} quando o estoque fica abaixo de {1}."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_CLEARED_STATUS"
+msgid "货物保持：已关闭 {0}。"
+msgstr "Manter Estoque: desativado para {0}."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_CURRENT_STOCK"
+msgid "当前库存\n{0}"
+msgstr "Estoque atual\n{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_TARGET_STOCK"
+msgid "保持目标\n{0}"
+msgstr "Meta de estoque\n{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_PENDING"
+msgid "自动待产\n{0}"
+msgstr "Pendente automático\n{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_KEEP_SHORTAGE"
+msgid "实际缺口\n{0}"
+msgstr "Falta real\n{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ROUTE_SECTION"
+msgid "生产设备 ({0})"
+msgstr "Equipamento de Produção ({0})"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ROUTE_DEVICE_MULTI"
+msgid "{0}台 / {1}个配方"
+msgstr "{0} máquinas / {1} receitas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ROUTE_DEVICE_SINGLE"
+msgid "{0}台"
+msgstr "{0} máquinas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RECIPE_SECTION"
+msgid "配方方案 ({0})"
+msgstr "Plano de Receitas ({0})"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_VALIDATION_TITLE"
+msgid "草案校验"
+msgstr "Validação do Rascunho"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_VALIDATION_READY_BODY"
+msgid "库存、设备、材料均可执行。"
+msgstr "Estoque, equipamentos e materiais estão prontos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_VALIDATION_OUTPUT"
+msgid "预计可产出：{0}"
+msgstr "Produção estimada: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_VALIDATION_ACTIVE_ORDERS"
+msgid "{0} 活动订单：{1}"
+msgstr "{0} ordens ativas: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_MISSING_PRODUCT"
+msgid "未选择可生产的成品或配方。"
+msgstr "Nenhum produto ou receita de fabricação selecionado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_AMOUNT_POSITIVE"
+msgid "订单数量必须大于 0。"
+msgstr "A quantidade da ordem deve ser maior que 0."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_NO_EQUIPMENT"
+msgid "没有可用生产设备，无法提交。"
+msgstr "Nenhum equipamento de produção disponível; não é possível enviar."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_BLOCKED_REQUIREMENTS"
+msgid "有 {0} 项材料既无库存也无可接入补产路线。"
+msgstr "{0} materiais estão sem estoque e sem rota de produção conectada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_DUPLICATE_MERGE"
+msgid "检测到活动订单 #{0}，提交将合并数量而不是创建重复订单。"
+msgstr "Ordem ativa #{0} encontrada. O envio somará a quantidade em vez de criar uma ordem duplicada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DRAFT_AUTO_PRODUCE"
+msgid "{0} 项材料缺口会自动补产。"
+msgstr "A falta de {0} materiais será suprida por produção automática."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_SUBMIT_NO_EQUIPMENT"
+msgid "订单追踪：提交失败，没有可用生产设备"
+msgstr "Acompanhamento de ordens: falha no envio; nenhum equipamento de produção disponível."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_SUBMIT_MERGED"
+msgid "订单追踪：已合并到活动订单 #{0}，新增批次 {1}"
+msgstr "Acompanhamento de ordens: incorporada à ordem ativa #{0}; {1} lotes adicionados."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_SUBMIT_CREATED"
+msgid "订单追踪：已创建活动订单 #{0}，批次 {1}"
+msgstr "Acompanhamento de ordens: ordem ativa #{0} criada; {1} lotes."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_FOOTER_READY"
+msgid "草案已通过，可提交调度。"
+msgstr "O rascunho está pronto para envio."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_FOOTER_BLOCKED"
+msgid "草案存在阻塞，请检查材料或设备。"
+msgstr "O rascunho está bloqueado. Verifique materiais ou equipamentos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CONFIRM_MERGE"
+msgid "合并订单"
+msgstr "Unificar Ordem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DUPLICATE_FOUND"
+msgid "检测到活动订单 #{0}，提交将合并数量并追加调度。"
+msgstr "Ordem ativa #{0} encontrada. O envio somará a quantidade e ampliará a programação."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ACTIVE_ORDERS_FOUND"
+msgid "当前成品还有 {0} 个活动订单；本次会创建新的追踪项。"
+msgstr "Este produto tem {0} ordens ativas; este envio cria uma nova ordem acompanhada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_NO_ACTIVE_ORDERS"
+msgid "当前没有活动订单；提交后创建新的追踪项。"
+msgstr "Nenhuma ordem ativa. O envio cria uma nova ordem acompanhada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RISK_BLOCKED"
+msgid "阻塞"
+msgstr "Bloqueado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RISK_WARNING"
+msgid "需调度"
+msgstr "Requer Programação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RISK_READY"
+msgid "可提交"
+msgstr "Pronto"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_AUTOMATION_BLOCKED"
+msgid "存在不可满足材料或设备阻塞，提交前需要处理。"
+msgstr "Alguns materiais ou equipamentos estão bloqueados. Resolva antes de enviar."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_AUTOMATION_PRODUCE"
+msgid "{0} 项材料会自动补产；提交后接管材料请求和成品回存。"
+msgstr "{0} materiais serão produzidos automaticamente; solicitações de materiais e armazenamento dos produtos serão gerenciados após o envio."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_AUTOMATION_READY"
+msgid "库存可覆盖材料需求；提交后会按设备负载分配批次。"
+msgstr "O estoque da rede atende às necessidades de materiais; os lotes serão distribuídos conforme a carga de trabalho das máquinas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_CURRENT_CYCLE"
+msgid "当前周期"
+msgstr "Ciclo Atual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_FINISH"
+msgid "预计完成"
+msgstr "Conclusão Estimada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_EQUIPMENT"
+msgid "生产设备"
+msgstr "Equipamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_AUTO_PRODUCE"
+msgid "自动补产"
+msgstr "Produzir Automaticamente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_METRIC_BLOCKED"
+msgid "阻塞项"
+msgstr "Itens Bloqueados"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_UNKNOWN"
+msgid "未知"
+msgstr "Desconhecido"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ASSIGNMENT_PANEL"
+msgid "设备排产"
+msgstr "Programação dos Equipamentos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MATERIAL_STOCK_PANEL"
+msgid "材料与库存"
+msgstr "Materiais e Estoque"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_NO_EQUIPMENT"
+msgid "没有可用生产建筑。"
+msgstr "Nenhuma construção de produção disponível."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_NO_MATERIALS"
+msgid "该配方没有材料输入，提交后直接排产。"
+msgstr "Esta receita não exige materiais de entrada e será programada diretamente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RESEARCH_BATCH_SUMMARY"
+msgid "{0}批  {1}"
+msgstr "{0} lotes  {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RESEARCH_MISSING_STOCK"
+msgid "缺 {0}  库存 {1}"
+msgstr "Faltam {0}  Estoque: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_DIRECT"
+msgid "直接调拨"
+msgstr "Transferência Direta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_AUTO"
+msgid "自动补产"
+msgstr "Produzir Automaticamente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_NO_ROUTE"
+msgid "缺少补产路线"
+msgstr "Sem rota de produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_OUTPUT_AMOUNT"
+msgid "产出 {0}"
+msgstr "Produção: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ASSIGNMENT_META"
+msgid "按当前设备负载分配"
+msgstr "Distribuído conforme a carga de trabalho atual das máquinas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TABLE_MATERIAL"
+msgid "材料"
+msgstr "Material"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TABLE_REQUIRED"
+msgid "需求"
+msgstr "Necessário"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TABLE_STOCK_MISSING"
+msgid "库存 / 缺口"
+msgstr "Estoque / Falta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_TABLE_ACTION"
+msgid "处理方式"
+msgstr "Ação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_REQUIREMENT_STOCK"
+msgid "需求 {0} / 库存 {1}"
+msgstr "Necessário: {0} / Estoque: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_REQUIREMENT_MISSING"
+msgid "需求 {0} / 缺口 {1}"
+msgstr "Necessário: {0} / Falta: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ACTION_DIRECT"
+msgid "处理方式：从网络库存送入成品设备"
+msgstr "Ação: transferir do estoque da rede para a máquina do produto"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ACTION_AUTO"
+msgid "处理方式：自动补产，{0}"
+msgstr "Ação: produzir automaticamente por {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_ACTION_BLOCKED"
+msgid "处理方式：缺料，没有可用补产路线"
+msgstr "Ação: bloqueado; nenhuma rota de produção disponível"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CHILD_ROUTE"
+msgid "补产路线：{0} x{1}"
+msgstr "Rota de produção: {0} x{1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DEVICE_LINE"
+msgid "设备：{0}"
+msgstr "Equipamento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MISSING_PREFIX"
+msgid "缺 {0}"
+msgstr "Faltam {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PREVIEW_PANEL"
+msgid "调度预览"
+msgstr "Prévia da Distribuição"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_NO_CHAIN"
+msgid "没有可显示的产线。"
+msgstr "Nenhuma cadeia de produção para exibir."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_TITLE_LINE"
+msgid "{0}：先排成品，缺料再补产"
+msgstr "{0}: programar o produto primeiro e produzir o que falta em seguida"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_DISPATCH_DESC"
+msgid "成品设备会等待材料；缺口材料由其它可用设备补齐。"
+msgstr "As máquinas do produto aguardam materiais; outras máquinas disponíveis produzem o que falta."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_BATCH_COUNT"
+msgid "{0} 批"
+msgstr "{0} lotes"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_MACHINE_COUNT"
+msgid "{0} 台"
+msgstr "{0} máquinas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PRODUCT_DISPATCH"
+msgid "成品排产"
+msgstr "Programação do Produto"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_NEEDS_PRODUCTION"
+msgid "需要补产"
+msgstr "Requer Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_SEND_FROM_NETWORK"
+msgid "从网络库存送入成品设备"
+msgstr "Enviar do estoque da rede para a máquina do produto"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_FLOW_DESC"
+msgid "每一行表示一种原料：库存足够就直接调拨，不足则显示补产来源。"
+msgstr "Cada linha representa um material de entrada: transfere diretamente quando há estoque suficiente; caso contrário, mostra sua fonte de produção."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_FLOW_RECIPE"
+msgid "排产配方"
+msgstr "Receita Programada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_FLOW_MATERIAL"
+msgid "本批材料需求"
+msgstr "Materiais por Lote"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_FLOW_STATUS"
+msgid "补产设备 / 状态"
+msgstr "Equipamento de Produção / Estado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_BATCH_LABEL"
+msgid "批次 {0}"
+msgstr "Lotes: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_EQUIPMENT_LABEL"
+msgid "设备 {0}"
+msgstr "Equipamento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_OUTPUT_LABEL"
+msgid "产出 {0}"
+msgstr "Produção: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_STILL_MISSING"
+msgid "仍缺料"
+msgstr "Ainda Falta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_NO_PRODUCT"
+msgid "选择成品后显示活动订单。"
+msgstr "Selecione um produto para mostrar as ordens ativas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ALL_PRODUCTS"
+msgid "全部成品"
+msgstr "Todos os Produtos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_EMPTY"
+msgid "暂无活动订单。提交后会显示状态、数量、批次和合并记录。"
+msgstr "Nenhuma ordem ativa. As ordens enviadas mostrarão aqui o estado, as quantidades, os lotes e o histórico de unificações."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ACTIVE_TITLE"
+msgid "活动订单追踪"
+msgstr "Acompanhamento de Ordens Ativas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_CREATED_CYCLE"
+msgid "创建周期"
+msgstr "Ciclo de Criação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_CYCLE_VALUE"
+msgid "{0} 周期"
+msgstr "Ciclo {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_MERGED_ACTIVITY"
+msgid "已合并 {0} 次 · 活动周期 {1}"
+msgstr "Unificada {0} vezes, ciclo ativo {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_SUMMARY"
+msgid "{0}：{1} 个活动订单 / {2} 条最近记录"
+msgstr "{0}: {1} ordens ativas / {2} registros recentes"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ORDER_SOURCE_BATCH"
+msgid "{0}订单 · 批次 x{1}"
+msgstr "{0} Ordem, Lote x{1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_WAITING_MATERIALS"
+msgid "成品设备 {0} 台等待材料，{1} 台设备补产缺口。"
+msgstr "{0} máquinas do produto aguardando materiais; {1} máquinas produzindo o que falta."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_MACHINES_RUNNING"
+msgid "{0} 台设备正在以 {1} 核处理该订单。"
+msgstr "{0} máquinas processando esta ordem com {1} núcleos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_CREATED"
+msgid "{0}，创建于 {1} 周期。"
+msgstr "{0}, criada no ciclo {1}."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_SOURCE_KEEP"
+msgid "货物保持"
+msgstr "Manter Estoque"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_SOURCE_MANUAL"
+msgid "手动"
+msgstr "Manual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_SUBMITTED"
+msgid "已提交"
+msgstr "Enviada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_WAITING"
+msgid "待材料"
+msgstr "Aguardando Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_PRODUCING"
+msgid "生产中"
+msgstr "Produzindo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_COMPLETED"
+msgid "完成"
+msgstr "Concluída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_ABNORMAL"
+msgid "异常取消"
+msgstr "Cancelada por Anomalia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_CANCELLED"
+msgid "已取消"
+msgstr "Cancelada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_TRACKING"
+msgid "追踪中"
+msgstr "Acompanhamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_RUNNING"
+msgid "正常运行"
+msgstr "Em Funcionamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_WAITING_MATERIALS"
+msgid "等待材料"
+msgstr "Aguardando materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_NO_POWER"
+msgid "缺电"
+msgstr "Sem energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_DISABLED"
+msgid "禁用"
+msgstr "Desativado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_NO_RECIPE"
+msgid "无配方"
+msgstr "Sem receita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_ABNORMAL"
+msgid "异常暂停"
+msgstr "Pausada por anomalia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_QUEUED"
+msgid "排队中"
+msgstr "Na fila"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_MISSING"
+msgid "建筑不存在"
+msgstr "Construção ausente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_PROGRESS"
+msgid "进度 {0:P0}"
+msgstr "Progresso: {0:P0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_BUILDING_QUEUE"
+msgid "{0} x{1}    队列 {2}"
+msgstr "{0} x{1}    Fila: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_DETAIL_TARGET"
+msgid "目标 {0}"
+msgstr "Meta: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_DETAIL_SUPPLY"
+msgid "供给 {0}"
+msgstr "Fornecimento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_OUTPUT_RESERVED"
+msgid "产出预留 {0}"
+msgstr "Produção reservada: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_MATERIAL_DISPATCH"
+msgid "材料调拨 {0}"
+msgstr "Distribuição de materiais: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_METRIC_STORAGE"
+msgid "储存"
+msgstr "Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_METRIC_RUNNING"
+msgid "运行"
+msgstr "Em Funcionamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_METRIC_RECIPE"
+msgid "配方"
+msgstr "Receita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_METRIC_REQUIRED"
+msgid "需求物"
+msgstr "Necessário"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_METRIC_NETWORK"
+msgid "网络"
+msgstr "Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STATUS_ENABLED"
+msgid "已开启"
+msgstr "Ativado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.STATUS_DISABLED"
+msgid "已关闭"
+msgstr "Desativado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ACTION_CLOSE"
+msgid "关闭"
+msgstr "Fechar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOURCE_POLICY"
+msgid "来源策略"
+msgstr "Política de Origem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_POLICY"
+msgid "存放策略"
+msgstr "Política de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.NO_LIMIT"
+msgid "不限额"
+msgstr "Sem limite"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_MANUAL_DESC"
+msgid "成品保留在建筑输出栏，不自动转移。"
+msgstr "Os produtos acabados permanecem no armazenamento de saída da construção e não são movidos automaticamente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_AUTO_STATUS"
+msgid "自动入网"
+msgstr "Rede Automática"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_STORE_MANUAL_STATUS"
+msgid "手动取出"
+msgstr "Retirada Manual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_SHORT_IDLE"
+msgid "待机"
+msgstr "Ocioso"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_SHORT_WAITING_WORKER"
+msgid "等人"
+msgstr "Aguardando"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PRODUCTION_SHORT_CRAFTING"
+msgid "制作中"
+msgstr "Fabricando"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.NONE"
+msgid "无"
+msgstr "Nenhum"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.REQUEST_ON_SHORT"
+msgid "请求开"
+msgstr "Solicitação Ligada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.REQUEST_OFF_SHORT"
+msgid "请求关"
+msgstr "Solicitação Desligada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_ON_SHORT"
+msgid "入网开"
+msgstr "Saída Ligada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_OFF_SHORT"
+msgid "入网关"
+msgstr "Saída Desligada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.NO_COMPONENT"
+msgid "无组件"
+msgstr "Sem Componente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_USAGE_PREFIX"
+msgid "订单用途：{0}"
+msgstr "Uso em ordens: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_USAGE_PRIMARY"
+msgid "#{0} 执行 {1} x{2}"
+msgstr "#{0} executa {1} x{2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_USAGE_SUPPLY"
+msgid "#{0} 为 {1} 提供 {2} x{3}"
+msgstr "#{0} fornece {2} x{3} para {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_MATERIAL_REQUEST_ON"
+msgid "材料请求：开启"
+msgstr "Solicitação de materiais: Ligada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_MATERIAL_REQUEST_OFF"
+msgid "材料请求：关闭"
+msgstr "Solicitação de materiais: Desligada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_STATUS"
+msgid "状态：{0}"
+msgstr "Estado: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_WAITING_QUEUE"
+msgid "等待生产队列"
+msgstr "Aguardando fila de produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_ORDER_EMPTY"
+msgid "订单：当前建筑没有活动订单"
+msgstr "Ordem: esta construção não tem ordens ativas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_ORDER_LIST"
+msgid "订单：{0}"
+msgstr "Ordem: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_PRODUCTION_TITLE"
+msgid "Storage Network 生产接入"
+msgstr "Produção da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_STORAGE_TITLE"
+msgid "Storage Network 储存接入"
+msgstr "Armazenamento da Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_NETWORK_CAPACITY"
+msgid "网络容量：{0} / {1}"
+msgstr "Capacidade da rede: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_BUILDING_STORAGE"
+msgid "本建筑：{0} / {1}"
+msgstr "Esta construção: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_BUILDING_NO_STORAGE"
+msgid "本建筑：未检测到 Storage"
+msgstr "Esta construção: nenhum armazenamento encontrado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_OUTPUT_STATUS"
+msgid "输出：{0}"
+msgstr "Saída: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.WORLD_CONNECTED_BUILDINGS"
+msgid "接入建筑：{0}"
+msgstr "Construções conectadas: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_TITLE"
+msgid "储存网络概览"
+msgstr "Visão Geral da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_STATUS"
+msgid "星球：{0}  状态：{1}"
+msgstr "Asteroide: {0}  Estado: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_ONLINE"
+msgid "在线"
+msgstr "Ativo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_OFFLINE"
+msgid "离线"
+msgstr "Inativo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_CAPACITY"
+msgid "容量：{0} / {1}  剩余：{2}"
+msgstr "Capacidade: {0} / {1}  Livre: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_BUILDINGS"
+msgid "服务器：{0}  接入储存：{1}"
+msgstr "Servidores: {0}  Armazenamentos conectados: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_RELAY"
+msgid "跨星球中继：{0}"
+msgstr "Retransmissão interplanetária: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_RELAY_ONLINE"
+msgid "已连接"
+msgstr "Conectado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_RELAY_OFFLINE"
+msgid "未连接"
+msgstr "Desconectado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MAIN_SEARCH_TOOLTIP"
+msgid "搜索建筑、分类、储存物或泉输出。"
+msgstr "Pesquise construções, categorias, itens armazenados ou produtos de gêiseres."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SHOW_OTHER_ITEMS"
+msgid "显示其他物品（+{0}）"
+msgstr "Mostrar outros itens (+{0})"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HIDE_OTHER_ITEMS"
+msgid "隐藏其他物品（-{0}）"
+msgstr "Ocultar outros itens (-{0})"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SHOW_OTHER_ITEMS_TOOLTIP"
+msgid "展开显示此储存建筑中与当前搜索词不匹配的其他物品。"
+msgstr "Expande para mostrar outros itens deste armazenamento que não correspondem à pesquisa atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HIDE_OTHER_ITEMS_TOOLTIP"
+msgid "收起并隐藏与当前搜索词不匹配的物品。"
+msgstr "Recolhe para ocultar itens que não correspondem à pesquisa atual."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_NO_QUEUE"
+msgid "没有可请求材料的排队配方"
+msgstr "Nenhuma receita na fila tem materiais que possam ser solicitados"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_LIMIT_REACHED"
+msgid "已达到请求限额"
+msgstr "Limite de solicitação atingido"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_MISSING_SOURCE"
+msgid "缺少 {0}，网络中没有可用来源"
+msgstr "Falta {0}; nenhuma fonte disponível na rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_REQUESTED"
+msgid "已请求 {0} {1}"
+msgstr "Solicitado: {0} {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_SATISFIED"
+msgid "当前配方材料已满足"
+msgstr "Os materiais da receita atual já foram atendidos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_WAITING_OUTPUT"
+msgid "等待下一批成品"
+msgstr "Aguardando o próximo produto acabado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_WAITING_CONTENTS"
+msgid "等待内容物进入储存栏"
+msgstr "Aguardando entrada de conteúdo no armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_WAITING_PRODUCTS"
+msgid "等待成品进入输出栏"
+msgstr "Aguardando entrada de produtos acabados no armazenamento de saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_STATUS_NO_OUTPUT_STORAGE"
+msgid "建筑没有可读取的输出栏"
+msgstr "A construção não tem armazenamento de saída legível"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER_STATUS_MOVED"
+msgid "已入网 {0}"
+msgstr "{0} movido para a rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER_STATUS_BLOCKED"
+msgid "无法存入 {0}：没有匹配箱子或容量不足"
+msgstr "Não é possível armazenar {0}: sem armazenamento compatível ou capacidade insuficiente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRANSFER_STATUS_RESERVED_TARGETS"
+msgid "自动存放无可用目标：匹配服务器已被输入端指定。"
+msgstr "Sem destino automático de armazenamento: os servidores compatíveis estão atribuídos a portas de entrada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_TARGET_NOT_FOUND"
+msgid "指定服务器未找到"
+msgstr "Servidor atribuído não encontrado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_TARGET_UNREACHABLE"
+msgid "指定服务器当前不可达"
+msgstr "O servidor atribuído está inacessível no momento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SERVER_ASSIGNMENTS_TITLE"
+msgid "端口指定"
+msgstr "Atribuições de portas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_ASSIGNMENT_TITLE"
+msgid "输入端指定"
+msgstr "Atribuições de entrada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_SOURCE_ASSIGNMENT_TITLE"
+msgid "输出端指定来源"
+msgstr "Atribuições de origem de saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_ASSIGNMENT_CLEAR"
+msgid "取消"
+msgstr "Limpar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_ASSIGNMENT_CLEAR_ALL"
+msgid "全部取消指定"
+msgstr "Limpar todas as atribuições"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_ASSIGNMENT_NONE"
+msgid "无"
+msgstr "Nenhum"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENROLLABLE_SHORT"
+msgid "可接入"
+msgstr "Conectável"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.RECIPE_SHORT"
+msgid "配方"
+msgstr "Receitas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_TITLE"
+msgid "StorageNetwork 选项"
+msgstr "Opções da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_TOOLTIP"
+msgid "调整 StorageNetwork 模组数值"
+msgstr "Ajustar os valores do mod Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_HINT"
+msgid "保存后会写入 StorageNetworkConfig.json。建筑容量等部分数值需要重进存档或重建建筑才会完全体现。"
+msgstr "Salvar grava em StorageNetworkConfig.json. Alguns valores, como a capacidade das construções, exigem recarregar o save ou reconstruir as construções para aplicar completamente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_RESTART_REQUIRED"
+msgid "要使这些选项生效，必须重新启动游戏。"
+msgstr "O jogo precisa ser reiniciado para que estas opções tenham efeito."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_TOGGLE_ON"
+msgid "开启"
+msgstr "Ligado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_TOGGLE_OFF"
+msgid "关闭"
+msgstr "Desligado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_RESTART_DIALOG_TITLE"
+msgid "信息"
+msgstr "Informações"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_RESTART_CONTINUE"
+msgid "继续"
+msgstr "Continuar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_DEFAULT_MATERIAL_LIMIT"
+msgid "材料请求默认限额 kg"
+msgstr "Limite Padrão de Solicitação de Materiais, kg"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_DEFAULT_MATERIAL_LIMIT_DESC"
+msgid "新接入生产建筑的默认请求限额。"
+msgstr "Limite padrão de solicitação para construções de produção recém-conectadas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_GEYSER_WORLD_OUTPUT_FALLBACK"
+msgid "允许泉在网络不可用时排放到世界"
+msgstr "Permitir liberação de gêiseres no ambiente como alternativa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_GEYSER_WORLD_OUTPUT_FALLBACK_DESC"
+msgid "开启后，已接入网络并启用直接入网的泉会在网络无法储存产物时排放到世界；关闭后会暂停输出并等待网络恢复。"
+msgstr "Quando ativado, um gêiser conectado à rede com saída direta libera seu produto no ambiente se a rede não puder armazená-lo. Quando desativado, a saída pausa até a rede se recuperar."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_REQUEST_SUCCESS_COOLDOWN"
+msgid "请求成功冷却秒数"
+msgstr "Intervalo após Solicitação Atendida, Segundos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_REQUEST_SUCCESS_COOLDOWN_DESC"
+msgid "材料已满足或达到限额后的检查间隔。"
+msgstr "Intervalo de verificação após atender aos materiais ou atingir o limite."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_REQUEST_RETRY_COOLDOWN"
+msgid "请求失败重试秒数"
+msgstr "Intervalo para Repetir Solicitação sem Sucesso, Segundos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_REQUEST_RETRY_COOLDOWN_DESC"
+msgid "缺料或没有可请求配方后的重试间隔。"
+msgstr "Intervalo para tentar novamente após faltarem materiais ou não haver receita que permita solicitação."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_INFINITE_QUEUE_BATCHES"
+msgid "无限队列请求批次数"
+msgstr "Lotes Solicitados para Fila Infinita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_INFINITE_QUEUE_BATCHES_DESC"
+msgid "生产队列为无限时，一次按多少批材料请求。"
+msgstr "Quantos lotes de materiais solicitar de uma vez para filas de produção infinitas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_MAX_REQUEST_BATCHES"
+msgid "最大请求批次数"
+msgstr "Máximo de Lotes por Solicitação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_MAX_REQUEST_BATCHES_DESC"
+msgid "单次材料请求最多按多少批计算。"
+msgstr "Número máximo de lotes usado no cálculo de uma solicitação de materiais."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_PLAN_RECURSION_DEPTH"
+msgid "生产计划递归深度"
+msgstr "Profundidade da Recursão do Plano de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_PLAN_RECURSION_DEPTH_DESC"
+msgid "补产链路向下追踪的最大层数。"
+msgstr "Profundidade máxima para rastrear cadeias de produção automática."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_ABNORMAL_TIMEOUT"
+msgid "异常订单超时周期"
+msgstr "Prazo de Ordens sem Progresso, Ciclos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_ABNORMAL_TIMEOUT_DESC"
+msgid "订单多长时间无进度后自动取消排产。"
+msgstr "Tempo máximo sem progresso de uma ordem antes de sua programação ser cancelada automaticamente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COMPLETED_RETENTION"
+msgid "完成订单保留周期"
+msgstr "Retenção de Ordens Encerradas, Ciclos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COMPLETED_RETENTION_DESC"
+msgid "完成/取消/异常订单在列表中保留多久。"
+msgstr "Por quanto tempo ordens concluídas, canceladas ou anormais permanecem na lista."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_SERVER_CAPACITY_MULTIPLIER"
+msgid "服务器容量倍率"
+msgstr "Multiplicador de Capacidade dos Servidores"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_SERVER_CAPACITY_MULTIPLIER_DESC"
+msgid "影响新建储存服务器和电池服务器的容量。已存在建筑通常需要重建或重新加载后才完全刷新。"
+msgstr "Afeta a capacidade de servidores de armazenamento e baterias recém-construídos. Construções existentes geralmente precisam ser reconstruídas ou exigem recarregar o save para atualizar completamente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_PORT_CAPACITY_MULTIPLIER"
+msgid "端口缓存容量倍率"
+msgstr "Multiplicador de Capacidade do Armazenamento das Portas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_PORT_CAPACITY_MULTIPLIER_DESC"
+msgid "影响新建材料、液体、气体端口的缓存容量。"
+msgstr "Afeta a capacidade do armazenamento intermediário das portas de sólidos, líquidos e gases recém-construídas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_POWER_PORT_CAPACITY_MULTIPLIER"
+msgid "电力端口缓存倍率"
+msgstr "Multiplicador de Reserva das Portas de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_POWER_PORT_CAPACITY_MULTIPLIER_DESC"
+msgid "影响新建电力入网/出网端口的缓存电量。"
+msgstr "Afeta a reserva de energia das portas de entrada e saída de energia recém-construídas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_BATTERY_SERVER_LEAK"
+msgid "电池服务器漏电 J/周期"
+msgstr "Perda dos Servidores de Baterias, J/Ciclo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_BATTERY_SERVER_LEAK_DESC"
+msgid "所有电池服务器每周期损失的电量。"
+msgstr "Energia perdida por cada servidor de baterias a cada ciclo."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MIN_TEMPERATURE"
+msgid "冷库最低目标温度 °C"
+msgstr "Temperatura Mínima do Armazenamento Refrigerado, °C"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MIN_TEMPERATURE_DESC"
+msgid "冷库温度滑条允许设置的最低目标温度。"
+msgstr "Menor temperatura desejada permitida pelo controle deslizante do armazenamento refrigerado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MAX_TEMPERATURE"
+msgid "冷库最高目标温度 °C"
+msgstr "Temperatura Máxima do Armazenamento Refrigerado, °C"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MAX_TEMPERATURE_DESC"
+msgid "冷库温度滑条允许设置的最高目标温度。"
+msgstr "Maior temperatura desejada permitida pelo controle deslizante do armazenamento refrigerado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_ENERGY_SAVER_WATTS"
+msgid "冷库节能功耗 W"
+msgstr "Consumo de Manutenção do Armazenamento Refrigerado, W"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_ENERGY_SAVER_WATTS_DESC"
+msgid "内容物达到目标温度后，冷库维持温度时的功耗。"
+msgstr "Energia usada para manter a temperatura após o conteúdo atingir a temperatura desejada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MAX_COOLING_WATTS"
+msgid "冷库最大制冷功耗 W"
+msgstr "Consumo Máximo de Resfriamento do Armazenamento Refrigerado, W"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MAX_COOLING_WATTS_DESC"
+msgid "目标温度越低越接近此功耗。"
+msgstr "O consumo de resfriamento se aproxima deste valor conforme a temperatura desejada diminui."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MAX_COOLING_HEAT"
+msgid "冷库最大产热 kDTU/s"
+msgstr "Calor Máximo Liberado pelo Armazenamento Refrigerado, kDTU/s"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_COLD_STORAGE_MAX_COOLING_HEAT_DESC"
+msgid "目标温度越低越接近此产热。"
+msgstr "O calor liberado se aproxima deste valor conforme a temperatura desejada diminui."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_SOLID_OUTPUT_MAX_RATE"
+msgid "材料出网最大速率 kg/s"
+msgstr "Vazão Máxima de Saída de Sólidos, kg/s"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_SOLID_OUTPUT_MAX_RATE_DESC"
+msgid "材料出网端口设置滑条的最大输出速率。"
+msgstr "Vazão máxima disponível no controle deslizante da porta de saída de sólidos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_LIQUID_OUTPUT_MAX_RATE"
+msgid "液体出网最大速率 kg/s"
+msgstr "Vazão Máxima de Saída de Líquidos, kg/s"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_LIQUID_OUTPUT_MAX_RATE_DESC"
+msgid "液体出网端口设置滑条的最大输出速率。"
+msgstr "Vazão máxima disponível no controle deslizante da porta de saída de líquidos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_GAS_OUTPUT_MAX_RATE"
+msgid "气体出网最大速率 kg/s"
+msgstr "Vazão Máxima de Saída de Gases, kg/s"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_GAS_OUTPUT_MAX_RATE_DESC"
+msgid "气体出网端口设置滑条的最大输出速率。"
+msgstr "Vazão máxima disponível no controle deslizante da porta de saída de gases."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_POWER_OUTPUT_MAX_WATTS"
+msgid "电力出网最大功率 W"
+msgstr "Potência Máxima de Saída de Energia, W"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_POWER_OUTPUT_MAX_WATTS_DESC"
+msgid "电力出网端口滑条的最大输出功率。"
+msgstr "Potência máxima disponível no controle deslizante da porta de saída de energia."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_ORDER_CENTER_CONSERVE_HEAT"
+msgid "订单生产中心冶炼热量回收"
+msgstr "Conservar Calor de Fundição da Central de Ordens de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CONFIG_ORDER_CENTER_CONSERVE_HEAT_DESC"
+msgid "开启后，金属冶炼等高发热配方将消耗 3 倍制作时间，并将 100% 的相变热量释放到建筑结构中供蒸汽机回收；关闭时按原速运行且仅产生机器运行热量。"
+msgstr "Quando ativado, receitas de fundição de metais demoram 3 vezes mais e liberam 100% do calor de mudança de estado na estrutura da construção para aproveitamento térmico. Quando desativado (padrão), as receitas usam a velocidade normal e geram apenas o calor operacional padrão."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_SETTINGS_TITLE"
+msgid "泉设置"
+msgstr "Configurações do Gêiser"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_NETWORK_ENABLED"
+msgid "接入储存网络"
+msgstr "Conectar à Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_DIRECT_OUTPUT_ENABLED"
+msgid "喷发物直接入网"
+msgstr "Enviar erupções diretamente à rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_DIRECT_OUTPUT_DESC"
+msgid "开启后会拦截泉的 ElementEmitter 输出并存入网络中的匹配箱子；网络无法储存时是否排放到世界由模组选项决定。"
+msgstr "Quando ativado, a saída do emissor do gêiser é interceptada e armazenada nos armazenamentos compatíveis da rede. As opções do mod definem se o produto será liberado no ambiente quando o armazenamento da rede estiver indisponível."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_DIRECT_OUTPUT_ON_SHORT"
+msgid "直入开"
+msgstr "Direto Ligado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_DIRECT_OUTPUT_OFF_SHORT"
+msgid "直入关"
+msgstr "Direto Desligado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_ERUPTING"
+msgid "喷发中"
+msgstr "Em Erupção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_NOT_ERUPTING"
+msgid "停止喷发"
+msgstr "Sem Erupção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_OUTPUT_STORE_TITLE"
+msgid "喷发物入网"
+msgstr "Erupções para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_OUTPUT_CONTENT_TITLE"
+msgid "内容物"
+msgstr "Conteúdo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_OUTPUT_DIRECT_STATUS"
+msgid "直接入网"
+msgstr "Direto para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_OUTPUT_WORLD_STATUS"
+msgid "排放到世界"
+msgstr "Liberar no Ambiente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_METRIC_OUTPUT"
+msgid "产物"
+msgstr "Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_METRIC_RATE"
+msgid "平均输出"
+msgstr "Produção Média"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_METRIC_DIRECT_OUTPUT"
+msgid "直入"
+msgstr "Direto"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_ITEM"
+msgid "储存网络：{0}"
+msgstr "Rede de Armazenamento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_TOOLTIP"
+msgid "{0}"
+msgstr "{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_LINE_NETWORK"
+msgid "接入：{0}    核心：{1}"
+msgstr "Conectado: {0}    Núcleo: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_LINE_DIRECT"
+msgid "直入：{0}    状态：{1}"
+msgstr "Direto: {0}    Estado: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_LINE_OUTPUT"
+msgid "产物：{0}    速率：{1}"
+msgstr "Saída: {0}    Vazão: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_LINE_POLICY"
+msgid "存放策略：{0}"
+msgstr "Política de armazenamento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_LINE_TARGETS"
+msgid "可用目标：{0}"
+msgstr "Destinos disponíveis: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_LINE_STATUS"
+msgid "当前去向：{0}"
+msgstr "Rota atual: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_NETWORK_OUTPUT"
+msgid "存入网络"
+msgstr "Armazenado na rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_OVERFLOW_OUTPUT"
+msgid "服务器已满，溢出到世界"
+msgstr "Servidor cheio, excedente liberado no ambiente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_FULL_PAUSED"
+msgid "服务器已满，输出已暂停"
+msgstr "Servidor cheio, saída pausada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_NETWORK_PAUSED"
+msgid "网络不可用，输出已暂停"
+msgstr "Rede indisponível, saída pausada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_WORLD_OUTPUT"
+msgid "按原版排放"
+msgstr "Emissão original"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_MISSING_EMITTER"
+msgid "缺少喷发组件"
+msgstr "Emissor ausente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_TARGET_FULL"
+msgid "有匹配服务器，但容量已满"
+msgstr "Existe um servidor compatível, mas ele está cheio"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GEYSER_STATUS_TARGET_SUMMARY"
+msgid "{0} 个服务器，剩余 {1}"
+msgstr "{0} servidores, {1} livres"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_FILTER_CURRENT"
+msgid "当前"
+msgstr "Atual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_FILTER_ALL"
+msgid "全部"
+msgstr "Todos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_FILTER_RUNNING"
+msgid "运行中"
+msgstr "Em Funcionamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_FILTER_COMPLETED"
+msgid "已完成"
+msgstr "Concluída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_FILTER_ABNORMAL"
+msgid "异常"
+msgstr "Anormal"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_NETWORK_SETTINGS_BUTTON"
+msgid "储存网络设置"
+msgstr "Configurações da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_NETWORK_SETTINGS_TOOLTIP"
+msgid "打开储存网络窗口，并进入该端口的设置界面。"
+msgstr "Abre a janela da Rede de Armazenamento nas configurações desta porta."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_ENERGY_GENERATOR"
+msgid "发电设施"
+msgstr "Geradores de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CATEGORY_MINION"
+msgid "复制人"
+msgstr "Duplicantes"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_POWER_STORED"
+msgid "储电"
+msgstr "Energia Armazenada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.HEALTH_POWER_LEAK"
+msgid "泄露"
+msgstr "Perda"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.VIRTUAL_POWER_ITEM_NAME"
+msgid "虚拟电力"
+msgstr "Energia Virtual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.VIRTUAL_POWER_ITEM_DETAILS"
+msgid "容量：{0}    泄露：{1}"
+msgstr "Capacidade: {0}    Perda: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.VIRTUAL_POWER_ITEM_TOOLTIP"
+msgid "电池服务器中的虚拟电力，不是可搬运的实体物品。"
+msgstr "Energia virtual armazenada nos servidores de baterias. Não é um item físico transportável."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CHANGE_TARGET"
+msgid "更换目标"
+msgstr "Alterar Destino"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_STORAGE_DETAILS"
+msgid "储电缓存：{0} / {1}\n剩余容量：{2}"
+msgstr "Reserva de energia: {0} / {1}\nCapacidade livre: {2}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_BATTERY_TITLE"
+msgid "端口电池"
+msgstr "Bateria da Porta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_BATTERY_NAME"
+msgid "本地电量"
+msgstr "Carga Local"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_TITLE"
+msgid "冷库降温"
+msgstr "Resfriamento do Armazenamento Refrigerado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_SIDE_SCREEN_TITLE"
+msgid "冷库降温"
+msgstr "Resfriamento do Armazenamento Refrigerado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_CURRENT"
+msgid "目标温度"
+msgstr "Temperatura Desejada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_AMOUNT"
+msgid "目标温度"
+msgstr "Temperatura Desejada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_DEFAULT"
+msgid "默认值"
+msgstr "Padrão"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_VALUE"
+msgid "目标温度：{0}"
+msgstr "Temperatura desejada: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_DESC"
+msgid "调整冷库服务器把内容物冷却到的目标温度；储存网络窗口与详情侧屏使用同一数值。"
+msgstr "Ajusta a temperatura até a qual os servidores refrigerados resfriam o conteúdo. A janela da Rede de Armazenamento e o painel lateral compartilham este valor."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_SETTINGS_TITLE"
+msgid "端口设置"
+msgstr "Configurações da Porta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_INPUT_STATUS"
+msgid "材料输入端口"
+msgstr "Porta de Entrada de Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_OUTPUT_STATUS"
+msgid "材料输出端口"
+msgstr "Porta de Saída de Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_PORT_INPUT_STATUS"
+msgid "液体输入端口"
+msgstr "Porta de Entrada de Líquidos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_PORT_OUTPUT_STATUS"
+msgid "液体输出端口"
+msgstr "Porta de Saída de Líquidos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_PORT_INPUT_STATUS"
+msgid "气体输入端口"
+msgstr "Porta de Entrada de Gases"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_PORT_OUTPUT_STATUS"
+msgid "气体输出端口"
+msgstr "Porta de Saída de Gases"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_INPUT_STATUS"
+msgid "电力输入端口"
+msgstr "Porta de Entrada de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_OUTPUT_STATUS"
+msgid "电力输出端口"
+msgstr "Porta de Saída de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_INPUT_STATUS"
+msgid "粒子输入端口"
+msgstr "Porta de Entrada de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_OUTPUT_STATUS"
+msgid "粒子输出端口"
+msgstr "Porta de Saída de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_DIRECTION"
+msgid "端口方向"
+msgstr "Direção da Porta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_DIRECTION_INPUT"
+msgid "输入网络"
+msgstr "Entrada para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_DIRECTION_OUTPUT"
+msgid "输出网络"
+msgstr "Saída da Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_PORT_MANUAL_OPERATION_ALLOWED"
+msgid "允许人力操作"
+msgstr "Permitir Operação por Duplicantes"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_ITEM_NAME"
+msgid "储存网络端口"
+msgstr "Porta da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_ITEM_TOOLTIP"
+msgid "{0}"
+msgstr "{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_ONLINE"
+msgid "网络：在线"
+msgstr "Rede: Ativa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_OFFLINE"
+msgid "网络：离线（当前星球没有在线核心）"
+msgstr "Rede: Inativa (sem núcleo ativo neste planetoide)"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_SHORT_ONLINE"
+msgid "在线"
+msgstr "Ativo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_SHORT_OFFLINE"
+msgid "离线"
+msgstr "Inativo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_DIRECTION"
+msgid "方向：{0}"
+msgstr "Direção: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_CACHE"
+msgid "端口缓存：{0} / {1}"
+msgstr "Armazenamento da porta: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_REMAINING"
+msgid "剩余容量：{0}"
+msgstr "Capacidade livre: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_FILTERS"
+msgid "筛选：{0}"
+msgstr "Filtro: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_FILTERS_EMPTY"
+msgid "未选择物品"
+msgstr "Nenhum item selecionado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_FILTERS_ANY"
+msgid "不限制"
+msgstr "Qualquer"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_MANUAL"
+msgid "人力操作：{0}"
+msgstr "Operação por Duplicantes: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_MANUAL_ALLOWED"
+msgid "允许"
+msgstr "Permitida"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_MANUAL_FORBIDDEN"
+msgid "禁止"
+msgstr "Proibida"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_INPUT_ENABLED"
+msgid "内容物入网：{0}"
+msgstr "Armazenar conteúdo: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_OUTPUT_ENABLED"
+msgid "请求输出：{0}"
+msgstr "Solicitar saída: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_INPUT_SUMMARY"
+msgid "内容物入网：{0}  {1}"
+msgstr "Armazenar conteúdo: {0}  {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_OUTPUT_SUMMARY"
+msgid "请求输出：{0}  {1}"
+msgstr "Solicitar saída: {0}  {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_POLICY"
+msgid "存放策略：{0}"
+msgstr "Política de armazenamento: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_SOURCE_POLICY"
+msgid "来源策略：{0}"
+msgstr "Política de origem: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_REQUEST"
+msgid "网络调度：{0}"
+msgstr "Distribuição pela rede: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_BUFFER"
+msgid "复制人取货缓冲：{0}"
+msgstr "Reserva para retirada de Duplicantes: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PORT_STATUS_OUTPUT_AMOUNT"
+msgid "输出包目标：{0}"
+msgstr "Meta de quantidade por pacote de saída: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_PORT_STORE_TITLE"
+msgid "内容物入网"
+msgstr "Armazenar Conteúdo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_PORT_STORE_ENABLED"
+msgid "向网络输入"
+msgstr "Entrada para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_PORT_STORE_DESC"
+msgid "开启后，端口会把自身缓存中的内容物自动存入储存网络中的匹配服务器。"
+msgstr "Quando ativado, a porta armazena automaticamente seu conteúdo intermediário em servidores compatíveis da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.INPUT_PORT_STORE_STATUS"
+msgid "入网状态：{0}"
+msgstr "Estado da entrada: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_REQUEST_TITLE"
+msgid "内容物出网"
+msgstr "Solicitar Conteúdo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_REQUEST_ENABLED"
+msgid "向管道输出"
+msgstr "Saída para Tubulação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_REQUEST_DESC"
+msgid "开启后，端口会从储存网络中的匹配服务器请求液体，并输出到连接的液体管道。"
+msgstr "Quando ativado, a porta solicita líquidos aos servidores compatíveis da Rede de Armazenamento e os envia à tubulação de líquido conectada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_REQUEST_STATUS"
+msgid "出网状态：{0}"
+msgstr "Estado da saída: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_SOURCE_POLICY"
+msgid "来源策略"
+msgstr "Política de Origem"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_FILTER"
+msgid "输出筛选"
+msgstr "Filtro de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_FILTER_ANY"
+msgid "任意液体"
+msgstr "Qualquer Líquido"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_FILTER_SELECT"
+msgid "选择输出液体"
+msgstr "Selecionar Líquido de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_FILTER_DESC"
+msgid "选择当前网络服务器中已有的液体；端口只会向管道输出所选液体。"
+msgstr "Seleciona um líquido disponível nos servidores da rede. A porta envia apenas o líquido selecionado à tubulação."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_FILTER_EMPTY"
+msgid "当前网络服务器中没有可输出液体"
+msgstr "Nenhum líquido disponível para saída nos servidores atuais da rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_REQUEST_TITLE"
+msgid "材料出网"
+msgstr "Saída de Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_REQUEST_ENABLED"
+msgid "向轨道输出"
+msgstr "Saída para Trilho"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_REQUEST_DESC"
+msgid "开启后，端口会从储存网络中的匹配服务器请求材料，并输出到连接的运输轨道。"
+msgstr "Quando ativado, a porta solicita materiais aos servidores compatíveis da Rede de Armazenamento e os envia ao trilho de transporte conectado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_REQUEST_STATUS"
+msgid "出网状态：{0}"
+msgstr "Estado da saída: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_FILTER_ANY"
+msgid "任意材料"
+msgstr "Qualquer Material"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_FILTER_SELECT"
+msgid "选择输出材料"
+msgstr "Selecionar Material de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_FILTER_DESC"
+msgid "选择当前网络服务器中已有的材料；端口只会向运输轨道输出所选材料。"
+msgstr "Seleciona um material disponível nos servidores da rede. A porta envia apenas o material selecionado ao trilho de transporte."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_FILTER_EMPTY"
+msgid "当前网络服务器中没有可输出材料"
+msgstr "Nenhum material disponível para saída nos servidores atuais da rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_MANUAL_ALLOWED_TOOLTIP"
+msgid "允许复制人从材料出网端口缓存中取货。"
+msgstr "Permite que Duplicantes retirem itens do armazenamento intermediário da porta de saída de materiais."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.MATERIAL_OUTPUT_PORT_MANUAL_FORBIDDEN_TOOLTIP"
+msgid "禁止复制人从材料出网端口缓存中取货。"
+msgstr "Impede que Duplicantes retirem itens do armazenamento intermediário da porta de saída de materiais."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_LIMIT_ENABLED"
+msgid "启用输出限额"
+msgstr "Ativar Limite de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_LIMIT"
+msgid "输出限额：{0} / {1}"
+msgstr "Limite de saída: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_SET_LIMIT"
+msgid "设置限额"
+msgstr "Definir Limite"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_REQUEST_RATE"
+msgid "请求速率"
+msgstr "Taxa de Solicitação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_OUTPUT_RATE"
+msgid "输出速率"
+msgstr "Vazão de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_REQUEST_RATE_VALUE"
+msgid "{0}/秒"
+msgstr "{0}/s"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.OUTPUT_PORT_SET_REQUEST_RATE"
+msgid "设置请求速率"
+msgstr "Definir Taxa de Solicitação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_INPUT_PORT_STORE_TITLE"
+msgid "电力入网"
+msgstr "Entrada de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_INPUT_PORT_STORE_ENABLED"
+msgid "向网络输入"
+msgstr "Entrada para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_INPUT_PORT_STORE_DESC"
+msgid "开启后，端口会把连接电路中的外部电力存入储存网络中的电池服务器。"
+msgstr "Quando ativado, a porta armazena energia externa do circuito conectado nos servidores de baterias da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_INPUT_PORT_STORE_AUTO_DESC"
+msgid "自动存入已接入网络且仍有容量的电池服务器。"
+msgstr "Armazena energia automaticamente nos servidores de baterias conectados que ainda têm capacidade."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_REQUEST_TITLE"
+msgid "电力出网"
+msgstr "Saída de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_REQUEST_ENABLED"
+msgid "向电路输出"
+msgstr "Saída para Circuito"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_REQUEST_DESC"
+msgid "开启后，端口会从储存网络中的电池服务器取电，并输出到连接的电路。"
+msgstr "Quando ativado, a porta retira energia dos servidores de baterias da Rede de Armazenamento e a fornece ao circuito conectado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_SOURCE_AUTO_DESC"
+msgid "自动从已接入网络的电池服务器中取电。"
+msgstr "Retira energia automaticamente dos servidores de baterias conectados à rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_LIMIT"
+msgid "输出限额：{0} / {1}"
+msgstr "Limite de saída: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_SET_LIMIT"
+msgid "设置输出限额"
+msgstr "Definir Limite de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_LIMIT_LABEL"
+msgid "电力限额"
+msgstr "Limite de Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_RATE"
+msgid "电力速率"
+msgstr "Potência"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_OUTPUT_RATE"
+msgid "输出速率"
+msgstr "Vazão de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_RATE_VALUE"
+msgid "{0:0.#} W"
+msgstr "{0:0.#} W"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_PORT_SET_RATE"
+msgid "设置电力速率"
+msgstr "Definir Potência"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_RATE_TOOLTIP"
+msgid "设置电力出网端口向外部电路输出的最大速率：{0}"
+msgstr "Define a potência máxima que a porta de saída de energia fornece ao circuito externo: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_INPUT_PORT_STATUS_ITEM"
+msgid "电力入网端口：{0}"
+msgstr "Porta de Entrada de Energia: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_INPUT_PORT_STATUS_TOOLTIP"
+msgid "向网络输入：{0}\n网络：{1}\n存放策略：{2}\n实际入网速率：{3}\n端口缓存：{4} / {5}\n入网状态：{6}"
+msgstr "Entrada para a rede: {0}\nRede: {1}\nPolítica de armazenamento: {2}\nPotência real de entrada: {3}\nReserva da porta: {4} / {5}\nEstado da entrada: {6}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_STATUS_ITEM"
+msgid "电力出网端口：{0}"
+msgstr "Porta de Saída de Energia: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_OUTPUT_PORT_STATUS_TOOLTIP"
+msgid "向电路输出：{0}\n网络：{1}\n来源策略：{2}\n输出限额：{3}\n输出速率：{4}\n端口缓存：{5} / {6}\n出网状态：{7}"
+msgstr "Saída para circuito: {0}\nRede: {1}\nPolítica de origem: {2}\nLimite de saída: {3}\nPotência de saída: {4}\nReserva da porta: {5} / {6}\nEstado da saída: {7}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_STORAGE_TITLE"
+msgid "网络粒子储存"
+msgstr "Armazenamento de Partículas da Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_ITEM_NAME"
+msgid "高能粒子"
+msgstr "Radbolts"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_AMOUNT_VALUE"
+msgid "{0} 粒子"
+msgstr "{0} partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_ITEM_TOOLTIP"
+msgid "粒子服务器中的高能粒子，不是可搬运的实体物品。"
+msgstr "Radbolts armazenados em servidores de partículas são armazenamento virtual, não itens físicos transportáveis."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_INPUT_PORT_STORE_TITLE"
+msgid "粒子入网"
+msgstr "Entrada de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_INPUT_PORT_STORE_ENABLED"
+msgid "向网络输入"
+msgstr "Entrada para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_INPUT_PORT_MODE"
+msgid "接收模式"
+msgstr "Modo de Recebimento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_PORT_CAPTURE_MODE"
+msgid "捕获经过端口的高能粒子"
+msgstr "Capturar radbolts que passam pela porta"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_INPUT_PORT_STORE_DESC"
+msgid "端口会捕获经过的高能粒子，并存入同星球已接入网络的粒子服务器。"
+msgstr "A porta captura radbolts que passam por ela e os armazena nos servidores de partículas conectados no mesmo planetoide."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_REQUEST_TITLE"
+msgid "粒子出网"
+msgstr "Saída de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_REQUEST_ENABLED"
+msgid "向管线发射"
+msgstr "Lançar na Trajetória do Feixe"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_THRESHOLD"
+msgid "发射阈值"
+msgstr "Limite para Lançamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_SET_THRESHOLD"
+msgid "设置发射阈值"
+msgstr "Definir Limite para Lançamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_DIRECTION"
+msgid "发射方向"
+msgstr "Direção do Lançamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_SELECT_DIRECTION"
+msgid "选择发射方向"
+msgstr "Selecionar Direção do Lançamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_DIRECTION_DESC"
+msgid "选择粒子出网端口发射高能粒子的方向。"
+msgstr "Seleciona a direção em que a porta de saída de partículas lança radbolts."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_LIMIT"
+msgid "输出限额：{0} / {1}"
+msgstr "Limite de saída: {0} / {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_SET_LIMIT"
+msgid "设置粒子限额"
+msgstr "Definir Limite de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_LIMIT_LABEL"
+msgid "粒子限额"
+msgstr "Limite de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_ENABLE_BUTTON"
+msgid "开启粒子发射"
+msgstr "Ativar Lançamento de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_DISABLE_BUTTON"
+msgid "关闭粒子发射"
+msgstr "Desativar Lançamento de Partículas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_ENABLE_TOOLTIP"
+msgid "允许粒子出网端口从网络中取出高能粒子并发射。"
+msgstr "Permite que a porta de saída de partículas retire radbolts da rede e os lance."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_DISABLE_TOOLTIP"
+msgid "停止粒子出网端口发射高能粒子。"
+msgstr "Impede que a porta de saída de partículas lance radbolts."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_SOURCE_AUTO_DESC"
+msgid "自动从已接入网络的粒子服务器中取出高能粒子。"
+msgstr "Retira radbolts automaticamente dos servidores de partículas conectados à rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_OUTPUT_PORT_REQUEST_DESC"
+msgid "端口会从同星球的粒子服务器取出高能粒子，并按当前方向发射。方向、阈值和限额可在这里或建筑侧屏调整。"
+msgstr "A porta retira radbolts dos servidores de partículas no mesmo planetoide e os lança na direção atual. Ajuste a direção, o limite de lançamento e os limites de quantidade aqui ou nos painéis laterais da construção."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_UP"
+msgid "上"
+msgstr "Cima"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_DOWN"
+msgid "下"
+msgstr "Baixo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_LEFT"
+msgid "左"
+msgstr "Esquerda"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_RIGHT"
+msgid "右"
+msgstr "Direita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_UP_LEFT"
+msgid "左上"
+msgstr "Superior Esquerda"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_UP_RIGHT"
+msgid "右上"
+msgstr "Superior Direita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_DOWN_LEFT"
+msgid "左下"
+msgstr "Inferior Esquerda"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PARTICLE_DIRECTION_DOWN_RIGHT"
+msgid "右下"
+msgstr "Inferior Direita"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_WAITING_EXTERNAL"
+msgid "等待外部供电"
+msgstr "Aguardando energia externa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_NO_CAPACITY"
+msgid "电池服务器已满"
+msgstr "Servidores de baterias cheios"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_NO_STORED"
+msgid "网络电力不足"
+msgstr "Energia insuficiente na rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_STORED"
+msgid "当前输入 {0}"
+msgstr "Recebendo {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_OUTPUT"
+msgid "已输出 {0}"
+msgstr "Produção: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_BUFFER_FULL"
+msgid "端口电池已满"
+msgstr "Bateria da porta cheia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_CHARGED"
+msgid "当前充入 {0}"
+msgstr "Carregando {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STATUS_REFILLED"
+msgid "已从网络取电 {0}"
+msgstr "{0} reposto pela rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOLID_INPUT_PORT_STATUS_ITEM"
+msgid "固体入网端口：{0}"
+msgstr "Porta de Entrada de Sólidos: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOLID_INPUT_PORT_STATUS_TOOLTIP"
+msgid "向网络输入：{0}\n网络：{1}\n存放策略：{2}\n端口缓存：{3} / {4}\n入网状态：{5}"
+msgstr "Entrada para a rede: {0}\nRede: {1}\nPolítica de armazenamento: {2}\nArmazenamento da porta: {3} / {4}\nEstado da entrada: {5}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOLID_OUTPUT_PORT_STATUS_ITEM"
+msgid "固体出网端口：{0}"
+msgstr "Porta de Saída de Sólidos: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.SOLID_OUTPUT_PORT_STATUS_TOOLTIP"
+msgid "向轨道输出：{0}\n网络：{1}\n来源策略：{2}\n输出筛选：{3}\n输出限额：{4}\n请求速率：{5}\n端口缓存：{6} / {7}\n出网状态：{8}"
+msgstr "Saída para trilho: {0}\nRede: {1}\nPolítica de origem: {2}\nFiltro de saída: {3}\nLimite de saída: {4}\nTaxa de solicitação: {5}\nArmazenamento da porta: {6} / {7}\nEstado da saída: {8}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_INPUT_PORT_STATUS_ITEM"
+msgid "液体入网端口：{0}"
+msgstr "Porta de Entrada de Líquidos: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_INPUT_PORT_STATUS_TOOLTIP"
+msgid "向网络输入：{0}\n网络：{1}\n存放策略：{2}\n端口缓存：{3} / {4}\n入网状态：{5}"
+msgstr "Entrada para a rede: {0}\nRede: {1}\nPolítica de armazenamento: {2}\nArmazenamento da porta: {3} / {4}\nEstado da entrada: {5}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_OUTPUT_PORT_STATUS_ITEM"
+msgid "液体出网端口：{0}"
+msgstr "Porta de Saída de Líquidos: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_OUTPUT_PORT_STATUS_TOOLTIP"
+msgid "向管道输出：{0}\n网络：{1}\n来源策略：{2}\n输出筛选：{3}\n输出限额：{4}\n请求速率：{5}\n端口缓存：{6} / {7}\n出网状态：{8}"
+msgstr "Saída para tubulação: {0}\nRede: {1}\nPolítica de origem: {2}\nFiltro de saída: {3}\nLimite de saída: {4}\nTaxa de solicitação: {5}\nArmazenamento da porta: {6} / {7}\nEstado da saída: {8}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_INPUT_PORT_STORE_TITLE"
+msgid "气体入网"
+msgstr "Entrada de Gases"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_INPUT_PORT_STORE_ENABLED"
+msgid "向网络输入"
+msgstr "Entrada para a Rede"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_INPUT_PORT_STORE_DESC"
+msgid "开启后，端口会把气体管道输入的气体存入储存网络中的匹配服务器。"
+msgstr "Quando ativado, a porta armazena o gás recebido das tubulações de gás nos servidores compatíveis da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_INPUT_PORT_STORE_STATUS"
+msgid "入网状态：{0}"
+msgstr "Estado da entrada: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_REQUEST_TITLE"
+msgid "气体出网"
+msgstr "Saída de Gases"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_REQUEST_ENABLED"
+msgid "向管道输出"
+msgstr "Saída para Tubulação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_REQUEST_DESC"
+msgid "开启后，端口会从储存网络中的匹配服务器请求气体，并输出到连接的气体管道。"
+msgstr "Quando ativado, a porta solicita gás aos servidores compatíveis da Rede de Armazenamento e o envia à tubulação de gás conectada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_REQUEST_STATUS"
+msgid "出网状态：{0}"
+msgstr "Estado da saída: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_FILTER_ANY"
+msgid "任意气体"
+msgstr "Qualquer Gás"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_FILTER_SELECT"
+msgid "选择输出气体"
+msgstr "Selecionar Gás de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_FILTER_DESC"
+msgid "选择当前网络服务器中已有的气体；端口只会向管道输出所选气体。"
+msgstr "Seleciona um gás disponível nos servidores da rede. A porta envia apenas o gás selecionado à tubulação."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_FILTER_EMPTY"
+msgid "当前网络服务器中没有可输出气体"
+msgstr "Nenhum gás disponível para saída nos servidores atuais da rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_INPUT_PORT_STATUS_ITEM"
+msgid "气体入网端口：{0}"
+msgstr "Porta de Entrada de Gases: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_INPUT_PORT_STATUS_TOOLTIP"
+msgid "向网络输入：{0}\n网络：{1}\n存放策略：{2}\n端口缓存：{3} / {4}\n入网状态：{5}"
+msgstr "Entrada para a rede: {0}\nRede: {1}\nPolítica de armazenamento: {2}\nArmazenamento da porta: {3} / {4}\nEstado da entrada: {5}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_STATUS_ITEM"
+msgid "气体出网端口：{0}"
+msgstr "Porta de Saída de Gases: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_PORT_STATUS_TOOLTIP"
+msgid "向管道输出：{0}\n网络：{1}\n来源策略：{2}\n输出筛选：{3}\n输出限额：{4}\n请求速率：{5}\n端口缓存：{6} / {7}\n出网状态：{8}"
+msgstr "Saída para tubulação: {0}\nRede: {1}\nPolítica de origem: {2}\nFiltro de saída: {3}\nLimite de saída: {4}\nTaxa de solicitação: {5}\nArmazenamento da porta: {6} / {7}\nEstado da saída: {8}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.GAS_OUTPUT_SIDE_SCREEN_TITLE"
+msgid "气体输出筛选"
+msgstr "Filtro de Saída de Gases"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_GENERATOR_SOURCE_DESC"
+msgid "发电设施会从已接入网络的服务器中自动寻找可用燃料。"
+msgstr "Geradores de energia buscam automaticamente combustível utilizável nos servidores conectados à rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PICKER_OPTION_COUNT"
+msgid "可选网络服务器：{0} 个"
+msgstr "Servidores disponíveis na rede: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.PICKER_POLICY_HINT"
+msgid "自动策略会在已接入网络的服务器中寻找合适目标；指定服务器后，只从该服务器取料或向该服务器存放。"
+msgstr "A política automática encontra um destino adequado entre os servidores conectados à rede. Quando um servidor específico é definido, os itens só são retirados dele ou armazenados nele."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_WORLD_LABEL"
+msgid "星球"
+msgstr "Planetoide"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_STATUS_LABEL"
+msgid "状态"
+msgstr "Estado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_STORED_LABEL"
+msgid "容量"
+msgstr "Armazenado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_REMAINING_LABEL"
+msgid "剩余"
+msgstr "Livre"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_SERVERS_LABEL"
+msgid "服务器"
+msgstr "Servidores"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_STORAGES_LABEL"
+msgid "接入储存"
+msgstr "Armazenamentos Conectados"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_RELAY_LABEL"
+msgid "中继"
+msgstr "Retransmissor"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_INTERNAL_BATTERY_LABEL"
+msgid "备用电池"
+msgstr "Bateria de Reserva"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_POWER_LABEL"
+msgid "供电"
+msgstr "Energia"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_POWER_EXTERNAL"
+msgid "外部"
+msgstr "Externa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_SIDE_SCREEN_POWER_INTERNAL"
+msgid "备用"
+msgstr "Reserva"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_INTERNAL_BATTERY_LOW_NOTIFICATION"
+msgid "储存网络核心备用电池电量低。"
+msgstr "A bateria de reserva do Núcleo da Rede de Armazenamento está baixa."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_INTERNAL_BATTERY_STATUS"
+msgid "可用电力：{Battery}/{Capacity}"
+msgstr "Energia disponível: {Battery}/{Capacity}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_INTERNAL_BATTERY_STATUS_TOOLTIP"
+msgid "储存网络核心内置备用电池电量：{Battery}/{Capacity}（{Percent}）。外部电力中断时会消耗这部分电力维持网络在线。"
+msgstr "Carga da bateria de reserva do Núcleo da Rede de Armazenamento: {Battery}/{Capacity} ({Percent}). Esta energia é consumida para manter a rede ativa quando não há energia externa."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_BACKUP_POWER_NOTIFICATION"
+msgid "储存网络核心外部供电中断，已切换到备用电池。"
+msgstr "O Núcleo da Rede de Armazenamento perdeu a energia externa e passou a usar a bateria de reserva."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_BACKUP_POWER_STATUS"
+msgid "备用电池供电：{Battery}"
+msgstr "Energia da bateria de reserva: {Battery}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.CORE_BACKUP_POWER_STATUS_TOOLTIP"
+msgid "外部电力中断，储存网络核心正在消耗备用电池维持网络在线。当前备用电量：{Battery}"
+msgstr "Sem energia externa. O Núcleo da Rede de Armazenamento está usando a bateria de reserva para manter a rede ativa. Carga de reserva: {Battery}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_OUTPUT_SIDE_SCREEN_TITLE"
+msgid "液体输出筛选"
+msgstr "Filtro de Saída de Líquidos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_OUTPUT_SIDE_SCREEN_CURRENT"
+msgid "当前输出：{0}"
+msgstr "Saída atual: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LIQUID_OUTPUT_SIDE_SCREEN_HINT"
+msgid "快速选择液体出网端口要输出的液体。列表来自当前网络服务器中已有的液体，切换后会替换端口缓存并立即尝试输出。"
+msgstr "Escolha rapidamente qual líquido a porta de saída de líquidos deve fornecer. A lista vem dos líquidos armazenados nos servidores da rede; mudar a seleção substitui o conteúdo intermediário da porta e tenta fornecer o líquido imediatamente."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_PRODUCTION_CENTER_TITLE"
+msgid "订单生产中心"
+msgstr "Central de Ordens de Produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_SECTION_TITLE"
+msgid "刻录"
+msgstr "Gravação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ORDER_SECTION_TITLE"
+msgid "订单"
+msgstr "Ordens"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_OPEN_BUTTON"
+msgid "订单"
+msgstr "Ordens"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_OPEN_TOOLTIP"
+msgid "打开此订单生产中心的专属订单面板；只显示并提交刻录到该建筑的配方。"
+msgstr "Abre o painel de ordens exclusivo desta Central de Ordens de Produção. Somente as receitas gravadas nesta construção são exibidas e enviadas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_BUTTON"
+msgid "刻录"
+msgstr "Gravar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_TOOLTIP"
+msgid "选择一个或多个带配方的建筑进行刻录"
+msgstr "Selecione uma ou mais construções com receitas para gravar."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_TOOLNAME"
+msgid "刻录工具"
+msgstr "Ferramenta de Gravação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_ACTION"
+msgid "刻录"
+msgstr "Gravar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_STARTED"
+msgid "刻录模式：请选择一个带有配方的生产建筑。"
+msgstr "Modo de gravação: selecione uma construção de produção com receitas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_SUCCESS"
+msgid "订单生产中心：已刻录 {0} 个新配方。"
+msgstr "Central de Ordens de Produção: {0} novas receitas gravadas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_DUPLICATE"
+msgid "订单生产中心：目标建筑的配方都已经刻录过。"
+msgstr "Central de Ordens de Produção: todas as receitas da construção de destino já foram gravadas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_NO_RECIPES"
+msgid "订单生产中心：请选择一个带有配方的生产建筑。"
+msgstr "Central de Ordens de Produção: selecione uma construção de produção com receitas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_ENGRAVE_NO_DISK"
+msgid "订单生产中心：请先放入一张空刻录盘。"
+msgstr "Central de Ordens de Produção: insira primeiro um Disco de Gravação vazio."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_CONFIG_TITLE"
+msgid "刻录盘"
+msgstr "Disco de Gravação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_CONFIG_TOOLTIP"
+msgid "配置订单生产中心的 3 个刻录盘槽。刻录出的配方会写入空刻录盘；每张刻录盘还会提供 1 个生产核心。"
+msgstr "Configure os 3 espaços para Discos de Gravação da Central de Ordens de Produção. As receitas são gravadas em discos vazios, e cada disco fornece 1 núcleo de produção."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_SLOT_EMPTY"
+msgid "空槽"
+msgstr "Espaço Vazio"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_SLOT_BLANK"
+msgid "空白刻录盘"
+msgstr "Disco de Gravação Vazio"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_SLOT_WRITTEN"
+msgid "刻录盘：{0} 个配方"
+msgstr "Disco de Gravação: {0} receitas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_WAITING_DELIVERY"
+msgid "等待运送"
+msgstr "Aguardando Entrega"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_WAITING_DELIVERY_TOOLTIP"
+msgid "已选择刻录盘，等待复制人运送到该槽位。"
+msgstr "Um Disco de Gravação foi selecionado e aguarda a entrega de um Duplicante neste espaço."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_CANCEL_DELIVERY"
+msgid "取消"
+msgstr "Cancelar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INSERT"
+msgid "放入"
+msgstr "Inserir"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_EJECT"
+msgid "弹出"
+msgstr "Ejetar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INSERTED"
+msgid "已放入刻录盘。"
+msgstr "Disco de Gravação inserido."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_EJECTED"
+msgid "已弹出刻录盘。"
+msgstr "Disco de Gravação ejetado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_NO_AVAILABLE"
+msgid "附近没有可用的刻录盘。"
+msgstr "Nenhum Disco de Gravação disponível nas proximidades."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_RECORDED_TITLE"
+msgid "已刻录配方"
+msgstr "Receitas Gravadas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_RECIPE_REMOVE"
+msgid "删除"
+msgstr "Remover"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_RECIPE_REMOVED"
+msgid "已删除刻录配方。"
+msgstr "Receita gravada removida."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_TITLE"
+msgid "选择刻录盘"
+msgstr "Selecionar Disco de Gravação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_COUNT"
+msgid "可选刻录盘：{0} 个"
+msgstr "Discos de Gravação disponíveis: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_HINT"
+msgid "选择一个刻录盘后，复制人会前往订单生产中心完成装盘；只有完成任务后刻录盘才会放入对应槽位。"
+msgstr "Após selecionar um Disco de Gravação, um Duplicante o entregará à Central de Ordens de Produção. O disco só é inserido após concluir a tarefa."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_ANY"
+msgid "任意刻录盘"
+msgstr "Qualquer Disco de Gravação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_ANY_DESC"
+msgid "选择当前可用刻录盘列表中的一张盘"
+msgstr "Escolha um dos Discos de Gravação disponíveis no momento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_ASSIGNED"
+msgid "已安排复制人装盘。"
+msgstr "Entrega de disco atribuída."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_ASSIGN_FAILED"
+msgid "无法安排装盘，目标槽位或刻录盘已不可用。"
+msgstr "Não foi possível atribuir a entrega do disco. O espaço de destino ou o disco não está mais disponível."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_STORAGE_FALLBACK"
+msgid "储存网络"
+msgstr "Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_DETAIL_STORAGE"
+msgid "{0}  ·  {1}"
+msgstr "{0}, {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_PICKER_DETAIL_DISTANCE"
+msgid "{0}  ·  距离 {1:0.0}"
+msgstr "{0}, distância {1:0.0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_SUMMARY_MORE"
+msgid "{0} 等 {1} 个配方"
+msgstr "{0} e {1} receitas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INFO_CORE_TITLE"
+msgid "核心能力"
+msgstr "Capacidade de Núcleos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INFO_CORE_DESC"
+msgid "提供 1 个生产核心"
+msgstr "Fornece 1 núcleo de produção"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INFO_RECORDED_TITLE"
+msgid "已刻录配方"
+msgstr "Receitas Gravadas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INFO_RECORDED_COUNT"
+msgid "共 {0} 个配方"
+msgstr "{0} receitas no total"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_INFO_DESCRIPTION"
+msgid "{0}\n\n<b>{1}</b>\n{2}\n\n<b>{3}</b>\n{4}\n\n{5}"
+msgstr "{0}\n\n<b>{1}</b>\n{2}\n\n<b>{3}</b>\n{4}\n\n{5}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_DISK_RECIPE_DETAIL"
+msgid "<b>{0}</b>\n  材料：{1}\n  产出：{2}"
+msgstr "<b>{0}</b>\n  Materiais: {1}\n  Produção: {2}"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPARTICLEINPUTPORT.NAME"
+msgid "粒子入网端口"
+msgstr "Porta de Entrada de Partículas da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPARTICLEINPUTPORT.DESC"
+msgid "将高能粒子接入储存网络的输入端口。"
+msgstr "Uma porta de entrada que conecta partículas de alta energia à rede de armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPARTICLEINPUTPORT.EFFECT"
+msgid "捕获经过端口的高能粒子，并将粒子存入同星球的粒子服务器。"
+msgstr "Captura partículas de alta energia que passam pela porta e as armazena nos servidores de partículas do mesmo asteroide."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPARTICLEOUTPUTPORT.NAME"
+msgid "粒子出网端口"
+msgstr "Porta de Saída de Partículas da Rede"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPARTICLEOUTPUTPORT.DESC"
+msgid "将储存网络中的高能粒子发射出去的输出端口。"
+msgstr "Uma porta de saída que dispara partículas de alta energia da rede de armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKPARTICLEOUTPUTPORT.EFFECT"
+msgid "从同星球的粒子服务器中取出高能粒子，并向右发射。"
+msgstr "Retira partículas de alta energia dos servidores de partículas do mesmo asteroide e as dispara para a direita."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLPARTICLESERVER.NAME"
+msgid "小型粒子服务器"
+msgstr "Servidor de Partículas Pequeno"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLPARTICLESERVER.DESC"
+msgid "用于接入储存网络的小型高能粒子储存服务器。"
+msgstr "Um servidor pequeno de armazenamento de partículas de alta energia da rede de armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKSMALLPARTICLESERVER.EFFECT"
+msgid "储存高能粒子，并供粒子出网端口发射。"
+msgstr "Armazena partículas de alta energia para as portas de saída de partículas."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMPARTICLESERVER.NAME"
+msgid "中型粒子服务器"
+msgstr "Servidor de Partículas Médio"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMPARTICLESERVER.DESC"
+msgid "用于接入储存网络的中型高能粒子储存服务器。"
+msgstr "Um servidor médio de armazenamento de partículas de alta energia da rede de armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKMEDIUMPARTICLESERVER.EFFECT"
+msgid "储存更多高能粒子，并供粒子出网端口发射。"
+msgstr "Armazena mais partículas de alta energia para as portas de saída de partículas."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEPARTICLESERVER.NAME"
+msgid "大型粒子服务器"
+msgstr "Servidor de Partículas Grande"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEPARTICLESERVER.DESC"
+msgid "用于接入储存网络的大型高能粒子储存服务器。"
+msgstr "Um servidor grande de armazenamento de partículas de alta energia da rede de armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLARGEPARTICLESERVER.EFFECT"
+msgid "储存大量高能粒子，并供粒子出网端口发射。"
+msgstr "Armazena uma grande quantidade de partículas de alta energia para as portas de saída de partículas."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKENERGYSENSOR.NAME"
+msgid "储存网络电量传感器"
+msgstr "Sensor de Carga da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKENERGYSENSOR.DESC"
+msgid "测量储存网络中所有可访问电池服务器的总电量。"
+msgstr "Mede a energia total de todos os servidores de baterias acessíveis pela Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKENERGYSENSOR.EFFECT"
+msgid "根据储存网络的总充电百分比发送自动化信号。"
+msgstr "Envia um sinal de automação conforme a porcentagem total de carga da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKENERGYSENSOR.LOGIC_PORT"
+msgid "储存网络电量"
+msgstr "Carga da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKENERGYSENSOR.LOGIC_PORT_ACTIVE"
+msgid "需要充电时发送绿色信号"
+msgstr "Envia um Sinal Verde quando a Rede de Armazenamento precisa de carga"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKENERGYSENSOR.LOGIC_PORT_INACTIVE"
+msgid "不需要充电时发送红色信号"
+msgstr "Envia um Sinal Vermelho quando a Rede de Armazenamento não precisa de carga"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_SIDE_SCREEN_TITLE"
+msgid "储存网络电量范围"
+msgstr "Faixa de Carga da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_HIGH_THRESHOLD"
+msgid "停止充电"
+msgstr "Parar Carregamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_LOW_THRESHOLD"
+msgid "开始充电"
+msgstr "Iniciar Carregamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_HIGH_THRESHOLD_TOOLTIP"
+msgid "当储存网络电量达到此百分比时发送红色信号。"
+msgstr "Envia um Sinal Vermelho quando a carga da Rede de Armazenamento atinge esta porcentagem."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_LOW_THRESHOLD_TOOLTIP"
+msgid "当储存网络电量降至此百分比时发送绿色信号。"
+msgstr "Envia um Sinal Verde quando a carga da Rede de Armazenamento cai até esta porcentagem."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_STATUS_ITEM"
+msgid "网络电量：{StoredJoules}/{CapacityJoules}（{Percent}）\n自动化：{Signal}"
+msgstr "Carga da rede: {StoredJoules}/{CapacityJoules} ({Percent})\nAutomação: {Signal}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_STATUS_TOOLTIP"
+msgid "所有当前可访问电池服务器中储存的总电量。"
+msgstr "Energia total armazenada em todos os servidores de baterias acessíveis no momento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_NETWORK_OFFLINE"
+msgid "网络离线"
+msgstr "Rede inativa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_NO_CAPACITY"
+msgid "没有可访问的电池服务器"
+msgstr "Nenhum servidor de baterias acessível"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_SIGNAL_GREEN"
+msgid "需要充电"
+msgstr "Carregamento solicitado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ENERGY_SENSOR_SIGNAL_RED"
+msgid "停止充电"
+msgstr "Carregamento interrompido"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_EDITOR_TITLE"
+msgid "逻辑编辑器"
+msgstr "Editor Lógico"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKSIGNAL.NAME"
+msgid "网络信号"
+msgstr "Sinais da Rede"
+
+msgctxt "StorageNetwork.STRINGS.RESEARCH.TECHS.STORAGENETWORKSIGNAL.DESC"
+msgid "解锁可向自动化线路输出储存网络信号的信号输出器和电量传感器。"
+msgstr "Desbloqueia a Saída de Sinal e o Sensor de Carga, que enviam sinais da Rede de Armazenamento aos fios de automação."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLOGICDIY.NAME"
+msgid "储存网络信号输出器"
+msgstr "Saída de Sinal da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLOGICDIY.DESC"
+msgid "用于向自动化线路输出储存网络信号的小型自动化建筑。"
+msgstr "Uma construção compacta de automação que envia sinais da Rede de Armazenamento aos fios de automação."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLOGICDIY.EFFECT"
+msgid "提供一个自动化信号输出端。"
+msgstr "Oferece uma porta de saída de sinal de automação."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLOGICDIY.LOGIC_PORT"
+msgid "储存网络信号输出"
+msgstr "Saída de Sinal da Rede de Armazenamento"
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLOGICDIY.LOGIC_PORT_ACTIVE"
+msgid "输出绿色信号。"
+msgstr "Envia um Sinal Verde."
+
+msgctxt "StorageNetwork.STRINGS.BUILDINGS.PREFABS.STORAGENETWORKLOGICDIY.LOGIC_PORT_INACTIVE"
+msgid "输出红色信号。"
+msgstr "Envia um Sinal Vermelho."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_POWER"
+msgid "制冷功耗: {0} W"
+msgstr "Consumo de Resfriamento: {0} W"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_POWER_TOOLTIP"
+msgid "主动降温时消耗 {0} W；保温节能时消耗 {1} W。"
+msgstr "Consome {0} W durante o resfriamento ativo e {1} W durante a manutenção da temperatura."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STORAGE_JOULES_STATUS"
+msgid "可用电力：{JoulesAvailable}/{JoulesCapacity}（{JoulesPercent}）"
+msgstr "Energia Disponível: {JoulesAvailable}/{JoulesCapacity} ({JoulesPercent})"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STORAGE_JOULES_TOOLTIP"
+msgid "当前电池服务器储存的电力。"
+msgstr "Energia armazenada neste servidor de baterias no momento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STORAGE_HEAT_STATUS"
+msgid "产热：{Heat}"
+msgstr "Calor Gerado: {Heat}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.POWER_STORAGE_HEAT_TOOLTIP"
+msgid "电池服务器运行时产生的热量。"
+msgstr "Calor gerado durante o funcionamento do servidor de baterias."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_STATUS"
+msgid "正在制冷"
+msgstr "Resfriando"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_COOLING_STATUS_TOOLTIP"
+msgid "冷库服务器正在将内容物冷却到目标温度。"
+msgstr "O servidor refrigerado está resfriando seu conteúdo até a temperatura desejada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_STEADY_STATUS"
+msgid "节能模式: {Power}"
+msgstr "Modo de Economia de Energia: {Power}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_STEADY_STATUS_TOOLTIP"
+msgid "内容物已经达到目标温度，冷库服务器正在以节能模式维持温度。"
+msgstr "O conteúdo atingiu a temperatura desejada; o servidor refrigerado a mantém em modo de economia de energia."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_HEAT_STATUS"
+msgid "产热: {Heat}/秒"
+msgstr "Calor Gerado: {Heat}/s"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.COLD_STORAGE_HEAT_STATUS_TOOLTIP"
+msgid "冷库服务器降温时产生的热量。目标温度越低，产热越高。"
+msgstr "Calor gerado durante o resfriamento do servidor refrigerado. Temperaturas desejadas mais baixas geram mais calor."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CLEAR_ABNORMAL_SUCCESS"
+msgid "订单追踪：已清理 {0} 条异常订单。"
+msgstr "Acompanhamento de ordens: {0} ordens anormais removidas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CLEAR_COMPLETED_SUCCESS"
+msgid "订单追踪：已清理 {0} 条已完成订单。"
+msgstr "Acompanhamento de ordens: {0} ordens concluídas removidas."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RETRY_MISSING"
+msgid "订单重试失败：找不到目标订单。"
+msgstr "Falha ao tentar novamente: ordem de destino não encontrada."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RETRY_INVALID"
+msgid "订单重试失败：找不到原配方或生产路线。"
+msgstr "Falha ao tentar novamente: a receita original ou a rota de produção está indisponível."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_RETRY_SUCCESS"
+msgid "订单追踪：已按订单 #{0} 的原参数重新提交。{1}"
+msgstr "Acompanhamento de ordens: ordem #{0} reenviada com suas configurações originais. {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SIDE_SCREEN_TITLE"
+msgid "信号输出设置"
+msgstr "Configurações da Saída de Sinal"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_MODE"
+msgid "输出通道"
+msgstr "Canais de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CURRENT_MODE"
+msgid "当前模式：{0}"
+msgstr "Modo atual: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OPEN_SETTINGS"
+msgid "打开本地逻辑编辑器"
+msgstr "Abrir Editor Lógico Local"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OPEN_SETTINGS_TOOLTIP"
+msgid "在浏览器中打开本地节点编辑器，保存后同步到这个信号输出器。"
+msgstr "Abre o editor local de nós em um navegador. Salvar sincroniza o conteúdo com esta saída de sinal."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CONFIG_PANEL_TITLE"
+msgid "信号输出器设置"
+msgstr "Configurações da Saída de Sinal"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SELECT_MODE"
+msgid "选择"
+msgstr "Selecionar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SELECTED_MODE"
+msgid "已选择"
+msgstr "Selecionado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SINGLE_CHANNEL"
+msgid "单通道输出"
+msgstr "Saída de Canal Único"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SINGLE_CHANNEL_TOOLTIP"
+msgid "输出 1 位自动化信号，只使用红/绿状态。"
+msgstr "Envia um sinal de automação de 1 bit, usando apenas os estados vermelho e verde."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SINGLE_CHANNEL_DESC"
+msgid "当前模式：单通道。输出值会限制为 0 或 1。"
+msgstr "Modo atual: canal único. A saída é limitada a 0 ou 1."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_FOUR_CHANNEL"
+msgid "4 通道输出"
+msgstr "Saída de 4 Canais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_FOUR_CHANNEL_TOOLTIP"
+msgid "输出 4 位自动化信号，可用于信号带网络。"
+msgstr "Envia um sinal de automação de 4 bits para redes de fita de automação."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_FOUR_CHANNEL_DESC"
+msgid "当前模式：4 通道。输出值可使用 0 到 15 的四位信号。"
+msgstr "Modo atual: 4 canais. Os valores de saída variam de 0 a 15."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CURRENT_VALUE_SINGLE"
+msgid "固定输出：{0}"
+msgstr "Saída fixa: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CURRENT_VALUE_FOUR"
+msgid "固定输出：Value {0} / Binary {1}"
+msgstr "Saída fixa: valor {0} / binário {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_ON"
+msgid "Port0：ON"
+msgstr "Porta0: LIGADA"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_ON_DESC"
+msgid "输出绿色信号。"
+msgstr "Envia um sinal verde."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_ON_TOOLTIP"
+msgid "固定输出 ON。"
+msgstr "Saída fixa LIGADA."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_OFF"
+msgid "Port0：OFF"
+msgstr "Porta0: DESLIGADA"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_OFF_DESC"
+msgid "输出红色信号。"
+msgstr "Envia um sinal vermelho."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_OFF_TOOLTIP"
+msgid "固定输出 OFF。"
+msgstr "Saída fixa DESLIGADA."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_VALUE_TITLE"
+msgid "Value：{0}"
+msgstr "Valor: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_VALUE_BINARY"
+msgid "Binary：{0}"
+msgstr "Binário: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_VALUE_TOOLTIP"
+msgid "固定输出 Value {0}，Binary {1}。"
+msgstr "Saída fixa: valor {0}, binário {1}."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_FIXED"
+msgid "固定输出"
+msgstr "Saída Fixa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_FIXED_DESC"
+msgid "手动选择固定的自动化输出值。"
+msgstr "Seleciona manualmente um valor fixo de saída de automação."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_FIXED_TOOLTIP"
+msgid "不读取网络库存，直接输出指定值。"
+msgstr "Não consulta o estoque da rede; envia diretamente o valor selecionado."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_CONDITION"
+msgid "材料条件输出"
+msgstr "Saída por Condição de Material"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_CONDITION_DESC"
+msgid "根据储存网络中的材料数量判断并输出信号。"
+msgstr "Envia um sinal conforme a quantidade de material na Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_CONDITION_TOOLTIP"
+msgid "选择一种网络材料，设置大于等于或小于阈值后输出。"
+msgstr "Selecione um material da rede e envie um sinal quando sua quantidade for maior ou igual ao limite, ou menor que ele."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL"
+msgid "判断材料"
+msgstr "Material"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_VALUE"
+msgid "{0}  当前 {1}"
+msgstr "{0}  Atual: {1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_CURRENT"
+msgid "当前 {0}"
+msgstr "Atual: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_TOOLTIP"
+msgid "选择储存网络服务器中已有的材料。"
+msgstr "Selecione um material armazenado nos servidores da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_NONE"
+msgid "未选择材料"
+msgstr "Nenhum Material Selecionado"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_NONE_DESC"
+msgid "当前网络没有可选择的材料，或材料尚未进入服务器。"
+msgstr "Nenhum material selecionável nesta rede ou nenhum material entrou em um servidor ainda."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_PICKER_TITLE"
+msgid "选择判断材料"
+msgstr "Selecionar Material"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_PICKER_COUNT"
+msgid "可选材料：{0} 个"
+msgstr "Materiais disponíveis: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATERIAL_PICKER_HINT"
+msgid "列表来自当前同星球储存网络服务器中的内容物；跨星球中继在线时会包含可达星球。"
+msgstr "A lista contém o conteúdo dos servidores da Rede de Armazenamento deste asteroide e de asteroides acessíveis quando há um retransmissor interplanetário ativo."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_GE"
+msgid "条件：大于等于"
+msgstr "Condição: Maior ou Igual a"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_GE_DESC"
+msgid "材料数量 >= 阈值时输出。"
+msgstr "Envia um sinal quando a quantidade de material é maior ou igual ao limite."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_GE_TOOLTIP"
+msgid "当选中材料数量大于等于阈值时，指定通道输出 ON。"
+msgstr "O canal selecionado envia LIGADO quando a quantidade de material é maior ou igual ao limite."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_LT"
+msgid "条件：小于"
+msgstr "Condição: Menor que"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_LT_DESC"
+msgid "材料数量 < 阈值时输出。"
+msgstr "Envia um sinal quando a quantidade de material fica abaixo do limite."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_LT_TOOLTIP"
+msgid "当选中材料数量小于阈值时，指定通道输出 ON。"
+msgstr "O canal selecionado envia LIGADO quando a quantidade de material fica abaixo do limite."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_THRESHOLD"
+msgid "变量值"
+msgstr "Valor da Variável"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_THRESHOLD_TOOLTIP"
+msgid "选择用于节点图比较的数值。"
+msgstr "Seleciona o valor usado na comparação do grafo de nós."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_THRESHOLD_PICKER_TITLE"
+msgid "选择变量值"
+msgstr "Selecionar Valor da Variável"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_THRESHOLD_CURRENT"
+msgid "当前变量值：{0}"
+msgstr "Valor atual da variável: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_THRESHOLD_PICKER_HINT"
+msgid "第一版先提供常用档位；后续会接入储存网络已有的数字输入弹窗。"
+msgstr "A primeira versão oferece valores predefinidos comuns; futuramente usará a caixa de entrada numérica da Rede de Armazenamento."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_THRESHOLD_OPTION_DESC"
+msgid "设为材料判断阈值。"
+msgstr "Define o limite da condição de material."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_CHANNEL"
+msgid "Port{0}"
+msgstr "Porta{0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_CHANNEL_DESC"
+msgid "条件成立时输出数值 {0}。"
+msgstr "Envia o valor {0} quando a condição é atendida."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_CHANNEL_TOOLTIP"
+msgid "4 通道模式下只点亮这个 bit，条件不成立时输出 0。"
+msgstr "No modo de 4 canais, apenas este bit é ativado; a saída é 0 quando a condição não é atendida."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_CHANNEL_SINGLE"
+msgid "Port0"
+msgstr "Porta0"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_CHANNEL_SINGLE_DESC"
+msgid "单通道模式下条件成立输出 ON，不成立输出 OFF。"
+msgstr "No modo de canal único, envia LIGADO quando a condição é atendida e DESLIGADO caso contrário."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_OUTPUT_CHANNEL_SINGLE_TOOLTIP"
+msgid "单通道只有 Port0。"
+msgstr "O modo de canal único tem apenas a Porta0."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CURRENT_CONDITION"
+msgid "{0} 当前 {1}，条件 {2} {3}，输出 {4}"
+msgstr "{0} atual {1}, condição {2} {3}, saída {4}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_SOURCE"
+msgid "输出方式"
+msgstr "Método de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_SOURCE_TOOLTIP"
+msgid "选择固定输出或根据网络材料条件输出。"
+msgstr "Escolha entre saída fixa ou saída baseada em uma condição de material da rede."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_CHANNEL_MODE"
+msgid "通道模式"
+msgstr "Modo de Canais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_CHANNEL_MODE_TOOLTIP"
+msgid "选择单通道或 4 通道输出。"
+msgstr "Escolha saída de canal único ou de 4 canais."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_FIXED_VALUE"
+msgid "固定输出值"
+msgstr "Valor de Saída Fixa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_MATERIAL"
+msgid "判断材料"
+msgstr "Material"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_COMPARE"
+msgid "判断条件"
+msgstr "Condição"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_COMPARE_TOOLTIP"
+msgid "选择材料数量与阈值的比较方式。"
+msgstr "Escolha como comparar a quantidade de material com o limite."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_THRESHOLD"
+msgid "变量值"
+msgstr "Valor da Variável"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SETTING_OUTPUT_PORT"
+msgid "输出端口"
+msgstr "Porta de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MODULE_LIBRARY"
+msgid "模块"
+msgstr "Módulos"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CONNECTION_GRAPH"
+msgid "条件连接"
+msgstr "Conexões de Condições"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_BLUEPRINT_HINT"
+msgid "从左侧拖入模块到画布；点击节点端点可连接模块。"
+msgstr "Arraste módulos da esquerda para a área de edição; clique nas portas dos nós para conectar módulos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_SOURCE_MODULES"
+msgid "输出"
+msgstr "Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_MATH_MODULES"
+msgid "数学"
+msgstr "Matemática"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_COMPARE_MODULES"
+msgid "比较"
+msgstr "Comparação"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_BOOL_MODULES"
+msgid "布尔"
+msgstr "Booleano"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_FUTURE_MODULES"
+msgid "扩展模块"
+msgstr "Módulos de Extensão"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_LUA_MODULE"
+msgid "Lua 模块"
+msgstr "Módulo Lua"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_LUA_MODULE_DESC"
+msgid "后续用于脚本控制输出。"
+msgstr "Reservado para futura saída controlada por scripts."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_TIMER_MODULE"
+msgid "定时模块"
+msgstr "Módulo Temporizador"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_TIMER_MODULE_DESC"
+msgid "后续用于动画、循环和波形输出。"
+msgstr "Reservado para futura saída de animações, repetições e formas de onda."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_MATERIAL"
+msgid "材料数据源"
+msgstr "Fonte de Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_COMPARE"
+msgid "变量模块"
+msgstr "Módulo de Variável"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_FIXED"
+msgid "固定输出模块"
+msgstr "Módulo de Saída Fixa"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_OUTPUT"
+msgid "输出模块"
+msgstr "Módulo de Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_ADD"
+msgid "加法"
+msgstr "Somar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_ADD_DESC"
+msgid "两个数值相加。"
+msgstr "Soma dois valores."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_SUBTRACT"
+msgid "减法"
+msgstr "Subtrair"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_SUBTRACT_DESC"
+msgid "左输入减右输入。"
+msgstr "Subtrai a entrada direita da entrada esquerda."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_MULTIPLY"
+msgid "乘法"
+msgstr "Multiplicar"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_MULTIPLY_DESC"
+msgid "两个数值相乘。"
+msgstr "Multiplica dois valores."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_DIVIDE"
+msgid "除法"
+msgstr "Dividir"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_DIVIDE_DESC"
+msgid "左输入除以右输入。"
+msgstr "Divide a entrada esquerda pela entrada direita."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_GREATER"
+msgid "大于"
+msgstr "Maior que"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_GREATER_DESC"
+msgid "A > B 时为真。"
+msgstr "Verdadeiro quando A > B."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_EQUAL"
+msgid "等于"
+msgstr "Igual a"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_EQUAL_DESC"
+msgid "A = B 时为真。"
+msgstr "Verdadeiro quando A = B."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_LESS"
+msgid "小于"
+msgstr "Menor que"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_LESS_DESC"
+msgid "A < B 时为真。"
+msgstr "Verdadeiro quando A < B."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_TRUE"
+msgid "TRUE"
+msgstr "VERDADEIRO"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_TRUE_DESC"
+msgid "布尔真常量。"
+msgstr "Constante booleana verdadeira."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_FALSE"
+msgid "FALSE"
+msgstr "FALSO"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_FALSE_DESC"
+msgid "布尔假常量。"
+msgstr "Constante booleana falsa."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_AND"
+msgid "与"
+msgstr "E"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_AND_DESC"
+msgid "两个输入都为真。"
+msgstr "Verdadeiro quando ambas as entradas são verdadeiras."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_OR"
+msgid "或"
+msgstr "OU"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_OR_DESC"
+msgid "任意输入为真。"
+msgstr "Verdadeiro quando pelo menos uma entrada é verdadeira."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_NOT"
+msgid "非"
+msgstr "NÃO"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_NODE_BOOL_NOT_DESC"
+msgid "反转一个布尔输入。"
+msgstr "Inverte uma entrada booleana."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CONNECT_TO_COMPARE"
+msgid "变量"
+msgstr "Variável"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.LOGIC_DIY_CONNECT_TO_OUTPUT"
+msgid "输出"
+msgstr "Saída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ESTIMATED_FINISH_CYCLE"
+msgid "预计完成"
+msgstr "Conclusão Estimada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_FINISHED_CYCLE"
+msgid "完成周期"
+msgstr "Ciclo de Conclusão"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_CYCLE_UNKNOWN"
+msgid "未知"
+msgstr "Desconhecido"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ACTION_CLEAR_ABNORMAL"
+msgid "清异常"
+msgstr "Limpar Anormais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ACTION_CLEAR_COMPLETED"
+msgid "清完成"
+msgstr "Limpar Concluídas"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ACTION_RETRY"
+msgid "重试"
+msgstr "Tentar Novamente"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_WAITING_MATERIALS"
+msgid "成品设备 {0} 台等待材料，{1} 台设备补产缺口。"
+msgstr "{0} máquinas do produto aguardando materiais, {1} máquinas produzindo o que falta."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_MISSING_MATERIALS_TITLE"
+msgid "缺少材料："
+msgstr "Materiais Faltantes:"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_MISSING_MATERIAL_LINE"
+msgid "• {0}：库存 {1} / 需要 {2}（缺少 {3}）"
+msgstr "• {0}: {1} armazenado / {2} necessário (faltam {3})"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_DETAIL_MISSING_PREFIX"
+msgid "缺少材料：{0}"
+msgstr "Faltam: {0}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_MACHINES_RUNNING"
+msgid "{0} 台设备正在以 {1} 核处理该订单。"
+msgstr "{0} máquinas processando a ordem com {1} núcleos."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_CREATED"
+msgid "{0}，创建于 {1} 周期。"
+msgstr "{0}, criada no ciclo {1}."
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_SOURCE_KEEP"
+msgid "货物保持"
+msgstr "Manter Estoque"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_SOURCE_MANUAL"
+msgid "手动"
+msgstr "Manual"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_SUBMITTED"
+msgid "已提交"
+msgstr "Enviada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_WAITING"
+msgid "待材料"
+msgstr "Aguardando Materiais"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_PRODUCING"
+msgid "生产中"
+msgstr "Produzindo"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_COMPLETED"
+msgid "完成"
+msgstr "Concluída"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_ABNORMAL"
+msgid "异常取消"
+msgstr "Anormal"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_CANCELLED"
+msgid "已取消"
+msgstr "Cancelada"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_STATE_TRACKING"
+msgid "追踪中"
+msgstr "Acompanhamento"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.TRACKING_ORDER_SOURCE_BATCH"
+msgid "{0}订单 · 批次 x{1}"
+msgstr "{0} Ordem, Lote x{1}"
+
+msgctxt "StorageNetwork.STRINGS.UI.STORAGE_NETWORK.ORDER_CENTER_PROGRESS_SECTION_TITLE"
+msgid "运行进度"
+msgstr "Progresso"

@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj",
+        "projectName": "ShinyHats",
+        "projectPath": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj",
+        "packagesPath": "C:\\Users\\Killface\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Killface\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "ILRepack.Lib.MSBuild.Task": {
+              "target": "Package",
+              "version": "[2.0.18.2, )"
+            },
+            "PLib": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

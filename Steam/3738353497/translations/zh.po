@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Application: Oxygen Not Included\n"
+"POT Version: 2.0\n"
+"X-Generator: Poedit 3.5\n"
+
+# ==================== 建筑名称 ====================
+
+#. 生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.NAME
+msgctxt "生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.NAME"
+msgid "Bio Fuel Generator"
+msgstr "生物燃料发电机"
+
+#. 生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.EFFECT
+msgctxt "生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.EFFECT"
+msgid "Generates power by consuming food"
+msgstr "通过消耗食物产生电力"
+
+#. 生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.DESC
+msgctxt "生物燃料发电机.STRINGS.BUILDINGS.PREFABS.FOODGENERATOR.DESC"
+msgid "Power output configurable"
+msgstr "发电量可配置"
+
+# ==================== 配置选项 ====================
+
+#. 生物燃料发电机.STRINGS.SWFY.T1
+msgctxt "生物燃料发电机.STRINGS.SWFY.T1"
+msgid "Power Generation Rate"
+msgstr "发电功率"
+
+#. 生物燃料发电机.STRINGS.SWFY.D1
+msgctxt "生物燃料发电机.STRINGS.SWFY.D1"
+msgid "Sets the power generation rate of the Bio Fuel Generator"
+msgstr "设置生物燃料发电机的发电功率"
+
+#. 生物燃料发电机.STRINGS.SWFY.T2
+msgctxt "生物燃料发电机.STRINGS.SWFY.T2"
+msgid "Consumption Speed"
+msgstr "燃烧速度"
+
+#. 生物燃料发电机.STRINGS.SWFY.D2
+msgctxt "生物燃料发电机.STRINGS.SWFY.D2"
+msgid "Sets the food consumption speed of the Bio Fuel Generator"
+msgstr "设置生物燃料发电机的食物消耗速度"
+
+#. 生物燃料发电机.STRINGS.SWFY.SE1
+msgctxt "生物燃料发电机.STRINGS.SWFY.SE1"
+msgid "Food Filter"
+msgstr "食物筛选"
+
+#. 生物燃料发电机.STRINGS.SWFY.SE2
+msgctxt "生物燃料发电机.STRINGS.SWFY.SE2"
+msgid "Added a food filter menu that restricts to a single selection. Multiple selections will be ignored."
+msgstr "添加一个食物筛选菜单栏，只能选择一种食物，多选无效"
+
+# ==================== 燃料类型配置 ====================
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_FOOD
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_FOOD"
+msgid "Food as Fuel"
+msgstr "食物作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_FOOD_TOOLTIP
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_FOOD_TOOLTIP"
+msgid "Allow food items to be used as fuel"
+msgstr "允许食物作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_COOKING
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_COOKING"
+msgid "Cooking Ingredients as Fuel"
+msgstr "烹饪原料作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_COOKING_TOOLTIP
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_COOKING_TOOLTIP"
+msgid "Allow cooking ingredients to be used as fuel"
+msgstr "允许烹饪原料作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_ROTTEN
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_ROTTEN"
+msgid "Rotten Food as Fuel"
+msgstr "腐烂物作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_ROTTEN_TOOLTIP
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_ROTTEN_TOOLTIP"
+msgid "Allow rotten food (Rot Pile) to be used as fuel"
+msgstr "允许腐烂物（腐烂堆）作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_ORGANIC
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_ORGANIC"
+msgid "Combustible Solids as Fuel"
+msgstr "可燃固体作为燃料"
+
+#. 生物燃料发电机.STRINGS.SWFY.FUEL_ORGANIC_TOOLTIP
+msgctxt "生物燃料发电机.STRINGS.SWFY.FUEL_ORGANIC_TOOLTIP"
+msgid "Allow combustible solids (coal, wood, slime, algae, dirt, etc.) to be used as fuel"
+msgstr "允许可燃固体（煤炭、木材、菌泥、藻类、泥土等）作为燃料"

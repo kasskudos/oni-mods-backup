@@ -1,0 +1,3 @@
+title: "Estufa, Correção do Consumo Exibido"
+description: "Corrige a indicação de 573,3 W quando a estufa de Saito está com demanda elétrica zero. Mantém o cálculo de iluminação, climatização e viveiro do mod original."
+staticID: GreenhousePowerDisplayFix

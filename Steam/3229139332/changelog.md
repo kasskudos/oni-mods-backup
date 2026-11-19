@@ -1,0 +1,172 @@
+## Changelog
+### v1.0 | 17.06.26
+- **Lançamento oficial** — fim da fase beta (última versão beta foi v0.6.3b);
+- **40 fuzzy flags limpas** (14 ativas + 26 obsoletas) — 0 fuzzies restantes;
+- **14 entradas corrigidas** do patch hotfix de 14/06 — novas traduções, links quebrados, terminologia padronizada;
+- **Novas traduções:** BUTTERFLY (recolheu as asas firmemente), JAWBOFOOD (Frutos do Mar Cozidos / Nhom nhom nhom!);
+- **Terminologia padronizada:** Aquatic rooms (CONFINED/OVERCROWDING_AQUATIC) → "tanque", Molt → "Concha" (caramujos) / "Casco" (pokeshells), Gildgo → Dourargo, Slogo Molt → "Concha de Lesmargo";
+- **Links corrigidos:** FISHFOOD → PACUSPECIES, SEATURTLE → TOXICMUD (Lama Poluída);
+- **Tags HTML quebradas reparadas:** `</size>` sem fechamento, `<style>` sem `</style>`;
+- **Correções ortográficas:** "Mìnimo" → "Mínimo", "Surahashi" → "Saruhashi";
+- **Respiração Subaquática:** texto de EFFECT corrigido — "ambientes sufocantes" em vez de "embaixo d'água", com remoção de requirements duplicados;
+- **strings.mo + messages.mo recompilados** e sincronizados com Proton/Linux.
+- **Version bump** 0.6.3 → 1.0 (mod_info.yaml + strings de versão no jogo).
+
+### v0.6.3b | 13.06.26
+- **7 correções estruturais no strings.po** baseadas em erros reportados pelo Player.log;
+- **Correção de texto duplicado** em TUNGSTENDISELENIDE.DESC e ZINCORE.DESC — última frase aparecia duas vezes;
+- **Correção de msgstr corrompida** em COLONYLACKSDUPEWITHMULTISKILLPERK.TOOLTIP_DLC3 — conteúdo extra e placeholders multiplicados removidos;
+- **Correção de links aninhadas** em CACTUSPLANT.DESC e GARDENDECORPLANT.DESC — `<link>` viraram irmãs como no original EN;
+- **Remoção de self-links extras** em BLEACHSTONE.DESC e PALMWOOD.DESC — tradução não deve adicionar `<link>` que não existe no original;
+- **Template oficial Klei verificado** — todos os msgids conferidos contra `strings_template.pot` oficial (build U59), 0 divergências;
+- **strings.mo + messages.mo recompilados** e sincronizados;
+
+### v0.6.3 | 12.06.26
+- **Auditoria completa do strings.po** — varredura automatizada de 21.322 entradas ativas;
+- **Correção GRANTED_SKILL_NO_MORALE_COST** — `\n\n{0}\n{1}` extras removidos, capitalização de "Duplicante" corrigida;
+- **Correção POND.HEADER/SIZE** — "Dica" → "Tamanho do Viveiro", bullet `    • ` restaurado;
+- **"Sodicana" → "Cana de Sal"** — trocadilho com "Cana de Açúcar" para a planta da DLC Aquatic;
+- **Version bump** 0.6.2 → 0.6.3 (mod_info.yaml + strings de versão no jogo).
+
+### v0.6.1-beta | 01.06.26
+- **176 fuzzy flags eliminadas** — de 175 para 0 (zero fuzzy ativo);
+- **Atualização pós-patch da Klei:** re-traduzidas 101 entradas afetadas por renomeações de blueprints e reestruturações;
+- **Terminologia refinada:** "Algatorre" → "Algaime" (alga + andaime), "Piso de Borracha" → "Bloco de Borracha", "Cadeira de Praia" → nomes temáticos (Bicolume, Luluzente, Ouriço);
+- **176 traduções novas/corrigidas:** WALLS AQUA/NAUTICAL/SEA/WAVES (41), OUTFIT (3), ELEGANTBED (3), BEACH_CHAIR (1), FINDING_MINNOW (10), BUILDINGS (5), POPUPS (6), BLUEPRINTS diversos (27), critter descriptions (19), status items (16);
+- **Placeholder `{Rate}` → `{Taxa}` corrigido** — placeholder nunca deve ser traduzido;
+- Scan de validação: 0 placeholders traduzidos, 0 tags quebradas, 0 pontuação inconsistente.
+
+### v0.6.0-beta | 31.05.26
+- **102 traduções novas:** 52 skins DLC Aquatic (Atmo Suits, Clothing, Balloon, Building, Gen/Light, Storage, Monument), 8 LIQUID...EFFECT (Gás→Líquido), 2 correções individuais (RUBBERBOOTS, LARGEELECTROBANKDISCHARGER), 2 traduções novas (FROZENPHYTOOIL, KITCHENREFRIGERATOR), 39 CODEX EMAILHEADER (`</color>`), 1 entry órfã (ATMO_SHOES_DIVING_TAN);
+- **95 fuzzy flags limpas** — de 99 para 4 (todos placeholders BLUEPRINTS intencionais);
+- **7 bugs de renderização corrigidos:** tags `</link>`, `</color>`, `<style>` quebradas ou faltantes;
+- **15 pontos finais restaurados** — consistência EN/PT-BR;
+- **5 links `<link>` restaurados** em GLASSEXTERIORWALL, LAUNCHPAD, LIQUIDCONDUIT sensors;
+- **Terminologia atualizada:** "Torre Alga" → "Algatorre", "Cria de Cascóreo" → "Cascórinho", "Traje Aquático" → "Aqua-Traje";
+- **Regra de Piping registrada:** Liquid Pipe → Cano, Gas Pipe → Tubo;
+- **Sincronizado com POT oficial** da Klei (21.246 entries);
+- Correção de bug Proton/Linux (mod lendo de caminho errado);
+- Correção de line endings (`\r\n` → `\n`) em mod.yaml.
+
+### v0.5.0-beta | 16.05.26
+- **strings.po 100% completo** — 20.923 entries, 20.130 traduzidas, 179 stubs vazios (msgid sem conteúdo);
+- 40 novas traduções: BUILDING.STATUSITEMS (3), CODEX (23), CREATURES (12), DUPLICANTS (2);
+- Padronização de termos: Cone Broca, Módulos de Carga, Módulo Duplicador, InterDuplicador, Blocos, Quartos, Escala de Trabalho, Cascas Vegetais, Vagalume, Pacu Tropical;
+- **Limpeza de 1.460 linhas `#|`** (metadados obsoletos de versões anteriores do jogo);
+- Scan de consistência: 0 desvios de terminologia, 0 links quebrados, 0 inglês vazado.
+
+### v0.4.0-beta | 17.07.25
+- Revisão e correções de tradução, inclusão da atualização de 17.07.25.
+
+### v0.3.0-beta | 22.06.25
+- Tradução atualizada para a versão de junho de 2025.
+
+### v0.2.1-beta | 10.06.25
+- Tradução 100% DLC O Pacote Planeta Pré-histórico (beta-build).
+
+### v0.2-beta | 11.05.25
+- Tradução atualizada para a versão de março de 2025.
+
+### v0.1-beta | 03.04.25
+- Tradução atualizada para a versão de fevereiro de 2025.
+
+### v0.0.20-alpha | 20.03.25
+- 98% do jogo traduzido e atualizado.
+
+### v0.0.19-alpha | 18.01.25
+- 68% do jogo traduzido e atualizado.
+
+### v0.0.18-alpha | 12.10.24
+- 70% do jogo traduzido.
+
+### v0.0.17.4-alpha | 06.09.24
+- Melhorias na tradução;
+- Correção de bug que fazia o jogo crashar no resumo das colônias (obrigado ao umdalek!).
+
+### v0.0.17.3-alpha | 03.08.24
+- Melhorias na tradução.
+
+### v0.0.17-alpha | 27.07.24
+- 60% do jogo traduzido;
+- Melhorias na tradução.
+
+### v0.0.16-alpha | 22.07.24
+- 57% do jogo traduzido;
+- Novo banner e cover.
+
+### v0.0.15-alpha | 19.07.24
+- 55% do jogo traduzido, incluindo The Frosty Planet DLC.
+
+### v0.0.14-alpha | 16.06.24
+- 57% do jogo traduzido.
+
+### v0.0.13-alpha | 30.05.24
+- 55% do jogo traduzido.
+
+### v0.0.12-alpha | 15.05.24
+- 52% do jogo traduzido.
+
+### v0.0.11-alpha | 05.05.24
+- 50% do jogo traduzido.
+
+### v0.0.10-alpha | 02.05.24
+- 47% do jogo traduzido.
+
+### v0.0.9-alpha | 28.04.24
+- 45% do jogo traduzido.
+
+### v0.0.8-alpha | 27.04.24
+- 40% do jogo traduzido;
+- Correção no preview.
+
+### v0.0.7-alpha | 26.04.24
+- 37% do jogo traduzido;
+- Ajuste na imagem cover.
+
+### v0.0.6.2-alpha | 25.04.24
+- Correção de bug na imagem cover.
+
+### v0.0.6-alpha | 25.04.24
+- 35% do jogo traduzido;
+- Novo preview e cover;
+- Sincronização no GitHub.
+
+### v0.0.5.2-alpha | 24.04.24
+- Atualização do preview do mod.
+
+### v0.0.5-alpha | 24.04.24
+- 33% do jogo traduzido;
+- Adicionada a versão da tradução à interface do jogo.
+
+### v0.0.4-alpha | 23.04.24
+- 31% do jogo traduzido;
+- Várias correções na tradução.
+
+### v0.0.3.2-alpha | 22.04.24
+- Correção de bug.
+
+### v0.0.3-alpha | 22.04.24
+- 30% do jogo traduzido;
+- Várias correções na tradução.
+
+### v0.0.2.2-alpha | 22.04.24
+- Correções nos arquivos do mod.
+
+### v0.0.2-alpha | 22.04.24
+- 25% do jogo traduzido.
+
+### v0.0.1.2-alpha | 21.04.24
+- Correção de erro no preview.
+
+### v0.0.1-alpha | 21.04.24
+- Primeira versão: 22% do jogo traduzido.
+
+### v0.6.2 | 07.06.26
+- **53 traduções novas:** BLUEPRINTS DESC/NAME (Walls Aqua/Sea/Waves/Nautical, Monument, Sculpture, Painting, Atmo Shoes, Balloon, Elegantbed, Gloves, Surfboard);
+- **Correção FROZENPHYTOOIL.DESC** — "Ovoleno Congelado" → "Óleo Fito Congelado" (texto completamente errado);
+- **Removido texto extra** em MILKINGSTATION.EFFECT;
+- **Corrigidos metadados PO** em 2 entries corrompidas (MINNOW_IMPERATIVE_POI_A, NEWBUILDCATEGORIES);
+- **Corrigidos `\n`** em 2 entries (CRITTERDRINKABLE_DESC, MILKINGSTATION.EFFECT);
+- **"Nisbet" → "Lisbet"** em PAINTING_WIDE_ART_VENUS.NAME;
+- **Regras atualizadas:** nunca adicionar texto extra, nunca copiar metadados PO, sempre mostrar preview antes de alterar;
+- **Varredura completa** do arquivo — 68 issues analisadas, 6 reais corrigidas, 62 falsos positivos.

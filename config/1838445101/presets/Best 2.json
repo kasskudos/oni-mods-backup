@@ -1,0 +1,98 @@
+{
+  "Info": [
+    {
+      "Personality": -1139235610,
+      "JoyTrait": 1547764748,
+      "StressTrait": 478418728,
+      "Traits": [
+        -1953319993,
+        1185128960,
+        203220908,
+        1542938270
+      ],
+      "Name": "Pedreiro ",
+      "StartingLevels": {
+        "Strength": 0,
+        "Caring": 0,
+        "Construction": 5,
+        "Digging": 5,
+        "Machinery": 0,
+        "Learning": 0,
+        "Cooking": 0,
+        "Botanist": 0,
+        "Art": 0,
+        "Ranching": 0,
+        "Athletics": 0,
+        "SpaceNavigation": 0
+      },
+      "SkillAptitudes": {
+        "2129168560": 1.0,
+        "1864172884": 1.0
+      }
+    },
+    {
+      "Personality": 923723807,
+      "JoyTrait": -2116915423,
+      "StressTrait": 469938656,
+      "Traits": [
+        -1953319993,
+        -1301428765,
+        -391274599,
+        1185128960
+      ],
+      "Name": "Fazendeira",
+      "StartingLevels": {
+        "Strength": 0,
+        "Caring": 0,
+        "Construction": 0,
+        "Digging": 0,
+        "Machinery": 0,
+        "Learning": 0,
+        "Cooking": 0,
+        "Botanist": 6,
+        "Art": 0,
+        "Ranching": 5,
+        "Athletics": 0,
+        "SpaceNavigation": 0
+      },
+      "SkillAptitudes": {
+        "-21526676": 1.0,
+        "-1433972386": 1.0
+      }
+    },
+    {
+      "Personality": 1930808869,
+      "JoyTrait": -802397124,
+      "StressTrait": 469938656,
+      "Traits": [
+        -1953319993,
+        -1877077067,
+        141170158,
+        1185128960
+      ],
+      "Name": "Cientista",
+      "StartingLevels": {
+        "Strength": 0,
+        "Caring": 0,
+        "Construction": 0,
+        "Digging": 0,
+        "Machinery": 5,
+        "Learning": 5,
+        "Cooking": 0,
+        "Botanist": 0,
+        "Art": 0,
+        "Ranching": 0,
+        "Athletics": 0,
+        "SpaceNavigation": 0
+      },
+      "SkillAptitudes": {
+        "-1197636805": 1.0,
+        "1192759670": 1.0
+      }
+    }
+  ],
+  "Name": "Best 2",
+  "Date": "04.06.2026",
+  "DLC1": true,
+  "Vanilla": false
+}

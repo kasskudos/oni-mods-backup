@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rsl9jDrr+bSvWPo4C9vbhzAGpBy1H0tdk4mulFNqqAS2Uodui+mkjq1/OUglCsg8TdNTE4gbFFJNlSVelPUhAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Killface\\Documents\\Klei\\OxygenNotIncluded\\mods\\dev\\ShinyHats\\ShinyHats\\ShinyHats\\ShinyHats.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Killface\\.nuget\\packages\\ilrepack.lib.msbuild.task\\2.0.18.2\\ilrepack.lib.msbuild.task.2.0.18.2.nupkg.sha512",
+    "C:\\Users\\Killface\\.nuget\\packages\\plib\\4.12.0\\plib.4.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

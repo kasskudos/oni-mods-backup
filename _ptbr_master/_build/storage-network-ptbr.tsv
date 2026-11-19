@@ -1,0 +1,946 @@
+0	Núcleo da Rede de Armazenamento
+1	O nó central que mantém a Rede de Armazenamento em funcionamento.
+2	Oferece armazenamento geral de grande capacidade e atua como a principal infraestrutura da Rede de Armazenamento.
+3	Central de Ordens de Produção
+4	Uma construção da rede que grava receitas de construções de produção e gerencia ordens de produção.
+5	Clique em "Gravar" e selecione uma construção de produção com receitas para gravar suas receitas na Central de Ordens de Produção. A construção original será destruída, e cada receita só pode ser gravada uma vez.
+6	Servidor de Sólidos Pequeno
+7	Um servidor pequeno de armazenamento de sólidos da <link="STORAGENETWORK">Rede de Armazenamento</link>. Os itens sólidos devem entrar na rede por uma <link="STORAGENETWORKSOLIDINPUTPORT">Porta de Entrada de Materiais da Rede</link>.
+8	Armazena itens sólidos e aparece na janela da <link="STORAGENETWORK">Rede de Armazenamento</link>. Duplicantes podem retirar itens daqui como de um armário comum; desativar "Permitir Uso Manual" impede a retirada manual de itens pelos Duplicantes.
+9	Porta de Entrada de Materiais da Rede
+10	Uma porta de entrada que conecta trilhos de transporte de sólidos à Rede de Armazenamento.
+11	Recebe materiais sólidos dos trilhos de transporte e serve de conexão para a lógica de entrada na rede.
+12	Porta de Saída de Materiais da Rede
+13	Uma porta de saída que conecta a Rede de Armazenamento aos trilhos de transporte de sólidos.
+14	Envia materiais sólidos aos trilhos de transporte e serve de conexão para a lógica de saída da rede.
+15	Porta de Entrada de Líquidos da Rede
+16	Uma porta de entrada que conecta tubulações de líquido à Rede de Armazenamento.
+17	Recebe líquidos das tubulações e serve de conexão para a lógica de entrada na rede.
+18	Porta de Saída de Líquidos da Rede
+19	Uma porta de saída que conecta a Rede de Armazenamento às tubulações de líquido.
+20	Envia líquidos às tubulações e serve de conexão para a lógica de saída da rede.
+21	Porta de Entrada de Gases da Rede
+22	Uma porta de entrada que conecta tubulações de gás à Rede de Armazenamento.
+23	Recebe gases das tubulações e serve de conexão para a lógica de entrada na rede.
+24	Porta de Saída de Gases da Rede
+25	Uma porta de saída que conecta a Rede de Armazenamento às tubulações de gás.
+26	Envia gases às tubulações e serve de conexão para a lógica de saída da rede.
+27	Porta de Entrada de Energia da Rede
+28	Uma porta de entrada de energia que conecta circuitos à Rede de Armazenamento.
+29	Conecta um circuito elétrico e serve de conexão para a lógica de entrada de energia na rede.
+30	Porta de Saída de Energia da Rede
+31	Uma porta de saída de energia que conecta a Rede de Armazenamento aos circuitos.
+32	Fornece energia a um circuito elétrico e serve de conexão para a lógica de saída de energia da rede.
+33	Servidor de Líquidos Pequeno
+34	Um servidor pequeno de armazenamento de líquidos da Rede de Armazenamento.
+35	Armazena líquidos e aparece na janela da Rede de Armazenamento.
+36	Servidor de Gases Pequeno
+37	Um servidor pequeno de armazenamento de gases da Rede de Armazenamento.
+38	Armazena gases e aparece na janela da Rede de Armazenamento.
+39	Servidor de Baterias Pequeno
+40	Um servidor pequeno de armazenamento de energia da Rede de Armazenamento.
+41	Armazena energia elétrica e aparece na janela da Rede de Armazenamento.
+42	Servidor Refrigerado Pequeno
+43	Um servidor pequeno de armazenamento refrigerado da Rede de Armazenamento.
+44	Armazena alimentos e ingredientes e aparece na janela da Rede de Armazenamento.
+45	Servidor de Sólidos Médio
+46	Um servidor médio de armazenamento de sólidos da <link="STORAGENETWORK">Rede de Armazenamento</link>. Os itens sólidos devem entrar na rede por uma <link="STORAGENETWORKSOLIDINPUTPORT">Porta de Entrada de Materiais da Rede</link>.
+47	Armazena mais itens sólidos e aparece na janela da <link="STORAGENETWORK">Rede de Armazenamento</link>. Duplicantes podem retirar itens daqui como de um armário comum; desativar "Permitir Uso Manual" impede a retirada manual de itens pelos Duplicantes.
+48	Servidor de Líquidos Médio
+49	Um servidor médio de armazenamento de líquidos da Rede de Armazenamento.
+50	Armazena mais líquidos e aparece na janela da Rede de Armazenamento.
+51	Servidor de Gases Médio
+52	Um servidor médio de armazenamento de gases da Rede de Armazenamento.
+53	Armazena mais gases e aparece na janela da Rede de Armazenamento.
+54	Servidor de Baterias Médio
+55	Um servidor médio de armazenamento de energia da Rede de Armazenamento.
+56	Armazena mais energia elétrica e aparece na janela da Rede de Armazenamento.
+57	Servidor Refrigerado Médio
+58	Um servidor médio de armazenamento refrigerado da Rede de Armazenamento.
+59	Armazena mais alimentos e ingredientes e aparece na janela da Rede de Armazenamento.
+60	Servidor de Sólidos Grande
+61	Um servidor grande de armazenamento de sólidos da <link="STORAGENETWORK">Rede de Armazenamento</link>. Os itens sólidos devem entrar na rede por uma <link="STORAGENETWORKSOLIDINPUTPORT">Porta de Entrada de Materiais da Rede</link>.
+62	Armazena uma grande quantidade de itens sólidos e aparece na janela da <link="STORAGENETWORK">Rede de Armazenamento</link>. Duplicantes podem retirar itens daqui como de um armário comum; desativar "Permitir Uso Manual" impede a retirada manual de itens pelos Duplicantes.
+63	Servidor de Líquidos Grande
+64	Um servidor grande de armazenamento de líquidos da Rede de Armazenamento.
+65	Armazena uma grande quantidade de líquidos e aparece na janela da Rede de Armazenamento.
+66	Servidor de Gases Grande
+67	Um servidor grande de armazenamento de gases da Rede de Armazenamento.
+68	Armazena uma grande quantidade de gases e aparece na janela da Rede de Armazenamento.
+69	Servidor de Baterias Grande
+70	Um servidor grande de armazenamento de energia da Rede de Armazenamento.
+71	Armazena uma grande quantidade de energia elétrica e aparece na janela da Rede de Armazenamento.
+72	Servidor Refrigerado Grande
+73	Um servidor grande de armazenamento refrigerado da Rede de Armazenamento.
+74	Armazena uma grande quantidade de alimentos e ingredientes e aparece na janela da Rede de Armazenamento.
+75	Retransmissor da Rede de Armazenamento
+76	Um módulo retransmissor da Rede de Armazenamento instalado em foguetes.
+77	Quando o foguete está no espaço, permite que a Rede de Armazenamento transfira itens entre planetoides.
+78	Disco de Gravação
+79	Armazena dados de receitas gravadas por uma <link="STORAGENETWORKORDERPRODUCTIONCENTER">Central de Ordens de Produção</link> e fornece 1 núcleo de produção à central.
+80	Produz um Disco de Gravação vazio. Insira-o em uma <link="STORAGENETWORKORDERPRODUCTIONCENTER">Central de Ordens de Produção</link> para armazenar receitas gravadas e fornecer 1 núcleo de produção.\n\nProduzido em: <link="CRAFTINGTABLE">Estação de Fabricação</link>, <link="SUPERMATERIALREFINERY">Forja Molecular</link>.
+81	Rede de Armazenamento
+82	Desbloqueia o núcleo, os servidores e o equipamento de retransmissão interplanetária da Rede de Armazenamento.
+83	Núcleo de Armazenamento
+84	Desbloqueia o Núcleo da Rede de Armazenamento.
+85	Portas da Rede
+86	Desbloqueia as portas de entrada e saída de materiais, líquidos, gases e energia da Rede de Armazenamento.
+87	Armazenamento Pequeno
+88	Desbloqueia servidores pequenos de sólidos, líquidos, gases, baterias e armazenamento refrigerado.
+89	Armazenamento Médio
+90	Desbloqueia servidores médios de sólidos, líquidos, gases, baterias e armazenamento refrigerado.
+91	Desbloqueia a Central de Ordens de Produção para gravar receitas de construções de produção e executar ordens de produção.
+92	Armazenamento Avançado
+93	Desbloqueia servidores grandes de sólidos, líquidos, gases, baterias e armazenamento refrigerado.
+94	Desbloqueia o módulo retransmissor da Rede de Armazenamento para transferências interplanetárias.
+95	Mostra uma visão geral das construções de armazenamento no cenário atual.
+96	<b>Visão Geral do Armazenamento</b>
+97	Construções de Armazenamento: {0}    Capacidade: {1} / {2}
+98	Nenhuma construção de armazenamento disponível no cenário atual
+99	Inclui núcleos, servidores e armários originais adicionados manualmente à Rede de Armazenamento.
+100	Rede de Armazenamento inativa
+101	Construa e forneça energia a pelo menos um Núcleo da Rede de Armazenamento no cenário atual para habilitar o painel e o gerenciamento de materiais.
+102	Nenhum Retransmissor da Rede de Armazenamento foi lançado; a rede não pode se conectar a outros planetoides.
+103	Nenhum conteúdo armazenado
+104	Configurações
+105	<b>{0}</b>\n<size=10>{1}</size>
+106	Transferir
+107	Transfere este item para uma construção de armazenamento no cenário atual. Você também pode arrastá-lo; segure Shift e solte o botão esquerdo do mouse para escolher a quantidade.
+108	Descartar
+109	Descarta o item selecionado desta construção de armazenamento.
+110	Livre: {0}
+111	O
+112	D
+113	Localiza a construção de armazenamento de origem.
+114	Localiza a construção de armazenamento de destino.
+115	Armazenamento Original
+116	Construções de Produção
+117	Armazenamento de Mods
+118	Portas de Entrada
+119	Portas de Saída
+120	Gêiseres
+121	Origem: {0}
+122	Servidor inativo
+123	{0} servidores inativos
+124	Capacidade
+125	Livre
+126	Ordens
+127	Aguardando
+128	Anormal
+129	Inativo
+130	Resumo
+131	Resume os itens de todas as construções de armazenamento da categoria atual.
+132	W
+133	Mostra as receitas que podem ser fabricadas pelas construções de produção no cenário atual.
+134	Receitas Disponíveis
+135	Produtos disponíveis para ordens: {0}
+136	Nenhuma receita disponível no cenário atual.\nConstrua ou conecte construções de produção para exibi-las aqui.
+137	<b>Entradas:</b>{0}\n<b>Saídas:</b>{1}
+138	{0} rotas
+139	Estoque da rede: {0}    Produção por fabricação: {1}
+140	Ordem
+141	Ordem de Produção
+142	Produção por fabricação: {0}
+143	Prévia
+144	Plano de Execução
+145	Total da ordem: {0}    Lotes de produção: {1}
+146	Ciclo atual: {0}    Conclusão estimada: {1}
+147	Ciclo atual: {0}    Conclusão estimada: desconhecida (fila infinita)
+148	Verificação de Recursos
+149	{0}    Necessário: {1}    Estoque: {2}    Faltante: {3}
+150	A quantidade faltante será produzida por: {0}
+151	Produtos
+152	Estoque: {0}    {1} planos
+153	Quantidade da Ordem
+154	Equipamento de Produção
+155	Enviar Ordem
+156	Plano de Receitas
+157	Distribuição de Tarefas
+158	Cadeia de Produção
+159	Em Estoque
+160	Produzir
+161	Bloqueado
+162	Problema em ordem da Rede de Armazenamento
+163	As seguintes ordens de produção foram canceladas automaticamente pela Rede de Armazenamento. Verifique as fontes de materiais, as construções de produção ou o estado da fila.\n
+164	• #{0} {1}: meta {2}, concluído {3}\n  {4}
+165	A ordem ficou sem progresso por tempo demais.
+166	Falha ao cancelar a ordem: ordem de destino não encontrada.
+167	A ordem #{0} já terminou; não é necessário cancelá-la.
+168	Cancelada manualmente pelo usuário.
+169	Acompanhamento de ordens: a ordem #{0} foi cancelada manualmente e os lotes restantes na fila foram liberados.
+170	Sem progresso há {0:0.##} ciclos; as filas das construções foram canceladas automaticamente. Última atividade no ciclo {1}
+171	Política de Distribuição
+172	Prioriza o estoque da rede; construções de produção conectadas suprem as faltas; solicitações de materiais são ativadas ao enviar a ordem.
+173	Mostra todas as construções do cenário atual que podem entrar na Rede de Armazenamento.
+174	Construções Compatíveis
+175	Construções do cenário atual que podem entrar na Rede de Armazenamento
+176	Nenhuma construção compatível no cenário atual.
+177	Conectada
+178	Não Conectada
+179	{0}
+180	Outras Construções
+181	{0}  {1}
+182	Planeta
+183	Todos os Planetas
+184	A categoria atual não tem conteúdo armazenado.
+185	<b>{0}</b>\nCaixas: {1}    Total: {2}
+186	N/D por ciclo
+187	0/ciclo
+188	{0}{1}/ciclo
+189	Quantidade para Descartar
+190	Disponível para descartar do armazenamento atual: {0}
+191	Transferir Item
+192	Nenhuma construção de armazenamento no cenário atual pode receber este item.
+193	A construção de armazenamento de destino não tem capacidade suficiente.
+194	Capacidade do destino: {0} / {1}\nTransferência máxima: {2}
+195	Quantidade para Transferir
+196	Destino: {0}
+197	Selecionar Armazenamento de Destino
+198	Destinos disponíveis no cenário atual
+199	Cancelar
+200	Configurações da Construção
+201	Armazenado: {0} / {1}\nCapacidade livre: {2}
+202	Estado de Funcionamento
+203	Conteúdo
+204	Estado atual: Ocioso
+205	Estado atual: Fabricando
+206	Estado atual: Aguardando Duplicante
+207	Receita atual: {0}
+208	Progresso: {0}%
+209	Nenhuma receita em fabricação no momento
+210	Solicitações de Materiais
+211	Solicitar materiais à rede
+212	Quantidade de saída
+213	{0}/lote
+214	A porta de saída tenta formar pacotes de {0} na tubulação ou no trilho.
+215	Modo de solicitação: {0}
+216	Buscar materiais adequados no armazenamento da rede
+217	Usar uma construção específica de armazenamento da rede
+218	Armazenamento específico: {0}
+219	Nenhum
+220	Selecionar Armazenamento
+221	Ativar limite de solicitação
+222	Limite: {0} / {1}
+223	Definir Limite
+224	Estado da solicitação: {0}
+225	Zerar Quantidade Solicitada
+226	Materiais fornecidos pela Rede de Armazenamento
+227	Esta construção solicita à Rede de Armazenamento os materiais necessários à produção.\n{0}
+228	Busca automaticamente materiais nos armazenamentos conectados à rede, priorizando as fontes com maior estoque.
+229	Produtos Acabados para a Rede
+230	Armazenar produtos acabados automaticamente na rede
+231	Conteúdo para a Rede
+232	Permitir entrada do conteúdo na rede
+233	Quando ativado, este armazenamento transfere automaticamente seu conteúdo para armazenamentos compatíveis na rede.
+234	Modo de armazenamento: {0}
+235	Buscar armazenamento compatível automaticamente
+236	Armazenar em uma construção específica da rede
+237	Busca automaticamente armazenamentos conectados compatíveis, priorizando os que já contêm o mesmo item; se a capacidade for limitada, os itens são transferidos em lotes.
+238	Estado da rede: {0}
+239	Armazenamento de destino: {0}
+240	Atual: {0} / {1}    Livre: {2}
+241	Fechar
+242	Quantidade
+243	Quantidade: {0}
+244	Todos
+245	OK
+246	Ligado
+247	Informar Quantidade
+248	Conectada à Rede de Armazenamento
+249	Esta construção está conectada à Rede de Armazenamento e aparecerá no painel da rede.
+250	Conectar à Rede
+251	Remover da Rede
+252	Adiciona esta construção ao painel da Rede de Armazenamento.
+253	Remove esta construção do painel da Rede de Armazenamento.
+254	Mapa Estelar
+255	Analisado
+256	{0}  Média: {1}
+257	{0} gêiseres
+258	Desligado
+259	Padrões
+260	Informações
+261	Reiniciar
+262	Continuar
+263	Opções
+264	Central de Ordens de Produção
+265	Reserva de estoque / cadeias de suprimento / distribuição entre máquinas / acompanhamento de problemas
+266	Bancada de Ordens
+267	Acompanhamento de Ordens
+268	Parâmetros da Ordem
+269	Prévia de Execução
+270	Quantidade / Manter Estoque
+271	Equipamento / Receita
+272	Validação
+273	Distribuição de Materiais
+274	Prévia de Execução da Ordem
+275	{0} x{1} | {2} ciclos
+276	{0} x{1} | tempo desconhecido
+277	Rota: {0}    Receita: {1}
+278	Destino
+279	Disponível
+280	Lotes
+281	Estado
+282	Manter Estoque
+283	Manter {0}
+284	Desativado
+285	Manter
+286	Manter Estoque: solicita automaticamente {0} quando o estoque fica abaixo de {1}.
+287	Manter Estoque: desativado para {0}.
+288	Estoque atual\n{0}
+289	Meta de estoque\n{0}
+290	Pendente automático\n{0}
+291	Falta real\n{0}
+292	Equipamento de Produção ({0})
+293	{0} máquinas / {1} receitas
+294	{0} máquinas
+295	Plano de Receitas ({0})
+296	Validação do Rascunho
+297	Estoque, equipamentos e materiais estão prontos.
+298	Produção estimada: {0}
+299	{0} ordens ativas: {1}
+300	Nenhum produto ou receita de fabricação selecionado.
+301	A quantidade da ordem deve ser maior que 0.
+302	Nenhum equipamento de produção disponível; não é possível enviar.
+303	{0} materiais estão sem estoque e sem rota de produção conectada.
+304	Ordem ativa #{0} encontrada. O envio somará a quantidade em vez de criar uma ordem duplicada.
+305	A falta de {0} materiais será suprida por produção automática.
+306	Acompanhamento de ordens: falha no envio; nenhum equipamento de produção disponível.
+307	Acompanhamento de ordens: incorporada à ordem ativa #{0}; {1} lotes adicionados.
+308	Acompanhamento de ordens: ordem ativa #{0} criada; {1} lotes.
+309	O rascunho está pronto para envio.
+310	O rascunho está bloqueado. Verifique materiais ou equipamentos.
+311	Unificar Ordem
+312	Ordem ativa #{0} encontrada. O envio somará a quantidade e ampliará a programação.
+313	Este produto tem {0} ordens ativas; este envio cria uma nova ordem acompanhada.
+314	Nenhuma ordem ativa. O envio cria uma nova ordem acompanhada.
+315	Requer Programação
+316	Pronto
+317	Alguns materiais ou equipamentos estão bloqueados. Resolva antes de enviar.
+318	{0} materiais serão produzidos automaticamente; solicitações de materiais e armazenamento dos produtos serão gerenciados após o envio.
+319	O estoque da rede atende às necessidades de materiais; os lotes serão distribuídos conforme a carga de trabalho das máquinas.
+320	Ciclo Atual
+321	Conclusão Estimada
+322	Equipamento
+323	Produzir Automaticamente
+324	Itens Bloqueados
+325	Desconhecido
+326	Programação dos Equipamentos
+327	Materiais e Estoque
+328	Nenhuma construção de produção disponível.
+329	Esta receita não exige materiais de entrada e será programada diretamente.
+330	{0} lotes  {1}
+331	Faltam {0}  Estoque: {1}
+332	Transferência Direta
+333	Sem rota de produção
+334	Produção: {0}
+335	Distribuído conforme a carga de trabalho atual das máquinas
+336	Material
+337	Necessário
+338	Estoque / Falta
+339	Ação
+340	Necessário: {0} / Estoque: {1}
+341	Necessário: {0} / Falta: {1}
+342	Ação: transferir do estoque da rede para a máquina do produto
+343	Ação: produzir automaticamente por {0}
+344	Ação: bloqueado; nenhuma rota de produção disponível
+345	Rota de produção: {0} x{1}
+346	Equipamento: {0}
+347	Faltam {0}
+348	Prévia da Distribuição
+349	Nenhuma cadeia de produção para exibir.
+350	{0}: programar o produto primeiro e produzir o que falta em seguida
+351	As máquinas do produto aguardam materiais; outras máquinas disponíveis produzem o que falta.
+352	{0} lotes
+353	Programação do Produto
+354	Requer Produção
+355	Enviar do estoque da rede para a máquina do produto
+356	Cada linha representa um material de entrada: transfere diretamente quando há estoque suficiente; caso contrário, mostra sua fonte de produção.
+357	Receita Programada
+358	Materiais por Lote
+359	Equipamento de Produção / Estado
+360	Lotes: {0}
+361	Equipamento: {0}
+362	Ainda Falta
+363	Selecione um produto para mostrar as ordens ativas.
+364	Todos os Produtos
+365	Nenhuma ordem ativa. As ordens enviadas mostrarão aqui o estado, as quantidades, os lotes e o histórico de unificações.
+366	Acompanhamento de Ordens Ativas
+367	Ciclo de Criação
+368	Ciclo {0}
+369	Unificada {0} vezes, ciclo ativo {1}
+370	{0}: {1} ordens ativas / {2} registros recentes
+371	{0} Ordem, Lote x{1}
+372	{0} máquinas do produto aguardando materiais, {1} máquinas produzindo o que falta.
+373	{0} máquinas processando a ordem com {1} núcleos.
+374	{0}, criada no ciclo {1}.
+375	Manter Estoque
+376	Manual
+377	Enviada
+378	Aguardando Materiais
+379	Produzindo
+380	Concluída
+381	Cancelada
+382	Acompanhamento
+383	Em Funcionamento
+384	Aguardando materiais
+385	Sem energia
+386	Sem receita
+387	Pausada por anomalia
+388	Na fila
+389	Construção ausente
+390	Progresso: {0:P0}
+391	{0} x{1}    Fila: {2}
+392	Meta: {0}
+393	Fornecimento: {0}
+394	Produção reservada: {0}
+395	Distribuição de materiais: {0}
+396	Armazenamento
+397	Receita
+398	Rede
+399	Ativado
+400	Política de Origem
+401	Política de Armazenamento
+402	Sem limite
+403	Os produtos acabados permanecem no armazenamento de saída da construção e não são movidos automaticamente.
+404	Rede Automática
+405	Retirada Manual
+406	Ocioso
+407	Fabricando
+408	Solicitação Ligada
+409	Solicitação Desligada
+410	Saída Ligada
+411	Saída Desligada
+412	Sem Componente
+413	Uso em ordens: {0}
+414	#{0} executa {1} x{2}
+415	#{0} fornece {2} x{3} para {1}
+416	Solicitação de materiais: Ligada
+417	Solicitação de materiais: Desligada
+418	Estado: {0}
+419	Aguardando fila de produção
+420	Ordem: esta construção não tem ordens ativas
+421	Ordem: {0}
+422	Produção da Rede de Armazenamento
+423	Armazenamento da Rede
+424	Capacidade da rede: {0} / {1}
+425	Esta construção: {0} / {1}
+426	Esta construção: nenhum armazenamento encontrado
+427	Saída: {0}
+428	Construções conectadas: {0}
+429	Visão Geral da Rede de Armazenamento
+430	Asteroide: {0}  Estado: {1}
+431	Ativo
+432	Capacidade: {0} / {1}  Livre: {2}
+433	Servidores: {0}  Armazenamentos conectados: {1}
+434	Retransmissão interplanetária: {0}
+435	Conectado
+436	Desconectado
+437	Pesquise construções, categorias, itens armazenados ou produtos de gêiseres.
+438	Mostrar outros itens (+{0})
+439	Ocultar outros itens (-{0})
+440	Expande para mostrar outros itens deste armazenamento que não correspondem à pesquisa atual.
+441	Recolhe para ocultar itens que não correspondem à pesquisa atual.
+442	Nenhuma receita na fila tem materiais que possam ser solicitados
+443	Limite de solicitação atingido
+444	Falta {0}; nenhuma fonte disponível na rede
+445	Solicitado: {0} {1}
+446	Os materiais da receita atual já foram atendidos
+447	Aguardando o próximo produto acabado
+448	Aguardando entrada de conteúdo no armazenamento
+449	Aguardando entrada de produtos acabados no armazenamento de saída
+450	A construção não tem armazenamento de saída legível
+451	{0} movido para a rede
+452	Não é possível armazenar {0}: sem armazenamento compatível ou capacidade insuficiente
+453	Sem destino automático de armazenamento: os servidores compatíveis estão atribuídos a portas de entrada.
+454	Servidor atribuído não encontrado
+455	O servidor atribuído está inacessível no momento
+456	Atribuições de portas
+457	Atribuições de entrada
+458	Atribuições de origem de saída
+459	Limpar
+460	Limpar todas as atribuições
+461	Conectável
+462	Receitas
+463	Opções da Rede de Armazenamento
+464	Ajustar os valores do mod Rede de Armazenamento
+465	Salvar grava em StorageNetworkConfig.json. Alguns valores, como a capacidade das construções, exigem recarregar o save ou reconstruir as construções para aplicar completamente.
+466	O jogo precisa ser reiniciado para que estas opções tenham efeito.
+467	Informações
+468	Limite Padrão de Solicitação de Materiais, kg
+469	Limite padrão de solicitação para construções de produção recém-conectadas.
+470	Permitir liberação de gêiseres no ambiente como alternativa
+471	Quando ativado, um gêiser conectado à rede com saída direta libera seu produto no ambiente se a rede não puder armazená-lo. Quando desativado, a saída pausa até a rede se recuperar.
+472	Intervalo após Solicitação Atendida, Segundos
+473	Intervalo de verificação após atender aos materiais ou atingir o limite.
+474	Intervalo para Repetir Solicitação sem Sucesso, Segundos
+475	Intervalo para tentar novamente após faltarem materiais ou não haver receita que permita solicitação.
+476	Lotes Solicitados para Fila Infinita
+477	Quantos lotes de materiais solicitar de uma vez para filas de produção infinitas.
+478	Máximo de Lotes por Solicitação
+479	Número máximo de lotes usado no cálculo de uma solicitação de materiais.
+480	Profundidade da Recursão do Plano de Produção
+481	Profundidade máxima para rastrear cadeias de produção automática.
+482	Prazo de Ordens sem Progresso, Ciclos
+483	Tempo máximo sem progresso de uma ordem antes de sua programação ser cancelada automaticamente.
+484	Retenção de Ordens Encerradas, Ciclos
+485	Por quanto tempo ordens concluídas, canceladas ou anormais permanecem na lista.
+486	Multiplicador de Capacidade dos Servidores
+487	Afeta a capacidade de servidores de armazenamento e baterias recém-construídos. Construções existentes geralmente precisam ser reconstruídas ou exigem recarregar o save para atualizar completamente.
+488	Multiplicador de Capacidade do Armazenamento das Portas
+489	Afeta a capacidade do armazenamento intermediário das portas de sólidos, líquidos e gases recém-construídas.
+490	Multiplicador de Reserva das Portas de Energia
+491	Afeta a reserva de energia das portas de entrada e saída de energia recém-construídas.
+492	Perda dos Servidores de Baterias, J/Ciclo
+493	Energia perdida por cada servidor de baterias a cada ciclo.
+494	Temperatura Mínima do Armazenamento Refrigerado, °C
+495	Menor temperatura desejada permitida pelo controle deslizante do armazenamento refrigerado.
+496	Temperatura Máxima do Armazenamento Refrigerado, °C
+497	Maior temperatura desejada permitida pelo controle deslizante do armazenamento refrigerado.
+498	Consumo de Manutenção do Armazenamento Refrigerado, W
+499	Energia usada para manter a temperatura após o conteúdo atingir a temperatura desejada.
+500	Consumo Máximo de Resfriamento do Armazenamento Refrigerado, W
+501	O consumo de resfriamento se aproxima deste valor conforme a temperatura desejada diminui.
+502	Calor Máximo Liberado pelo Armazenamento Refrigerado, kDTU/s
+503	O calor liberado se aproxima deste valor conforme a temperatura desejada diminui.
+504	Vazão Máxima de Saída de Sólidos, kg/s
+505	Vazão máxima disponível no controle deslizante da porta de saída de sólidos.
+506	Vazão Máxima de Saída de Líquidos, kg/s
+507	Vazão máxima disponível no controle deslizante da porta de saída de líquidos.
+508	Vazão Máxima de Saída de Gases, kg/s
+509	Vazão máxima disponível no controle deslizante da porta de saída de gases.
+510	Potência Máxima de Saída de Energia, W
+511	Potência máxima disponível no controle deslizante da porta de saída de energia.
+512	Conservar Calor de Fundição da Central de Ordens de Produção
+513	Quando ativado, receitas de fundição de metais demoram 3 vezes mais e liberam 100% do calor de mudança de estado na estrutura da construção para aproveitamento térmico. Quando desativado (padrão), as receitas usam a velocidade normal e geram apenas o calor operacional padrão.
+514	Configurações do Gêiser
+515	Conectar à Rede de Armazenamento
+516	Enviar erupções diretamente à rede
+517	Quando ativado, a saída do emissor do gêiser é interceptada e armazenada nos armazenamentos compatíveis da rede. As opções do mod definem se o produto será liberado no ambiente quando o armazenamento da rede estiver indisponível.
+518	Direto Ligado
+519	Direto Desligado
+520	Em Erupção
+521	Sem Erupção
+522	Erupções para a Rede
+523	Direto para a Rede
+524	Liberar no Ambiente
+525	Saída
+526	Produção Média
+527	Direto
+528	Rede de Armazenamento: {0}
+529	Conectado: {0}    Núcleo: {1}
+530	Direto: {0}    Estado: {1}
+531	Saída: {0}    Vazão: {1}
+532	Política de armazenamento: {0}
+533	Destinos disponíveis: {0}
+534	Rota atual: {0}
+535	Armazenado na rede
+536	Servidor cheio, excedente liberado no ambiente
+537	Servidor cheio, saída pausada
+538	Rede indisponível, saída pausada
+539	Emissão original
+540	Emissor ausente
+541	Existe um servidor compatível, mas ele está cheio
+542	{0} servidores, {1} livres
+543	Atual
+544	Configurações da Rede de Armazenamento
+545	Abre a janela da Rede de Armazenamento nas configurações desta porta.
+546	Geradores de Energia
+547	Duplicantes
+548	Energia Armazenada
+549	Perda
+550	Energia Virtual
+551	Capacidade: {0}    Perda: {1}
+552	Energia virtual armazenada nos servidores de baterias. Não é um item físico transportável.
+553	Alterar Destino
+554	Reserva de energia: {0} / {1}\nCapacidade livre: {2}
+555	Bateria da Porta
+556	Carga Local
+557	Resfriamento do Armazenamento Refrigerado
+558	Temperatura Desejada
+559	Padrão
+560	Temperatura desejada: {0}
+561	Ajusta a temperatura até a qual os servidores refrigerados resfriam o conteúdo. A janela da Rede de Armazenamento e o painel lateral compartilham este valor.
+562	Configurações da Porta
+563	Porta de Entrada de Materiais
+564	Porta de Saída de Materiais
+565	Porta de Entrada de Líquidos
+566	Porta de Saída de Líquidos
+567	Porta de Entrada de Gases
+568	Porta de Saída de Gases
+569	Porta de Entrada de Energia
+570	Porta de Saída de Energia
+571	Porta de Entrada de Partículas
+572	Porta de Saída de Partículas
+573	Direção da Porta
+574	Entrada para a Rede
+575	Saída da Rede
+576	Permitir Operação por Duplicantes
+577	Porta da Rede de Armazenamento
+578	Rede: Ativa
+579	Rede: Inativa (sem núcleo ativo neste planetoide)
+580	Direção: {0}
+581	Armazenamento da porta: {0} / {1}
+582	Capacidade livre: {0}
+583	Filtro: {0}
+584	Nenhum item selecionado
+585	Qualquer
+586	Operação por Duplicantes: {0}
+587	Permitida
+588	Proibida
+589	Armazenar conteúdo: {0}
+590	Solicitar saída: {0}
+591	Armazenar conteúdo: {0}  {1}
+592	Solicitar saída: {0}  {1}
+593	Política de armazenamento: {0}
+594	Política de origem: {0}
+595	Distribuição pela rede: {0}
+596	Reserva para retirada de Duplicantes: {0}
+597	Meta de quantidade por pacote de saída: {0}
+598	Armazenar Conteúdo
+599	Quando ativado, a porta armazena automaticamente seu conteúdo intermediário em servidores compatíveis da Rede de Armazenamento.
+600	Estado da entrada: {0}
+601	Solicitar Conteúdo
+602	Saída para Tubulação
+603	Quando ativado, a porta solicita líquidos aos servidores compatíveis da Rede de Armazenamento e os envia à tubulação de líquido conectada.
+604	Estado da saída: {0}
+605	Filtro de Saída
+606	Qualquer Líquido
+607	Selecionar Líquido de Saída
+608	Seleciona um líquido disponível nos servidores da rede. A porta envia apenas o líquido selecionado à tubulação.
+609	Nenhum líquido disponível para saída nos servidores atuais da rede.
+610	Saída de Materiais
+611	Saída para Trilho
+612	Quando ativado, a porta solicita materiais aos servidores compatíveis da Rede de Armazenamento e os envia ao trilho de transporte conectado.
+613	Qualquer Material
+614	Selecionar Material de Saída
+615	Seleciona um material disponível nos servidores da rede. A porta envia apenas o material selecionado ao trilho de transporte.
+616	Nenhum material disponível para saída nos servidores atuais da rede.
+617	Permite que Duplicantes retirem itens do armazenamento intermediário da porta de saída de materiais.
+618	Impede que Duplicantes retirem itens do armazenamento intermediário da porta de saída de materiais.
+619	Ativar Limite de Saída
+620	Limite de saída: {0} / {1}
+621	Taxa de Solicitação
+622	Vazão de Saída
+623	{0}/s
+624	Definir Taxa de Solicitação
+625	Entrada de Energia
+626	Quando ativado, a porta armazena energia externa do circuito conectado nos servidores de baterias da Rede de Armazenamento.
+627	Armazena energia automaticamente nos servidores de baterias conectados que ainda têm capacidade.
+628	Saída de Energia
+629	Saída para Circuito
+630	Quando ativado, a porta retira energia dos servidores de baterias da Rede de Armazenamento e a fornece ao circuito conectado.
+631	Retira energia automaticamente dos servidores de baterias conectados à rede.
+632	Definir Limite de Saída
+633	Limite de Energia
+634	Potência
+635	{0:0.#} W
+636	Definir Potência
+637	Define a potência máxima que a porta de saída de energia fornece ao circuito externo: {0}
+638	Porta de Entrada de Energia: {0}
+639	Entrada para a rede: {0}\nRede: {1}\nPolítica de armazenamento: {2}\nPotência real de entrada: {3}\nReserva da porta: {4} / {5}\nEstado da entrada: {6}
+640	Porta de Saída de Energia: {0}
+641	Saída para circuito: {0}\nRede: {1}\nPolítica de origem: {2}\nLimite de saída: {3}\nPotência de saída: {4}\nReserva da porta: {5} / {6}\nEstado da saída: {7}
+642	Armazenamento de Partículas da Rede
+643	Radbolts
+644	{0} partículas
+645	Radbolts armazenados em servidores de partículas são armazenamento virtual, não itens físicos transportáveis.
+646	Entrada de Partículas
+647	Modo de Recebimento
+648	Capturar radbolts que passam pela porta
+649	A porta captura radbolts que passam por ela e os armazena nos servidores de partículas conectados no mesmo planetoide.
+650	Saída de Partículas
+651	Lançar na Trajetória do Feixe
+652	Limite para Lançamento
+653	Definir Limite para Lançamento
+654	Direção do Lançamento
+655	Selecionar Direção do Lançamento
+656	Seleciona a direção em que a porta de saída de partículas lança radbolts.
+657	Definir Limite de Partículas
+658	Limite de Partículas
+659	Ativar Lançamento de Partículas
+660	Desativar Lançamento de Partículas
+661	Permite que a porta de saída de partículas retire radbolts da rede e os lance.
+662	Impede que a porta de saída de partículas lance radbolts.
+663	Retira radbolts automaticamente dos servidores de partículas conectados à rede.
+664	A porta retira radbolts dos servidores de partículas no mesmo planetoide e os lança na direção atual. Ajuste a direção, o limite de lançamento e os limites de quantidade aqui ou nos painéis laterais da construção.
+665	Cima
+666	Baixo
+667	Esquerda
+668	Direita
+669	Superior Esquerda
+670	Superior Direita
+671	Inferior Esquerda
+672	Inferior Direita
+673	Aguardando energia externa
+674	Servidores de baterias cheios
+675	Energia insuficiente na rede
+676	Recebendo {0}
+677	Bateria da porta cheia
+678	Carregando {0}
+679	{0} reposto pela rede
+680	Porta de Entrada de Sólidos: {0}
+681	Entrada para a rede: {0}\nRede: {1}\nPolítica de armazenamento: {2}\nArmazenamento da porta: {3} / {4}\nEstado da entrada: {5}
+682	Porta de Saída de Sólidos: {0}
+683	Saída para trilho: {0}\nRede: {1}\nPolítica de origem: {2}\nFiltro de saída: {3}\nLimite de saída: {4}\nTaxa de solicitação: {5}\nArmazenamento da porta: {6} / {7}\nEstado da saída: {8}
+684	Porta de Entrada de Líquidos: {0}
+685	Porta de Saída de Líquidos: {0}
+686	Saída para tubulação: {0}\nRede: {1}\nPolítica de origem: {2}\nFiltro de saída: {3}\nLimite de saída: {4}\nTaxa de solicitação: {5}\nArmazenamento da porta: {6} / {7}\nEstado da saída: {8}
+687	Entrada de Gases
+688	Quando ativado, a porta armazena o gás recebido das tubulações de gás nos servidores compatíveis da Rede de Armazenamento.
+689	Saída de Gases
+690	Quando ativado, a porta solicita gás aos servidores compatíveis da Rede de Armazenamento e o envia à tubulação de gás conectada.
+691	Qualquer Gás
+692	Selecionar Gás de Saída
+693	Seleciona um gás disponível nos servidores da rede. A porta envia apenas o gás selecionado à tubulação.
+694	Nenhum gás disponível para saída nos servidores atuais da rede.
+695	Porta de Entrada de Gases: {0}
+696	Porta de Saída de Gases: {0}
+697	Filtro de Saída de Gases
+698	Geradores de energia buscam automaticamente combustível utilizável nos servidores conectados à rede.
+699	Servidores disponíveis na rede: {0}
+700	A política automática encontra um destino adequado entre os servidores conectados à rede. Quando um servidor específico é definido, os itens só são retirados dele ou armazenados nele.
+701	Planetoide
+702	Armazenado
+703	Servidores
+704	Armazenamentos Conectados
+705	Retransmissor
+706	Bateria de Reserva
+707	Energia
+708	Externa
+709	Reserva
+710	A bateria de reserva do Núcleo da Rede de Armazenamento está baixa.
+711	Energia disponível: {Battery}/{Capacity}
+712	Carga da bateria de reserva do Núcleo da Rede de Armazenamento: {Battery}/{Capacity} ({Percent}). Esta energia é consumida para manter a rede ativa quando não há energia externa.
+713	O Núcleo da Rede de Armazenamento perdeu a energia externa e passou a usar a bateria de reserva.
+714	Energia da bateria de reserva: {Battery}
+715	Sem energia externa. O Núcleo da Rede de Armazenamento está usando a bateria de reserva para manter a rede ativa. Carga de reserva: {Battery}
+716	Filtro de Saída de Líquidos
+717	Saída atual: {0}
+718	Escolha rapidamente qual líquido a porta de saída de líquidos deve fornecer. A lista vem dos líquidos armazenados nos servidores da rede; mudar a seleção substitui o conteúdo intermediário da porta e tenta fornecer o líquido imediatamente.
+719	Gravação
+720	Abre o painel de ordens exclusivo desta Central de Ordens de Produção. Somente as receitas gravadas nesta construção são exibidas e enviadas.
+721	Gravar
+722	Selecione uma ou mais construções com receitas para gravar.
+723	Ferramenta de Gravação
+724	Modo de gravação: selecione uma construção de produção com receitas.
+725	Central de Ordens de Produção: {0} novas receitas gravadas.
+726	Central de Ordens de Produção: todas as receitas da construção de destino já foram gravadas.
+727	Central de Ordens de Produção: selecione uma construção de produção com receitas.
+728	Central de Ordens de Produção: insira primeiro um Disco de Gravação vazio.
+729	Configure os 3 espaços para Discos de Gravação da Central de Ordens de Produção. As receitas são gravadas em discos vazios, e cada disco fornece 1 núcleo de produção.
+730	Espaço Vazio
+731	Disco de Gravação Vazio
+732	Disco de Gravação: {0} receitas
+733	Aguardando Entrega
+734	Um Disco de Gravação foi selecionado e aguarda a entrega de um Duplicante neste espaço.
+735	Inserir
+736	Ejetar
+737	Disco de Gravação inserido.
+738	Disco de Gravação ejetado.
+739	Nenhum Disco de Gravação disponível nas proximidades.
+740	Receitas Gravadas
+741	Remover
+742	Receita gravada removida.
+743	Selecionar Disco de Gravação
+744	Discos de Gravação disponíveis: {0}
+745	Após selecionar um Disco de Gravação, um Duplicante o entregará à Central de Ordens de Produção. O disco só é inserido após concluir a tarefa.
+746	Qualquer Disco de Gravação
+747	Escolha um dos Discos de Gravação disponíveis no momento.
+748	Entrega de disco atribuída.
+749	Não foi possível atribuir a entrega do disco. O espaço de destino ou o disco não está mais disponível.
+750	{0}, {1}
+751	{0}, distância {1:0.0}
+752	{0} e {1} receitas
+753	Capacidade de Núcleos
+754	Fornece 1 núcleo de produção
+755	{0} receitas no total
+756	{0}\n\n<b>{1}</b>\n{2}\n\n<b>{3}</b>\n{4}\n\n{5}
+757	<b>{0}</b>\n  Materiais: {1}\n  Produção: {2}
+758	Porta de Entrada de Partículas da Rede
+759	Uma porta de entrada que conecta partículas de alta energia à rede de armazenamento.
+760	Captura partículas de alta energia que passam pela porta e as armazena nos servidores de partículas do mesmo asteroide.
+761	Porta de Saída de Partículas da Rede
+762	Uma porta de saída que dispara partículas de alta energia da rede de armazenamento.
+763	Retira partículas de alta energia dos servidores de partículas do mesmo asteroide e as dispara para a direita.
+764	Servidor de Partículas Pequeno
+765	Um servidor pequeno de armazenamento de partículas de alta energia da rede de armazenamento.
+766	Armazena partículas de alta energia para as portas de saída de partículas.
+767	Servidor de Partículas Médio
+768	Um servidor médio de armazenamento de partículas de alta energia da rede de armazenamento.
+769	Armazena mais partículas de alta energia para as portas de saída de partículas.
+770	Servidor de Partículas Grande
+771	Um servidor grande de armazenamento de partículas de alta energia da rede de armazenamento.
+772	Armazena uma grande quantidade de partículas de alta energia para as portas de saída de partículas.
+773	Sensor de Carga da Rede de Armazenamento
+774	Mede a energia total de todos os servidores de baterias acessíveis pela Rede de Armazenamento.
+775	Envia um sinal de automação conforme a porcentagem total de carga da Rede de Armazenamento.
+776	Carga da Rede de Armazenamento
+777	Envia um Sinal Verde quando a Rede de Armazenamento precisa de carga
+778	Envia um Sinal Vermelho quando a Rede de Armazenamento não precisa de carga
+779	Faixa de Carga da Rede de Armazenamento
+780	Parar Carregamento
+781	Iniciar Carregamento
+782	Envia um Sinal Vermelho quando a carga da Rede de Armazenamento atinge esta porcentagem.
+783	Envia um Sinal Verde quando a carga da Rede de Armazenamento cai até esta porcentagem.
+784	Carga da rede: {StoredJoules}/{CapacityJoules} ({Percent})\nAutomação: {Signal}
+785	Energia total armazenada em todos os servidores de baterias acessíveis no momento.
+786	Rede inativa
+787	Nenhum servidor de baterias acessível
+788	Carregamento solicitado
+789	Carregamento interrompido
+790	Editor Lógico
+791	Sinais da Rede
+792	Desbloqueia a Saída de Sinal e o Sensor de Carga, que enviam sinais da Rede de Armazenamento aos fios de automação.
+793	Saída de Sinal da Rede de Armazenamento
+794	Uma construção compacta de automação que envia sinais da Rede de Armazenamento aos fios de automação.
+795	Oferece uma porta de saída de sinal de automação.
+796	Envia um Sinal Verde.
+797	Envia um Sinal Vermelho.
+798	Consumo de Resfriamento: {0} W
+799	Consome {0} W durante o resfriamento ativo e {1} W durante a manutenção da temperatura.
+800	Energia Disponível: {JoulesAvailable}/{JoulesCapacity} ({JoulesPercent})
+801	Energia armazenada neste servidor de baterias no momento.
+802	Calor Gerado: {Heat}
+803	Calor gerado durante o funcionamento do servidor de baterias.
+804	Resfriando
+805	O servidor refrigerado está resfriando seu conteúdo até a temperatura desejada.
+806	Modo de Economia de Energia: {Power}
+807	O conteúdo atingiu a temperatura desejada; o servidor refrigerado a mantém em modo de economia de energia.
+808	Calor Gerado: {Heat}/s
+809	Acompanhamento de ordens: {0} ordens anormais removidas.
+810	Acompanhamento de ordens: {0} ordens concluídas removidas.
+811	Falha ao tentar novamente: ordem de destino não encontrada.
+812	Falha ao tentar novamente: a receita original ou a rota de produção está indisponível.
+813	Acompanhamento de ordens: ordem #{0} reenviada com suas configurações originais. {1}
+814	Configurações da Saída de Sinal
+815	Canais de Saída
+816	Modo atual: {0}
+817	Abrir Editor Lógico Local
+818	Abre o editor local de nós em um navegador. Salvar sincroniza o conteúdo com esta saída de sinal.
+819	Selecionar
+820	Selecionado
+821	Saída de Canal Único
+822	Envia um sinal de automação de 1 bit, usando apenas os estados vermelho e verde.
+823	Modo atual: canal único. A saída é limitada a 0 ou 1.
+824	Saída de 4 Canais
+825	Envia um sinal de automação de 4 bits para redes de fita de automação.
+826	Modo atual: 4 canais. Os valores de saída variam de 0 a 15.
+827	Saída fixa: {0}
+828	Saída fixa: valor {0} / binário {1}
+829	Porta0: LIGADA
+830	Envia um sinal verde.
+831	Saída fixa LIGADA.
+832	Porta0: DESLIGADA
+833	Envia um sinal vermelho.
+834	Saída fixa DESLIGADA.
+835	Valor: {0}
+836	Binário: {0}
+837	Saída fixa: valor {0}, binário {1}.
+838	Saída Fixa
+839	Seleciona manualmente um valor fixo de saída de automação.
+840	Não consulta o estoque da rede; envia diretamente o valor selecionado.
+841	Saída por Condição de Material
+842	Envia um sinal conforme a quantidade de material na Rede de Armazenamento.
+843	Selecione um material da rede e envie um sinal quando sua quantidade for maior ou igual ao limite, ou menor que ele.
+844	{0}  Atual: {1}
+845	Atual: {0}
+846	Selecione um material armazenado nos servidores da Rede de Armazenamento.
+847	Nenhum Material Selecionado
+848	Nenhum material selecionável nesta rede ou nenhum material entrou em um servidor ainda.
+849	Selecionar Material
+850	Materiais disponíveis: {0}
+851	A lista contém o conteúdo dos servidores da Rede de Armazenamento deste asteroide e de asteroides acessíveis quando há um retransmissor interplanetário ativo.
+852	Condição: Maior ou Igual a
+853	Envia um sinal quando a quantidade de material é maior ou igual ao limite.
+854	O canal selecionado envia LIGADO quando a quantidade de material é maior ou igual ao limite.
+855	Condição: Menor que
+856	Envia um sinal quando a quantidade de material fica abaixo do limite.
+857	O canal selecionado envia LIGADO quando a quantidade de material fica abaixo do limite.
+858	Valor da Variável
+859	Seleciona o valor usado na comparação do grafo de nós.
+860	Selecionar Valor da Variável
+861	Valor atual da variável: {0}
+862	A primeira versão oferece valores predefinidos comuns; futuramente usará a caixa de entrada numérica da Rede de Armazenamento.
+863	Define o limite da condição de material.
+864	Porta{0}
+865	Envia o valor {0} quando a condição é atendida.
+866	No modo de 4 canais, apenas este bit é ativado; a saída é 0 quando a condição não é atendida.
+867	Porta0
+868	No modo de canal único, envia LIGADO quando a condição é atendida e DESLIGADO caso contrário.
+869	O modo de canal único tem apenas a Porta0.
+870	{0} atual {1}, condição {2} {3}, saída {4}
+871	Método de Saída
+872	Escolha entre saída fixa ou saída baseada em uma condição de material da rede.
+873	Modo de Canais
+874	Escolha saída de canal único ou de 4 canais.
+875	Valor de Saída Fixa
+876	Condição
+877	Escolha como comparar a quantidade de material com o limite.
+878	Porta de Saída
+879	Módulos
+880	Conexões de Condições
+881	Arraste módulos da esquerda para a área de edição; clique nas portas dos nós para conectar módulos.
+882	Matemática
+883	Comparação
+884	Booleano
+885	Módulos de Extensão
+886	Módulo Lua
+887	Reservado para futura saída controlada por scripts.
+888	Módulo Temporizador
+889	Reservado para futura saída de animações, repetições e formas de onda.
+890	Fonte de Materiais
+891	Módulo de Variável
+892	Módulo de Saída Fixa
+893	Módulo de Saída
+894	Somar
+895	Soma dois valores.
+896	Subtrair
+897	Subtrai a entrada direita da entrada esquerda.
+898	Multiplicar
+899	Multiplica dois valores.
+900	Dividir
+901	Divide a entrada esquerda pela entrada direita.
+902	Maior que
+903	Verdadeiro quando A > B.
+904	Igual a
+905	Verdadeiro quando A = B.
+906	Menor que
+907	Verdadeiro quando A < B.
+908	VERDADEIRO
+909	Constante booleana verdadeira.
+910	FALSO
+911	Constante booleana falsa.
+912	E
+913	Verdadeiro quando ambas as entradas são verdadeiras.
+914	OU
+915	Verdadeiro quando pelo menos uma entrada é verdadeira.
+916	NÃO
+917	Inverte uma entrada booleana.
+918	Variável
+919	Ciclo de Conclusão
+920	Limpar Anormais
+921	Limpar Concluídas
+922	Tentar Novamente
+923	Materiais Faltantes:
+924	• {0}: {1} armazenado / {2} necessário (faltam {3})
+925	Faltam: {0}
+926	Arraste para uma construção de armazenamento; segure Shift e solte o botão do mouse para escolher a quantidade; Esc cancela.
+927	Pode transferir {0} / espaço livre: {1} (segure Shift e solte o botão do mouse para escolher a quantidade)
+928	Não é possível transferir: escolha um armazenamento de destino acessível.
+929	O material já está neste armazenamento.
+930	Não é possível transferir: o servidor de origem ou destino está inativo.
+931	O armazenamento de destino não aceita este tipo de material.
+932	O material de origem foi consumido ou movido.
+933	{0} transferido; restam {1} na origem.
+934	Selecionar Filtrados
+935	Selecionados: {0}
+936	Conectar ({0})
+937	Desconectar ({0})
+938	{0} construções atualizadas; {1} construções indisponíveis ignoradas.
+939	Diagnosticar
+940	Clique para examinar problemas, encontrar materiais faltantes, localizar equipamentos ou abrir as configurações.
+941	Ver estoque
+942	Nenhuma falta de materiais detectada no momento.
+943	Localizar
+944	Conectar construções
+945	Atualizar

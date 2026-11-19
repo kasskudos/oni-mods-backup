@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. SkillingQueue.STRINGS.SKILLQUEUE.DEQUEUE
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE.DEQUEUE"
+msgid "Currently at position {0} in the skill queue.\nHold <style=\"KKeyword\">{1}</style> and click to remove from the queue"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE.QUEUE
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE.QUEUE"
+msgid "Hold <style=\"KKeyword\">{0}</style> and click to add to skill queue"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_QUEUE_COMPLETE.DESCRIPTION
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_QUEUE_COMPLETE.DESCRIPTION"
+msgid "Get a notification when a skill queue gets completed."
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_QUEUE_COMPLETE.NAME
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_QUEUE_COMPLETE.NAME"
+msgid "Notify on skill queue completion"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_SKILL.DESCRIPTION
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_SKILL.DESCRIPTION"
+msgid "Get a notification when a dupe learns a new skill through a skill queue."
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_SKILL.NAME
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.NOTIFICATION_ON_SKILL.NAME"
+msgid "Notify on Skill learned"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.RAINBOW_QUEUE.DESCRIPTION
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.RAINBOW_QUEUE.DESCRIPTION"
+msgid "The queue position indicator numbers are tinted with rainbow progression for easier distinction."
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.RAINBOW_QUEUE.NAME
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_CONFIG.RAINBOW_QUEUE.NAME"
+msgid "Rainbow queue indicator"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_NEW_SKILL_LEARNED.DESCRIPTION
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_NEW_SKILL_LEARNED.DESCRIPTION"
+msgid "{0} has learned the skill {1}"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_NEW_SKILL_LEARNED.NAME
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_NEW_SKILL_LEARNED.NAME"
+msgid "New Skill: {0}"
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_QUEUE_COMPLETED.DESCRIPTION
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_QUEUE_COMPLETED.DESCRIPTION"
+msgid "{0} has learned all queued skills."
+msgstr ""
+
+#. SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_QUEUE_COMPLETED.NAME
+msgctxt "SkillingQueue.STRINGS.SKILLQUEUE_STATUSITEMS.SQ_QUEUE_COMPLETED.NAME"
+msgid "{0}: Skillqueue completed"
+msgstr ""
+

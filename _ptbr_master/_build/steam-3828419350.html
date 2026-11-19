@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Steam Workshop::Greenhouse</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://community.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=-yZgCk0Nu7kH&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/buttons.css?v=0Ihq-pAoptBq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_global.css?v=s7S0UuIlaM4s&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/globalv2.css?v=VJJj6r-t5GM6&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub.css?v=NffKBoKGro4H&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/forums.css?v=O7yPUbJwKVr8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/workshop.css?v=dyRuT2ZYdaFe&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/workshop_itemdetails.css?v=bZ1iIKjB9xd2&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/friendpicker.css?v=zh3yBUBWbBXu&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/modalContent.css?v=WXAusLHclDIt&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/profilev2.css?v=Dlpean0WRkbo&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=jtzHDfvy1W_l&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub_images.css?v=MycZFO0quD1j&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/header.css?v=fSkVqUFOfW78&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Array.prototype.filter;
+	__PrototypePreserve[2] = Array.prototype.flatMap;
+	__PrototypePreserve[3] = Array.prototype.find;
+	__PrototypePreserve[4] = Array.prototype.some;
+	__PrototypePreserve[5] = Function.prototype.bind;
+	__PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/prototype-1.7.js?v=npJElBnrEO6W&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+	Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+	Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+	Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+	Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">
+	var __ScriptaculousPreserve=[];
+	__ScriptaculousPreserve[0] = Array.from;
+	__ScriptaculousPreserve[1] = Function.prototype.bind;
+	__ScriptaculousPreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=pbdAKOcDIgbC&amp;l=english&amp;_cdn=fastly&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript">
+	Array.from = __ScriptaculousPreserve[0] || Array.from;
+	Function.prototype.bind = __ScriptaculousPreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __ScriptaculousPreserve[2] || HTMLElement.prototype.scrollTo;
+delete String['__parseStyleElement'];  Prototype.Browser.WebKit = true;</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/global.js?v=gFpIMpzMJ37e&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=gQHVlrK4-jX-&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=lqbABc7pOZZC&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.fastly.steamstatic.com\/public\/javascript\/json2.js?v=54NKNglvGTO8&amp;l=english&amp;_cdn=fastly\"><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalv2.js?v=zBXEuexVQ0FZ&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/workshop_functions.js?v=xf67kNQdFh0Y&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/sharedfiles_functions_logged_out.js?v=v32Qc59_NiZ5&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/workshop_previewplayer.js?v=4KrJPsCOk3Ex&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/localization/loyaltyrewards_manifest.js?v=0TlabJvDa5nf&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Steam Workshop::Greenhouse">
+					<meta property="twitter:title" content="Steam Workshop::Greenhouse">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+			
+	
+			<link rel="image_src" href="https://images.steamusercontent.com/ugc/14245785765909447850/1556E5556509327EAA1430DC0F607AB4DAF92B2D/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false">
+		<meta property="og:image" content="https://images.steamusercontent.com/ugc/14245785765909447850/1556E5556509327EAA1430DC0F607AB4DAF92B2D/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false">
+		<meta name="twitter:image" content="https://images.steamusercontent.com/ugc/14245785765909447850/1556E5556509327EAA1430DC0F607AB4DAF92B2D/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false" />
+				
+	
+	
+	
+	
+	</head>
+<body class="flat_page responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=sharedfiles%2Ffiledetails%2F%3Fid%3D3828419350%26l%3Denglish">
+									Sign in								</a>
+															<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/" aria-label="Link to the Steam Homepage">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=sharedfiles%2Ffiledetails%2F%3Fid%3D3828419350%26l%3Denglish">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese&id=3828419350" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese&id=3828419350" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese&id=3828419350" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana&id=3828419350" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai&id=3828419350" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian&id=3828419350" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay&id=3828419350" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian&id=3828419350" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech&id=3828419350" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish&id=3828419350" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german&id=3828419350" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish&id=3828419350" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam&id=3828419350" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek&id=3828419350" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french&id=3828419350" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian&id=3828419350" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian&id=3828419350" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch&id=3828419350" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian&id=3828419350" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish&id=3828419350" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese&id=3828419350" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian&id=3828419350" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian&id=3828419350" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian&id=3828419350" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish&id=3828419350" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish&id=3828419350" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish&id=3828419350" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese&id=3828419350" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian&id=3828419350" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "f6bd4239c91561cbd11aa8e9";
+	g_steamID = false;
+	g_strLanguage = "english";
+	g_SNR = '2_100100_100101_100103';
+	g_bAllowAppImpressions = true;
+		g_ContentDescriptorPreferences = [1,3,4];
+
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+					InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' ));
+			InitEmoticonHovers();
+		
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.fastly.steamstatic.com\/public\/css\/skin_1\/economy.css?v=RsRFFW9vaq1B&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy_common.js?v=TSVmDS2fQKJu&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy.js?v=pY7JMvljOOPC&l=english&_cdn=fastly" );});</script>
+<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;BR&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793913079,&quot;PAGE_TIMESTAMP&quot;:1794230971,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;chromeos&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1794230971,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;2_100100_100101_100103&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;BR&quot;,&quot;excluded_content_descriptors&quot;:[1,3,4]}" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}" data-steam_notifications="null"></div><link href="https://community.fastly.steamstatic.com/public/css/applications/community/main.css?v=QUAUimpcr-fl&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11210379";</script>
+<script type="module" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/main.js?contenthash=DniUHuiT"></script>
+	<div id="application_root"></div>
+
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			
+<script type="text/javascript">
+
+		var bSkipVideos = true;
+		var SESSION_ID = 'f6bd4239c91561cbd11aa8e9';
+	var publishedfileid = '3828419350';
+	var searchText = "";
+
+	function onModalHidden()
+	{
+		// stop any videos
+		if ( window.stop )
+		{
+			stop();
+		}
+	}
+
+	function previewImageBind()
+	{
+		Event.observe( 'enlargedImage', 'load', function() { modalSizing( $( 'previewImageEnlarged' ) ); } );
+	}
+
+	window.onload = previewImageBind;
+
+	var gGreenlightAcceptedRedirectDialog = null;
+
+	function RequestSketchfabDetails( previewID, modelID )
+	{
+		var elem = $("thumb_sketchfab_model_" + previewID );
+		var img = elem.down( '.thumb_sketchfab_img' );
+		$J.get( "https://sketchfab.com/oembed?url=https://sketchfab.com/models/" + modelID )
+		.done(
+			function( json ) {
+				img.src = json.thumbnail_url;
+			}
+		)
+	}
+
+	Event.observe(document, 'dom:loaded', function() {
+		if( searchText )
+			HighlightSearchText( searchText, $('highlightContent') );
+
+		if ( $J("#GreenlightItemReleasedDialog" ).length > 0 )
+		{
+			$J("#GreenlightItemReleasedDialog").show();
+			gGreenlightAcceptedRedirectDialog = ShowDialog( 'Now Available On Steam!', $J("#GreenlightItemReleasedDialog" ), null );
+			gGreenlightAcceptedRedirectDialog.SetRemoveContentOnDismissal( false );
+		}
+
+			});
+
+	function CloseGreenlightAcceptedRedirectDialog()
+	{
+		gGreenlightAcceptedRedirectDialog.Dismiss();
+		gGreenlightAcceptedRedirectDialog = null;
+	}
+
+	$J(function() {
+
+
+		var tag = document.createElement('script');
+
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	});
+
+    g_HighlightPlayer = null;
+
+	function onYouTubeIframeAPIReady()
+	{
+        g_HighlightPlayer = new HighlightPlayer( {
+			elemPlayerArea: 'highlight_player_area',
+			elemStrip: 'highlight_strip',
+			elemStripScroll: 'highlight_strip_scroll',
+			elemSlider: 'highlight_slider',
+			rgMovieFlashvars: rgMovieFlashvars,
+			rgScreenshotURLs: rgScreenshotURLs,
+			rgFullScreenshotURLs: rgFullScreenshotURLs,
+			rgSketchfabModels : rgSketchfabModels,
+			rgDefaultMovieFlashvars: rgCommonFlashVars
+		} );
+	}
+
+
+</script>
+
+
+<div class="sharedfiles_item_page_header">
+	
+
+<div class="apphub_HomeHeaderContent">
+
+
+	<script lang="js">
+		const g_bIsAppHubModerator = 0;
+	</script>
+
+	
+	
+	<div class="apphub_HeaderTop workshop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+							<div class="apphub_WorkshopPistonHolder">
+					<div class="apphub_WorkshopPiston"></div>
+				</div>
+				
+							<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/457140?snr=2_100100_100101_100103_apphubheader" data-appid="457140">
+					<span>Store Page</span>
+				</a>
+					</div>
+		<div class="apphub_AppDetails">
+			<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/457140/d37534163ebac8351e0bda0bf30f8f2174c921b6.jpg"><div class="overlay"></div></div>
+			<div class="apphub_AppName ellipsis">Oxygen Not Included</div>
+		</div>
+		<div style="clear: both"></div>
+
+		
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/457140" class="apphub_sectionTab  "><span>All</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/discussions/" class="apphub_sectionTab  "><span>Discussions</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/screenshots/" class="apphub_sectionTab  "><span>Screenshots</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/images/" class="apphub_sectionTab  "><span>Artwork</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/broadcasts/" class="apphub_sectionTab  "><span>Broadcasts</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/videos/" class="apphub_sectionTab  "><span>Videos</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/workshop/" class="apphub_sectionTab active "><span>Workshop</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/allnews/" class="apphub_sectionTab  "><span>News</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/guides/" class="apphub_sectionTab  "><span>Guides</span></a>
+		
+	<a href="https://steamcommunity.com/app/457140/reviews/" class="apphub_sectionTab  "><span>Reviews</span></a>
+			</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select6af1cabbe0626">
+													<option value="https://steamcommunity.com/app/457140" >
+								All							</option>
+													<option value="https://steamcommunity.com/app/457140/discussions/" >
+								Discussions							</option>
+													<option value="https://steamcommunity.com/app/457140/screenshots/" >
+								Screenshots							</option>
+													<option value="https://steamcommunity.com/app/457140/images/" >
+								Artwork							</option>
+													<option value="https://steamcommunity.com/app/457140/broadcasts/" >
+								Broadcasts							</option>
+													<option value="https://steamcommunity.com/app/457140/videos/" >
+								Videos							</option>
+													<option value="https://steamcommunity.com/app/457140/workshop/" selected>
+								Workshop							</option>
+													<option value="https://steamcommunity.com/app/457140/allnews/" >
+								News							</option>
+													<option value="https://steamcommunity.com/app/457140/guides/" >
+								Guides							</option>
+													<option value="https://steamcommunity.com/app/457140/reviews/" >
+								Reviews							</option>
+											</select>
+				</div>
+			</div>
+			<div class="responsive_tab_baseline"></div>
+		</div>
+	</div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">Oxygen Not Included</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+									<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/457140">
+						<span>Store Page</span>
+					</a>
+											</div>
+											</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG_blur"></div><div class="apphub_HeaderBottomBG"></div>
+	</div>
+		<div class="breadcrumbs">
+										<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/457140">Oxygen Not Included</a><span class="breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
+						
+						<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/457140/workshop/">Workshop</a>
+						<span class="breadcrumb_separator">&gt;&nbsp;</span><a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/id/TakeyaSaito/myworkshopfiles/?appid=457140">Saito's Workshop</a>
+							</div>
+	</div>
+	<div id="ig_bottom" class="smallheader item">
+	<!-- main body -->
+<div id="mainContents">
+
+			<div class="bannedNotification" id="bannedNotification" style="display: none" >
+			This item has been removed from the community because it violates Steam Community & Content Guidelines. It is only visible to you. If you believe your item has been removed by mistake, please contact <a href="https://help.steampowered.com/en/wizard/HelpWithSteamIssue/?issueid=415" target="_blank" rel="" >Steam Support</a>.					</div>
+		<div class="incompatibleNotification" id="incompatibleNotification" style="display: none" >
+							This item is incompatible with Oxygen Not Included. Please see the <a href="https://forums.kleientertainment.com/forums/forum/204-oxygen-not-included-mods-and-tools/">instructions page</a> for reasons why this item might not work within Oxygen Not Included.					</div>
+
+		
+		
+		
+		
+		
+
+		
+				<div class="workshopItemDetailsHeader">
+			<div id="detailsHeaderRight">
+				<!-- top level info -->
+								<div class="ratingSection">
+					<div class="fileRatingDetails"><img src="https://community.fastly.steamstatic.com/public/images/sharedfiles/4-star_large.png?v=2" /></div>
+					<div class="numRatings">44 ratings</div>				</div>
+							</div>
+			<div class="workshopItemTitle">Greenhouse</div>
+			<div style="clear:both"></div>
+		</div>
+	<div class="sharedfiles_tabs_ctn">
+		<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="sectionTabs item responsive_hidden">
+							<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3828419350"  class="sectionTab  active description"><span>Description</span></a>
+							<a href="https://steamcommunity.com/sharedfiles/filedetails/discussions/3828419350"  class="sectionTab  discussions"><span>Discussions<span class="tabCount">0</span></span></a>
+							<a href="https://steamcommunity.com/sharedfiles/filedetails/comments/3828419350"  class="sectionTab  comments"><span>Comments<span class="tabCount">36</span></span></a>
+							<a href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3828419350"  class="sectionTab  changelog"><span>Change Notes</span></a>
+					</div>
+	</div>
+
+	<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+		<div class="responsive_tab_control">
+						<select class="responsive_tab_select" id="responsive_tab_select6af1cabbe07fe">
+									<option value="https://steamcommunity.com/sharedfiles/filedetails/?id=3828419350" selected>
+						Description					</option>
+									<option value="https://steamcommunity.com/sharedfiles/filedetails/discussions/3828419350" >
+						Discussions					</option>
+									<option value="https://steamcommunity.com/sharedfiles/filedetails/comments/3828419350" >
+						Comments					</option>
+									<option value="https://steamcommunity.com/sharedfiles/filedetails/changelog/3828419350" >
+						Change Notes					</option>
+							</select>
+		</div>
+		<div id="tabs_baseline" class="responsive_tab_baseline "></div>
+	</div>
+
+			<div style="clear: left"></div>
+	
+	<div class="workshopItemPreviewArea ">
+		<div class="workshop_item_header">
+			<div class="highlight_ctn">
+				<div class="highlight_overflow">
+					
+					<div class="workshopItemPreviewImageEnlargeableContainer ">
+						<div id="highlight_player_area">
+							<a data-panel="{&quot;focusable&quot;:false}" onclick="ShowEnlargedImagePreview( 'https://images.steamusercontent.com/ugc/14245785765909447850/1556E5556509327EAA1430DC0F607AB4DAF92B2D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false' );"><img id="previewImage" class="workshopItemPreviewImageEnlargeable" src="https://images.steamusercontent.com/ugc/14245785765909447850/1556E5556509327EAA1430DC0F607AB4DAF92B2D/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"/><span class="zoom-icon"><img src="https://community.fastly.steamstatic.com/public/images/sharedfiles/zoom_icon.png"></span></a>
+							<script type="text/javascript">
+								var rgMovieFlashvars = {
+																	'' : ''
+								};
+								var rgCommonFlashVars = {
+									clientLanguage: "english",
+									capsuleSize: "huge",
+									STAGE_WIDTH: 636,
+									STAGE_HEIGHT: 358,
+									AUTO_PLAY: "true",
+									ALLOW_JSPAUSE: "true",
+									TRACK_MUTE: "true",
+									CHECKBOX_AUTOPLAY_SHOW: "true",
+									CHECKBOX_AUTOPLAY_TEXT: ""
+								};
+								var rgScreenshotURLs = {
+																		'' : ''
+								};
+								var rgFullScreenshotURLs = [
+																];
+								var rgSketchfabModels = {
+																		'' : ''
+								};
+							</script>
+						</div>
+					</div>
+									</div>
+
+					<div class="workshopItemControls" id="ItemControls">
+		<div class="workshopItemRatings">
+						<div class="review_award_ctn">
+									<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="review_award tooltip purchaseable" onClick="PublishedFileAward( '3828419350', 0, 26 )" data-reaction="26" data-reactioncount="2" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/26.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Helpful&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;You're a credit to the team.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+						<img class="review_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/26.png?v=5"/>
+						<span class="review_award_count ">2</span>
+					</div>
+										<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="review_award tooltip purchaseable" onClick="PublishedFileAward( '3828419350', 0, 28 )" data-reaction="28" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+						<img class="review_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+						<span class="review_award_count hidden">1</span>
+					</div>
+								</div>
+		</div>
+		<div class="workshopItemControlCtn">
+							<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="VoteUp(3828419350);" id="VoteUpBtn" class="general_btn voteUp ">&nbsp;</span>
+				<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="VoteDown(3828419350);" id="VoteDownBtn" class="general_btn voteDown ">&nbsp;</span>
+					</div>
+
+		<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onClick="PublishedFileAward( '3828419350', 0 )" class="general_btn"><span><img src="https://community.fastly.steamstatic.com/public/shared/images//award_icon.svg" class="reward_btn_icon">Award</span></span>
+
+		
+		<div class="workshopItemControlCtn">
+			<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="FavoriteItem();" id="FavoriteItemBtn" class="general_btn favorite tooltip " data-tooltip-text="Easily find this item again later">
+				<div class="favoriteText">
+					<div id="FavoriteItemOptionAdd" class="favoriteOption addfavorite selected">Favorite</div>
+					<div id="FavoriteItemOptionFavorited" class="favoriteOption favorited ">Favorited</div>
+					<div class="favoriteOption removefavorite">Unfavorite</div>
+				</div>
+			</span>
+
+			
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowSharePublishedFilePopup( '3828419350', '457140' );" id="ShareItemBtn" class="general_btn share tooltip" data-tooltip-text="Share this item on Steam or your favorite social network">Share</span>
+					</div>
+
+					<div class="workshopItemControlCtn">
+				<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAddToCollection( '3828419350', '457140' );" id="AddToCollectionBtn" class="general_btn share tooltip" data-tooltip-text="Add to one of your collections">
+					<span>Add to Collection</span>
+				</span>
+			</div>
+		
+		
+		<div class="vertical_divider"></div>
+
+					<div class="workshopItemControlCtn">
+				<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowContentReportDialog( { type: 'ugcfile', publishedFileId: '3828419350' } );" id="ReportItemBtn" class="general_btn report tooltip " data-tooltip-text="Report this item for violating the Steam Online Conduct Rules"></span>
+			</div>
+			<div  data-featuretarget="content-moderation-report-dialog"></div>		
+		
+				<div id="action_wait" style="display: none;"><img src="https://community.fastly.steamstatic.com/public/images/login/throbber.gif"></div>
+	</div>
+
+	<div id="JustFavorited" class="just_added_to_list" style="display: none">
+		<div class="just_added_favorite_icon"></div>
+		<div class="just_added_text">This item has been added to your <a href="https://steamcommunity.com/my/myworkshopfiles/?browsefilter=myfavorites">Favorites</a>.</div>
+		<div class="close_notification"><span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="CloseNotification( 'JustFavorited' );" class="close"><img src="https://community.fastly.steamstatic.com/public/images/sharedfiles/ico_dialogue_close.png"></span></div>
+		<div style="clear:both"></div>
+	</div>
+			</div>
+
+			<div class="col_right responsive_local_menu">
+				
+					<div class="rightDetailsBlock">
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="workshopTags"><span class="workshopTagsTitle">Mods:&nbsp;</span><a href="https://steamcommunity.com/workshop/browse/?appid=457140&browsesort=toprated&section=readytouseitems&requiredtags%5B%5D=New+Features">New Features</a></div><div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="workshopTags"><span class="workshopTagsTitle">Compatibility:&nbsp;</span><a href="https://steamcommunity.com/workshop/browse/?appid=457140&browsesort=toprated&section=readytouseitems&requiredtags%5B%5D=Base+Game">Base Game</a>, <a href="https://steamcommunity.com/workshop/browse/?appid=457140&browsesort=toprated&section=readytouseitems&requiredtags%5B%5D=Spaced+Out%21">Spaced Out!</a></div>	</div>
+
+				<div class="dotted_hr_uri hr padded"></div>
+
+				<div class="rightDetailsBlock">
+					<div class="detailsStatsContainerLeft">
+												<div class="detailsStatLeft">File Size </div>
+												<div class="detailsStatLeft">Posted </div>
+												<div class="detailsStatLeft">Updated </div>
+																		
+					</div>
+					<div class="detailsStatsContainerRight">
+												<div class="detailsStatRight">768.820 KB</div>
+												<div class="detailsStatRight">27 Oct @ 11:03am</div>
+												<div class="detailsStatRight">9 Nov @ 4:39am</div>
+																							</div>
+					<div style="clear:left"></div>
+										<div class="detailsStatNumChangeNotes">
+						12 Change Notes						<span class="change_note_link"><a href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3828419350">( view )</a></span>
+					</div>
+					
+					
+				</div>
+			</div>
+
+			<div style="clear:both"></div>
+		</div>
+
+				
+	</div>
+
+	
+	<div id="sharedfiles_content_ctn" data-miniprofile-appid="457140">
+
+	<!-- right side contents -->
+	<div id="rightContents" class="responsive_local_menu">
+		<div class="sidebar">
+				
+		<!-- created by -->
+		<div class="panel">
+			
+<div class="rightSectionTopTitle condensed">Created by</div>
+<div class="rightDetailsBlock">
+	<div class="creatorsBlock">
+				<div data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" class="friendBlock persona offline" data-miniprofile="31484571" >
+						<a class="friendBlockLinkOverlay" href="https://steamcommunity.com/id/TakeyaSaito"></a>
+															<div class="playerAvatar offline">
+				<img src="https://avatars.fastly.steamstatic.com/5daf511c9d1f08c80083356282348ea5832729bf_medium.jpg">
+			</div>
+			<div class="friendBlockContent">
+				Saito<br>
+				<span class="friendSmallText">
+		Offline
+				</span>
+			</div>
+		</div>
+			</div>
+</div>
+
+
+			
+
+
+
+		</div>
+
+			<div class="panel">
+			<div class="parentCollectionsNumOthers">See all <a href="https://steamcommunity.com/workshop/browse/?browsesort=toprated&section=collections&appid=457140&childpublishedfileid=3828419350">35 collections</a> (some may be hidden)</div>
+	 </div> 	<div class="panel">
+			<table class="stats_table">
+								<tr>
+					<td>3,740</td>
+					<td>Unique Visitors</td>
+				</tr>
+													<tr>
+						<td>1,096</td>
+						<td>Current Subscribers</td>
+					</tr>
+								<tr>
+					<td>99</td>
+					<td>Current Favorites</td>
+				</tr>
+			</table>
+	</div>
+			<!-- favorited by -->
+					</div>
+	</div>
+
+	<div id="profileBlock" class="clearfix">
+		<div class="detailBox plain">
+
+			
+								<div class="game_area_purchase_margin">
+						<div class="game_area_purchase_game">
+							<h1><span>Subscribe to download</span><br>Greenhouse</h1>
+							<div>
+								<a onclick="SubscribeItem( '3828419350', '457140' );" id="SubscribeItemBtn" class="btn_green_white_innerfade btn_border_2px btn_medium ">
+									<div class="subscribeIcon"></div>
+									<span class="subscribeText">
+										<div id="SubscribeItemOptionAdd" class="subscribeOption subscribe selected">Subscribe</div>
+										<div id="SubscribeItemOptionSubscribed" class="subscribeOption subscribed ">Subscribed</div>
+										<div class="subscribeOption remove">Unsubscribe</div>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="JustSubscribed" class="just_added_to_list body" style="display: none">
+						<div class="close_notification"><a onclick="CloseNotification( 'JustSubscribed' );"><img src="https://community.fastly.steamstatic.com/public/images/sharedfiles/ico_dialogue_close.png"></a></div>
+						<div style="float: left">
+							<div class="just_subscribed_icon"></div>
+							<div class="just_added_text" style="width: 400px;">This item has been added to your <a href="https://steamcommunity.com/my/myworkshopfiles/?browsefilter=mysubscriptions">Subscriptions</a>. Some games will require you to relaunch them before the item will be downloaded.</div>
+						</div>
+						<div style="clear:both"></div>
+					</div>
+					
+						
+			<div class="detailBox altFooter">
+				<div class="workshopItemDescriptionTitle">Description</div>
+								<div class="workshopItemDescription" id="highlightContent"><div class="bb_h1">Greenhouse</div><br>A whole farm in one building. The <b>Greenhouse</b> grows <b>18 crops</b> on three shelves of six behind glass, and its shelves follow the crop: hanging trays for ceiling crops like Pincha Pepper and Dasha Saltvine, two levels of three for trees. The <b>Aquatic Greenhouse</b> does the same for underwater crops in a tank of liquid. Both are 6×4 and sit in the Food menu next to the Hydroponic Farm.<br><br>The crops follow a vanilla farm's rules, but they're simulated as data once a second instead of being 18 separate plants, so a greenhouse full of crops costs almost nothing per frame. I built it with the crop simulation from my Critter Terrarium, which already handled crops, mutations and atmospheres.<br><br><div class="bb_h2">Farming like a farm tile</div><ul class="bb_ul"><li><b>One crop per greenhouse:</b> pick it on the Config tab. Duplicants deliver the seeds and plant them; changing the crop uproots the old plants and drops their seeds. Wide plants take several slots (a Megafrond takes three).<br></li><li><b>Fertilizer and water:</b> each crop uses what it uses in vanilla. Duplicants keep a few cycles' worth in stock, or you can pipe the water in and bring solids by conveyor rail. Each building takes only what it needs and lets the rest ride on, so one rail can supply a row of them.<br></li><li><b>Growing conditions:</b> temperature, atmosphere, <b>pressure</b>, light or darkness and radiation all work as on a farm tile. If something is wrong, the Diagnostics line tells you exactly what (for example &quot;too dark, 40 of 200 lux&quot;).<br></li><li><b>Gas-breathing plants:</b> Oxyferns turn carbon dioxide into oxygen, and Alveo Vera, Megafrond and Dasha Saltvine take in their gas, from the greenhouse's own atmosphere or from the room.<br></li><li><b>Harvesting:</b> Duplicants harvest ripe crops as on a farm, with the Botanist's bonus seed chance, and the harvest is dropped at the building. Turn Auto-Harvest off to keep ripe crops waiting until you press Harvest.<br></li><li><b>Arbor Trees:</b> pick Arbor Tree and the shelves switch to two levels of three: 6 trees, each growing up to 5 branches that are harvested one at a time for 300 kg of Lumber, like in vanilla.<br></li><li><b>Bonbon Trees:</b> the same two levels of three. Grown branches make Nectar by their light (full speed at 10,000 lux, which the glow tubes can supply), up to about 80 kg per tree per cycle. It flows out of the liquid output, or Duplicants harvest a full tree as a bottle. Branches are kept for Nectar by default; a menu toggle cuts them for Lumber instead.<br></li><li><b>Ovagro Node:</b> one node fills the whole greenhouse, its vine spreading from the middle shelf to both walls, then up and down to the top and bottom shelves: 24 sections, each growing an Ovagro Fig, harvested one at a time.<br></li><li><b>Mimika pollination</b> (The Prehistoric Planet Pack): turn it on and two slots grow Mimika Buds, which release their Mimikas into the greenhouse. The Mimikas pollinate the crops at the vanilla rate (+25% growth), and Sweatcorn Stalks, which wilt without pollination, can be grown. If the greenhouse is the wrong temperature or air for the buds, a small nursery closes around them for 20 W.<br></li><li><b>Tended or Wild:</b> tended crops grow at full speed and need their fertilizer; wild ones grow at a quarter of the speed and need nothing, like plants in the wild.</li></ul><br><div class="bb_h2">Aquatic Greenhouse</div><ul class="bb_ul"><li><b>A tank of liquid:</b> pipe liquid in to fill it up to the fill level you set, like the Critter Aquarium; it's drawn inside the glass with a moving surface. The tank is the crops' water and atmosphere, and a shelf above the waterline doesn't grow.<br></li><li><b>Underwater crops:</b> Waterweed, Tublia, Starnacle, Pinpoket, Clampum, and Seakomb on hanging trays.<br></li><li><b>Thermal Regulation</b> of the whole tank with a built-in Liquid Tepidizer and Thermo Aquatuner (Liquid Tuning research).</li></ul><br><div class="bb_h2">Built in</div>Each one unlocks with the research of the vanilla building it replaces.<br><ul class="bb_ul"><li><b>Glow tubes</b> (Ceiling Light research): they light up only when the crop needs light, and add only what the room's light doesn't already give. They draw power for the light they add, at a Ceiling Light's rate (about 7 W for a Bristle Blossom greenhouse).<br></li><li><b>Farmer's Touch</b> (Farm Station research): a Duplicant with the Farmer's Touch skill tends every crop with 5 kg of Fertilizer each, for the vanilla growth bonus. Botanists make it last longer, as in vanilla.<br></li><li><b>Atmosphere:</b> pipe gases in to give the crops their own atmosphere (up to about 2 kg per tile); they're drawn inside the glass in layers, heaviest at the bottom. Or leave it open to the room.<br></li><li><b>Insulation</b> (Temperature Modulation research): the inside takes the temperature of the gas piped in, and what the crops breathe out stays inside.<br></li><li><b>Thermal Regulation</b> (Space Heater and Thermo Regulator research): a built-in heater and cooler keep the inside at the temperature you set.</li></ul><br><div class="bb_h2">Plant mutations (Spaced Out)</div><ul class="bb_ul"><li><b>Choose the variant:</b> once a mutation of your crop has been identified, pick Original, any identified variant, or one specific mutation. With one chosen, every seed of it you have is planted and the other slots grow the Original for now, replaced as more seeds arrive.<br></li><li><b>Mutations work as in vanilla:</b> growth time, yield, fertilizer and water use, temperature range, light needs and harvest time follow the mutation. Bonus Lice and Rotten Heaps give their extra drops, Heavy Fruit drops its crop when ripe, and mutated plants are drawn with their vanilla look.<br></li><li><b>Radiation lamp:</b> mutated plants need 250 rads. Instead of keeping Shine Bugs, the greenhouse has a radiation lamp that burns <b>Phosphorite</b> at the same rate Shine Bugs eat it (0.166 kg per cycle for every 60 rads), and only for the radiation the room doesn't already give. Duplicants or the rail bring the Phosphorite.<br></li><li><b>Mutation farm:</b> harvests of normal plants drop seeds at the vanilla chance, and with radiation around the building each seed can come out as a new, unidentified mutation, exactly like vanilla. The Crops panel shows the chance per harvest.</li></ul><br><div class="bb_h2">Ports</div>Power on the left; conveyor rail, liquid and gas inputs on the right, with a liquid and a gas output just above the inputs. Gases the crops give off (Oxyfern oxygen) and liquid harvests go into the outputs when a pipe is attached. None of them are required: without pipes the crops use the room's atmosphere and Duplicants deliver everything.<br><br><div class="bb_h2">Compatibility</div>Translated into Chinese, Korean, Russian and Japanese.<br><br>Safe to add to an existing save. Hanging Greenhouses built before 1.3.0 keep working: they're now the same building as the Greenhouse and switch their shelves the same way. If you remove the mod, the greenhouses are deleted along with their crops and stock.</div>
+			</div>
+
+			
+<script>
+
+</script>
+<div class="detailBox"><script type="text/javascript">
+	$J( function() {
+		InitializeCommentThread( "PublishedFile_Public", "PublishedFile_Public_76561197991750299_3828419350", {"feature":"3828419350","feature2":-1,"owner":"76561197991750299","commentthreadid":"661388816","total_count":37,"start":0,"pagesize":10,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"contributors\":[\"76561197991750299\",{}],\"appid\":457140,\"sharedfile\":{\"m_parentsDetails\":null,\"m_parentBundlesDetails\":null,\"m_bundledChildren\":[],\"m_ownedBundledItems\":[]},\"parent_item_reported\":false}"}, 'https://steamcommunity.com/comment/PublishedFile_Public/', 40 );
+	} );
+</script>
+<div class="commentthread_area"  id="commentthread_PublishedFile_Public_76561197991750299_3828419350_area">
+	<div class="commentthread_header">
+		<div class="commentthread_header_and_count">
+			<span class="ellipsis commentthread_count_label">
+									<span id="commentthread_PublishedFile_Public_76561197991750299_3828419350_totalcount">37</span> Comments							</span>
+			<div class="commentthread_count">
+							</div>
+		</div>
+		<div class="commentthread_paging " id="commentthread_PublishedFile_Public_76561197991750299_3828419350_pagecontrols">
+						<div class="commentthread_pagelinks_ctn">
+				<a id="commentthread_PublishedFile_Public_76561197991750299_3828419350_pagebtn_prev" href="javascript:void(0);" class="pagebtn">&lt;</a>
+				<span id="commentthread_PublishedFile_Public_76561197991750299_3828419350_pagelinks" class="commentthread_pagelinks"></span>
+				<span id="commentthread_PublishedFile_Public_76561197991750299_3828419350_pagedropdown" class="commentthread_pagedropdown"></span>
+				<a id="commentthread_PublishedFile_Public_76561197991750299_3828419350_pagebtn_next" href="javascript:void(0);" class="pagebtn">&gt;</a>
+			</div>
+		</div>
+	</div>
+				<!-- 15 -->
+				<div style="" class="commentthread_comment_container" id="commentthread_PublishedFile_Public_76561197991750299_3828419350_postcontainer">
+			<div class="commentthread_comments" id="commentthread_PublishedFile_Public_76561197991750299_3828419350_posts">
+						
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574932022439559348" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/23142a6d80f5218f1700de70fac30da353c62d45.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/TakeyaSaito" data-miniprofile="31484571">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1329510/246039b34c7d955196e61cd812c26a6756f6fe8b.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1329510/143778f06cfad9e80a4c1d516d1d0d70ee8fc953.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/TakeyaSaito"  data-miniprofile="31484571">
+							<bdi>Saito</bdi></a>
+
+						
+						<span class="commentthread_workshop_authorbadge">&nbsp;[author]</span>																		
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="9 November, 2026 @ 4:39:32 am PST" data-timestamp="1794227972">
+						49 minutes ago&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574932022439559348' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574932022439559348">
+				can you update and see if it solves the crash? if not it might be something else, can you send me the  <a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fplayer.log%3F" target="_blank" rel=" noopener" >player.log?</a> 			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574932022439548734" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar in-game">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/382560/4e16c2899e1b05a3ce83fa493b5f74a5cfd2c88a.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/382560/ff8b2cef34985dc68efc6bccedade5edaf07d9af.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/382560/ff8b2cef34985dc68efc6bccedade5edaf07d9af.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/UnstableEnergy" data-miniprofile="131521882">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2181930/7802cfe259aebcdfc2e4b35a36f8f95406386629.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2181930/6b13d92768121712236bf0cb2c96f3220716d653.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/UnstableEnergy"  data-miniprofile="131521882">
+							<bdi>Unstable Energy</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="9 November, 2026 @ 2:23:38 am PST" data-timestamp="1794219818">
+						3 hours ago&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574932022439548734' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574932022439548734">
+				What would happen if you do put them in the green house? Im getting a random crash after building a greenhouse and putting saturn critter traps in one. Not sure if thats the issue or another mod.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574932022439545387" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/23142a6d80f5218f1700de70fac30da353c62d45.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/TakeyaSaito" data-miniprofile="31484571">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1329510/246039b34c7d955196e61cd812c26a6756f6fe8b.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1329510/143778f06cfad9e80a4c1d516d1d0d70ee8fc953.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/TakeyaSaito"  data-miniprofile="31484571">
+							<bdi>Saito</bdi></a>
+
+						
+						<span class="commentthread_workshop_authorbadge">&nbsp;[author]</span>																		
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="9 November, 2026 @ 1:35:29 am PST" data-timestamp="1794216929">
+						3 hours ago&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574932022439545387' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574932022439545387">
+				Those work in the critter terrarium instead as it made more sense since they are more critter focused.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574932022439543158" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar in-game">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/382560/4e16c2899e1b05a3ce83fa493b5f74a5cfd2c88a.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/382560/ff8b2cef34985dc68efc6bccedade5edaf07d9af.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/382560/ff8b2cef34985dc68efc6bccedade5edaf07d9af.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/UnstableEnergy" data-miniprofile="131521882">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2181930/7802cfe259aebcdfc2e4b35a36f8f95406386629.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2181930/6b13d92768121712236bf0cb2c96f3220716d653.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/UnstableEnergy"  data-miniprofile="131521882">
+							<bdi>Unstable Energy</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="9 November, 2026 @ 1:03:02 am PST" data-timestamp="1794214982">
+						4 hours ago&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574932022439543158' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574932022439543158">
+				Do saturn critter traps work in these?			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574932022439510767" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/23142a6d80f5218f1700de70fac30da353c62d45.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/TakeyaSaito" data-miniprofile="31484571">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1329510/246039b34c7d955196e61cd812c26a6756f6fe8b.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1329510/143778f06cfad9e80a4c1d516d1d0d70ee8fc953.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/TakeyaSaito"  data-miniprofile="31484571">
+							<bdi>Saito</bdi></a>
+
+						
+						<span class="commentthread_workshop_authorbadge">&nbsp;[author]</span>																		
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="8 November, 2026 @ 5:01:37 pm PST" data-timestamp="1794186097">
+						12 hours ago&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574932022439510767' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574932022439510767">
+				Oh I didn't think of that, I'll look into adding a limit slider.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574932022439483250" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561198008929512" data-miniprofile="48663784">
+													<img src="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" srcset="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg 1x, https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/profiles/76561198008929512"  data-miniprofile="48663784">
+							<bdi>Razlem</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="8 November, 2026 @ 11:26:32 am PST" data-timestamp="1794165992">
+						18 hours ago&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574932022439483250' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574932022439483250">
+				This is great! Is there a way to limit the number of plants in a greenhouse? For example, if I only want 12 sleet wheats planted instead of the full 18 to conserve some water?			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574931610463481533" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/617670/6684296f5f24601944772cf6b2b05835fc226d0b.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/617670/a7d82baaf9ce4a20cdd5148f56262c1ee02dde89.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/617670/a7d82baaf9ce4a20cdd5148f56262c1ee02dde89.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/Alien1804" data-miniprofile="875805760">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2022180/0ee2ec26de1f9db9801339771530d9088b0f5ee8.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2022180/e081bb44f8c79e9b5ae44d1be71aae559d7fcf88.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/Alien1804"  data-miniprofile="875805760">
+							<bdi>AlienDrogado666</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 November, 2026 @ 2:45:38 pm PST" data-timestamp="1793832338">
+						4 Nov @ 2:45pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574931610463481533' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574931610463481533">
+				muito bom			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574931289648676629" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/23142a6d80f5218f1700de70fac30da353c62d45.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/457140/be6fedcf83ec8000ce69c29104622efc2bb02c9c.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/fabian1212" data-miniprofile="37240101">
+													<img src="https://avatars.fastly.steamstatic.com/801a76712270692932e96bfd7a9fa57c2f8a4144.jpg" srcset="https://avatars.fastly.steamstatic.com/801a76712270692932e96bfd7a9fa57c2f8a4144.jpg 1x, https://avatars.fastly.steamstatic.com/801a76712270692932e96bfd7a9fa57c2f8a4144_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/id/fabian1212"  data-miniprofile="37240101">
+							<bdi>floorwaxer2</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="2 November, 2026 @ 2:57:49 pm PST" data-timestamp="1793660269">
+						2 Nov @ 2:57pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574931289648676629' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574931289648676629">
+				Thank you is working :D			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574931289648673112" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/570/cbd274867889e08f71c57e42004e2369a991463d.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/570/c6a479fae8979bc9c1a02378e488e3ce06b52cb1.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/570/c6a479fae8979bc9c1a02378e488e3ce06b52cb1.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198042355709" data-miniprofile="82089981">
+													<img src="https://avatars.fastly.steamstatic.com/d56784125e420de059096f86fd9220e975d4f115.jpg" srcset="https://avatars.fastly.steamstatic.com/d56784125e420de059096f86fd9220e975d4f115.jpg 1x, https://avatars.fastly.steamstatic.com/d56784125e420de059096f86fd9220e975d4f115_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/profiles/76561198042355709"  data-miniprofile="82089981">
+							<bdi>[VL]sim-M</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="2 November, 2026 @ 2:12:55 pm PST" data-timestamp="1793657575">
+						2 Nov @ 2:12pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574931289648673112' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574931289648673112">
+				is it compatible with mods that change crops or add crops?			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_574931289648643455" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/570/cbd274867889e08f71c57e42004e2369a991463d.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/570/c6a479fae8979bc9c1a02378e488e3ce06b52cb1.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/570/c6a479fae8979bc9c1a02378e488e3ce06b52cb1.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198970824378" data-miniprofile="1010558650">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/594650/b137e4291b72b36c9769e1906f77675cb7d949fc.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/594650/d8ef764e27e62b685910fe7ea836d43592809eac.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link" href="https://steamcommunity.com/profiles/76561198970824378"  data-miniprofile="1010558650">
+							<bdi>一梦</bdi></a>
+
+						
+																								
+						
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="2 November, 2026 @ 8:43:04 am PST" data-timestamp="1793637784">
+						2 Nov @ 8:43am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+													<a class="actionlink report_and_hide" href="javascript:void(0)" data-tooltip-text="Hide and report this comment" onclick="CCommentThread.ShowReportDialog( 'PublishedFile_Public_76561197991750299_3828419350', '574931289648643455' )">
+				<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_light.png?v=1">
+			</a>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_574931289648643455">
+				t seems this mod is not compatible with crops planted on the Wide Hydroponic Tile. I hope you can add support for it in a future update!			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+							</div>
+		</div>
+	</div>
+
+			</div>
+		</div>
+		<div class="commentthread_footer" id="commentthread_PublishedFile_Public_76561197991750299_3828419350_fpagecontrols">
+			<div class="commentthread_paging" id="commentthread_PublishedFile_Public_76561197991750299_3828419350_fpagecontrols">
+				<a id="commentthread_PublishedFile_Public_76561197991750299_3828419350_fpagebtn_prev" href="javascript:void(0);" class="pagebtn">&lt;</a>
+				<span id="commentthread_PublishedFile_Public_76561197991750299_3828419350_fpagelinks" class="commentthread_pagelinks"></span>
+				<span id="commentthread_PublishedFile_Public_76561197991750299_3828419350_fpagedropdown" class="commentthread_pagedropdown"></span>
+				<a id="commentthread_PublishedFile_Public_76561197991750299_3828419350_fpagebtn_next" href="javascript:void(0);" class="pagebtn">&gt;</a>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div></div> 		</div>
+	</div>
+
+	</div>
+
+</div>
+
+<div id="previewImageEnlarged" class="modal_frame_image" style="display:none;">
+	<div class="modal_box_preview_image">
+		<div class="modal_close_image"><a onclick="hideModal( 'previewImageEnlarged' );"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+		<div><img id="enlargedImage" src="https://community.fastly.steamstatic.com/public/images/trans.gif"></div>
+	</div>
+</div>
+
+<div id="ShareOnSteamDialog" style="display: none">
+	<div id="ShareOnSteamDialogContents"></div>
+</div>
+
+<div id="SharePopup" style="display: none">
+	<div class="share_ctn">
+		<a class="share_controls_steam" onclick="ShareOnSteam();">
+			<span>Share to your Steam activity feed</span>
+		</a>
+		<div class="share_controls_other">
+			<div class="shareItemLink"><a class="btn_grey_black btn_medium" id="SharePopupLink_Facebook" href="" title="Share on Facebook"><span><img src="https://community.fastly.steamstatic.com/public/images//social/facebook_large.png"></span></a></div>
+			<div class="shareItemLink"><a class="btn_grey_black btn_medium" id="SharePopupLink_Twitter" href="" title="Share on Twitter"><span><img src="https://community.fastly.steamstatic.com/public/images//social/twitter_large.png"></span></a></div>
+			<div class="shareItemLink"><a class="btn_grey_black btn_medium" id="SharePopupLink_Reddit" href="" title="Share on Reddit"><span><img src="https://community.fastly.steamstatic.com/public/images//social/reddit_large.png"></span></a></div>
+		</div>
+		<div style="clear: left"></div>
+	</div>
+	<div class="share_controls_divider"></div>
+	<div class="share_controls_page_link">
+		<form onsubmit="return false;">
+			Link:&nbsp;<input type="input" id="SharePopupInput" value="" readonly="readonly" >
+		</form>
+	</div>
+</div>	<div id="NotLoggedInWarning" class="modal_frame" style="display: none">
+		<div class="modal_box">
+			<div class="modal_box_ctn">
+				<div class="notLoggedInText">You need to sign in or create an account to do that.</div>
+				<div class="notLoggedInButtons">
+					<a class="btn_green_white_innerfade btn_medium" href="https://steamcommunity.com/login/home/?goto=sharedfiles%2Ffiledetails%2F%3Fid%3D3828419350%26l%3Denglish%26insideModal%3D0%26requirelogin%3D1"><span>Sign In</span></a>
+					<a class="btn_green_white_innerfade btn_medium" href="https://store.steampowered.com/join"><span>Create an Account</span></a>
+					<a class="btn_grey_black btn_medium" onclick="hideModal( 'NotLoggedInWarning' )"><span>Cancel</span></a>
+					<div style="clear: left"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="updateKVTagsFormModal" class="modal_frame_tags" style="display:none;">
+		<div class="modal_top_band">
+			<div class="modal_close"><a onclick="hideModal( 'updateKVTagsFormModal' )"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+		</div>
+		<div class="modal_box">
+			<div class="updateKVTagsForm" id="updateKVTagsForm">
+				<script>
+					function UpdateKVTags()
+					{
+						$('KVTagsUpdateForm').submit();
+					}
+				</script>
+				<h2>Edit links</h2>
+				<form class="smallForm" method="POST" name="KVTagsUpdateForm" id="KVTagsUpdateForm" action="https://steamcommunity.com/workshop/updatekvtags/" >
+					<input type="hidden" name="id" value="3828419350" />
+					<input type="hidden" name="sessionid" value="f6bd4239c91561cbd11aa8e9" />
+													<div class="box">
+									<div class="itemBulletArrow"></div>
+									<div class="title">On Facebook</div>
+									<p class="description">Enter the full URL of your item or group's Facebook page</p>
+									<input type="text" class="titleField" name="facebook" value="">
+								</div>
+															<div class="box">
+									<div class="itemBulletArrow"></div>
+									<div class="title">On Twitter</div>
+									<p class="description">Enter the full URL of your item or group's Twitter page</p>
+									<input type="text" class="titleField" name="twitter" value="">
+								</div>
+															<div class="box">
+									<div class="itemBulletArrow"></div>
+									<div class="title">On Youtube</div>
+									<p class="description">If you have a related Youtube channel, enter the URL.</p>
+									<input type="text" class="titleField" name="youtube" value="">
+								</div>
+															<div class="box">
+									<div class="itemBulletArrow"></div>
+									<div class="title">On Polycount</div>
+									<p class="description">Enter the full URL of your item or group's Polycount page</p>
+									<input type="text" class="titleField" name="polycount" value="">
+								</div>
+															<div class="box">
+									<div class="itemBulletArrow"></div>
+									<div class="title">On Reddit</div>
+									<p class="description">Enter the full URL of your item or group's reddit page</p>
+									<input type="text" class="titleField" name="reddit" value="">
+								</div>
+															<div class="box">
+									<div class="itemBulletArrow"></div>
+									<div class="title">On Sketchfab</div>
+									<p class="description">Enter the full URL to your item or group's Sketchfab page</p>
+									<input type="text" class="titleField" name="sketchfab" value="">
+								</div>
+												<a class="btn_green_white_innerfade btn_medium button" href="javascript:UpdateKVTags();"><span>Update</span></a>
+
+					<div style="clear:both"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<div id="PromptModal" class="modal_frame_tags" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a onclick="hideModal( 'PromptModal' )"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="updateKVTagsForm" id="PromptModalFormDiv">
+			<script>
+				function UpdateKVTagsSingle()
+				{
+					$('PromptModalForm').submit();
+				}
+			</script>
+			<form class="smallForm" method="POST" name="KVTagsUpdateFormSingle" id="PromptModalForm" action="https://steamcommunity.com/workshop/updatekvtags/" >
+				<input type="hidden" name="id" value="3828419350" />
+				<input type="hidden" name="sessionid" value="f6bd4239c91561cbd11aa8e9" />
+
+				<div class="box">
+					<div class="itemBulletArrow"></div>
+					<div class="title" id="PromptTitle"></div>
+					<p class="description" id="PromptDescription"></p>
+					<input type="text" class="titleField" name="value" id="PromptValue">
+				</div>
+
+
+				<a class="btn_green_white_innerfade btn_medium button" href="javascript:UpdateKVTagsSingle();"><span>Update</span></a>
+
+				<div style="clear:both"></div>
+			</form>
+		</div>
+	</div>
+</div>
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 457140, '2_100100_100101_100103' );
+		</script>
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

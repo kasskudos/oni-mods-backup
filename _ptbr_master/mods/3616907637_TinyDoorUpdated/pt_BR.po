@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.DESC"
+msgid "Door controls can be used to prevent Duplicants from entering restricted areas. Fits in a single tile space."
+msgstr "Os controles de porta podem ser usados para impedir que Duplicantes entrem em áreas restritas. Ocupa apenas um espaço de ladrilho."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.EFFECT"
+msgid "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr "Isola áreas sem bloquear o fluxo de <link=\"ELEMENTSLIQUID\">Líquido</link> ou <link=\"ELEMENTSGAS\">Gás</link>.\n\n<link=\"CRITTERS\">Criaturas</link> selvagens não podem passar pelas portas."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYDOOR.NAME"
+msgid "<link=\"TINYDOOR\">Tiny Pneumatic Door</link>"
+msgstr "<link=\"TINYDOOR\">Porta Pneumática Pequena</link>"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.DESC"
+msgid "A slow-moving door that works best when it's closed. Fits in a single tile space."
+msgstr "Uma porta de movimento lento que funciona melhor quando está fechada. Ocupa apenas um espaço de ladrilho."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.EFFECT"
+msgid "Significantly reduces <link=\"HEAT\">Temperature</link> exchange between climate-controlled rooms. "
+msgstr "Reduz significativamente a troca de <link=\"HEAT\">Temperatura</link> entre salas com clima controlado. "
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYINSULATEDDOOR.NAME"
+msgid "<link=\"TINYINSULATEDDOOR\">Tiny Insulated Door</link>"
+msgstr "<link=\"TINYINSULATEDDOOR\">Porta Isolada Pequena</link>"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.DESC"
+msgid "Airlocks can quarter off dangerous areas and prevent gases from seeping into the colony. Fits in a single tile space."
+msgstr "Câmaras de ar podem isolar áreas perigosas e impedir que gases vazem para a colônia. Ocupa apenas um espaço de ladrilho."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.EFFECT"
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr "Bloqueia o fluxo de <link=\"ELEMENTSLIQUID\">Líquido</link> e <link=\"ELEMENTSGAS\">Gás</link>, mantendo a pressão entre áreas.\n\n<link=\"CRITTERS\">Criaturas</link> selvagens não podem passar pelas portas."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYMANUALPRESSUREDOOR.NAME"
+msgid "<link=\"TINYMANUALPRESSUREDOOR\">Tiny Manual Airlock</link>"
+msgstr "<link=\"TINYMANUALPRESSUREDOOR\">Câmara de Ar Manual Pequena</link>"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.DESC"
+msgid "Mechanized airlocks open and close more quickly than other types of door. Fits in a single tile space."
+msgstr "Câmaras de ar mecanizadas abrem e fecham mais rápido que outros tipos de porta. Ocupa apenas um espaço de ladrilho."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.EFFECT"
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nFunctions as a <link=\"TINYMANUALPRESSUREDOOR\">Manual Airlock</link> when no <link=\"POWER\">Power</link> is available.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr "Bloqueia o fluxo de <link=\"ELEMENTSLIQUID\">Líquido</link> e <link=\"ELEMENTSGAS\">Gás</link>, mantendo a pressão entre áreas.\n\nFunciona como uma <link=\"TINYMANUALPRESSUREDOOR\">Câmara de Ar Manual</link> quando não há <link=\"POWER\">Energia</link> disponível.\n\n<link=\"CRITTERS\">Criaturas</link> selvagens não podem passar pelas portas."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYPRESSUREDOOR.NAME"
+msgid "<link=\"TINYPRESSUREDOOR\">Tiny Mechanized Airlock</link>"
+msgstr "<link=\"TINYPRESSUREDOOR\">Câmara de Ar Mecanizada Pequena</link>"
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.DESC
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.DESC"
+msgid "A breezy wooden door combines style and function. Fits in a single tile space."
+msgstr "Uma porta de madeira arejada combina estilo e funcionalidade. Ocupa apenas um espaço de ladrilho."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.EFFECT
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.EFFECT"
+msgid "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
+msgstr "Isola áreas sem bloquear o fluxo de <link=\"ELEMENTSLIQUID\">Líquido</link> ou <link=\"ELEMENTSGAS\">Gás</link>.\n\n<link=\"CRITTERS\">Criaturas</link> selvagens não podem passar pelas portas."
+
+#. TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.NAME
+msgctxt "TinyDoorsUpdatedMod.STRINGS.BUILDINGS.PREFABS.TINYWOODENDOOR.NAME"
+msgid "<link=\"TINYWOODENDOOR\">Tiny Wicker Door</link>"
+msgstr "<link=\"TINYWOODENDOOR\">Porta de Vime Pequena</link>"

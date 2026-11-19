@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DoSi0wUO9TA=",
+  "success": true,
+  "projectFilePath": "F:\\Users\\Bernardo\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\nogermsieve\\src\\nogermsieve.csproj",
+  "expectedPackageFiles": [
+    "F:\\Users\\Bernardo\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "F:\\Users\\Bernardo\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net471\\1.0.3\\microsoft.netframework.referenceassemblies.net471.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

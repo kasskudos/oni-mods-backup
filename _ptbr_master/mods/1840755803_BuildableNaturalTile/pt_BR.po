@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Application: Oxygen Not Included POT Version: 2.0\n"
+
+#. BuildableNaturalTile.STRINGS.NAME
+msgctxt "BuildableNaturalTile.STRINGS.NAME"
+msgid "Natural Tile"
+msgstr "Ladrilho Natural"
+
+#. BuildableNaturalTile.STRINGS.DESCRIPTION
+msgctxt "BuildableNaturalTile.STRINGS.DESCRIPTION"
+msgid "Fill that hole you dug out back in with any solid element."
+msgstr "Tape aquele buraco que você cavou com qualquer elemento sólido."
+
+#. BuildableNaturalTile.STRINGS.EFFECT
+msgctxt "BuildableNaturalTile.STRINGS.EFFECT"
+msgid "Fills a block in the world with <link=\"ELEMENTSSOLID\">Solids</link> ."
+msgstr "Preenche um bloco no mundo com <link=\"ELEMENTSSOLID\">Sólidos</link> ."
+

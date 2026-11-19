@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Application: Oxygen Not Included POT Version: 2.0\n"
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLGERMICIDELAMP.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLGERMICIDELAMP.NAME"
+msgid "<link=\"SMALLGERMICIDELAMP\">Germicidal Ceiling Light</link>"
+msgstr "<link=\"SMALLGERMICIDELAMP\">Luminária Germicida de Teto</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLGERMICIDELAMP.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLGERMICIDELAMP.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLGERMICIDELAMP.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLGERMICIDELAMP.EFFECT"
+msgid "Provides a small amount of light while killing germs beneath them with UVC radiation."
+msgstr "Fornece uma pequena quantidade de luz enquanto elimina germes abaixo dela com radiação UVC."
+
+#. STRINGS.BUILDINGS.PREFABS.GERMICIDELAMP.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.GERMICIDELAMP.NAME"
+msgid "<link=\"GERMICIDELAMP\">Germicidal UV Lamp</link>"
+msgstr "<link=\"GERMICIDELAMP\">Lâmpada UV Germicida</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.GERMICIDELAMP.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.GERMICIDELAMP.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.GERMICIDELAMP.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GERMICIDELAMP.EFFECT"
+msgid "Germicidal UV Lamps give off UVC radiation that quickly kills germs in a large area."
+msgstr "Lâmpadas UV Germicidas emitem radiação UVC que elimina rapidamente germes em uma grande área."
+

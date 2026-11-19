@@ -1,0 +1,39 @@
+﻿{
+    "type":  "PeterHan.CritterInventory.CritterInventoryStrings/CREATURES/MODIFIERS/ARTIFICIAL",
+    "instructions":  [
+                         {
+                             "operand":  "Artificial",
+                             "opcode":  "ldstr"
+                         },
+                         {
+                             "operand":  {
+                                             "name":  "LocString LocString::op_Implicit(System.String)",
+                                             "parameters":  1
+                                         },
+                             "opcode":  "call"
+                         },
+                         {
+                             "operand":  "PeterHan.CritterInventory.CritterInventoryStrings.CREATURES.MODIFIERS.ARTIFICIAL.NAME",
+                             "opcode":  "stsfld"
+                         },
+                         {
+                             "operand":  "This critter was created by Duplicants. It may be considering a hostile takeover.",
+                             "opcode":  "ldstr"
+                         },
+                         {
+                             "operand":  {
+                                             "name":  "LocString LocString::op_Implicit(System.String)",
+                                             "parameters":  1
+                                         },
+                             "opcode":  "call"
+                         },
+                         {
+                             "operand":  "PeterHan.CritterInventory.CritterInventoryStrings.CREATURES.MODIFIERS.ARTIFICIAL.TOOLTIP",
+                             "opcode":  "stsfld"
+                         },
+                         {
+                             "operand":  null,
+                             "opcode":  "ret"
+                         }
+                     ]
+}

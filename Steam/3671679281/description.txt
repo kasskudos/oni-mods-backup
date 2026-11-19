@@ -1,0 +1,34 @@
+[h1]Wireless Power – Advanced Wireless Energy Grid[/h1]
+
+Transmit power across your base without running wires everywhere.
+
+Wireless Power introduces a configurable wireless grid system using Batteries, Senders and Receivers, allowing clean and scalable long-distance energy distribution.
+
+[h1]Features[/h1]
+
+• Wireless Battery, Sender and Receiver buildings
+• Channel system to isolate multiple independent wireless grids
+• Configurable transfer rate
+• Configurable transfer thresholds
+• Automation support for Senders & Receivers
+• Reduced heat output (50% lower) - NEW
+• Construction uses Refined Metal - NEW
+• Compatible with Base Game and Spaced Out
+
+[h1]How It Works[/h1]
+
+• Wireless Batteries define the total capacity of a channel
+• Senders consume power locally and inject it into the selected channel
+• Receivers draw power from the same channel and output it locally
+• Multiple Senders/Receivers can share the same channel
+• Capacity scales with the number of batteries present
+• Only one transfer type (Senders OR Receivers) can exist per circuit
+
+[h1]Credits[/h1]
+
+Made by Zonkeeh https://steamcommunity.com/sharedfiles/filedetails/?id=2356326908
+Updated by me.
+
+[h1]Support / Issues[/h1]
+
+If you encounter bugs or unexpected behavior, leave a comment and I’ll investigate.

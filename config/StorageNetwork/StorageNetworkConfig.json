@@ -1,0 +1,46 @@
+{
+  "DefaultMaterialRequestLimitKg": 1000.0,
+  "AllowGeyserWorldOutputFallback": true,
+  "StoragesEnabledOutputStoreToNetwork": [],
+  "WindowLayouts": {
+    "mainWindow": {
+      "X": -896.7743,
+      "Y": 22.5806885,
+      "Width": 960.0,
+      "Height": 850.0
+    },
+    "productionSettings": {
+      "X": 147.311844,
+      "Y": 120.043022,
+      "Width": 760.0,
+      "Height": 560.0
+    }
+  },
+  "MainWorldFilterId": 0,
+  "MainWorldFilterContextWorldId": 0,
+  "EnrollableWorldFilterId": 0,
+  "EnrollableWorldFilterContextWorldId": 0,
+  "OrderWorldFilterId": 0,
+  "OrderWorldFilterContextWorldId": 0,
+  "MaterialRequestSuccessCooldownSeconds": 2.0,
+  "MaterialRequestRetryCooldownSeconds": 5.0,
+  "InfiniteQueueRequestBatchCount": 2,
+  "MaxRequestBatchCount": 99,
+  "ProductionPlanMaxDepth": 4,
+  "AbnormalOrderTimeoutCycles": 0.5,
+  "FinishedOrderRecordLifetimeCycles": 1.0,
+  "ServerCapacityMultiplier": 1.0,
+  "PortCapacityMultiplier": 1.0,
+  "PowerPortCapacityMultiplier": 1.0,
+  "BatteryServerLeakJoulesPerCycle": 100.0,
+  "ColdStorageMinTemperatureC": -20.0,
+  "ColdStorageMaxTemperatureC": 1.0,
+  "ColdStorageEnergySaverWatts": 20.0,
+  "ColdStorageMaxCoolingWatts": 1000.0,
+  "ColdStorageMaxCoolingHeatKW": 1.0,
+  "SolidOutputMaxKgPerSecond": 100.0,
+  "LiquidOutputMaxKgPerSecond": 20.0,
+  "GasOutputMaxKgPerSecond": 5.0,
+  "PowerOutputMaxWatts": 100000.0,
+  "OrderProductionCenterConserveSmeltingHeat": false
+}

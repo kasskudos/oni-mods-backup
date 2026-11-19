@@ -1,0 +1,18 @@
+{
+  "width": 2,
+  "height": 1,
+  "hitpoints": 30,
+  "constructionTime": 10.0,
+  "meltingPoint": 3200.0,
+  "temperatureModificationMassScale": 1.0,
+  "requiresPowerInput": true,
+  "floodable": false,
+  "energyConsumptionWhenActive": 800.0,
+  "exhaustKilowattsWhenActive": 8000.0,
+  "selfHeatKilowattsWhenActive": 10.0,
+  "logicInputPortsOffsetX": 0,
+  "logicInputPortsOffsetY": 0,
+  "overheatTemperature": 1350.0,
+  "targetTemperature": 1300.0,
+  "minimumCellMass": 100.0
+}

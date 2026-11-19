@@ -1,0 +1,102 @@
+﻿using RonivansLegacy_ChemicalProcessing.Content.ModDb.ModIntegrations;
+using RonivansLegacy_ChemicalProcessing.Content.Scripts;
+using STRINGS;
+using System;
+using TUNING;
+using UnityEngine;
+using UtilLibs;
+
+namespace RonivansLegacy_ChemicalProcessing.Content.Defs.Buildings.CustomGenerators
+{
+    class CustomSolarPanelConfig : IBuildingConfig
+	{
+		public static string ID = "CustomSolarPanel";
+		
+		// Vanilla panel 380W / 14 * 3 <- vanilla panel has 14 solar cells, this panel has 3, rounded
+		public const float MAX_WATTS = 80f; 
+
+		private static float WATTS = MAX_WATTS;
+
+		public override BuildingDef CreateBuildingDef()
+		{
+			InitCustomizeBuildingsIntegration();
+			float[] cost = TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER1;
+			string[] glasses = TUNING.MATERIALS.GLASSES;
+			BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 1, 5, "custom_solar_panel_kanim", 20, 120f, cost, glasses, 2400f, BuildLocationRule.Anywhere, TUNING.BUILDINGS.DECOR.PENALTY.TIER2, NOISE_POLLUTION.NONE);
+			buildingDef.GeneratorWattageRating = WATTS;
+			buildingDef.GeneratorBaseCapacity = buildingDef.GeneratorWattageRating;
+			buildingDef.ExhaustKilowattsWhenActive = 0.0f;
+			buildingDef.SelfHeatKilowattsWhenActive = 0.0f;
+			buildingDef.BuildLocationRule = BuildLocationRule.Anywhere;
+			buildingDef.HitPoints = 10;
+			buildingDef.RequiresPowerOutput = true;
+			buildingDef.PowerOutputOffset = new CellOffset(0, 0);
+			buildingDef.PermittedRotations = PermittedRotations.R360;
+			buildingDef.ViewMode = OverlayModes.Power.ID;
+			buildingDef.AudioCategory = "HollowMetal";
+			buildingDef.AudioSize = "large";
+			buildingDef.AddSearchTerms((string)SEARCH_TERMS.POWER);
+			SoundUtils.CopySoundsToAnim("custom_solar_panel_kanim", "solar_panel_kanim");
+			return buildingDef;
+		}
+
+		void InitCustomizeBuildingsIntegration()
+		{
+			if(CustomizeBuildings.TryGetMaxSolarPanelAmount(out float modifiedBaseWattage))
+			{
+				WATTS = RoundOff(modifiedBaseWattage / 14f * 3f);
+			}
+		}
+		static int RoundOff(float i)
+		{
+			return ((int)Math.Round(i / 10.0f)) * 10;
+		}
+
+
+		public override void ConfigureBuildingTemplate(GameObject go, Tag prefab_tag)
+		{
+			var kprefab = go.GetComponent<KPrefabID>();
+
+			kprefab.AddTag(RoomConstraints.ConstraintTags.IndustrialMachinery);
+			kprefab.AddTag(RoomConstraints.ConstraintTags.PowerBuilding);
+			kprefab.AddTag(RoomConstraints.ConstraintTags.GeneratorType);
+			kprefab.AddTag(RoomConstraints.ConstraintTags.HeavyDutyGeneratorType);
+			go.AddOrGet<LoopingSounds>();
+			Prioritizable.AddRef(go);
+		}
+		public override void DoPostConfigurePreview(BuildingDef def, GameObject go)
+		{
+			base.DoPostConfigurePreview(def, go);
+			AddVisualizer(go);
+		}
+		public override void DoPostConfigureUnderConstruction(GameObject go)
+		{
+			base.DoPostConfigureUnderConstruction(go);
+			AddVisualizer(go);
+		}
+
+		public override void DoPostConfigureComplete(GameObject go)
+		{
+			go.AddOrGet<Repairable>().expectedRepairTime = 10f;
+			var panel = go.AddOrGet<RotatableSmallSolarPanel>();
+			panel.powerDistributionOrder = 9;
+			panel.MaxWattage = WATTS;
+			go.AddOrGetDef<PoweredActiveController.Def>();
+			MakeBaseSolid.Def def = go.AddOrGetDef<MakeBaseSolid.Def>();
+			def.occupyFoundationLayer = false;
+			def.solidOffsets = [new(0, 0)];
+
+			go.AddOrGet<KBatchedAnimController>().randomiseLoopedOffset = true;
+			AddVisualizer(go);
+		}
+		private static void AddVisualizer(GameObject go1)
+		{
+			RangeVisualizer rangeVisualizer = go1.AddOrGet<RangeVisualizer>();
+			rangeVisualizer.RangeMin.x = 0;
+			rangeVisualizer.RangeMin.y = 2;
+			rangeVisualizer.RangeMax.x = 0;
+			rangeVisualizer.RangeMax.y = 4;
+			rangeVisualizer.TestLineOfSight = false;
+		}
+	}
+}

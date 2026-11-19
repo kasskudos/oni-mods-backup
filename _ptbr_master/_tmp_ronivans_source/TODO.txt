@@ -1,0 +1,11 @@
+DSS:
+- fix right click spam crash for duplicity editor
+
+MassMoveTool:
+- add critter categories
+
+CGM:
+- biome mixing
+- biome mixing ui
+- world mixing ui
+- mixing preset integration

@@ -1,0 +1,136 @@
+﻿using RonivansLegacy_ChemicalProcessing.Content.Scripts;
+using RonivansLegacy_ChemicalProcessing.Content.Scripts.CustomComplexFabricators;
+using System.Collections.Generic;
+
+namespace RonivansLegacy_ChemicalProcessing.Content.ModDb
+{
+    class StatusItemsDatabase
+	{
+		public static StatusItem HPA_NeedGasIn;
+		public static StatusItem HPA_NeedGasOut;
+		public static StatusItem HPA_ProhibitGas;
+
+		public static StatusItem HPA_NeedLiquidIn;
+		public static StatusItem HPA_NeedLiquidOut;
+		public static StatusItem HPA_ProhibitLiquid;
+
+		public static StatusItem HPA_NeedSolidIn;
+		public static StatusItem HPA_NeedSolidOut;
+		public static StatusItem HPA_ProhibitSolid;
+
+		public static StatusItem LOGISTIC_NeedSolidIn;
+		public static StatusItem LOGISTIC_NeedSolidOut;  
+		
+		public static StatusItem CG_RotatableSolarPanelWattage;
+		public static StatusItem AlgaeGrower_LightEfficiency;
+		public static StatusItem AlgaeGrower_BonusLight;
+
+		public static StatusItem Converter_StorageFull;
+		public static StatusItem Converter_Idle;
+
+		public static StatusItem ThermalBattery_StorageLevel;
+		public static StatusItem ThermalBattery_Overheated;
+
+		public static StatusItem AdvRefinery_NoSupercoolant;
+
+		public static StatusItem Bioplastic_PrintingStatus;
+
+		public static StatusItem Freezer_SterileAtmosphere;
+
+		public static void CreateStatusItems()
+		{
+			var bsi = Db.Get().BuildingStatusItems;
+
+			HPA_NeedGasIn = bsi.CreateStatusItem("HPA_NeedGasIn", "BUILDING", "status_item_need_supply_in", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.GasConduits.ID);
+			HPA_NeedLiquidIn = bsi.CreateStatusItem("HPA_NeedLiquidIn", "BUILDING", "status_item_need_supply_in", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.LiquidConduits.ID);
+			HPA_NeedSolidIn = bsi.CreateStatusItem("HPA_NeedSolidIn", "BUILDING", "status_item_need_supply_out", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.SolidConveyor.ID);
+			LOGISTIC_NeedSolidIn = bsi.CreateStatusItem("LOGISTIC_NeedSolidIn", "BUILDING", "status_item_need_supply_out", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.SolidConveyor.ID);
+
+			HPA_NeedGasOut = bsi.CreateStatusItem("HPA_NeedGasOut", "BUILDING", "status_item_need_supply_out", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.GasConduits.ID);
+			HPA_NeedLiquidOut = bsi.CreateStatusItem("HPA_NeedLiquidOut", "BUILDING", "status_item_need_supply_out", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.LiquidConduits.ID);
+			HPA_NeedSolidOut = bsi.CreateStatusItem("HPA_NeedSolidOut", "BUILDING", "status_item_need_supply_out", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.SolidConveyor.ID);
+			LOGISTIC_NeedSolidOut = bsi.CreateStatusItem("LOGISTIC_NeedSolidOut", "BUILDING", "status_item_need_supply_out", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.SolidConveyor.ID);
+
+			HPA_ProhibitGas = bsi.CreateStatusItem("HPA_ProhibitGas", "BUILDING", "status_item_vent_disabled", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.GasConduits.ID);
+			HPA_ProhibitSolid = bsi.CreateStatusItem("HPA_ProhibitSolid", "BUILDING", "status_item_vent_disabled", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.SolidConveyor.ID);
+			HPA_ProhibitLiquid = bsi.CreateStatusItem("HPA_ProhibitLiquid", "BUILDING", "status_item_vent_disabled", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.LiquidConduits.ID);
+
+			AdvRefinery_NoSupercoolant = bsi.CreateStatusItem("AIO_ADVREFINERY_NOSUPERCOOLANT", "BUILDING", "status_item_plant_liquid", StatusItem.IconType.Custom, NotificationType.BadMinor, false, OverlayModes.None.ID);
+
+			Bioplastic_PrintingStatus = bsi.CreateStatusItem("AIO_PRINTING", "BUILDING", "", StatusItem.IconType.Info, NotificationType.Neutral, allow_multiples: false, OverlayModes.None.ID);
+			Bioplastic_PrintingStatus.resolveStringCallback = BioplasticPrinterSelector.HandleStatusItem();
+			Bioplastic_PrintingStatus.resolveTooltipCallback = BioplasticPrinterSelector.HandleStatusItem();
+
+			Freezer_SterileAtmosphere = bsi.CreateStatusItem("AIO_FREEZERATMOSPHERE", global::STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.STERILE+" ({0})", STRINGS.BUILDING.STATUSITEMS.AIO_FREEZERATMOSPHERE.TOOLTIP, "", StatusItem.IconType.Info, NotificationType.Neutral, allow_multiples: false, OverlayModes.None.ID);
+			Freezer_SterileAtmosphere.resolveStringCallback = FridgeAtmosphereController.HandleStatusItem();
+			Bioplastic_PrintingStatus.resolveTooltipCallback = BioplasticPrinterSelector.HandleStatusItem();
+
+
+			CG_RotatableSolarPanelWattage = bsi.CreateStatusItem("CG_RotatableSolarPanelWattage", "BUILDING", "", StatusItem.IconType.Info, NotificationType.Neutral, allow_multiples: false, OverlayModes.Power.ID);
+			CG_RotatableSolarPanelWattage.resolveStringCallback = delegate (string str, object data)
+			{
+				RotatableSmallSolarPanel solarPanel = (RotatableSmallSolarPanel)data;
+				str = str.Replace("{Wattage}", GameUtil.GetFormattedWattage(solarPanel.CurrentWattage));
+				return str;
+			};
+
+			AlgaeGrower_LightEfficiency = bsi.CreateStatusItem("AlgaeGrower_LightEfficiency", STRINGS.BUILDING.STATUSITEMS.ALGAEGROWER_LIGHTEFFICIENCY.NAME, STRINGS.BUILDING.STATUSITEMS.ALGAEGROWER_LIGHTEFFICIENCY.TOOLTIP, "", StatusItem.IconType.Info, NotificationType.Neutral, allow_multiples: false, OverlayModes.None.ID);
+			AlgaeGrower_LightEfficiency.resolveStringCallback = delegate (string str, object obj)
+			 {
+				 LightEfficiencyConverter converter = obj as LightEfficiencyConverter;
+				 return string.Format(str, GameUtil.GetFormattedPercent(converter.LightEfficiency * 100f), GameUtil.GetFormattedLux((int)converter.MiniumLightRequirement));
+			 };
+			AlgaeGrower_BonusLight = bsi.CreateStatusItem("AlgaeGrower_BonusLight", STRINGS.BUILDING.STATUSITEMS.ALGAEGROWER_BONUSLIGHT.NAME, STRINGS.BUILDING.STATUSITEMS.ALGAEGROWER_BONUSLIGHT.TOOLTIP, "", StatusItem.IconType.Info, NotificationType.Neutral, allow_multiples: false, OverlayModes.None.ID);
+			AlgaeGrower_BonusLight.resolveStringCallback = delegate (string str, object obj)
+			{
+				LightEfficiencyConverter converter = obj as LightEfficiencyConverter;
+				return string.Format(str, GameUtil.GetFormattedPercent(converter.BonusAmount * 100f));
+			};
+
+			Converter_StorageFull = bsi.CreateStatusItem("Converter_StorageFull", STRINGS.BUILDING.STATUSITEMS.CONVERTER_STORAGEFULL.NAME, STRINGS.BUILDING.STATUSITEMS.CONVERTER_STORAGEFULL.TOOLTIP, "", StatusItem.IconType.Info, NotificationType.BadMinor, allow_multiples: true, OverlayModes.None.ID);
+			Converter_StorageFull.resolveStringCallback = delegate (string str, object obj)
+			{
+				ElementThresholdOperational converter = obj as ElementThresholdOperational;	
+				return string.Format(str, GetTagName(converter.ThresholdTag));
+			};
+			Converter_Idle = bsi.CreateStatusItem("Converter_Idle", STRINGS.BUILDING.STATUSITEMS.CONVERTER_IDLE.NAME, STRINGS.BUILDING.STATUSITEMS.CONVERTER_IDLE.TOOLTIP, "", StatusItem.IconType.Info, NotificationType.Neutral, allow_multiples: true, OverlayModes.None.ID);
+
+			Converter_StorageFull.resolveTooltipCallback = delegate (string str, object obj)
+			{
+				ElementThresholdOperational converter = obj as ElementThresholdOperational;
+				return string.Format(str, GetTagName(converter.ThresholdTag));
+			};
+			ThermalBattery_StorageLevel = bsi.CreateStatusItem("ThermalBattery_StorageLevel", STRINGS.BUILDING.STATUSITEMS.THERMALBATTERY_STORAGELEVEL.NAME, STRINGS.BUILDING.STATUSITEMS.THERMALBATTERY_STORAGELEVEL.TOOLTIP, "status_item_plant_temperature", StatusItem.IconType.Info, NotificationType.Good, allow_multiples: false, OverlayModes.None.ID);
+			ThermalBattery_StorageLevel.resolveStringCallback = delegate (string str, object obj)
+			{
+				var machine = obj as ContinuousLiquidCooledFabricatorAddon;
+				return string.Format(str, machine.GetHeatPercentage());
+			};
+			ThermalBattery_Overheated = bsi.CreateStatusItem("ThermalBattery_StorageFull", STRINGS.BUILDING.STATUSITEMS.THERMALBATTERY_STORAGEFULL.NAME, STRINGS.BUILDING.STATUSITEMS.THERMALBATTERY_STORAGEFULL.TOOLTIP, "status_item_plant_temperature", StatusItem.IconType.Custom, NotificationType.BadMinor, allow_multiples: false, OverlayModes.None.ID);
+
+		}
+		static Dictionary<Tag, string> CachedTagNames = [];
+		static string GetTagName(Tag tag)
+		{
+			if (!CachedTagNames.TryGetValue(tag, out var name))
+			{
+				var item = Assets.GetPrefab(tag);
+				if (item == null)
+				{
+					CachedTagNames[tag] = tag.ProperName();
+					return tag.ProperName();
+				}
+				CachedTagNames[tag] = item.GetProperName();
+				return item.GetProperName();
+			}
+			return name;
+		}
+
+
+		internal static void RegisterClonedStatusStrings()
+		{
+			Strings.Add("STRINGS.BUILDING.STATUSITEMS.CG_ROTATABLESOLARPANELWATTAGE.NAME", global::STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.NAME);
+			Strings.Add("STRINGS.BUILDING.STATUSITEMS.CG_ROTATABLESOLARPANELWATTAGE.TOOLTIP", global::STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP);
+		}
+	}
+}

@@ -1,0 +1,6 @@
+name: No germ sieve
+version: 1.0.0
+author: Gariba
+description: Water sieves clear any germs in purified water.
+assembly: nogermsieve.dll
+entry_class: Gariba.nogermsieve

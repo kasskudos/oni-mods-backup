@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDING.STATUSITEMS.AIRLOCKSTOREDCHARGE.NAME"
+msgid "Charge Available: {0}/{1}"
+msgstr "Carga Disponível: {0}/{1}"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDING.STATUSITEMS.AIRLOCKSTOREDCHARGE.TOOLTIP"
+msgid "This Airlock has <b>{0}</b> of stored <style=\"KKeyword\">Power</style>\n\nIt consumes up to <style=\"consumed\">{2}</style> per use"
+msgstr "Esta porta possui <b>{0}</b> de <style=\"KKeyword\">Energia</style> armazenada\n\nConsome até <style=\"consumed\">{2}</style> por utilização"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.NAME"
+msgid "<link=\"PAIRLOCKDOOR\">Airlock Door</link>"
+msgstr "<link=\"PAIRLOCKDOOR\">Porta de Comporta de Ar</link>"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.DESC"
+msgid "Sucking Duplicants that have nowhere to go into space through <link=\"PRESSUREDOOR\">Mechanized Airlocks</link> is poor taste. Airlock Doors now allow Duplicants safe passage without the loss of any of their mysterious fluids."
+msgstr "É de mau gosto sugar para o espaço Duplicantes sem rota de fuga através de <link=\"PRESSUREDOOR\">Comportas de Ar Mecanizadas</link>. As Portas de Comporta de Ar permitem a passagem segura dos Duplicantes sem perder nenhum de seus fluidos misteriosos."
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.EFFECT"
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, even while Duplicants are passing.\n\nWill not allow passage when no <link=\"POWER\">Power</link> is available.\n\n<link=\"CRITTERS\">Critters</link> can never pass through this door."
+msgstr "Bloqueia o fluxo de <link=\"ELEMENTSLIQUID\">Líquidos</link> e <link=\"ELEMENTSGAS\">Gases</link>, mesmo enquanto os Duplicantes passam.\n\nNão permite passagem quando não há <link=\"POWER\">Energia</link> disponível.\n\n<link=\"CRITTERS\">Criaturas</link> nunca podem atravessar esta porta."
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.LOGIC_OPEN"
+msgid "Unlock/Lock"
+msgstr "Desbloquear/Bloquear"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.LOGIC_OPEN_ACTIVE"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Unlock door"
+msgstr "<b><style=\"logic_on\">Sinal Verde</style></b>: Desbloquear porta"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOOR.LOGIC_OPEN_INACTIVE"
+msgid "<b><style=\"logic_off\">Red Signal</style></b>: Lock door"
+msgstr "<b><style=\"logic_off\">Sinal Vermelho</style></b>: Bloquear porta"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOORINSULATED.NAME"
+msgid "<link=\"PAIRLOCKDOORINSULATED\">Insulated Airlock Door</link>"
+msgstr "<link=\"PAIRLOCKDOORINSULATED\">Porta de Comporta de Ar Isolada</link>"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOORINSULATED.DESC"
+msgid "Sucking Duplicants that have nowhere to go into space through <link=\"INSULATEDDOOR\">Insulated Doors</link> is poor taste. Insulated Airlock Doors now allow Duplicants safe passage without the loss of any of their mysterious fluids."
+msgstr "É de mau gosto sugar para o espaço Duplicantes sem rota de fuga através de <link=\"INSULATEDDOOR\">Portas Isoladas</link>. As Portas de Comporta de Ar Isoladas permitem a passagem segura dos Duplicantes sem perder nenhum de seus fluidos misteriosos."
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.BUILDINGS.PREFABS.PAIRLOCKDOORINSULATED.EFFECT"
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, even while Duplicants are passing.\n\nWill not allow passage when no <link=\"POWER\">Power</link> is available.\n\n<link=\"CRITTERS\">Critters</link> can never pass through this door.\n\n<link=\"HEAT\">Heat</link> flow through this door is greatly reduced."
+msgstr "Bloqueia o fluxo de <link=\"ELEMENTSLIQUID\">Líquidos</link> e <link=\"ELEMENTSGAS\">Gases</link>, mesmo enquanto os Duplicantes passam.\n\nNão permite passagem quando não há <link=\"POWER\">Energia</link> disponível.\n\n<link=\"CRITTERS\">Criaturas</link> nunca podem atravessar esta porta.\n\nO fluxo de <link=\"HEAT\">Calor</link> através desta porta é bastante reduzido."
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.DUPLICANTS.MODIFIERS.PASSINGAIRLOCK.NAME"
+msgid "Passing through Airlock"
+msgstr "Atravessando Comporta de Ar"
+
+msgctxt "PeterHan.AirlockDoor.AirlockDoorStrings.DUPLICANTS.MODIFIERS.PASSINGAIRLOCK.TOOLTIP"
+msgid "This Duplicant is passing through an <style=\"KKeyword\">Airlock Door</style> and is temporarily insulated from their surroundings"
+msgstr "Este Duplicante está atravessando uma <style=\"KKeyword\">Porta de Comporta de Ar</style> e está temporariamente isolado do ambiente ao redor"

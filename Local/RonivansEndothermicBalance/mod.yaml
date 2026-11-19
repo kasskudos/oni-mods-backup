@@ -1,0 +1,7 @@
+title: Ronivan Endothermic Balance
+description: Ajusta a Unidade Endotérmica e a recuperação da água amoniacal para a proporção 94/6, preservando 300 kDTU/s e reduzindo o limite para -50 °C.
+staticID: RonivansEndothermicBalance
+supportedContent: VANILLA_ID,EXPANSION1_ID
+minimumSupportedBuild: 469473
+version: 1.0.0
+APIVersion: 2

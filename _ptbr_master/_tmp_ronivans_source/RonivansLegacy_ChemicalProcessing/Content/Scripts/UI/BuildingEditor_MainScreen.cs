@@ -1,0 +1,555 @@
+﻿using RonivansLegacy_ChemicalProcessing.Content.ModDb;
+using RonivansLegacy_ChemicalProcessing.Content.ModDb.BuildingConfigurations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+using UtilLibs;
+using UtilLibs.UIcmp;
+
+namespace RonivansLegacy_ChemicalProcessing.Content.Scripts.UI
+{
+	class BuildingEditor_MainScreen : FScreen
+	{
+		public static BuildingEditor_MainScreen Instance;
+		public BuildingConfigurationEntry SelectedOutline = null;
+
+		ToolTip MaxMassTT;
+		public FInputField2 FilterBar;
+		public FButton ClearFilterButton;
+
+		public GameObject OutlineEntryContainer;
+		public GameObject OutlineEntryPrefab;
+
+		public LocText SelectedEntryNameDisplay;
+		public LocText SelectedEntryDescriptionDisplay;
+		public LocText SelectedEntryModOriginDisplay;
+		public Image SelectedEntryPreviewImage;
+
+		public FMultiSelectDropdown FilterDropDown;
+
+		GameObject WattageContainer, StorageCapacityContainer, RangeContainer, RateContainer;
+		LocText WattageLabel, RangeLabel, RateLabel;
+		ToolTip RateTooltip;
+
+		FInputField2 WattageInput, StorageCapacityInput, RangeInput, RateInput;
+		FSlider RateInputSlider;
+		FToggle BuildingEnabledToggle;
+
+		FButton ResetSingleBuilding;
+
+		GameObject Details;
+
+		Dictionary<BuildingConfigurationEntry, BuildingConfigUIEntryUI> ConfigEntries = new();
+
+		HashSet<SourceModInfo> FilteredMods = [];
+
+		LocText ToggleAllButtonText;
+
+		public static void ShowBuildingEditor(object _, SourceModInfo? openedFrom = null)
+		{
+			SgtLogger.l("Opening AIO Building Config Editor");
+			ShowWindow(openedFrom);
+		}
+		public static void ShowWindow(SourceModInfo? source = null)
+		{
+			if (Instance == null)
+			{
+				var screen = Util.KInstantiateUI(ModAssets.BuildingEditorWindowPrefab, FrontEndManager.Instance.gameObject, true);
+				Instance = screen.AddOrGet<BuildingEditor_MainScreen>();
+				Instance.Init();
+				Instance.name = "AIO_BuildingEditor_MainScreen";
+			}
+			Instance.Show(true);
+			Instance.OpenedFrom(source);
+		}
+
+		public override void Show(bool show = true)
+		{
+			base.Show(show);
+			Instance.ConsumeMouseScroll = show;
+			if (show)
+			{
+				transform.SetAsLastSibling();
+				RefreshMaxMassTooltip();
+				SelectOutline(null);
+				ClearFilter();
+			}
+		}
+
+		void OpenedFrom(SourceModInfo? source = null)
+		{
+			if (source == null || !source.HasValue)
+			{
+				ResetModFilters(false);
+			}
+			else
+				FilteredMods = [source.Value];
+			SetToggleButtonState();
+			RefreshItemFilterEntries();
+		}
+		void ResetModFilters(bool refresh = true)
+		{
+			FilteredMods = [.. Enum.GetValues(typeof(SourceModInfo)).Cast<SourceModInfo>()];
+			if (!DlcManager.IsExpansion1Active())
+				FilteredMods.Remove(SourceModInfo.NuclearProcessing);
+
+			if (refresh)
+				RefreshItemFilterEntries();
+		}
+
+		public void UpdateEntryList()
+		{
+			var configs = BuildingManager.ConfigCollection.BuildingConfigurations.OrderBy(kvp => kvp.Value.GetDisplayName()).ToList();
+			foreach (var outline in configs)
+			{
+				var uiElement = AddOrGetBuildingConfigUIEntry(outline.Value);
+				uiElement.UpdateUI();
+			}
+			ClearFilter();
+		}
+
+		void TryResetEntries()
+		{
+			DialogUtil.CreateConfirmDialogFrontend(STRINGS.UI.BUILDINGEDITOR.RESETALLCHANGES.TITLE, STRINGS.UI.BUILDINGEDITOR.RESETALLCHANGES.TEXT, on_confirm: ResetEntries, on_cancel: () => { });
+		}
+		void ResetCurrentBuilding()
+		{
+			if (SelectedOutline == null)
+				return;
+
+			BuildingManager.ResetSingleConfig(SelectedOutline);
+			OnOutlineEntryUpdated(SelectedOutline);
+			RefreshDetails();
+		}
+
+		public void ResetEntries()
+		{
+			SelectedOutline = null;
+			BuildingManager.ResetConfigChanges();
+			ResetEntriesUI();
+		}
+		void ResetEntriesUI()
+		{
+			foreach (var entry in ConfigEntries)
+			{
+				UnityEngine.Object.DestroyImmediate(entry.Value.gameObject);
+			}
+			ConfigEntries.Clear();
+			UpdateEntryList();
+			Instance.ApplyBuildingFilter(FilterBar.Text);
+			RefreshDetails();
+		}
+
+		private bool initialized = false;
+		public void Init()
+		{
+			if (initialized)
+				return;
+			initialized = true;
+
+
+			var closeButton = transform.Find("Buttons/CloseButton").gameObject.AddOrGet<FButton>();
+			closeButton.OnClick += () => Show(false);
+			var ResetAllButton = transform.Find("Buttons/ResetButton").gameObject.AddOrGet<FButton>();
+			ResetAllButton.OnClick += TryResetEntries;
+
+			OutlineEntryPrefab = transform.Find("HorizontalLayout/ObjectList/ScrollArea/PresetEntryPrefab").gameObject;
+			OutlineEntryPrefab.AddOrGet<BuildingConfigUIEntryUI>();
+			OutlineEntryPrefab.SetActive(false);
+
+			OutlineEntryContainer = transform.Find("HorizontalLayout/ObjectList/ScrollArea/Content").gameObject;
+			Details = transform.Find("HorizontalLayout/ItemInfo").gameObject;
+
+			FilterBar = transform.Find("HorizontalLayout/ObjectList/SearchBar/Input").FindOrAddComponent<FInputField2>();
+			FilterBar.AddListener(ApplyBuildingFilter);
+			FilterBar.ClearInputTextWithoutEvent();
+
+			ClearFilterButton = transform.Find("HorizontalLayout/ObjectList/SearchBar/DeleteButton").FindOrAddComponent<FButton>();
+			ClearFilterButton.OnClick += () => FilterBar.Text = string.Empty;
+
+			UIUtils.AddSimpleTooltipToObject(ClearFilterButton.gameObject, STRINGS.UI.BUILDINGEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.CLEARTOOLTIP);
+
+
+			SelectedEntryNameDisplay = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/TitleWithIcon/Label").gameObject.GetComponent<LocText>();
+			SelectedEntryPreviewImage = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/TitleWithIcon/IconContainer/Icon").gameObject.GetComponent<Image>();
+			SelectedEntryDescriptionDisplay = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/DescriptionContainer").gameObject.GetComponent<LocText>();
+			SelectedEntryModOriginDisplay = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/ModFromContainer").gameObject.GetComponent<LocText>();
+
+			WattageContainer = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/WattageSettings").gameObject;
+			WattageLabel = WattageContainer.GetComponent<LocText>();
+			WattageInput = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/WattageSettings/Input").FindOrAddComponent<FInputField2>();
+			WattageInput.Text = "0";
+			WattageInput.AddListener(UpdateItemWattage);
+			transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/WattageSettings/Unit").gameObject.GetComponent<LocText>().SetText(global::STRINGS.UI.UNITSUFFIXES.ELECTRICAL.WATT);
+			WattageContainer.SetActive(false);
+
+			StorageCapacityContainer = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/CapacitySettings").gameObject;
+			MaxMassTT = UIUtils.AddSimpleTooltipToObject(StorageCapacityContainer, "");
+			StorageCapacityInput = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/CapacitySettings/Input").FindOrAddComponent<FInputField2>();
+			StorageCapacityInput.Text = "0";
+			StorageCapacityInput.AddListener(UpdateItemCapacity);
+			transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/CapacitySettings/Unit").gameObject.GetComponent<LocText>().SetText(global::STRINGS.UI.UNITSUFFIXES.MASS.KILOGRAM);
+
+			RangeContainer = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/RangeSettings").gameObject;
+			RangeInput = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/RangeSettings/Input").FindOrAddComponent<FInputField2>();
+			RangeInput.Text = "0";
+			RangeInput.AddListener(UpdateItemRange);
+			RangeLabel = RangeContainer.GetComponent<LocText>();
+			transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/RangeSettings/Unit").gameObject.GetComponent<LocText>().SetText(global::STRINGS.UI.UNITSUFFIXES.TILES);
+
+			RateContainer = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/MultiplierSettings").gameObject;
+			RateInput = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/MultiplierSettings/Input").FindOrAddComponent<FInputField2>();
+			RateInput.Text = "100";
+			RateInput.AddListener(UpdateItemMultiplier);
+			RateLabel = RateContainer.GetComponent<LocText>();
+			RateLabel.key = string.Empty;
+			RateLabel.text = "FILLER:";
+			transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/MultiplierSettings/Unit").gameObject.GetComponent<LocText>().SetText("%");
+
+			RateInputSlider = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/MultiplierSettings/Slider").FindOrAddComponent<FSlider>();
+			RateInputSlider.TrailingOutputNumbers = 2;
+			RateInputSlider.SetWholeNumbers(true);
+			RateInputSlider.OnChange += UpdateItemMultiplierSlider;
+			RateInputSlider.SetMinMaxCurrent(10, 1000, 100);
+
+			RateTooltip = UIUtils.AddSimpleTooltipToObject(RateContainer, "");
+
+
+			StorageCapacityContainer.gameObject.SetActive(false);
+
+			BuildingEnabledToggle = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/EnableBuilding/Checkbox").gameObject.AddOrGet<FToggle>();
+			BuildingEnabledToggle.SetCheckmark("Checkmark");
+			BuildingEnabledToggle.OnClick += (on) =>
+			{
+				if (SelectedOutline != null)
+				{
+					SetOutlineEnabled(SelectedOutline, on);
+				}
+			};
+
+			ResetSingleBuilding = transform.Find("HorizontalLayout/ItemInfo/ScrollArea/Content/ResetButton").gameObject.AddOrGet<FButton>();
+			ResetSingleBuilding.OnClick += ResetCurrentBuilding;
+
+			FilterDropDown = transform.Find("HorizontalLayout/ObjectList/Filters/FilterButton").FindOrAddComponent<FMultiSelectDropdown>();
+			var entries = Enum.GetValues(typeof(SourceModInfo)).Cast<SourceModInfo>().Select(CreateFilterEntry).ToList();
+			FilterDropDown.DropDownEntries = entries;
+			FilterDropDown.InitializeDropDown();
+			ToggleAllButtonText = transform.Find("HorizontalLayout/ObjectList/Filters/FilterButton/DropDownContent/ShowAllButton/Text").gameObject.GetComponent<LocText>();
+			var toggleAll = transform.Find("HorizontalLayout/ObjectList/Filters/FilterButton/DropDownContent/ShowAllButton").gameObject.AddOrGet<FButton>();
+			toggleAll.OnClick += ToggleAllFilters;
+			ToggleAllButtonText.SetText(global::STRINGS.UI.FRONTEND.MODS.DISABLE_ALL);
+
+			UpdateEntryList();
+			SelectOutline(null);
+		}
+		void RefreshMaxMassTooltip()
+		{
+			string tt = string.Format(STRINGS.UI.BUILDINGEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.CAPACITYSETTINGS_TOOLTIP, PrimaryElement.MAX_MASS);
+			MaxMassTT.SetSimpleTooltip(tt);
+		}
+
+		FMultiSelectDropdown.FDropDownEntry CreateFilterEntry(SourceModInfo mod)
+		{
+			var ModName = Strings.Get($"STRINGS.AIO_MODSOURCE.{mod.ToString().ToUpperInvariant()}").ToString();
+			return new FMultiSelectDropdown.FDropDownEntry(ModName, (_) => ToggleModFiltered(mod), true);
+		}
+
+		void SetToggleButtonState()
+		{
+			bool shouldDisable = FilteredMods.Any();
+			if (shouldDisable)
+				ToggleAllButtonText.SetText(global::STRINGS.UI.FRONTEND.MODS.DISABLE_ALL);
+			else
+				ToggleAllButtonText.SetText(global::STRINGS.UI.FRONTEND.MODS.ENABLE_ALL);
+		}
+
+		void ToggleAllFilters()
+		{
+			bool shouldDisable = FilteredMods.Any();
+			if (shouldDisable)
+			{
+				FilteredMods.Clear();
+				ToggleAllButtonText.SetText(global::STRINGS.UI.FRONTEND.MODS.ENABLE_ALL);
+				RefreshItemFilterEntries();
+			}
+			else
+			{
+				ToggleAllButtonText.SetText(global::STRINGS.UI.FRONTEND.MODS.DISABLE_ALL);
+				ResetModFilters();
+			}
+		}
+
+		bool ToggleModFiltered(SourceModInfo mod)
+		{
+			if (FilteredMods.Contains(mod))
+				FilteredMods.Remove(mod);
+			else
+				FilteredMods.Add(mod);
+
+			ApplyBuildingFilter(FilterBar.Text);
+			SetToggleButtonState();
+			return FilteredMods.Contains(mod);
+		}
+
+		void UpdateItemWattage(string text)
+		{
+			if (SelectedOutline == null)
+				return;
+
+			if (int.TryParse(text, out int wattage))
+				SelectedOutline?.SetWattage(wattage);
+			OnOutlineEntryUpdated();
+		}
+		void UpdateItemCapacity(string text)
+		{
+			if (SelectedOutline == null)
+				return;
+
+			if (int.TryParse(text, out int mass))
+			{
+				mass = Mathf.Clamp(mass, 1, Mathf.RoundToInt(PrimaryElement.MAX_MASS));
+				StorageCapacityInput.SetTextFromData(mass.ToString());
+				SelectedOutline?.SetMassCapacity(mass);
+			}
+			OnOutlineEntryUpdated();
+		}
+		void UpdateItemMultiplierSlider(float rate)
+		{
+			if (SelectedOutline == null)
+				return;
+			SelectedOutline?.SetRateMultiplier(rate / 100f);
+
+			rate = SelectedOutline.GetRateMultiplier() * 100f;
+			RateInput.SetTextFromData(rate.ToString());
+
+			RateTooltip.toolTip = SelectedOutline.GetMultiplierToolTip();
+			OnOutlineEntryUpdated();
+		}
+		void UpdateItemMultiplier(string text)
+		{
+			if (SelectedOutline == null)
+				return;
+			if (float.TryParse(text, out float rate))
+			{
+				SelectedOutline?.SetRateMultiplier(rate / 100f);
+			}
+
+			rate = SelectedOutline.GetRateMultiplier() * 100f;
+			RateInput.SetTextFromData(rate.ToString());
+			RateInputSlider.SetCurrentFromCode(rate);
+
+			RateTooltip.toolTip = SelectedOutline.GetMultiplierToolTip();
+			OnOutlineEntryUpdated();
+		}
+		void UpdateItemRange(string text)
+		{
+			if (SelectedOutline == null)
+				return;
+			if (int.TryParse(text, out int range))
+				SelectedOutline?.SetTileRange(range);
+
+			RangeInput.SetTextFromData(SelectedOutline.GetTileRange().ToString());
+
+			OnOutlineEntryUpdated();
+		}
+
+		public void ClearFilter()
+		{
+			FilterBar.Text = string.Empty;
+			ApplyBuildingFilter();
+		}
+
+		void RefreshItemFilterEntries()
+		{
+			ApplyBuildingFilter(FilterBar.Text);
+
+			var mods = Enum.GetValues(typeof(SourceModInfo)).Cast<SourceModInfo>().ToList();
+			for (int i = 0; i < mods.Count(); i++)
+			{
+				var mod = mods[i];
+
+				FilterDropDown.DropDownEntries[i].Toggle.SetOnFromCode(FilteredMods.Contains(mod));
+			}
+		}
+		public void ApplyBuildingFilter(string filterstring = "")
+		{
+			foreach (var go in ConfigEntries)
+			{
+				bool allowedByFilter = filterstring == string.Empty ? true : ShowInFilter(filterstring, go.Key.GetDisplayName());
+				if (allowedByFilter)
+				{
+					allowedByFilter = go.Key.ModsFrom.Any(FilteredMods.Contains);
+				}
+
+				go.Value.gameObject.SetActive(allowedByFilter);
+			}
+		}
+
+		bool ShowInFilter(string filtertext, string stringsToInclude)
+		{
+			return ShowInFilter(filtertext, [stringsToInclude]);
+		}
+
+		bool ShowInFilter(string filtertext, string[] stringsToInclude)
+		{
+			filtertext = filtertext.ToLowerInvariant();
+
+			foreach (var text in stringsToInclude)
+			{
+				if (text != null && text.Length > 0 && text.ToLowerInvariant().Contains(filtertext))
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+		void OnOutlineEntryUpdated(BuildingConfigurationEntry target = null)
+		{
+			if (target == null)
+				target = SelectedOutline;
+
+			AddOrGetBuildingConfigUIEntry(target).UpdateUI();
+			BuildingManager.ConfigCollection.WriteToFile();
+		}
+
+		public override void OnKeyDown(KButtonEvent e)
+		{
+			if (e.TryConsume(Action.MouseRight))
+			{
+				this.Show(false);
+			}
+			if (e.TryConsume(Action.Escape))
+			{
+				this.Show(false);
+			}
+			base.OnKeyDown(e);
+		}
+		public BuildingConfigUIEntryUI AddOrGetBuildingConfigUIEntry(BuildingConfigurationEntry outline)
+		{
+			if (ConfigEntries.TryGetValue(outline, out var entry))
+				return entry;
+
+			var newEntry = Util.KInstantiateUI<BuildingConfigUIEntryUI>(OutlineEntryPrefab.gameObject, OutlineEntryContainer, true);
+			newEntry.UpdateOutline(outline);
+			ConfigEntries.Add(outline, newEntry);
+			return newEntry;
+
+		}
+		internal void RemoveOutlineEntry(BuildingConfigurationEntry targetOutline)
+		{
+			if (ConfigEntries.TryGetValue(targetOutline, out var UIEntry))
+			{
+				ConfigEntries.Remove(targetOutline);
+				Util.KDestroyGameObject(UIEntry.gameObject);
+			}
+
+			if (SelectedOutline == targetOutline)
+			{
+				SelectedOutline = null;
+				RefreshDetails();
+			}
+		}
+		internal void SelectOutline(BuildingConfigurationEntry targetOutline)
+		{
+			if (targetOutline != SelectedOutline)
+			{
+				SelectedOutline = targetOutline;
+				RefreshDetails();
+			}
+			else if (targetOutline == null)
+				RefreshDetails();
+		}
+		public void RefreshDetails()
+		{
+			if (SelectedOutline == null)
+			{
+				Details.SetActive(false);
+				return;
+			}
+			Details.SetActive(true);
+			SelectedEntryNameDisplay.SetText(SelectedOutline.GetDisplayName());
+			SelectedEntryDescriptionDisplay.SetText(SelectedOutline.GetDisplayDescription());
+			SelectedEntryModOriginDisplay.SetText(SelectedOutline.GetModOriginText());
+			BuildingEnabledToggle.SetOnFromCode(SelectedOutline.IsBuildingEnabled());
+
+			if (SelectedOutline.HasStorageCapacity(out var capacity))
+			{
+				StorageCapacityContainer.SetActive(true);
+				StorageCapacityInput.SetTextFromData(capacity.ToString());
+			}
+			else
+			{
+				StorageCapacityContainer.SetActive(false);
+			}
+			if (SelectedOutline.HasWattage(out var wattage))
+			{
+				WattageContainer.SetActive(true);
+				WattageLabel.SetText(SelectedOutline.IsGenerator
+					? STRINGS.UI.BUILDINGEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.WATTAGESETTINGS_GENERATOR :
+					 STRINGS.UI.BUILDINGEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.WATTAGESETTINGS);
+				WattageInput.SetTextFromData(wattage.ToString());
+			}
+			else
+			{
+				WattageContainer.SetActive(false);
+			}
+			if (SelectedOutline.HasTileRange(out int range))
+			{
+				RangeContainer.SetActive(true);
+				if (SelectedOutline.HasTileRangeDescriptor(out string descriptor))
+				{
+					RangeLabel.SetText(descriptor);
+				}
+				else
+				{
+					RangeLabel.SetText(STRINGS.UI.BUILDINGEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.RANGESETTINGS);
+				}
+				RangeInput.SetTextFromData(range.ToString());
+			}
+			else
+			{
+				RangeContainer.SetActive(false);
+			}
+			if (SelectedOutline.HasRateMultiplier(out float rate))
+			{
+				RateContainer.SetActive(true);
+				RateLabel.SetText(SelectedOutline.RateMultiplierLabel);
+				RateTooltip.toolTip = SelectedOutline.GetMultiplierToolTip();
+
+				int roundRate = Mathf.RoundToInt(rate * 100f);
+
+				RateInput.SetTextFromData(roundRate.ToString());
+				RateInputSlider.SetCurrentFromCode(roundRate);
+			}
+			else
+			{
+				RateContainer.SetActive(false);
+			}
+
+			
+			SelectedEntryPreviewImage.sprite = Def.GetUISprite(SelectedOutline.BuildingID).first;
+		}
+
+		internal void OnToggleChanged(BuildingConfigurationEntry targetOutline)
+		{
+			if (targetOutline == SelectedOutline)
+			{
+				RefreshDetails();
+			}
+		}
+
+		internal void SetOutlineEnabled(BuildingConfigurationEntry targetOutline, bool on)
+		{
+			targetOutline.SetBuildingEnabled(on);
+			if (targetOutline == SelectedOutline)
+			{
+				RefreshDetails();
+				OnOutlineEntryUpdated();
+			}
+			OnOutlineEntryUpdated(targetOutline);
+		}
+	}
+}

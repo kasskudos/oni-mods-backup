@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_RADS"
+msgid "too little radiation ({0} of {1} rads)"
+msgstr "放射線が足りない（{0}/{1}ラド）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_RADS"
+msgid "too much radiation ({0}, at most {1} rads)"
+msgstr "放射線が多すぎる（{0}、最大{1}ラド）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_COLD"
+msgid "too cold ({0}, needs {1})"
+msgstr "寒すぎる（{0}、{1}が必要）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HOT"
+msgid "too hot ({0}, at most {1})"
+msgstr "暑すぎる（{0}、最大{1}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_ATMOSPHERE"
+msgid "wrong atmosphere (needs {0})"
+msgstr "大気が合わない（{0}が必要）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_LOW_PRESSURE"
+msgid "pressure too low ({0} of {1} per tile)"
+msgstr "気圧が低すぎる（1マスあたり{0}/{1}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_HIGH_PRESSURE"
+msgid "pressure too high ({0}, at most {1} per tile)"
+msgstr "気圧が高すぎる（1マスあたり{0}、最大{1}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_BRIGHT"
+msgid "too bright ({0} lux, needs darkness)"
+msgstr "明るすぎる（{0}ルクス、暗闇が必要）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DARK"
+msgid "too dark ({0} of {1} lux)"
+msgstr "暗すぎる（{0}/{1}ルクス）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NEEDS"
+msgid "needs {0}"
+msgstr "{0}が必要"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_NOT_POLLINATED"
+msgid "not pollinated"
+msgstr "受粉していない"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.WILT_DRY"
+msgid "above the waterline (fill the tank higher)"
+msgstr "水面より上（水槽をもっと満たす）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK"
+msgid "{0} of {1} cells: {2}"
+msgstr "{0}/{1}マス：{2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TANK_EMPTY"
+msgid "empty (pipe liquid in)"
+msgstr "空（液体をパイプで送る）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ATMOSPHERE_SURROUNDINGS"
+msgid "the room's ({0}, {1} per tile)"
+msgstr "部屋の大気（{0}、1マスあたり{1}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.PER_CELL"
+msgid "({0} per tile)"
+msgstr "（1マスあたり{0}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_SURROUNDINGS"
+msgid "{0} (the room's)"
+msgstr "{0}（部屋の温度）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_INSULATED"
+msgid "{0} (insulated)"
+msgstr "{0}（断熱）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_HEATING"
+msgid "{0} (heating to {1})"
+msgstr "{0}（{1}まで加熱中）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_COOLING"
+msgid "{0} (cooling to {1})"
+msgstr "{0}（{1}まで冷却中）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TEMP_REGULATED"
+msgid "{0} (regulated to {1})"
+msgstr "{0}（{1}に保持）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ALL_OK"
+msgid "all OK"
+msgstr "すべて正常"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ONE_PROBLEM"
+msgid "1 problem"
+msgstr "問題1件"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.N_PROBLEMS"
+msgid "{0} problems"
+msgstr "問題{0}件"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_POWER"
+msgid "Power"
+msgstr "電力"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_POWER"
+msgid "No power: the glow tubes and thermal regulation are off"
+msgstr "電力なし：蛍光管と温度調節は止まっている"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POWERED"
+msgid "Powered, drawing {0}"
+msgstr "電力あり、{0}を使用中"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.IDLE"
+msgid "Nothing needs power right now"
+msgstr "今は電力が必要なものはない"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_ENVIRONMENT"
+msgid "Environment"
+msgstr "環境"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_TEMPERATURE"
+msgid "Temperature {0}"
+msgstr "温度{0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_ATMOSPHERE"
+msgid "Atmosphere: {0}"
+msgstr "大気：{0}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_LIGHT"
+msgid "Light {0} lux (room {1}, glow tubes {2})"
+msgstr "光{0}ルクス（部屋{1}、蛍光管{2}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.ENV_RADIATION"
+msgid "Radiation {0} rads (room {1}, lamp {2})"
+msgstr "放射線{0}ラド（部屋{1}、ランプ{2}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_ON"
+msgid "Radiation lamp burning {0} Phosphorite for the mutated crops"
+msgstr "放射線ランプが変異作物のためにリン鉱石{0}を燃やしている"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LAMP_NO_PHOSPHORITE"
+msgid "Radiation lamp needs Phosphorite to add {0} rads for the mutated crops"
+msgstr "放射線ランプが変異作物に{0}ラドを足すにはリン鉱石が必要"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_RESEARCH"
+msgid "Research"
+msgstr "研究"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCKED"
+msgid "{0}: needs {1}"
+msgstr "{0}：{1}が必要"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TUBES"
+msgid "Glow tubes"
+msgstr "蛍光管"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_TOUCH"
+msgid "Farmer's Touch"
+msgstr "ファーマーズタッチ"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_INSULATION"
+msgid "Insulation"
+msgstr "断熱"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_HEATER"
+msgid "Heating"
+msgstr "加熱"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.LOCK_COOLER"
+msgid "Cooling"
+msgstr "冷却"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_TENDED"
+msgid "Crops (tended)"
+msgstr "作物（世話あり）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.HEAD_CROPS_WILD"
+msgid "Crops (wild)"
+msgstr "作物（野生）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GROWING"
+msgid "{0} {1}: growing, {2}%"
+msgstr "{1} {0}株：生育中、{2}%"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_GAS"
+msgid "{0} {1}: grown, turning {2} into {3}"
+msgstr "{1} {0}株：成長済み、{2}を{3}に変換中"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.CROP_WILTING"
+msgid "{0} {1}: not growing, {2}"
+msgstr "{1} {0}株：育っていない、{2}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TREE_BRANCHES"
+msgid "{0}: {1} branches, {2} ripe (up to {3})"
+msgstr "{0}：枝{1}本、収穫可{2}本（最大{3}本）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NECTAR"
+msgid "Nectar: {0} of {1} in the trees, light gives {2}% of full production ({3} lux)"
+msgstr "ネクター：木の中に{0}/{1}、光で最大生産の{2}%（{3}ルクス）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.BRANCHES_DARK"
+msgid "Branches need light to grow: {0} of {1} lux"
+msgstr "枝が育つには光が必要：{0}/{1}ルクス"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.VINE"
+msgid "{0}: {1} of {2} vine sections grown, {3} figs ripe"
+msgstr "{0}：つる{2}節のうち{1}節が成長、実{3}個が収穫可"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.MIMIKAS"
+msgid "Mimikas: {0} in the tank, {1} of {2} crops pollinated"
+msgstr "ミミカ：温室に{0}匹、作物{2}株中{1}株が受粉済み"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NURSERY"
+msgid "Mimika nursery closed around the buds ({0}), {1}"
+msgstr "ミミカの育苗ケースがつぼみを囲んでいる（{0}）、{1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_OFF"
+msgid "Needs pollinating: turn on Mimika Pollination"
+msgstr "受粉が必要：ミミカ受粉をオンにする"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.POLLINATION_NONE"
+msgid "Needs pollinating, but Mimika Buds need two free slots (crops that take one slot only)"
+msgstr "受粉が必要だが、ミミカのつぼみには空いた場所が2つ必要（1マスの作物のみ）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.TOUCHED"
+msgid "Farmer's Touch: {0} of {1} crops tended"
+msgstr "ファーマーズタッチ：{1}株中{0}株を世話済み"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT"
+msgid "No {0} ({1})"
+msgstr "{0}がない（{1}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_PIPE"
+msgid "pipe it in"
+msgstr "パイプで送る"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_TANK"
+msgid "No {0} in the tank (pipe it in)"
+msgstr "水槽に{0}がない（パイプで送る）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_INPUT_DELIVERY"
+msgid "waiting for a delivery"
+msgstr "配達待ち"
+
+msgctxt "STRINGS.UI.GREENHOUSE.DIAG.NO_CROPS"
+msgid "No crops: pick one on the Config tab"
+msgstr "作物なし：設定タブで1つ選ぶ"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">温室</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "3段の棚に18区画の畑、すべてガラスの向こう。"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "6株ずつ3段の棚で18株の作物を育てる（作物は設定タブで選ぶ）。棚は作物に合わせて変わる：ピンチャペッパーのような天井作物には吊り下げトレイ、木には3本ずつ2段、オバグロノードには1本のつる。\n\n複製人間が種、肥料、水を運び込み、実った作物を土台で収穫する。どの作物もバニラの農場のルールに従う：温度、大気と気圧、光または暗闇、放射線、植物の変異。\n\nガスをパイプで送り込めば作物専用の大気になり、部屋に開いたままにもできる。液体パイプとコンベアレールで、複製人間の代わりに水や固体を運べる。\n\n内蔵機能（それぞれバニラの建物の研究後に使える）：光が必要な作物を照らす蛍光管（足した光の分だけ電力を使う）、ファーマーズタッチ、断熱、温度調節。スペースドアウトでは、放射線ランプがシャインバグと同じようにリン鉱石を燃やし、変異作物に必要な放射線を与える。"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.NAME"
+msgid "<link=\"SAITOAQUATICGREENHOUSE\">Aquatic Greenhouse</link>"
+msgstr "<link=\"SAITOAQUATICGREENHOUSE\">水中温室</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.DESC"
+msgid "Eighteen underwater plots on three shelves, in a tank behind glass."
+msgstr "ガラスの向こうの水槽で、3段の棚に18区画の水中の畑。"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOAQUATICGREENHOUSE.EFFECT"
+msgid "Grows 18 underwater crops such as Waterweed, Tublia and Starnacle on three shelves of six, with hanging trays for Seakomb (pick the crop on the Config tab).\n\nPipe liquid in to fill the tank up to its fill level: it is the crops' water and atmosphere, and a shelf above the waterline doesn't grow. Duplicants deliver the seeds and solid fertilizer and harvest at the base; a liquid output takes liquid harvests.\n\nBuilt in, each after its vanilla building's research: glow tubes for crops that need light, Farmer's Touch, and thermal regulation of the whole tank (a Liquid Tepidizer and Thermo Aquatuner)."
+msgstr "ウォーターウィード、チューブリア、スターナクルのような水中作物18株を6株ずつ3段の棚で育て、シーコームは吊り下げトレイを使う（作物は設定タブで選ぶ）。\n\n液体をパイプで送り込み、水槽を設定した水位まで満たす：それが作物の水と大気で、水面より上の棚は育たない。複製人間が種と固体肥料を運び込み、土台で収穫する。液体出力口が液体の収穫物を受け取る。\n\n内蔵機能（それぞれバニラの建物の研究後に使える）：光が必要な作物を照らす蛍光管、ファーマーズタッチ、水槽全体の温度調節（リキッドテピダイザーとサーモアクアチューナー）。"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.NAME"
+msgid "<link=\"SAITOGREENHOUSE\">Greenhouse</link>"
+msgstr "<link=\"SAITOGREENHOUSE\">温室</link>"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.DESC"
+msgid "Eighteen farm plots on three shelves, behind glass."
+msgstr "3段の棚に18区画の畑、すべてガラスの向こう。"
+
+msgctxt "STRINGS.BUILDINGS.PREFABS.SAITOHANGINGGREENHOUSE.EFFECT"
+msgid "Grows 18 crops on three shelves of six (pick the crop on the Config tab). The shelves follow the crop: hanging trays for ceiling crops such as Pincha Pepper, two levels of three for trees, one vine for the Ovagro Node.\n\nDuplicants deliver the seeds, fertilizer and water, and harvest ripe crops at the base. Every crop follows a vanilla farm's rules: temperature, atmosphere and pressure, light or darkness, radiation and plant mutations.\n\nPipe gas into it to give the crops their own atmosphere, or leave it open to the room. A liquid pipe and a conveyor rail can bring the water and solids instead of Duplicants.\n\nBuilt in, each after its vanilla building's research: glow tubes that light crops which need it (power by the light they add), Farmer's Touch, insulation and thermal regulation. In Spaced Out, a radiation lamp burns Phosphorite like Shine Bugs do to give mutated crops the radiation they need."
+msgstr "6株ずつ3段の棚で18株の作物を育てる（作物は設定タブで選ぶ）。棚は作物に合わせて変わる：ピンチャペッパーのような天井作物には吊り下げトレイ、木には3本ずつ2段、オバグロノードには1本のつる。\n\n複製人間が種、肥料、水を運び込み、実った作物を土台で収穫する。どの作物もバニラの農場のルールに従う：温度、大気と気圧、光または暗闇、放射線、植物の変異。\n\nガスをパイプで送り込めば作物専用の大気になり、部屋に開いたままにもできる。液体パイプとコンベアレールで、複製人間の代わりに水や固体を運べる。\n\n内蔵機能（それぞれバニラの建物の研究後に使える）：光が必要な作物を照らす蛍光管（足した光の分だけ電力を使う）、ファーマーズタッチ、断熱、温度調節。スペースドアウトでは、放射線ランプがシャインバグと同じようにリン鉱石を燃やし、変異作物に必要な放射線を与える。"
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.NAME"
+msgid "Giving Farmer's Touch to {Target}"
+msgstr "{Target}にファーマーズタッチ中"
+
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GREENHOUSETOUCHING.TOOLTIP"
+msgid "This Duplicant is tending the crops in {Target} so they grow faster"
+msgstr "この複製人間は{Target}の作物の世話をして、早く育つようにしている"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.NAME"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "作物：植付{0}、生育中{1}、収穫可{2}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSECROPS.TOOLTIP"
+msgid "Crops: {0} planted, {1} growing, {2} ripe"
+msgstr "作物：植付{0}、生育中{1}、収穫可{2}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.NAME"
+msgid "Atmosphere: {0}"
+msgstr "大気：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEATMOSPHERE.TOOLTIP"
+msgid "Atmosphere: {0}"
+msgstr "大気：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.NAME"
+msgid "Temperature: {0}"
+msgstr "温度：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSETEMPERATURE.TOOLTIP"
+msgid "Temperature: {0}"
+msgstr "温度：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.NAME"
+msgid "Crops not growing: {0}"
+msgstr "育っていない作物：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSESTALLED.TOOLTIP"
+msgid "Crops not growing: {0}"
+msgstr "育っていない作物：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.NAME"
+msgid "Diagnostics: {0}"
+msgstr "診断：{0}"
+
+msgctxt "STRINGS.BUILDING.STATUSITEMS.GREENHOUSEDIAGNOSTICS.TOOLTIP"
+msgid "Diagnostics: {0}"
+msgstr "診断：{0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSE.LOCKED"
+msgid "Needs research: {0}"
+msgstr "研究が必要：{0}"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.ON"
+msgid "Crops: Tended"
+msgstr "作物：世話あり"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.OFF"
+msgid "Crops: Wild"
+msgstr "作物：野生"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETEND.TOOLTIP"
+msgid "Tended crops grow at full speed and need their fertilizer and water, like a farm tile. Wild crops grow at a quarter of the speed and need nothing, like plants growing in the wild."
+msgstr "世話をした作物は全速で育ち、ファームタイルと同じく肥料と水が必要。野生の作物は4分の1の速さで育ち、野生の植物と同じく何もいらない。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.ON"
+msgid "Auto-Harvest: On"
+msgstr "自動収穫：オン"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.OFF"
+msgid "Auto-Harvest: Off"
+msgstr "自動収穫：オフ"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEAUTOHARVEST.TOOLTIP"
+msgid "On: Duplicants harvest crops as soon as they're ripe. Off: ripe crops wait until you press Harvest, like a vanilla plant with auto-harvest off. As in vanilla, a crop left ripe drops its harvest by itself after a while (4 cycles for most crops)."
+msgstr "オン：作物が実るとすぐ複製人間が収穫する。オフ：実った作物は「収穫」を押すまで待つ。自動収穫をオフにしたバニラの植物と同じ。バニラと同じく、実ったまま放っておくと、しばらくして作物が自分で収穫物を落とす（ほとんどの作物は4サイクル）。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.NAME"
+msgid "Harvest"
+msgstr "収穫"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEHARVEST.TOOLTIP"
+msgid "Have a Duplicant harvest the ripe crops now."
+msgstr "今すぐ複製人間に実った作物を収穫させる。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.ON"
+msgid "Farmer's Touch: On"
+msgstr "ファーマーズタッチ：オン"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.OFF"
+msgid "Farmer's Touch: Off"
+msgstr "ファーマーズタッチ：オフ"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSETOUCH.TOOLTIP"
+msgid "A built-in Farm Station: a Duplicant with the Farmer's Touch skill tends each crop with 5 kg of Fertilizer, which makes it grow faster for a while, like a vanilla Farm Station."
+msgstr "内蔵のファームステーション：ファーマーズタッチのスキルを持つ複製人間が肥料5 kgで作物を1株ずつ世話し、しばらく早く育つようにする。バニラのファームステーションと同じ。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.ON"
+msgid "Mimika Pollination: On"
+msgstr "ミミカ受粉：オン"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.OFF"
+msgid "Mimika Pollination: Off"
+msgstr "ミミカ受粉：オフ"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.TOOLTIP"
+msgid "Two slots in the middle of the middle shelf grow Mimika Buds instead of the crop (with hanging crops, in a small nursery on that row's floor). Each bud releases a Mimika into the greenhouse about every 5 cycles; Mimikas live 5 cycles, pollinate one growing crop a minute (+25% growth for 600 s) and harden into Mimillet (a Mimika Bud seed) when they die. Sweatcorn Stalks wilt without pollination.\n\nWhen the greenhouse is too hot, too cold or the wrong air for the buds, a small nursery closes around them and keeps them comfortable for 20 W; its door opens to let each Mimika out."
+msgstr "中段の棚の真ん中2か所で、作物の代わりにミミカのつぼみを育てる（吊り下げ作物のときは、その段の床の小さな育苗ケースで）。つぼみは約5サイクルごとに温室の中へミミカを1匹放つ。ミミカは5サイクル生き、1分に1株の育ち中の作物を受粉させ（600秒間成長+25%）、死ぬとミミレット（ミミカのつぼみの種）に固まる。スウェットコーンの茎は受粉しないとしおれる。\n\n温室がつぼみにとって暑すぎる、寒すぎる、または空気が合わないときは、小さな育苗ケースがつぼみを囲み、20 Wで快適に保つ。ミミカが出るたびに扉が開く。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEMIMIKAS.NOROOM"
+msgid "Only with crops that take one slot: trees, the Ovagro Node and wide plants leave no room for Mimika Buds."
+msgstr "1マスの作物のときだけ。木、オバグロノード、幅の広い植物ではミミカのつぼみを置く場所がない。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.ON"
+msgid "Bonbon Branches: Harvest for Lumber"
+msgstr "ボンボンツリーの枝：木材として収穫"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.OFF"
+msgid "Bonbon Branches: Keep for Nectar"
+msgstr "ボンボンツリーの枝：ネクター用に残す"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEBONBONBRANCHES.TOOLTIP"
+msgid "Keep: Bonbon Tree branches stay on the tree and make Nectar. Harvest: Duplicants cut grown branches for 75 kg of Lumber each, like a vanilla branch harvest; a cut branch makes no Nectar until it has grown back."
+msgstr "残す：ボンボンツリーの枝は木に残ってネクターを作る。収穫：複製人間が育った枝を切り、1本につき木材75 kgになる。バニラの枝の収穫と同じで、切った枝は生え直すまでネクターを作らない。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.ON"
+msgid "Insulation: On"
+msgstr "断熱：オン"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.OFF"
+msgid "Insulation: Off"
+msgstr "断熱：オフ"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEINSULATE.TOOLTIP"
+msgid "Insulated: the inside takes the temperature of the gas piped in instead of the room's, and what the crops breathe out stays inside."
+msgstr "断熱すると、内部は部屋ではなく送り込んだガスの温度になり、作物が吐き出すものも中に残る。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.ON"
+msgid "Thermal Regulation: On"
+msgstr "温度調節：オン"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "温度調節：オフ"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATE.TOOLTIP"
+msgid "A built-in Space Heater and Thermo Regulator keep the insulated inside at the target temperature (set on the slider). Heating takes 120 W, cooling 240 W and pushes the heat into the room."
+msgstr "内蔵のスペースヒーターとサーモレギュレーターが、断熱した内部を目標温度（スライダーで設定）に保つ。加熱は120 W、冷却は240 Wを使い、熱は部屋に出す。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.NAME"
+msgid "Empty Gases"
+msgstr "ガスを抜く"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYGAS.TOOLTIP"
+msgid "Let every stored gas out into the room. The crops then grow in the room's atmosphere."
+msgstr "貯めたガスをすべて部屋に放出する。その後、作物は部屋の大気で育つ。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.ON"
+msgid "Thermal Regulation: On"
+msgstr "温度調節：オン"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.OFF"
+msgid "Thermal Regulation: Off"
+msgstr "温度調節：オフ"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEREGULATETANK.TOOLTIP"
+msgid "A built-in Liquid Tepidizer and Thermo Aquatuner keep the tank's liquid at the target temperature (set on the slider). Heating takes 960 W, cooling 1,200 W and pushes the heat into the room."
+msgstr "内蔵のリキッドテピダイザーとサーモアクアチューナーが水槽の液体を目標温度（スライダーで設定）に保つ。加熱は960 W、冷却は1,200 Wを使い、熱は部屋に出す。"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.NAME"
+msgid "Empty Tank"
+msgstr "水槽を空にする"
+
+msgctxt "STRINGS.UI.USERMENUACTIONS.GREENHOUSEEMPTYTANK.TOOLTIP"
+msgid "Bottle every liquid in the tank beside the building for Duplicants to carry away. Without liquid the crops dry out."
+msgstr "水槽の液体をすべてボトルに詰めて建物の横に置き、複製人間に運ばせる。液体がないと作物は干からびる。"
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TITLE"
+msgid "Fill Level"
+msgstr "水位"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CELLS"
+msgid "cells"
+msgstr "マス"
+
+msgctxt "STRINGS.UI.GREENHOUSE.FILL_TOOLTIP"
+msgid "The tank takes liquid up to {0} cells (1000 kg of water is one cell). Crops on a shelf above the waterline don't grow."
+msgstr "水槽は液体を最大{0}マスまで受け取る（水1000 kgで1マス）。水面より上の棚の作物は育たない。"
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TITLE"
+msgid "Target Temperature"
+msgstr "目標温度"
+
+msgctxt "STRINGS.UI.GREENHOUSE.HEATER_SLIDER_TOOLTIP"
+msgid "Thermal regulation keeps the inside at {0}."
+msgstr "温度調節が内部を{0}に保つ。"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.TITLE"
+msgid "Crops"
+msgstr "作物"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.CROP"
+msgid "Crop"
+msgstr "作物"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.SLOT_TOOLTIP"
+msgid "What grows in all 18 slots, like a farm tile. Duplicants deliver the seeds; changing it uproots what grows and drops the seeds at the building. A wide plant takes several slots."
+msgstr "ファームタイルと同じく、18区画すべてで育つ作物。複製人間が種を運ぶ。変更すると育っている植物を抜き、種を建物に落とす。幅の広い植物は複数の区画を使う。"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANT"
+msgid "Variant"
+msgstr "変種"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.VARIANTS_TOOLTIP"
+msgid "Which mutation to grow: the Original, any identified variant, or one in particular. A chosen variant fills up as its seeds arrive; Originals grow in the empty slots until then."
+msgstr "どの変異を育てるか：原種、識別済みのどれか、または特定の1つ。選んだ変種は種が届くたびに増え、それまで空いた区画には原種が育つ。"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.EMPTY"
+msgid "None"
+msgstr "なし"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MIXED"
+msgid "Mixed"
+msgstr "混在"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WIDE"
+msgid "{0} ({1} slots)"
+msgstr "{0}（{1}区画）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ORIGINAL"
+msgid "Original"
+msgstr "原種"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.ANY"
+msgid "Any variant"
+msgstr "どの変種でも"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.NONE"
+msgid "Nothing planted"
+msgstr "何も植えていない"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.STATUS"
+msgid "{0} planted, {1} growing"
+msgstr "植付{0}、生育中{1}"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.FILLING"
+msgid "{0} mutated, {1} Original\nfor now (replaced as seeds arrive)"
+msgstr "変異{0}、原種{1}\n（仮。種が届けば入れ替え）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.WAITING"
+msgid "Waiting for seeds"
+msgstr "種を待っている"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.RADIATION"
+msgid "Radiation inside: {0} rads"
+msgstr "内部の放射線：{0}ラド"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.LAMP"
+msgid "Radiation lamp adds {0} rads\n({1} Phosphorite)"
+msgstr "放射線ランプが{0}ラドを追加\n（リン鉱石{1}）"
+
+msgctxt "STRINGS.UI.GREENHOUSE.CROPS.MUTATION_CHANCE"
+msgid "Mutated seed per harvest: {0}\n(seed drop {1}, mutates {2};\nbest at {3} rads)"
+msgstr "収穫ごとの変異種：{0}\n（種が落ちる{1}、変異{2}；\n{3}ラドで最大）"

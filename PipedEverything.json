@@ -1,0 +1,826 @@
+{
+  "Version": 13,
+  "GeyserPipes": true,
+  "GeyserPipesUnlimited": true,
+  "GeyserStorageKG": 1000.0,
+  "GeyserGasStorageKG": 100.0,
+  "SolidPipeOutput": 20.0,
+  "Configs": [
+    {
+      "Id": "Generator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Carbon"
+      ]
+    },
+    {
+      "Id": "Generator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 2,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "WoodGasGenerator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "WoodLog"
+      ]
+    },
+    {
+      "Id": "WoodGasGenerator",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "PetroleumGenerator",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 3,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "PetroleumGenerator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "DirtyWater"
+      ]
+    },
+    {
+      "Id": "MethaneGenerator",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 2,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "MethaneGenerator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "DirtyWater"
+      ]
+    },
+    {
+      "Id": "PeatGenerator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Peat"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "PeatGenerator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "PeatGenerator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "DirtyWater"
+      ]
+    },
+    {
+      "Id": "OilRefinery",
+      "Input": false,
+      "OffsetX": -1,
+      "OffsetY": 3,
+      "Filter": [
+        "Methane"
+      ]
+    },
+    {
+      "Id": "FertilizerMaker",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Dirt",
+        "Phosphorite"
+      ]
+    },
+    {
+      "Id": "FertilizerMaker",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 1,
+      "Filter": [
+        "Fertilizer"
+      ]
+    },
+    {
+      "Id": "FertilizerMaker",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 2,
+      "Filter": [
+        "Methane"
+      ]
+    },
+    {
+      "Id": "EthanolDistillery",
+      "Input": true,
+      "OffsetX": 2,
+      "OffsetY": 0,
+      "Filter": [
+        "WoodLog"
+      ]
+    },
+    {
+      "Id": "EthanolDistillery",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "ToxicSand"
+      ],
+      "Color": {
+        "r": 128,
+        "g": 128,
+        "b": 128,
+        "a": 255
+      }
+    },
+    {
+      "Id": "EthanolDistillery",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 2,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "Polymerizer",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Steam"
+      ]
+    },
+    {
+      "Id": "MilkFatSeparator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 3,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "AlgaeDistillery",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Algae"
+      ]
+    },
+    {
+      "Id": "WaterPurifier",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Sand",
+        "Regolith"
+      ]
+    },
+    {
+      "Id": "WaterPurifier",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "ToxicSand"
+      ]
+    },
+    {
+      "Id": "WaterPurifier",
+      "Input": true,
+      "OffsetX": -1,
+      "OffsetY": 2,
+      "Filter": [],
+      "OriginalPort": "Utility"
+    },
+    {
+      "Id": "WaterPurifier",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 2,
+      "Filter": [],
+      "OriginalPort": "Utility"
+    },
+    {
+      "Id": "AlgaeHabitat",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "Water"
+      ]
+    },
+    {
+      "Id": "AlgaeHabitat",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "DirtyWater"
+      ],
+      "StorageIndex": 1,
+      "StorageCapacity": 800.0
+    },
+    {
+      "Id": "AlgaeHabitat",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "Oxygen"
+      ]
+    },
+    {
+      "Id": "Electrolyzer",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "Oxygen"
+      ]
+    },
+    {
+      "Id": "Electrolyzer",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "Hydrogen"
+      ]
+    },
+    {
+      "Id": "RustDeoxidizer",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "Oxygen"
+      ]
+    },
+    {
+      "Id": "RustDeoxidizer",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "ChlorineGas"
+      ]
+    },
+    {
+      "Id": "RustDeoxidizer",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "IronOre"
+      ]
+    },
+    {
+      "Id": "RustDeoxidizer",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Rust",
+        "Salt"
+      ],
+      "StorageCapacity": 780.0
+    },
+    {
+      "Id": "MineralDeoxidizer",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "Oxygen"
+      ]
+    },
+    {
+      "Id": "MineralDeoxidizer",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Algae"
+      ],
+      "StorageCapacity": 300.0
+    },
+    {
+      "Id": "SublimationStation",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "ContaminatedOxygen"
+      ]
+    },
+    {
+      "Id": "ResearchCenter",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Dirt"
+      ]
+    },
+    {
+      "Id": "AdvancedResearchCenter",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Water"
+      ]
+    },
+    {
+      "Id": "GourmetCookingStation",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 2,
+      "Filter": [
+        "CarbonDioxide"
+      ],
+      "StorageIndex": 0
+    },
+    {
+      "Id": "MicrobeMusher",
+      "Input": true,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Water"
+      ]
+    },
+    {
+      "Id": "MetalRefinery",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "AluminumOre",
+        "Cuprite",
+        "Electrum",
+        "IronOre",
+        "GoldAmalgam",
+        "Cobaltite",
+        "FoolsGold",
+        "Wolframite",
+        "Lime",
+        "RefinedCarbon",
+        "Iron"
+      ],
+      "StorageCapacity": 500.0
+    },
+    {
+      "Id": "MetalRefinery",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Aluminum",
+        "Copper",
+        "Iron",
+        "Gold",
+        "Cobalt",
+        "Lead",
+        "Tungsten",
+        "Steel"
+      ],
+      "StorageIndex": 2
+    },
+    {
+      "Id": "GlassForge",
+      "Input": true,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Sand"
+      ],
+      "StorageCapacity": 500.0
+    },
+    {
+      "Id": "SupermaterialRefinery",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": 500.0
+    },
+    {
+      "Id": "UraniumCentrifuge",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "UraniumOre"
+      ],
+      "StorageCapacity": 500.0
+    },
+    {
+      "Id": "UraniumCentrifuge",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "EnrichedUranium"
+      ],
+      "StorageIndex": 2
+    },
+    {
+      "Id": "MilkPress",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Water"
+      ]
+    },
+    {
+      "Id": "MilkPress",
+      "Input": true,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "MilkPress",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "Liquid"
+      ],
+      "Color": {
+        "r": 244,
+        "g": 212,
+        "b": 237,
+        "a": 255
+      }
+    },
+    {
+      "Id": "MilkPress",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "Solid"
+      ],
+      "Color": {
+        "r": 181,
+        "g": 173,
+        "b": 101,
+        "a": 255
+      }
+    },
+    {
+      "Id": "OilWellCap",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 1,
+      "Filter": [
+        "CrudeOil"
+      ]
+    },
+    {
+      "Id": "OilWellCap",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "Methane"
+      ]
+    },
+    {
+      "Id": "IceKettle",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "WoodLog"
+      ],
+      "StorageIndex": 0
+    },
+    {
+      "Id": "IceKettle",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "Ice"
+      ],
+      "StorageIndex": 1
+    },
+    {
+      "Id": "IceKettle",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Water"
+      ],
+      "StorageIndex": 2
+    },
+    {
+      "Id": "Campfire",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "WoodLog"
+      ]
+    },
+    {
+      "Id": "Campfire",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "IceMachine",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Water"
+      ],
+      "StorageIndex": 0
+    },
+    {
+      "Id": "IceMachine",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 0,
+      "Filter": [
+        "Ice",
+        "Snow"
+      ],
+      "StorageIndex": 1
+    },
+    {
+      "Id": "AirFilter",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Clay"
+      ]
+    },
+    {
+      "Id": "DecontaminationShower",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "DirtyWater"
+      ]
+    },
+    {
+      "Id": "WallToilet",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "DirtyWater"
+      ]
+    },
+    {
+      "Id": "HydroponicFarm",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ]
+    },
+    {
+      "Id": "StorageLocker",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "StorageLockerSmart",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "SweepBotStation",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageIndex": 1
+    },
+    {
+      "Id": "SweepBotStation",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Liquid"
+      ],
+      "StorageIndex": 1
+    },
+    {
+      "Id": "Refrigerator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "EspressoMachine",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ]
+    },
+    {
+      "Id": "SodaFountain",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 1,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "RefinedCarbonGenerator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "RefinedCarbon"
+      ]
+    },
+    {
+      "Id": "RefinedCarbonGenerator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 2,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "NaphthaGenerator",
+      "Input": false,
+      "OffsetX": 0,
+      "OffsetY": 3,
+      "Filter": [
+        "CarbonDioxide"
+      ],
+      "StorageIndex": 1
+    },
+    {
+      "Id": "EcoFriendlyMethaneGenerator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Sand"
+      ]
+    },
+    {
+      "Id": "EcoFriendlyMethaneGenerator",
+      "Input": false,
+      "OffsetX": 2,
+      "OffsetY": 2,
+      "Filter": [
+        "CarbonDioxide"
+      ]
+    },
+    {
+      "Id": "EcoFriendlyMethaneGenerator",
+      "Input": false,
+      "OffsetX": 1,
+      "OffsetY": 1,
+      "Filter": [
+        "Water"
+      ],
+      "StorageIndex": 1
+    },
+    {
+      "Id": "BigRefrigerator",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "BigBeautifulStorageLocker",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "BigSmartStorageLocker",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "BigStorageLocker",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "BigStorageTile",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    },
+    {
+      "Id": "StorageTile",
+      "Input": true,
+      "OffsetX": 0,
+      "OffsetY": 0,
+      "Filter": [
+        "Solid"
+      ],
+      "StorageCapacity": "Infinity"
+    }
+  ],
+  "API_Blacklist": []
+}

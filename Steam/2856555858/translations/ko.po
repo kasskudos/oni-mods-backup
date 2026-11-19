@@ -1,0 +1,1262 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+"Last-Translator: Nubula"
+"Language: ko"
+"Last-Update: 2026-06-28"
+
+#. SetStartDupes.STRINGS.BIONIC_STRESS_HARDWIRED
+msgctxt "SetStartDupes.STRINGS.BIONIC_STRESS_HARDWIRED"
+msgid "Bionic duplicants have a hardwired stress reaction since they are mostly incompatible with normal stress reactions"
+msgstr "바이오닉 복제체는 일반적인 스트레스 반응 대신 하드웨어적인 스트레스 반응을 갖습니다."
+
+#. SetStartDupes.STRINGS.DSS_PREFERSWARMER_WARNING
+msgctxt "SetStartDupes.STRINGS.DSS_PREFERSWARMER_WARNING"
+msgid "<color=#FF0000FF><b>WARNING!\n</b></color>This trait can lead to a negative duplicant insulation value, which will lead to a bug with dupes constantly heating up, as well as potential crashes.\nThis can be counteracted with a warm coat or snazzy suit.\n<b>Use at your own risk!</b>"
+msgstr "<color=#FF0000FF><b>경고!\n</b></color>이 특성은 복제체의 단열 값을 음수로 만들어 복제체가 지속적으로 가열되는 버그를 발생시키며 잠재적인 충돌 가능성을 가지고 있습니다.\n방한 코트나 멋진 의복을 착용하면 이 문제를 해결할 수 있습니다.\n<b>이 특성을 사용함으로서 발생하는 모든 위험은 사용자 본인의 몫입니다!</b>"
+
+#. SetStartDupes.STRINGS.EXCLUSIVITY_RULE_CONFLICTING
+msgctxt "SetStartDupes.STRINGS.EXCLUSIVITY_RULE_CONFLICTING"
+msgid "Mutual exclusivity detected:\nWith vanilla generation rules,\nthis would not be added, as it is mutually exclusive with:"
+msgstr "상호 베타적 요소 감지:\n기본 생성 규칙에서는 다음 항목과 상호 베타적이기 때문에 추가가 불가능합니다:"
+
+#. SetStartDupes.STRINGS.MISSINGSKILLGROUP
+msgctxt "SetStartDupes.STRINGS.MISSINGSKILLGROUP"
+msgid "Missing Attribute!"
+msgstr "관심사가 할당되지 않았습니다!"
+
+#. SetStartDupes.STRINGS.MISSINGSKILLGROUPDESC
+msgctxt "SetStartDupes.STRINGS.MISSINGSKILLGROUPDESC"
+msgid "This Attribute could not be found: {0}"
+msgstr "해당 관심사를 찾을 수 없습니다: {0}"
+
+#. SetStartDupes.STRINGS.MISSINGTRAIT
+msgctxt "SetStartDupes.STRINGS.MISSINGTRAIT"
+msgid "Missing Trait!"
+msgstr "특성이 할당되지 않았습니다!"
+
+#. SetStartDupes.STRINGS.MISSINGTRAITDESC
+msgctxt "SetStartDupes.STRINGS.MISSINGTRAITDESC"
+msgid "This Trait could not be found: {0}"
+msgstr "해당 특성을 찾을 수 없습니다: {0}"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.ADDTOSTATS
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.ADDTOSTATS"
+msgid "Add new"
+msgstr "추가"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.APPLYSKIN
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.APPLYSKIN"
+msgid "Apply this Personality"
+msgstr "이 스킨을 적용"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.CYCLENEXT
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.CYCLENEXT"
+msgid "Cycle to next"
+msgstr "다음"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.CYCLEPREV
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.CYCLEPREV"
+msgid "Cycle to previous"
+msgstr "이전"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.DUPELICITYEDITINGBUTTONTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.DUPELICITYEDITINGBUTTONTOOLTIP"
+msgid "Edit Duplicants"
+msgstr "복제체 편집"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.DUPESKINBUTTONTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.DUPESKINBUTTONTOOLTIP"
+msgid "Select Duplicant Personality (Skin)"
+msgstr "복제체 스킨 적용"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.MODIFYBUTTONTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.MODIFYBUTTONTOOLTIP"
+msgid "Modify Duplicant Stats"
+msgstr "복제체 설정 편집"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.MODIFYBUTTONTOOLTIP2
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.MODIFYBUTTONTOOLTIP2"
+msgid "Apply Stat Changes"
+msgstr "편집한 설정 저장"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.PRESETWINDOWBUTTONTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.PRESETWINDOWBUTTONTOOLTIP"
+msgid "Open Duplicant Preset Window\nTo create a preset from this duplicants stats,\nclick the \"Generate Preset\" button in the preset window."
+msgstr "복제체 사전 설정 창 열기\n이 복제체의 설정을 저장하려면 사전 설정 창에서\n\"사전 설정 생성\"버튼을 누르십시오"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.REMOVEFROMSTATS
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.REMOVEFROMSTATS"
+msgid "Remove"
+msgstr "제거"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.REROLLCAREPACKAGE
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.REROLLCAREPACKAGE"
+msgid "Reroll for a different Care Package"
+msgstr "다른 케어 패키지로 변환"
+
+#. SetStartDupes.STRINGS.UI.BUTTONS.SELECTCAREPACKAGE
+msgctxt "SetStartDupes.STRINGS.UI.BUTTONS.SELECTCAREPACKAGE"
+msgid "Select a Care Package from a list of currently available ones."
+msgstr "현재 사용 가능한 케어 패키지 목록에서 원하는 항목을 선택합니다"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.CLOSEBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.CLOSEBUTTON.TEXT"
+msgid "Return"
+msgstr "닫기"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.CLOSEBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.CLOSEBUTTON.TOOLTIP"
+msgid "Close window"
+msgstr "창 닫기"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.RESETBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.RESETBUTTON.TEXT"
+msgid "Reset All Changes"
+msgstr "모든 변경사항 초기화"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.RESETBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.BUTTONS.RESETBUTTON.TOOLTIP"
+msgid "Reset all changes you have made to the care package selection"
+msgstr "케어 패키지 선택에 대한 모든 변경사항을 초기화합니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.CREATECAREPACKAGEPOPUP.INVALIDID
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.CREATECAREPACKAGEPOPUP.INVALIDID"
+msgid "Could not create new care package!\n\nThere is no item with the Id or name \"{0}\""
+msgstr "새로운 케어 패키지를 생성할 수 없습니다!\n\n\"{0}\"(이)라는 ID 또는 이름을 가진 항목이 존재하지 않습니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.CREATECAREPACKAGEPOPUP.SUCCESS
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.CREATECAREPACKAGEPOPUP.SUCCESS"
+msgid "Successfully created a new care package with {0}"
+msgstr "{0}(이)가 케어 패키지 목록에 성공적으로 추가되었습니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.CREATECAREPACKAGEPOPUP.TITLE
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.CREATECAREPACKAGEPOPUP.TITLE"
+msgid "Care Package Creation"
+msgstr "케어 패키지 생성"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.AMOUNTINPUT.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.AMOUNTINPUT.LABEL"
+msgid "Amount:"
+msgstr "수량:"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.ITEMDISCOVERED.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.ITEMDISCOVERED.LABEL"
+msgid "Item Discovered"
+msgstr "발견 필요"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.REQUIREDDLCS.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.REQUIREDDLCS.LABEL"
+msgid "Required Dlcs:"
+msgstr "필요 DLC:"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.UNLOCKATCYCLE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.UNLOCKATCYCLE.LABEL"
+msgid "Unlocked at cycle:"
+msgstr "등장 주기:"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.UNLOCKCONDITIONSLABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.ITEMINFO.SCROLLAREA.CONTENT.UNLOCKCONDITIONSLABEL"
+msgid "Conditions required to unlock:"
+msgstr "등장 조건:"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.ADDCAREPACKAGEBTN.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.ADDCAREPACKAGEBTN.TEXT"
+msgid "Add new custom care package"
+msgstr "새로운 케어 패키지 추가"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.ADDCAREPACKAGEBTN.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.ADDCAREPACKAGEBTN.TOOLTIP"
+msgid "Add a new custom care package.\nEnter the id of the item you want to add in the text field above."
+msgstr "새로운 사용자 정의 케어 패키지를 추가합니다.\n바로 위 텍스트 박스에 추가하려는 물품의 ID를 입력하십시오."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.CAREPACKAGEITEMID.TEXTAREA.PLACEHOLDER
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.CAREPACKAGEITEMID.TEXTAREA.PLACEHOLDER"
+msgid "insert new care package item Id or Name (experimental)..."
+msgstr "새로운 케어 패키지 항목 ID 또는 이름(실험적)을 입력하십시오"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.CAREPACKAGEITEMID.TEXTAREA.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.CAREPACKAGEITEMID.TEXTAREA.TEXT"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.NONEAVAILABLE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.NONEAVAILABLE.LABEL"
+msgid "No custom care packages yet"
+msgstr "사용자 정의 케어 패키지가 없습니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.DELETE_CARE_PACKAGE_TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.DELETE_CARE_PACKAGE_TOOLTIP"
+msgid "Delete Care Package"
+msgstr "케어 패키지 삭제"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.TOGGLE_VANILLA_CAREPACKAGE
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.TOGGLE_VANILLA_CAREPACKAGE"
+msgid "Toggle this vanilla care package from the care package list.\nDisabled care packages won't show up in the selection list and cannot be rolled."
+msgstr "케어 패키지 목록에서 이 케어 패키지를 표시하거나 숨깁니다.\n비활성화 된 패키지는 목록에 표시되지 않으며, 무작위로 등장하지 않습니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.CLEARTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.CLEARTOOLTIP"
+msgid "Clear search bar"
+msgstr "검색 창 초기화"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.INPUT.TEXTAREA.PLACEHOLDER
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.INPUT.TEXTAREA.PLACEHOLDER"
+msgid "Filter care packages..."
+msgstr "케어 패키지 검색"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.INPUT.TEXTAREA.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SEARCHBAR.INPUT.TEXTAREA.TEXT"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SHOWVANILLA.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SHOWVANILLA.LABEL"
+msgid "Show Vanilla Care Packages:"
+msgstr "기본 케어 패키지 표시:"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SHOWVANILLA.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.HORIZONTALLAYOUT.OBJECTLIST.SHOWVANILLA.TOOLTIP"
+msgid "Also show vanilla care packages in the list.\nNote that these cannot be modified."
+msgstr "기본 케어 패키지를 목록에 표시합니다.\n기본 케어 패키지는 수정 할 수 없습니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.RESETALLPACKAGES.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.RESETALLPACKAGES.TEXT"
+msgid "Are you sure you want to reset all modifications you have done to the care package selection?"
+msgstr "케어 패키지 설정 변경 사항을 전부 초기화하시겠습니까?"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.RESETALLPACKAGES.TITLE
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.RESETALLPACKAGES.TITLE"
+msgid "Reset Care Packages"
+msgstr "케어 패키지 초기화"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.TITLE
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.TITLE"
+msgid "Care Package Editor"
+msgstr "케어 패키지 편집"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNKNOWN_ITEM_TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNKNOWN_ITEM_TOOLTIP"
+msgid "The item of this care package could not be found in the current game version."
+msgstr "현재 게임 버전에서 이 케어 패키지의 물품을 찾을 수 없습니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.ALWAYSAVAILABLE
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.ALWAYSAVAILABLE"
+msgid "This care package is always unlocked"
+msgstr "이 케어 패키지는 항상 출현 가능합니다."
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.AND
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.AND"
+msgid "AND"
+msgstr "그리고"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.CYCLETHRESHOLD
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.CYCLETHRESHOLD"
+msgid "Cycle {0} has been reached"
+msgstr "{0} 주기 이후 출현 가능"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.DISCOVERY
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.DISCOVERY"
+msgid "{0} has been discovered"
+msgstr "{0}(을)를 발견해야 함"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.OR
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.OR"
+msgid "OR"
+msgstr "또는"
+
+#. SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.START
+msgctxt "SetStartDupes.STRINGS.UI.CAREPACKAGEEDITOR.UNLOCKCONDITIONTOOLTIPS.START"
+msgid "This care package unlocks after:"
+msgstr "이 케어 패키지는 다음 조건을 충족해야 출현합니다:"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDANDREMOVE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDANDREMOVE.NAME"
+msgid "Add/Remove Interests and Traits"
+msgstr "관심사 및 특성 편집 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDANDREMOVE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDANDREMOVE.TOOLTIP"
+msgid "Allows to add new or remove existing Traits and Interests on Duplicants.\nCan be overpowered if used excessively."
+msgstr "복제체에게 새로운 특성이나 관심사를 추가하거나 기존 특성과 관심사를 제거할 수 있습니다.\n과도하게 남용할 경우 복제체가 지나치게 강해질 수 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDVACCILATORTRAITS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDVACCILATORTRAITS.NAME"
+msgid "Allow adding Vaccilator Traits"
+msgstr "신경 변동기 특성 추가 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDVACCILATORTRAITS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.ADDVACCILATORTRAITS.TOOLTIP"
+msgid "Allows adding Neural-Vaccilator-Traits with the \"Add Trait\" Feature."
+msgstr "\"특성 추가\" 기능으로 신경 변동기의 특성을 추가할 수 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEEDITOR.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEEDITOR.NAME"
+msgid "Open Care Package Editor"
+msgstr "케어 패키지 편집기 열기"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEEDITOR.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEEDITOR.TOOLTIP"
+msgid "View and modify the different additional care packages or create new ones."
+msgstr "케어 패키지를 목록에 추가하거나 편집할 수 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEMULTIPLIER.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEMULTIPLIER.NAME"
+msgid "Care Package Multiplier"
+msgstr "케어 패키지 보정 값"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEMULTIPLIER.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGEMULTIPLIER.TOOLTIP"
+msgid "Global multiplier for the amount of item amount inside of care packages.\nDefault is 1."
+msgstr "케어 패키지 내 아이템 수량에 곱해지는 보정 값입니다.\n기본 값은 1 입니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT.NAME"
+msgid "Bed Count"
+msgstr "침대 수"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT.TOOLTIP"
+msgid "When the number of duplicants in your colony reaches the number of constructed beds, the printing pod will only print care packages."
+msgstr "개척지 내 복제체의 숫자가 건설된 침대 숫자와 동일해질 경우, 프린팅 포드에서 케어 패키지만을 출력합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT_SIC.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT_SIC.NAME"
+msgid "Bed Count (Sharing is Caring)"
+msgstr "침대 수 (Sharing is Caring 모드 사용)"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT_SIC.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.BEDCOUNT_SIC.TOOLTIP"
+msgid "Use this option when you use the mod \"Sharing is Caring\".\nIf the mod is not enabled, this option works like the regular \"Bed Count\" option.\nWhen the number of duplicants in your colony reaches the number of constructed beds times the number of schedules, the printing pod will only print care packages.\nAs an example; if you have 3 beds, with 4 schedules, the printing pod will stop offering duplicants once there are 12 (3x4)."
+msgstr "\"Sharing is Caring\" 모드를 사용할 때 이 설정을 사용하십시오.\n해당 모드를 사용 중이지 않을 경우 이 설정은 \"침대 수\" 설정과 동일하게 작동합니다.\n정착지의 복제체 숫자가 건설된 침대 숫자와 일정의 수를 곱한 값에 도달할 경우, 케어 패키지만을 출력합니다.\n예를 들어 침대가 3개이고 일정을 4개 작성한 경우, 복제체 수가 12명(3x4)이 되면 프린팅 포드에서 케어 패키지만을 출력합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.DUPECOUNT.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.DUPECOUNT.NAME"
+msgid "Duplicant Count"
+msgstr "복제체 수"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.DUPECOUNT.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.DUPECOUNT.TOOLTIP"
+msgid "When the number of duplicants in your colony is at or above the configured threshold, the printing pod will only print care packages."
+msgstr "활성화 시, 프린팅 포드는 지정된 복제체 숫자 이상의 복제체가 생존 중이라면 케어 패키지만 출력합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.NAME"
+msgid "Print Care Packages only"
+msgstr "프린팅 포드에서 케어 패키지만 출력"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.NONE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.NONE.NAME"
+msgid "Disabled"
+msgstr "비활성화"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.NONE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.NONE.TOOLTIP"
+msgid "The printing pod will print duplicants and care packages as normal."
+msgstr "프린팅 포드는 평소처럼 복제체와 케어 패키지를 출력합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.PRINTERCHECKBOX.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.PRINTERCHECKBOX.NAME"
+msgid "Toggle on Printer"
+msgstr "프린터 토글"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.PRINTERCHECKBOX.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.PRINTERCHECKBOX.TOOLTIP"
+msgid "When the (new) checkbox in the sidescreen of the printing pod is checked, it will only print care packages."
+msgstr "프린팅 포드 설정 창에 있는 케어 패키지 항목에서 \"프린팅 포드에서 케어 패키지만 출력\" 설정을 활성화하면 케어 패키지만 출력됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLY.TOOLTIP"
+msgid "When enabled, the printing pod will only give care packages when more than the the configured number of duplicants are alive.\nOverrides the care package configuration of a save game."
+msgstr "활성화 시, 프린팅 포드는 지정된 복제체 숫자 이상의 복제체가 생존 중이라면 케어 패키지만 출력합니다.\n기존 저장된 게임의 출력 목록을 재정의합니다(케어 패키지의 난이도 설정은 무시되지 않습니다)."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYDUPECAP.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYDUPECAP.NAME"
+msgid "Duplicant Threshold for care packages only"
+msgstr "케어 패키지 출력 임계 값"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYDUPECAP.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYDUPECAP.TOOLTIP"
+msgid "Only has an effect if \"Print Care Packages only\" is enabled.\nWhile above this number of duplicants, the printer will only give care packages."
+msgstr "케어 패키지만 출력 설정이 활성화 되어 있을 경우에만 적용됩니다.\n복제체 숫자가 이 숫자 이상일 때 케어 패키지만 출력합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYPACKAGECAP.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYPACKAGECAP.NAME"
+msgid "Number of care packages for care packages only"
+msgstr "케어 패키지 종류"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYPACKAGECAP.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CAREPACKAGESONLYPACKAGECAP.TOOLTIP"
+msgid "Only has an effect if \"Print Care Packages only\" is enabled.\nSet the number of care packages that generate when the cap is in effect"
+msgstr "케어 패키지만 출력 설정이 활성화 되어 있을 경우에만 적용됩니다.\n해당 설정이 적용될 때 생성되는 케어 패키지의 종류를 설정합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.A_GAMESTART
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.A_GAMESTART"
+msgid "Options for Game Start"
+msgstr "게임 시작 설정"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.B_PRINTINGPOD
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.B_PRINTINGPOD"
+msgid "Options for Printing Pod"
+msgstr "프린팅 포드 설정"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.C_EXTRAS
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.C_EXTRAS"
+msgid "Options for Traits and Interests"
+msgstr "특성 및 관심사에 대한 설정"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.D_SKINSETTINGS
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.D_SKINSETTINGS"
+msgid "Skin Options"
+msgstr "스킨 설정"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.E_UTIL
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.CATEGORIES.E_UTIL"
+msgid "Extra Settings"
+msgstr "추가 설정"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.DIRECTATTRIBUTEEDITING.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.DIRECTATTRIBUTEEDITING.NAME"
+msgid "Direct Attribute Editing"
+msgstr "직접 능력치 편집"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.DIRECTATTRIBUTEEDITING.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.DIRECTATTRIBUTEEDITING.TOOLTIP"
+msgid "Allows to directly edit the starting attributes of duplicants.\nCan be overpowered."
+msgstr "복제체의 시작 속성을 직접 편집할 수 있습니다.\n지나칠 정도로 복제체가 강해질 수 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.DUPLICANTSTARTAMOUNT.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.DUPLICANTSTARTAMOUNT.NAME"
+msgid "Number of Starting Duplicants"
+msgstr "게임 시작시의 복제체의 수"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.DUPLICANTSTARTAMOUNT.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.DUPLICANTSTARTAMOUNT.TOOLTIP"
+msgid "Choose the amount of duplicants you want to start with."
+msgstr "시작 시 선택할 복제체의 숫자를 지정하십시오."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.FORCEPRINTINGMODEL.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.FORCEPRINTINGMODEL.NAME"
+msgid "Print only specific duplicant models"
+msgstr "특정 복제체만 출력"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.FORCEPRINTINGMODEL.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.FORCEPRINTINGMODEL.TOOLTIP"
+msgid "Force the printing pod to only produce duplicants of the selected model"
+msgstr "선택한 모델의 복제체만 출력되도록 인쇄 포드를 강제로 설정합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.HERMITSKIN.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.HERMITSKIN.NAME"
+msgid "Hermit Skin"
+msgstr "은둔자 스킨"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.HERMITSKIN.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.HERMITSKIN.TOOLTIP"
+msgid "Adds the Hermit to the pool of selectable skins\nonce the story trait has been completed atleast once on any savegame."
+msgstr "선택 가능한 스킨 목록에 은둔자를 추가합니다.\n은둔자 관련 스토리를 한번 이상 완료해야 합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.INTERESTPOINTSBALANCING.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.INTERESTPOINTSBALANCING.NAME"
+msgid "Interest Point Balancing"
+msgstr "관심사 점수 조정"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.INTERESTPOINTSBALANCING.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.INTERESTPOINTSBALANCING.TOOLTIP"
+msgid "Use the vanilla interest point bonus for active interests determined by active traits.\nDeactivate to override this point limit."
+msgstr "관심사로 인해 추가되는 속성에 기본 게임의 보너스 값을 적용합니다.\n포인트 제한을 무시하고 싶다면 비활성화하십시오."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESKINCHANGE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESKINCHANGE.NAME"
+msgid "Skins for active Duplicants"
+msgstr "활성화 된 복제체의 스킨 적용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESKINCHANGE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESKINCHANGE.TOOLTIP"
+msgid "Change the Skin of already existing duplicants"
+msgstr "이미 출력된 복제체의 스킨을 사용할 수 있게 허용합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESTATCHANGE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESTATCHANGE.NAME"
+msgid "Enable Duplicity-style Duplicant Editor"
+msgstr "Duplicity 스타일의 복제체 편집기 활성화"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESTATCHANGE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.LIVEDUPESTATCHANGE.TOOLTIP"
+msgid "Edit your active duplicants in a new editor similar to the Duplicity-savegame editor"
+msgstr "Duplicity 사이트와 유사한 새 편집기에서 활성화 된 복제체를 편집합니다.\n진행 중인 게임에서 사용됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MINNOWSKIN.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MINNOWSKIN.NAME"
+msgid "Minnow Skin"
+msgstr "미노우 스킨"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MINNOWSKIN.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MINNOWSKIN.TOOLTIP"
+msgid "Adds Minnow to the pool of selectable skins\nonce the aquatic initiative has been completed atleast once on any savegame.\nRequires Aquatic Planet Pack DLC."
+msgstr "선택 가능한 스킨 목록에 미노우를 추가합니다.\n수중 탐험 임무를 한번 이상 완료해야 합니다.\n\"Aquatic Planet Pack\" DLC가 필요합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_CAREPACKAGES.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_CAREPACKAGES.NAME"
+msgid "Care Package selection menu"
+msgstr "케어 패키지 선택 목록"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_CAREPACKAGES.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_CAREPACKAGES.TOOLTIP"
+msgid "Enable this option allows replacing printing pod care packages from a list of all at that time unlocked care packages.\nEnable Sandbox or Debug to ignore the unlock condition and make ALL packages available to select, regardless of unlock status."
+msgstr "이 설정을 활성화하면 현재 잠금 해제되어 사용 가능한 모든 케어 패키지를 목록화 하여 그 중 한가지를 선택할 수 있습니다.\n 샌드박스 또는 디버그 모드가 활성화 되어 있다면 잠금 조건을 무시할 수 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_MINIONS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_MINIONS.NAME"
+msgid "Modification of printing pod Duplicants"
+msgstr "프린팅 포드에서 생성되는 복제체의 설정 편집 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_MINIONS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MODIFYDURINGGAME_MINIONS.TOOLTIP"
+msgid "Enable this option to add the modify button to printing pod dupes\nWhen disabled, the feature only appears on the starter dupe selection.\nThis also enables the use of presets."
+msgstr "활성화 시 프린팅 포드에서 복제체를 생성할 때 편집 버튼이 표시됩니다.\n비활성화 시 게임을 처음 시작할 때 복제체에게만 편집 버튼이 표시됩니다.\n사전 설정으로 추가해 둔 복제체를 사용할 수도 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MORECAREPACKAGES.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MORECAREPACKAGES.NAME"
+msgid "Enable Care Package Editor"
+msgstr "케어 패키지 편집기 사용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MORECAREPACKAGES.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MORECAREPACKAGES.TOOLTIP"
+msgid "Additional types of care packages become available to print.\nThese can be viewed and modified in the care package editor.\nBy default it contains a small selection of items that can potentially become unavailable.\nAlso allows disabling of vanilla care packages."
+msgstr "활성화 시 케어 패키지에 여러 항목을 추가하거나 제거하는 등의 편집을 수행할 수 있습니다.\n기본 설정에는 일부 항목만 포함되어 있으며, 이 항목은 추후 패치 등으로 사용 불가능하게 변경될 수 있습니다.\n기본 케어 패키지를 비활성화할 수도 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MYSTERIOUSMINIONMODE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MYSTERIOUSMINIONMODE.NAME"
+msgid "Mysterious Minion Mode"
+msgstr "복제체의 정보 숨기기"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.MYSTERIOUSMINIONMODE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.MYSTERIOUSMINIONMODE.TOOLTIP"
+msgid "All Interests and Traits are hidden until printed"
+msgstr "모든 관심사와 특성 정보를 출력하기 전까지 표시하지 않습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NEWGAMEPLUS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NEWGAMEPLUS.NAME"
+msgid "NewGame+"
+msgstr "새로운 게임+"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NEWGAMEPLUS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NEWGAMEPLUS.TOOLTIP"
+msgid "Start your game with dupes you sent through the tear in previous playthroughs."
+msgstr "이전 게임 데이터에서 시공의 찢어짐으로 보낸 복제체를 사용해 새로운 게임을 시작합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOJOYREACTION.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOJOYREACTION.NAME"
+msgid "Disable Overjoyed Responses"
+msgstr "넘치는 기쁨 반응 비활성화"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOJOYREACTION.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOJOYREACTION.TOOLTIP"
+msgid "Deactivates Overjoyed Responses on newly generated duplicants"
+msgstr "새로 생성되는 복제체의 넘치는 기쁨 반응을 제거합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NORMALTRAITSONBIONICS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NORMALTRAITSONBIONICS.NAME"
+msgid "Allow normal traits on Bionic Duplicants"
+msgstr "바이오닉 복제체에게 일반 특성 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NORMALTRAITSONBIONICS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NORMALTRAITSONBIONICS.TOOLTIP"
+msgid "When active, allows adding regular traits to bionic duplicants."
+msgstr "활성화 시 바이오닉 복제체에게 일반적인 복제체의 특성이 허용됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOSTRESSREACTION.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOSTRESSREACTION.NAME"
+msgid "Disable Stress Reactions"
+msgstr "스트레스 반응 비활성화"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOSTRESSREACTION.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.NOSTRESSREACTION.TOOLTIP"
+msgid "Deactivates Stress Reactions on newly generated duplicants"
+msgstr "새로 생성되는 복제체의 스트레스 반응을 제거합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERCAREPACKAGECOUNT.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERCAREPACKAGECOUNT.NAME"
+msgid "Override printing pod care package count"
+msgstr "프린팅 되는 케어 패키지 숫자 재정의"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERCAREPACKAGECOUNT.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERCAREPACKAGECOUNT.TOOLTIP"
+msgid "Override the number of care packages offered in the printing pod.\nA value of 0 or lower disables this feature.\nDisabling care packages in the difficulty settings disables this feature.\nNo effect if care packages only mode is active."
+msgstr "프린팅 포드에서 제공되는 케어 패키지의 수를 재정의합니다.\n0 이하의 값을 입력 시 이 기능이 비활성화됩니다.\n난이도 설정에서 케어 패키지를 비활성화했다면 이 기능도 비활성화됩니다.\n케어 패키지 전용 모드가 활성화 되어 있다면 이 기능은 효과가 없습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERDUPECOUNT.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERDUPECOUNT.NAME"
+msgid "Override printing pod dupe count"
+msgstr "프린팅 포드 복제체 출력 재정의"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERDUPECOUNT.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.OVERRIDEPRINTERDUPECOUNT.TOOLTIP"
+msgid "Override the number of duplicants offered in the printing pod.\nA value of 0 or lower disables this feature."
+msgstr "프린팅 포드에서 제공되는 복제체 수를 재정의합니다.\n0 이하의 값을 입력 시 이 기능이 비활성화됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PAUSEONREADYTOPRING.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PAUSEONREADYTOPRING.NAME"
+msgid "Pause on \"ready to print\""
+msgstr "프린팅 포드 재출력이 가능할 때 자동으로 일시 정지"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PAUSEONREADYTOPRING.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PAUSEONREADYTOPRING.TOOLTIP"
+msgid "Pause the game when the printing pod has recharged for a new print"
+msgstr "프린팅 포드가 재충전되면 자동으로 게임을 일시 중지합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PODDUPESKINCHANGE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PODDUPESKINCHANGE.NAME"
+msgid "Skin selection for Printing Pod Duplicants"
+msgstr "출력되는 복제체의 스킨 선택 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PODDUPESKINCHANGE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PODDUPESKINCHANGE.TOOLTIP"
+msgid "Change the Skin of printing pod duplicants"
+msgstr "출력되는 복제체의 스킨 변경을 허용합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIME.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIME.NAME"
+msgid "Printing pod cooldown time"
+msgstr "프린팅 포드 재충전 주기"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIME.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIME.TOOLTIP"
+msgid "Time it takes for the printing pod to recharge for the next print in cycles.\nDefault is 3 cycles."
+msgstr "프린팅 포드가 재충전되는데 걸리는 시간(주기)입니다.\n기본 값은 3주기입니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIMEFIRST.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIMEFIRST.NAME"
+msgid "First print time"
+msgstr "첫번째 출력 주기"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIMEFIRST.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.PRINTINGPODRECHARGETIMEFIRST.TOOLTIP"
+msgid "Time after the printing pod offers its first print, in cycles.\nDefault is 2.5 cycles."
+msgstr "프린팅 포드가 첫번째 재충전이 완료될 때 까지 걸리는 시간(주기)입니다.\n기본 값은 2.5주기입니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLCRYOPODANDJORGE.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLCRYOPODANDJORGE.NAME"
+msgid "Hermit/Cryopod Modification"
+msgstr "은둔자/얼어붙은 복제체 편집 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLCRYOPODANDJORGE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLCRYOPODANDJORGE.TOOLTIP"
+msgid "Allows modifying of the Hermit and Cryopod Duplicants.\n\"Ancient Knowledge\"-Trait no longer takes the slot of a positive trait during generation of these duplicants."
+msgstr "은둔자와 얼어붙은 복제체를 생성할 때 편집할 수 있습니다:\n이러한 복제체를 편집하는 동안 \"고대 지식\" 특성이 더이상 긍정적 특성 특성 칸을 차지하지 않습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_CAREPACKAGES.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_CAREPACKAGES.NAME"
+msgid "Reroll Care Packages"
+msgstr "케어 패키지 다시 굴리기 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_CAREPACKAGES.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_CAREPACKAGES.TOOLTIP"
+msgid "Enable this option to add the reroll button to printing pod care packages."
+msgstr "이 설정을 활성화하면 프린팅 포드에서 케어 패키지를 인쇄할 때 다시 굴리기 버튼이 추가됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_LIMITCOUNTER.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_LIMITCOUNTER.NAME"
+msgid "Limit Reroll Count"
+msgstr "다시 굴리기 횟수 제한"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_LIMITCOUNTER.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_LIMITCOUNTER.TOOLTIP"
+msgid "Limit how many times you can reroll in tge printing pod each time the it becomes ready.\n\nOnly has an effect if any of the printing pod reroll options are enabled\n\nA value of 0 disables any limiting.\n\nDoes not affect direct editing options, play with those disabled if you want to avoid temptation."
+msgstr "프린팅 포드가 준비될 때 마다 출력을 다시 굴리기 할 수 있는 횟수를 제한합니다.\n\n다시 굴리기 관련 설정을 활성화 한 경우에만 적용됩니다.\n\n이 값을 0으로 설정하면 제한이 해제됩니다.\n\n직접 편집 기능에는 영향을 미치지 않으므로, 이 설정이 유의미해지려면 \"프린팅 포드에서 생성되는 복제체의 설정 편집 허용\" 기능을 비활성화하십시오."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_MINIONS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_MINIONS.NAME"
+msgid "Reroll printing pod duplicants"
+msgstr "복제체 다시 굴리기 허용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_MINIONS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.REROLLDURINGGAME_MINIONS.TOOLTIP"
+msgid "Enable this option to add the reroll button to printing pod Duplicants."
+msgstr "이 설정을 활성화하면 프린팅 포드에서 복제체를 인쇄할 때 다시 굴리기 버튼이 추가됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SKINSDOREACTS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SKINSDOREACTS.NAME"
+msgid "Skins include reactions"
+msgstr "스킨에 반응 적용"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SKINSDOREACTS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SKINSDOREACTS.TOOLTIP"
+msgid "When applying a skin, the inherited overjoyed response and stress reaction get applied in addition to the skin."
+msgstr "스킨을 적용하면 해당 스킨에 기본적으로 할당된 기쁨 반응과 스트레스 반응이 추가적으로 적용됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDCAREPACKAGES.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDCAREPACKAGES.NAME"
+msgid "Sorted Care Package Lists"
+msgstr "케어 패키지 자동 정렬"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDCAREPACKAGES.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDCAREPACKAGES.TOOLTIP"
+msgid "Care packages listings are sorted alphabetically.\nAffects care package editor and printing pod selection\nCare packages in the editor can be sorted manually when this option is turned off."
+msgstr "출력되는 케어 패키지를 알파벳 순서로 정렬합니다.\n인쇄 시와 케어 패키지 편집기에 적용됩니다.\n이 설정을 끄면 케어 패키지 편집기에서 수동으로 순서를 정할 수 있습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDPRINTINGPOD.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDPRINTINGPOD.NAME"
+msgid "Sorted Printing Pod"
+msgstr "프린팅 포드 목록 정렬"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDPRINTINGPOD.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SORTEDPRINTINGPOD.TOOLTIP"
+msgid "Printing pod entries are sorted by their type, dupes come first, then care packages."
+msgstr "프린팅 포드의 항목을 유형별로 정렬하며, 중복된 항목이 먼저 나오고 그 다음에 케어 패키지가 등장합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.STARTUPRESOURCES.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.STARTUPRESOURCES.NAME"
+msgid "Extra Starting Resources"
+msgstr "추가 시작 자원"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.STARTUPRESOURCES.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.STARTUPRESOURCES.TOOLTIP"
+msgid "Add some extra startup resources for your additional duplicants.\nOnly goes in effect with more than 3 dupes.\nOnly accounts for extra dupes above 3."
+msgstr "복제체를 추가로 생성할 경우 시작 자원을 추가합니다.\n복제체가 3명을 초과할 때만 적용됩니다.\n3명에서 초과한 숫자만큼만 반영됩니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SUPPORTEDDAYS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SUPPORTEDDAYS.NAME"
+msgid "Supported Days"
+msgstr "지원 일 수"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.SUPPORTEDDAYS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.SUPPORTEDDAYS.TOOLTIP"
+msgid "Amount of days the extra starting resources should last.\nNo effect if \"Extra Starting Resources\" is disabled."
+msgstr "추가 시작 자원이 지속되는 날짜입니다.\n추가 시작 자원 설정이 비활성화 된 경우엔 효과가 없습니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVEL_CAP_MOD.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVEL_CAP_MOD.NAME"
+msgid "Attribute Leveling Cap"
+msgstr "능력치 상한값"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVEL_CAP_MOD.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVEL_CAP_MOD.TOOLTIP"
+msgid "Changes the maximum level up to which duplicants can gain levels in attributes.\nIf other mods add a higher target, it will be used instead of the configured value.\nDefault Vanilla Cap: 20"
+msgstr "복제체의 최대 능력치 수치를 재정의합니다. 다른 모드에서 더 높은 값으로 재설정한 경우 해당 값을 대신 사용합니다.\n기본 게임의 최대 능력치 수치: 20"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_ATTRIBUTES.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_ATTRIBUTES.NAME"
+msgid "XP Multiplier Attributes"
+msgstr "능력치 경험치 배율"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_ATTRIBUTES.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_ATTRIBUTES.TOOLTIP"
+msgid "Multiply the XP gains that duplicants individual attributes."
+msgstr "복제체의 능력치 관련 경험치 획득량에 이 값을 곱합니다."
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_SKILLS.NAME
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_SKILLS.NAME"
+msgid "XP Multiplier Skills"
+msgstr "기술 경험치 배율"
+
+#. SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_SKILLS.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DSS_OPTIONS.XP_LEVELING_MULTIPLIER_SKILLS.TOOLTIP"
+msgid "Multiply the XP gains of duplicants skill leveling (skill points level)"
+msgstr "복제체의 기술 관련 경험치 획득량에 이 값을 곱합니다."
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.CATEGORIES.HEADER.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.CATEGORIES.HEADER.LABEL"
+msgid "Duplicants"
+msgstr "복제체"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.APPLYCHANGES
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.APPLYCHANGES"
+msgid "Apply changes"
+msgstr "변경 사항 적용"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.CANCEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.CANCEL"
+msgid "Cancel"
+msgstr "취소"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.DISCARDCHANGES
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.DISCARDCHANGES"
+msgid "Discard changes"
+msgstr "변경 사항 취소"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.TEXT"
+msgid "Warning, there are pending changes that have not been applied yet.\nChoose an action on how to proceed:"
+msgstr "경고, 아직 적용되지 않은 변경 사항이 존재합니다.\n진행하시겠습니까?:"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.TITLE
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.CONFIRMATIONDIALOG.TITLE"
+msgid "Unsaved Changes"
+msgstr "저장되지 않은 변경 사항"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.EFFECTS.DYNAMIC_EFFECT_TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.EFFECTS.DYNAMIC_EFFECT_TOOLTIP"
+msgid "This effect has been created dynamically by the game without registering as a resource.\nThus you won't be able to readd it from the list if you decide to remove it."
+msgstr "이 효과는 리소스로 등록되지 않은 상태로 게임에서 동적으로 생성되었습니다.\n따라서 제거할 시 목록에 다시 추가할 수 없습니다."
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.EFFECTS.EFFECT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.EFFECTS.EFFECT"
+msgid "Effect"
+msgstr "효과"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.EFFECTS.TIMEREMAINING
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.EFFECTS.TIMEREMAINING"
+msgid "Remaining time in seconds | Remove Effect"
+msgstr "남은 시간(초) | 상태 제거"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.NEWBUTTONPREFAB.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.NEWBUTTONPREFAB.LABEL"
+msgid "Add new effect"
+msgstr "새로운 상태 추가"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.NEWBUTTONPREFAB.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.NEWBUTTONPREFAB.TOOLTIP"
+msgid "Choose another effect to add to the duplicant"
+msgstr "복제체에게 추가할 상태를 선택하십시오."
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.SKILLS.EXPERIENCE
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.SKILLS.EXPERIENCE"
+msgid "Experience:"
+msgstr "경험치:"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.SKILLS.MASTERY
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.SKILLS.MASTERY"
+msgid "Mastered"
+msgstr "배움"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.SKILLS.SKILL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.SKILLS.SKILL"
+msgid "Skill"
+msgstr "기술"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDINTERESTBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDINTERESTBUTTON.TEXT"
+msgid "Add new interest"
+msgstr "새로운 관심사 추가"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDINTERESTBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDINTERESTBUTTON.TOOLTIP"
+msgid "Choose another interest to add to the duplicant"
+msgstr "복제체에게 추가할 관심사를 선택하십시오."
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDTRAITBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDTRAITBUTTON.TEXT"
+msgid "Add new trait"
+msgstr "새로운 특성 추가"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDTRAITBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.CONTENT.GRP2.ADDTRAITBUTTON.TOOLTIP"
+msgid "Choose another trait to add to the duplicant"
+msgstr "복제체에게 추가할 특성을 선택하십시오."
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.DESCRIPTOR.INTERESTLABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.DESCRIPTOR.INTERESTLABEL"
+msgid "Interests:"
+msgstr "관심사:"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.DESCRIPTOR.TRAITLABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.CONTENT.SCROLLRECTCONTAINER.TRAITINTERESTCONTAINER.DESCRIPTOR.TRAITLABEL"
+msgid "Traits:"
+msgstr "특성:"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.CLEANSLATEBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.CLEANSLATEBUTTON.TEXT"
+msgid "Clear Everything"
+msgstr "모두 지우기"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.CLEANSLATEBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.CLEANSLATEBUTTON.TOOLTIP"
+msgid "Sets all the attributes to 0 and clears all skills, interests, effects and traits.\nIntended for sandbox testing to provide a \"clean slate\""
+msgstr "모든 속성을 0으로 재설정하고 모든 기술, 관심사, 상태 등을 초기화합니다. 샌드박스 테스트 환경에서 \"깨끗한 상태\"를 만들기 위한 용도입니다."
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.EXITBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.EXITBUTTON.TEXT"
+msgid "Exit"
+msgstr "닫기"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.EXITBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.EXITBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.RESETBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.RESETBUTTON.TEXT"
+msgid "Reset Changes"
+msgstr "변경 사항 초기화"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.RESETBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.RESETBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.SAVECHANGESBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.SAVECHANGESBUTTON.TEXT"
+msgid "Save Changes"
+msgstr "변경 사항 적용"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.SAVECHANGESBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.FOOTER.BUTTONS.SAVECHANGESBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.APPEARANCEBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.APPEARANCEBUTTON.TEXT"
+msgid "Appearance"
+msgstr "외형"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.APPEARANCEBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.APPEARANCEBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.ATTRIBUTEBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.ATTRIBUTEBUTTON.TEXT"
+msgid "Attributes"
+msgstr "속성"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.ATTRIBUTEBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.ATTRIBUTEBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.EFFECTSBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.EFFECTSBUTTON.TEXT"
+msgid "Effects"
+msgstr "상태"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.EFFECTSBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.EFFECTSBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.HEALTHBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.HEALTHBUTTON.TEXT"
+msgid "Health"
+msgstr "건강 상태"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.HEALTHBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.HEALTHBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.SKILLSBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.SKILLSBUTTON.TEXT"
+msgid "Skills"
+msgstr "기술"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.SKILLSBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.BUTTONS.SKILLSBUTTON.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.LABEL"
+msgid "Duplicants"
+msgstr "복제체"
+
+#. SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.LABEL_FILLED
+msgctxt "SetStartDupes.STRINGS.UI.DUPEEDITING.DETAILS.HEADER.LABEL_FILLED"
+msgid "Selected Duplicant: {0}"
+msgstr "선택한 복제체: {0}"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.APTITUDEENTRY
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.APTITUDEENTRY"
+msgid "{0}, ({1} +{2})"
+msgstr "{0}, ({1} +{2})"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.APTITUDEENTRY2
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.APTITUDEENTRY2"
+msgid "{0}\n({1} +{2})"
+msgstr "{0}, ({1} +{2})"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_BALANCED
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_BALANCED"
+msgid "<b>balanced</b>"
+msgstr "<b>균형 잡힘</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_STRONGER
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_STRONGER"
+msgid "<b>stronger</b>"
+msgstr "<b>강함</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_TOOLTIP"
+msgid "The current trait composition is {0}.\nThe trait balance value is {1}, for vanilla balancing it's usually between {2} and {3}\nBalance Composition:"
+msgstr "현재 선택 중인 특성의 점수는 {0} 입니다.\n표준적인 점수 값은 {1} 이며, 기본 게임에선 {2} 와 {3} 사이의 점수가 할당됩니다.\n\n현재 점수:"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_TOOLTIP_SIMPLE
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_TOOLTIP_SIMPLE"
+msgid "The current trait balance value is {0}.\nValues above 0 indicate a trait balance favouring positive traits (overall stronger duplicant),\nvalues below 0 indicate a trait balance favouring negative traits (overall weaker duplicant).\nThis is purely informational and does not limit your ability to edit traits\n\nBalance Composition:"
+msgstr "현재 선택 중인 특성의 점수 값은 {0} 입니다.\n0에 가까울 수록 표준적인 성능의 복제체가 됩니다.이것은 순전히 정보를 제공하기 위한 값이며 편집에 제한을 주는 기능은 아닙니다.\n\n현재 점수:"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_WEAKER
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.BALANCE_WEAKER"
+msgid "<b>weaker</b>"
+msgstr "<b>약함</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.CONFIGBALANCINGDISABLED
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.CONFIGBALANCINGDISABLED"
+msgid "ModConfig - Balancing Disabled"
+msgstr "ModConfig - 밸런싱 비활성화"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.OTHERMODORIGINNAME
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.OTHERMODORIGINNAME"
+msgid "Mysterious Origin (other mods)"
+msgstr "신비한 기원 (다른 모드)"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT"
+msgid "{0}"
+msgstr "{0}"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_COMMON
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_COMMON"
+msgid "<b>Common</b>"
+msgstr "<b>평범함</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_EPIC
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_EPIC"
+msgid "<b>Epic</b>"
+msgstr "<b>영웅적</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_LEGENDARY
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_LEGENDARY"
+msgid "<b>Legendary</b>"
+msgstr "<b>전설적</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_RARE
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_RARE"
+msgid "<b>Rare</b>"
+msgstr "<b>희귀함</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_UNCOMMON
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITY_UNCOMMON"
+msgid "<b>Uncommon</b>"
+msgstr "<b>약간 희귀함</b>"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITYLEVEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAIT_RARITYLEVEL"
+msgid "Trait Rarity: {0}"
+msgstr "특성 등급: {0}"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBALANCEHEADER
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBALANCEHEADER"
+msgid "Current Trait Balance: {0}"
+msgstr "현재 특성 점수: {0}"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBONUSPOINTS
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBONUSPOINTS"
+msgid "Interest Bonus:"
+msgstr "관심사 보너스:"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBONUSPOOL
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBONUSPOOL"
+msgid "Interest points to spend:"
+msgstr "추가적으로 사용 가능한 관심사 보너스:"
+
+#. SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBONUSPOOLTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.DUPESETTINGSSCREEN.TRAITBONUSPOOLTOOLTIP"
+msgid "This Duplicant has {0} total interest bonus points\nThese come from the following trait boni:"
+msgstr "이 복제체는 관심사 보너스가 총 {0} 점입니다.\n이 보너스는 다음 특성에서 획득하였습니다:"
+
+#. SetStartDupes.STRINGS.UI.DUPESKILLSPOPUP.SCROLLAREA.CONTENT.NOSKILLSAVAILABLE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPESKILLSPOPUP.SCROLLAREA.CONTENT.NOSKILLSAVAILABLE.LABEL"
+msgid "No items available."
+msgstr "사용 가능한 항목이 없습니다."
+
+#. SetStartDupes.STRINGS.UI.DUPESKILLSPOPUP.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.SWITCHIN.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.DUPESKILLSPOPUP.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.SWITCHIN.TEXT"
+msgid "Select this"
+msgstr "현재 대상 선택"
+
+#. SetStartDupes.STRINGS.UI.DUPESKILLSPOPUP.TOREPLACE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.DUPESKILLSPOPUP.TOREPLACE.LABEL"
+msgid "To replace:"
+msgstr "현재 대상:"
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.ADDDUPE
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.ADDDUPE"
+msgid "ADD SLOT"
+msgstr "슬롯 추가"
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.ADDDUPETOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.ADDDUPETOOLTIP"
+msgid "Add an additional duplicant slot, increasing your total starting duplicant count by 1."
+msgstr "추가 복제체 슬롯을 생성하여 시작 복제체를 한명 더 늘립니다."
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.GUARANTEETRAIT
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.GUARANTEETRAIT"
+msgid "Guarantee this trait to be rolled on a reroll.\nWorks in combination with the interest selector."
+msgstr "선택한 특성이 다시 굴리기를 눌러도 나오도록 보장합니다.\n선택한 관심사와 함께 동작합니다."
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.LOCKPERSONALITY_TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.LOCKPERSONALITY_TOOLTIP"
+msgid "Lock the current personality for rolls.\nWhile locked, all duplicants rolled will automatically have the locked personality."
+msgstr "다시 굴리기를 누를 때 현재 성격이 변하지 않도록 값을 고정합니다.\n잠겨 있는 동안 등장하는 모든 복제체는 자동으로 고정된 성격이 할당됩니다."
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.PRINTINGPOD_SELECT
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.PRINTINGPOD_SELECT"
+msgid "The current planet the active printing pod is on.\nClick to change the active printing pod"
+msgstr "청사진을 출력 할 행성입니다.\n다른 행성에서 출력하고 싶다면 누르십시오."
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.REMOVEDUPE
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.REMOVEDUPE"
+msgid "REMOVE SLOT"
+msgstr "슬롯 제거"
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.REMOVEDUPETOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.REMOVEDUPETOOLTIP"
+msgid "Remove this duplicant slot, reducing your total starting duplicant count by 1."
+msgstr "이 복제체 슬롯을 제거하여 시작 복제체를 한명 줄입니다."
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.ROLLWITHTRAIT_LABEL
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.ROLLWITHTRAIT_LABEL"
+msgid "REROLL WITH TRAIT"
+msgstr "특성을 지정한 후 다시 굴리기"
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.SELECTYOURCREW
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.SELECTYOURCREW"
+msgid "CHOOSE YOUR DUPLICANTS TO BEGIN"
+msgstr "복제체를 선택한 후 시작하십시오."
+
+#. SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.SELECTYOURLONECREWMAN
+msgctxt "SetStartDupes.STRINGS.UI.MODDEDIMMIGRANTSCREEN.SELECTYOURLONECREWMAN"
+msgid "CHOOSE YOUR LONE DUPLICANT TO BEGIN"
+msgstr "한명의 복제체를 선택한 후 시작하십시오."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.CANCEL
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.CANCEL"
+msgid "Cancel"
+msgstr "취소"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.DESC
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.DESC"
+msgid "You are about to delete the stat preset \"{0}\".\nDo you want to continue?"
+msgstr "사전 설정 \"{0}\"(을)를 삭제하시겠습니까?"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.TITLE
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.TITLE"
+msgid "Delete {0}"
+msgstr "{0} 삭제"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.YES
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.DELETEWINDOW.YES"
+msgid "Confirm Deletion"
+msgstr "삭제 확인"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.APPLYPRESETBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.APPLYPRESETBUTTON.TEXT"
+msgid "Apply Preset"
+msgstr "사전 설정 적용"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.APPLYPRESETBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.APPLYPRESETBUTTON.TOOLTIP"
+msgid "Apply the currenly displayed stats to the Duplicant this window was opened from."
+msgstr "이 사전 설정을 적용합니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.APPLYPRESETBUTTON.TOOLTIPCREW
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.APPLYPRESETBUTTON.TOOLTIPCREW"
+msgid "Load the Crew Preset thats currently displayed in the preview"
+msgstr "현재 미리보기에 표시된 사전 설정을 불러옵니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.CLOSEBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.CLOSEBUTTON.TEXT"
+msgid "Return"
+msgstr "닫기"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.CLOSEBUTTON.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.CLOSEBUTTON.TOOLTIP"
+msgid "close preset window"
+msgstr "사전 설정 창을 닫습니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.GENERATEFROMCURRENT.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.GENERATEFROMCURRENT.TEXT"
+msgid "Generate Preset"
+msgstr "사전 설정 생성"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.GENERATEFROMCURRENT.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.BUTTONS.GENERATEFROMCURRENT.TOOLTIP"
+msgid "Generate and store a new preset from the currenly displayed stats.\nOnly has an effect if the preset doesn't exist yet"
+msgstr "현재 표시된 생성 화면에 등록된 복제체 정보를 저장하는 사전 설정을 생성합니다.\n사전 설정을 선택하지 않았을 때만 적용됩니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.NAMEOVERRIDE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.NAMEOVERRIDE.LABEL"
+msgid "Preset overrides Name"
+msgstr "사전 설정 이름 재정의"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.NAMEOVERRIDE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.NAMEOVERRIDE.TOOLTIP"
+msgid "If enabled, applying presets to duplicants also sets their name to that of the preset"
+msgstr "활성화 시 복제체에게 사전 설정을 적용할 때 복제체의 이름도 사전 설정으로 등록된 이름을 따라갑니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.REACTIONOVERRIDE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.REACTIONOVERRIDE.LABEL"
+msgid "Preset overrides Reactions"
+msgstr "사전 설정 반응 재정의"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.REACTIONOVERRIDE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.REACTIONOVERRIDE.TOOLTIP"
+msgid "If enabled, applying presets to duplicants also overrides their inherited stress reaction and overjoyed response."
+msgstr "활성화 시 복제체에게 사전 설정을 적용할 때 기존 복제체의 스트레스 반응과 넘치는 기쁨 반응을 무시합니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.XPOVERRIDE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.XPOVERRIDE.LABEL"
+msgid "Preset overrides XP"
+msgstr "사전 설정이 경험치 재정의"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.XPOVERRIDE.TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.ITEMINFO.CHECKBOXES.XPOVERRIDE.TOOLTIP"
+msgid "If enabled, applying presets to duplicants also sets their experience points and skill points available"
+msgstr "활성화 된 경우, 복제체에게 사전 설정을 적용하면 복제체의 경험치와 기술 점수도 재정의됩니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.NOPRESETSAVAILABLE.LABEL
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.NOPRESETSAVAILABLE.LABEL"
+msgid "No presets available."
+msgstr "사용 가능한 사전 설정 없음"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.ADDTHISTRAITBUTTON.TEXT
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.ADDTHISTRAITBUTTON.TEXT"
+msgid "Load Preset"
+msgstr "사전 설정 불러오기"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.DELETEPRESETTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.DELETEPRESETTOOLTIP"
+msgid "Delete Preset"
+msgstr "사전 설정 삭제"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.IMPORTEDPRESET
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.IMPORTEDPRESET"
+msgid "This crew preset was imported from your old dgsm presets, it cannot be modified directly."
+msgstr "이 사전 설정은 DGSM 사전 설정에서 가져왔으므로 직접 편집할 수 없습니다."
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.INVALIDMODELTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.INVALIDMODELTOOLTIP"
+msgid "Preset not compatible with current duplicant model!"
+msgstr "이 사전 설정은 현재 복제체 모델과 호환되지 않습니다!"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.RENAMEPRESETTOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.HORIZONTALLAYOUT.OBJECTLIST.SCROLLAREA.CONTENT.PRESETENTRYPREFAB.RENAMEPRESETTOOLTIP"
+msgid "Rename Preset"
+msgstr "사전 설정 이름 변경"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.TITLE
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.TITLE"
+msgid "Stat Presets"
+msgstr "Stat Presets"
+
+#. SetStartDupes.STRINGS.UI.PRESETWINDOW.TITLECREW
+msgctxt "SetStartDupes.STRINGS.UI.PRESETWINDOW.TITLECREW"
+msgid "Crew Presets"
+msgstr "사전 설정 목록"
+
+#. SetStartDupes.STRINGS.UI.STARTAGAIN.SIDESCREEN_TEXT
+msgctxt "SetStartDupes.STRINGS.UI.STARTAGAIN.SIDESCREEN_TEXT"
+msgid "Reselect start duplicants"
+msgstr "복제체를 다시 선택하십시오."
+
+#. SetStartDupes.STRINGS.UI.STARTAGAIN.SIDESCREEN_TOOLTIP
+msgctxt "SetStartDupes.STRINGS.UI.STARTAGAIN.SIDESCREEN_TOOLTIP"
+msgid "Restart Light"
+msgstr "Restart Light"
+
+#. SetStartDupes.STRINGS.UNNAMEDPRESET
+msgctxt "SetStartDupes.STRINGS.UNNAMEDPRESET"
+msgid "(Unnamed Preset)"
+msgstr "(이름 없음)"

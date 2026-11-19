@@ -1,0 +1,3 @@
+title: Pipe Germ Info Fixed
+description: Adds info about germs in pipes if any to the tool tip without using the germ overlay. Original mod by molsen234.
+staticID: PipeGermInfo_Fixed

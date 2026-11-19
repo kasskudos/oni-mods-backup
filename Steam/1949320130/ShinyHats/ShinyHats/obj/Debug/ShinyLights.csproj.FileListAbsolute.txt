@@ -1,0 +1,9 @@
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.csproj.CoreCompileInputs.cache
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.csproj.CopyComplete
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyLights.dll.config
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.dll
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyLights.dll
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.csproj.AssemblyReference.cache
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.AssemblyInfoInputs.cache
+C:\Users\Killface\Documents\Klei\OxygenNotIncluded\mods\dev\ShinyHats\ShinyHats\ShinyHats\obj\Debug\ShinyLights.AssemblyInfo.cs
